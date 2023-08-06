@@ -16,6 +16,5 @@ int main()
     std::getline(std::cin, age);
 
     cout << name << " " << age << endl;
- 
     return 0;
 }
