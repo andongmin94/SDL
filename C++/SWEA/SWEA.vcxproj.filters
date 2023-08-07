@@ -15,7 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1.cpp">
+    <ClCompile Include="1221. GNS.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1974. 스도쿠 검증.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1859. 백만 장자 프로젝트.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
