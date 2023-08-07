@@ -13,6 +13,9 @@
   <ItemGroup>
     <None Include="2903. 중앙 이동 알고리즘.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="10813. 공 바꾸기.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{DA5C4C7E-1CA9-4FF5-AFA6-EA33EC45F8EE}</ProjectGuid>
@@ -33,7 +36,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
