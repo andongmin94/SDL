@@ -154,20 +154,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1.cpp" />
-    <ClCompile Include="10.cpp" />
-    <ClCompile Include="2.cpp" />
-    <ClCompile Include="3.cpp" />
-    <ClCompile Include="4.cpp" />
-    <ClCompile Include="5.cpp" />
-    <ClCompile Include="6.cpp" />
-    <ClCompile Include="7.cpp" />
-    <ClCompile Include="8.cpp" />
-    <ClCompile Include="9.cpp" />
-    <ClCompile Include="MyConstants.cpp" />
+    <None Include="1.cpp" />
+    <None Include="10.cpp" />
+    <None Include="2.cpp" />
+    <None Include="3.cpp" />
+    <None Include="4.cpp" />
+    <None Include="5.cpp" />
+    <None Include="6.cpp" />
+    <None Include="7.cpp" />
+    <None Include="8.cpp" />
+    <None Include="9.cpp" />
+    <None Include="MyConstants.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MyConstants.h" />
+    <None Include="MyConstants.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
