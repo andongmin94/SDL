@@ -20,7 +20,6 @@ namespace work2
     }
 }
 
-asdasdasd
 int main()
 {
     using namespace std;
