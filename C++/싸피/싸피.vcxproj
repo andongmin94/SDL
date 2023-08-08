@@ -34,7 +34,7 @@
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>싸피</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>SSAFY</ProjectName>
+    <ProjectName>싸피</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup>
