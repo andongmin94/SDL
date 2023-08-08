@@ -137,6 +137,9 @@
       </ExcludedFromBuild>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3052. 나머지.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
