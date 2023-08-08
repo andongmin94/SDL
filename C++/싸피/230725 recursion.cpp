@@ -21,7 +21,7 @@ using namespace std;
 //	// 3-2. 다음 박스가 끝나고 돌아오면서 출력
 //	cout << n << " ";
 //}
-
+ 
 int N;
 int DAT[10000]; // index : 박스 번호, value : 해당 박스에서 뽑은 눈을 기록
 void func2(int now)
