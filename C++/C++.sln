@@ -7,13 +7,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BAEKJOON", "백준\백준.v
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SWEA", "SWEA\SWEA.vcxproj", "{656FB5BA-DC02-4678-8C09-4D74099E75BE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "모두C++", "모두C++\모두C++.vcxproj", "{13A7276C-8FC8-441E-AC84-CF5781CC4F73}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MODOOCPP", "모두C++\모두C++.vcxproj", "{13A7276C-8FC8-441E-AC84-CF5781CC4F73}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "싸피", "싸피\싸피.vcxproj", "{186A9655-A73E-4770-A0B6-740EA70977F3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SSAFY", "싸피\싸피.vcxproj", "{186A9655-A73E-4770-A0B6-740EA70977F3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "따배씨", "따배씨\따배씨.vcxproj", "{3BDA710C-0D9A-42A2-85BE-068FCB55F4C9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HONG", "따배씨\따배씨.vcxproj", "{3BDA710C-0D9A-42A2-85BE-068FCB55F4C9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "모두C", "모두C\모두C.vcxproj", "{B99126E2-A432-41C8-BB94-1EC03A9D79E3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MODOOC", "모두C\모두C.vcxproj", "{B99126E2-A432-41C8-BB94-1EC03A9D79E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithm", "Algorithm", "{AC390817-C0AE-4991-95AF-A74B43644CA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,6 +76,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC8B1B46-9F7E-4D9A-8018-F7C16B1D9D65} = {AC390817-C0AE-4991-95AF-A74B43644CA8}
+		{656FB5BA-DC02-4678-8C09-4D74099E75BE} = {AC390817-C0AE-4991-95AF-A74B43644CA8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4188991-69D4-49F2-BD48-F94951D7BB4A}

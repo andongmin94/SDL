@@ -24,6 +24,7 @@
     <ProjectGuid>{b99126e2-a432-41c8-bb94-1ec03a9d79e3}</ProjectGuid>
     <RootNamespace>모두C</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>MODOOC</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
