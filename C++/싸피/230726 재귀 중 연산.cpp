@@ -21,7 +21,7 @@ using namespace std;
 int N, K;
 int arr[1000];
 
-void func;
+void func()
 
 int main()
 {
