@@ -3,11 +3,6 @@
 #include <algorithm>
 #include <vector>
 
-void reverse()
-{
-	
-}
-
 int main()
 {
 	using namespace std;
