@@ -127,33 +127,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="1213. String.cpp">
+    <ClCompile Include="1213. String.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </ExcludedFromBuild>
-    </None>
-    <None Include="1221. GNS.cpp">
+    </ClCompile>
+    <ClCompile Include="1221. GNS.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </ExcludedFromBuild>
-    </None>
-    <None Include="1859. 백만 장자 프로젝트.cpp">
+    </ClCompile>
+    <ClCompile Include="1859. 백만 장자 프로젝트.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </ExcludedFromBuild>
-    </None>
-    <None Include="1974. 스도쿠 검증.cpp">
+    </ClCompile>
+    <ClCompile Include="1974. 스도쿠 검증.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </ExcludedFromBuild>
-    </None>
-    <None Include="1989. 초심자의 회문 검사.cpp">
+    </ClCompile>
+    <ClCompile Include="1989. 초심자의 회문 검사.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </ExcludedFromBuild>
-    </None>
-    <None Include="3143. 가장 빠른 문자열 타이핑.cpp">
+    </ClCompile>
+    <ClCompile Include="3143. 가장 빠른 문자열 타이핑.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </ExcludedFromBuild>
-    </None>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="1215. 회문1.cpp" />
+    <ClCompile Include="1215. 회문1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
