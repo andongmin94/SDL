@@ -132,6 +132,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1546. 평균.cpp" />
     <ClCompile Include="2903. 중앙 이동 알고리즘.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </ExcludedFromBuild>
