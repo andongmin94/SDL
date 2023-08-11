@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1206. View.cpp" />
+    <ClCompile Include="1208. Flatten.cpp" />
     <ClCompile Include="1213. String.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </ExcludedFromBuild>
@@ -135,6 +137,11 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="16055. min max.cpp" />
+    <ClCompile Include="16058. 구간합.cpp" />
+    <ClCompile Include="16066. Gravity.cpp" />
+    <ClCompile Include="16182. 숫자 카드.cpp" />
+    <ClCompile Include="16183. 전기버스.cpp" />
     <ClCompile Include="1859. 백만 장자 프로젝트.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </ExcludedFromBuild>

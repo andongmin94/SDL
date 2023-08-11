@@ -2,27 +2,27 @@
 
 using namespace std;
 
+int choice(int* arr, int N);
+
 int main()
 {
-    int T;
-    cin >> T;
+    int N, M;
+    cin >> N >> M;
+    int* arr = new int[N];
+    int* visited = new int[N];
+    int cnt[8][8] = { 0, };
 
-    for (int i = 0; i < T; i++)
+    for (int i = 0; i < N; i++)
     {
-        int k, n;
-        cin >> k;
-        cin >> n;
-
-        int arr[15][15] = {0, };
-        int sum = 0;
-        for (int y = 1; y <= n; y++)
-            arr[0][y] = y; 
-        for (int x = 1; x <= k; x++)
-            for (int y = 1; y <= n; y++)
-                for (int z = 1; z <= y; z++)
-                    arr[x][y] += arr[x-1][z];
-        for (int y = 1; y <= n; y++)
-            sum += arr[k-1][y];
-        cout << sum << endl;
+        arr[i] = i + 1;
+        visited[i] = 0;
     }
+}
+
+int choice(int* arr, int N)
+{
+    if (N - 1 != 0)
+        
+
+    
 }
