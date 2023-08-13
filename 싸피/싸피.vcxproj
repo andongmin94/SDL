@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Cpp\recursion.cpp">
+    <ClCompile Include="삭제예정(legacy)\recursion.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -95,7 +95,7 @@
       <ExcludedFromBuild>
       </ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Cpp\재귀 중 연산.cpp">
+    <ClCompile Include="삭제예정(legacy)\재귀 중 연산.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -173,18 +173,22 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Python\0731 배열.py" />
-    <Content Include="Python\0731 알고리즘.py" />
-    <Content Include="Python\DFS.py" />
-    <Content Include="Python\graph_test.py" />
-    <Content Include="Python\List1.py" />
-    <Content Include="Python\List2.py" />
-    <Content Include="Python\Stack1.py" />
-    <Content Include="Python\Stack_exam.py" />
-    <Content Include="Python\Stack_test.py" />
-    <Content Include="Python\Stack_test2.py" />
-    <Content Include="Python\String Algorithm.py" />
-    <Content Include="Python\String.py" />
+    <Content Include="Python\List 1 배열.py" />
+    <Content Include="Python\List 1 버블정렬.py" />
+    <Content Include="Python\List 1 알고리즘.py" />
+    <Content Include="Python\Stack 1 스택 1.py" />
+    <Content Include="Python\Stack1 스택 2.py" />
+    <Content Include="삭제예정(legacy)\DFS.py" />
+    <Content Include="삭제예정(legacy)\graph_test.py" />
+    <Content Include="삭제예정(legacy)\List2.py" />
+    <Content Include="삭제예정(legacy)\Stack_exam.py" />
+    <Content Include="삭제예정(legacy)\Stack_test.py" />
+    <Content Include="삭제예정(legacy)\Stack_test2.py" />
+    <Content Include="삭제예정(legacy)\String Algorithm.py" />
+    <Content Include="삭제예정(legacy)\String.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Cpp\" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
