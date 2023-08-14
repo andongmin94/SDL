@@ -176,8 +176,14 @@
     <Content Include="Python\List 1 배열.py" />
     <Content Include="Python\List 1 버블정렬.py" />
     <Content Include="Python\List 1 알고리즘.py" />
+    <Content Include="Python\powerset 연습문제 2번.py" />
+    <Content Include="Python\powerset_recur.py" />
     <Content Include="Python\Stack 1 스택 1.py" />
-    <Content Include="Python\Stack1 스택 2.py" />
+    <Content Include="Python\Stack 1 스택 2.py" />
+    <Content Include="Python\Stack 2 계산기 1.py" />
+    <Content Include="Python\Stack 2 계산기 2.py" />
+    <Content Include="Python\Stack 2 백트래킹.py" />
+    <Content Include="Python\후위표기법 연습.py" />
     <Content Include="삭제예정(legacy)\DFS.py" />
     <Content Include="삭제예정(legacy)\graph_test.py" />
     <Content Include="삭제예정(legacy)\List2.py" />

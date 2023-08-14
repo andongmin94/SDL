@@ -1193,6 +1193,7 @@
     <Content Include="Python\16479. 반복문자 지우기.py" />
     <Content Include="Python\16485. 종이붙이기.py" />
     <Content Include="Python\16487. 그래프 경로.py" />
+    <Content Include="Python\16507. Forth.py" />
     <Content Include="Python\16910. 원 안의 점.py" />
     <Content Include="Python\1961. 숫자 배열 회전.py" />
     <Content Include="Python\1989. 초심자의 회문 검사.py" />
