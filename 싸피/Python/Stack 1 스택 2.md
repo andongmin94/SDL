@@ -1,4 +1,5 @@
 ﻿# 구현 연습
+```python
 stack = [0] * 10
 top = -1
 
@@ -13,3 +14,4 @@ top -= 1
 
 top -= 1            # pop()
 print(stack[top+1])
+```

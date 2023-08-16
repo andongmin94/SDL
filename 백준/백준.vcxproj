@@ -1318,11 +1318,14 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Python\10798. 세로읽기.py" />
     <Content Include="Python\10988. 팰린드롬인지 확인하기.py" />
     <Content Include="Python\1157. 단어공부.py" />
     <Content Include="Python\1316. 그룹 단어 체커.py" />
     <Content Include="Python\25083. 새싹.py" />
     <Content Include="Python\25206. 너의 평점은.py" />
+    <Content Include="Python\2563. 색종이.py" />
+    <Content Include="Python\2745. 진법 변환.py" />
     <Content Include="Python\2903. 중앙 이동 알고리즘.py" />
     <Content Include="Python\2941. 크로아티아 알파벳.py" />
     <Content Include="Python\3003. 킹, 퀸, 룩, 비숍, 나이트, 폰.py" />
