@@ -944,6 +944,7 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
+    <ClCompile Include="Cpp\2720. 세탁소 사장 동혁.cpp" />
     <ClCompile Include="Cpp\2738. 행렬 덧셈.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
