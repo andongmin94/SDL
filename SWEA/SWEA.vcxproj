@@ -1099,6 +1099,7 @@
       <ExcludedFromBuild>
       </ExcludedFromBuild>
     </ClCompile>
+    <None Include="Cpp\2068. 최대수 구하기.cpp" />
     <ClCompile Include="Cpp\3143. 가장 빠른 문자열 타이핑.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
