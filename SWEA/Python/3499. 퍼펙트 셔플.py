@@ -1,4 +1,4 @@
-T = int(input())
+﻿T = int(input())
 
 for tc in range(1, T + 1):
     N = int(input())
@@ -22,9 +22,9 @@ for tc in range(1, T + 1):
             res.append(arr_f[i])
             res.append(arr_b[i])
     else:
-        for i in range(M-1):
+        for i in range(M - 1):
             res.append(arr_f[i])
             res.append(arr_b[i])
         res.append(arr_f[-1])
-        
+
     print(f'#{tc}', *res)
