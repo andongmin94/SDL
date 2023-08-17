@@ -1259,6 +1259,9 @@
     <Content Include="Python\3003. 킹, 퀸, 룩, 비숍, 나이트, 폰.py" />
     <Content Include="Python\5597. 과제 안 내신 분.py" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cpp\2501. 약수 구하기.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

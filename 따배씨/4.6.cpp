@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <limits>
 
 using namespace std;
 
@@ -13,15 +14,39 @@ int main()
     // cout << my_hello << endl;
     // cout << my_strs << endl;
     //
-    cout << "Your name ? : ";
-    string name;
-    // cin >> name;
-    getline(cin, name);
-    
-    cout << "Your age ? : ";
-    string age;
+    // cout << "Your name ? : ";
+    // string name;
+    // // cin >> name;
+    // getline(cin, name);
+    //
+    // cout << "Your age ? : ";
+    // string age;
+    // // cin >> age;
+    // getline(cin, age);
+
+    // cout << "Your age ? : ";
+    // string age;
     // cin >> age;
-    getline(cin, age);
-    
-    cout << name << " " << age << endl;
+    // // getline(cin, age);
+    // // cin.ignore(32767, '\n');
+    // cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    //
+    // cout << "Your name ? : ";
+    // string name;
+    // // cin >> name;
+    // getline(cin, name);
+    //
+    // cout << name << " " << age << endl;
+
+    // string a("Hello, ");
+    // string b("World ");
+    // string hw = a + b; // append
+    //
+    // hw += "I'm good";
+    //
+    // cout << hw << endl;
+
+    string a("Hello, World");
+
+    cout << a.length() << endl;
 }
