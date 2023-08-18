@@ -1188,6 +1188,8 @@
     <Content Include="Python\1208. Flatten.py" />
     <Content Include="Python\1215. 회문1.py" />
     <Content Include="Python\1219. 길찾기.py" />
+    <Content Include="Python\1225. 암호생성기.py" />
+    <Content Include="Python\1227. 미로2.py" />
     <Content Include="Python\1234. 비밀번호.py" />
     <Content Include="Python\16055. min max.py" />
     <Content Include="Python\16058. 구간합.py" />
@@ -1203,6 +1205,7 @@
     <Content Include="Python\16507. Forth.py" />
     <Content Include="Python\16624. 피자 굽기.py" />
     <Content Include="Python\16625. 회전.py" />
+    <Content Include="Python\16646. 미로의 거리.py" />
     <Content Include="Python\16910. 원 안의 점.py" />
     <Content Include="Python\1860. 진기의 최고급 붕어빵.py" />
     <Content Include="Python\1961. 숫자 배열 회전.py" />
