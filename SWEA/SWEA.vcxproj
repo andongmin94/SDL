@@ -1184,6 +1184,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Python\11092. 최대 최소의 간격.py" />
     <Content Include="Python\1206. View.py" />
     <Content Include="Python\1208. Flatten.py" />
     <Content Include="Python\1215. 회문1.py" />
@@ -1213,6 +1214,7 @@
     <Content Include="Python\2005. 파스칼의 삼각형.py" />
     <Content Include="Python\3499. 퍼펙트 셔플.py" />
     <Content Include="Python\5432. 쇠막대기 자르기.py" />
+    <Content Include="Python\9386. 연속한 1의 개수.py" />
     <Content Include="Python\9490. 풍선팡.py" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
