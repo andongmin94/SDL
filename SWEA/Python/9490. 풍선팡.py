@@ -16,7 +16,7 @@ for tc in range(1, T+1):
                     nj = j + dj[k] * l
                     if 0 <= ni < N and 0 <= nj < M:
                         s += array[ni][nj]
-                    if max_r < s:
-                        max_r = s
+            if max_r < s:
+                max_r = s
 
     print(f'#{tc} {max_r}')
