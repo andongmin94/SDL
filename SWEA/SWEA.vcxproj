@@ -1211,10 +1211,12 @@
     <Content Include="Python\18418. 풍선팡3.py" />
     <Content Include="Python\1860. 진기의 최고급 붕어빵.py" />
     <Content Include="Python\1961. 숫자 배열 회전.py" />
+    <Content Include="Python\1979. 어디에 단어가 들어갈 수 있을까.py" />
     <Content Include="Python\1989. 초심자의 회문 검사.py" />
     <Content Include="Python\2005. 파스칼의 삼각형.py" />
     <Content Include="Python\3499. 퍼펙트 셔플.py" />
     <Content Include="Python\5432. 쇠막대기 자르기.py" />
+    <Content Include="Python\6485. 삼성시의 버스 노선.py" />
     <Content Include="Python\9386. 연속한 1의 개수.py" />
     <Content Include="Python\9490. 풍선팡.py" />
   </ItemGroup>
