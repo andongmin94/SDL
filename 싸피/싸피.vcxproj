@@ -23,10 +23,14 @@
     <Content Include="Python\List 1-3) 버블정렬.md" />
     <Content Include="Python\List 1-1) 알고리즘.md" />
     <Content Include="Python\List 1-5) 완전탐색.md" />
-    <Content Include="Python\List 1-4 카운팅) 정렬.md" />
+    <Content Include="Python\List 1-4) 카운팅 정렬.md" />
     <Content Include="Python\List 2-1) 2차원 배열 1.md" />
     <Content Include="Python\List 2-2) 2차원 배열 2.md" />
     <Content Include="Python\List 2-3) 2차원 배열 3.md" />
+    <Content Include="Python\List 2-4) 부분집합 생성 1.md" />
+    <Content Include="Python\List 2-5) 부분집합 생성 2.md" />
+    <Content Include="Python\List 2-6) 검색.md" />
+    <Content Include="Python\List 2-7) 셀렉션 알고리즘 및 선택 정렬.md" />
     <Content Include="Python\Queue 2.md" />
     <Content Include="Python\Queue.md" />
     <Content Include="Python\Stack 1 스택 1.md" />
@@ -35,6 +39,8 @@
     <Content Include="Python\Stack 2 계산기 2.md" />
     <Content Include="Python\Stack 2 백트래킹.md" />
     <Content Include="Python\Stack 2 부분집합 ~ 분할정복.md" />
+    <Content Include="Python\String 1) 문자의 표현.md" />
+    <Content Include="Python\String 2) 문자열.md" />
     <Content Include="Python\test.py" />
   </ItemGroup>
   <ItemGroup>
