@@ -1208,6 +1208,7 @@
     <Content Include="Python\16625. 회전.py" />
     <Content Include="Python\16646. 미로의 거리.py" />
     <Content Include="Python\16910. 원 안의 점.py" />
+    <Content Include="Python\18418. 풍선팡3.py" />
     <Content Include="Python\1860. 진기의 최고급 붕어빵.py" />
     <Content Include="Python\1961. 숫자 배열 회전.py" />
     <Content Include="Python\1989. 초심자의 회문 검사.py" />
@@ -1216,6 +1217,9 @@
     <Content Include="Python\5432. 쇠막대기 자르기.py" />
     <Content Include="Python\9386. 연속한 1의 개수.py" />
     <Content Include="Python\9490. 풍선팡.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cpp\9490. 풍선팡.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
