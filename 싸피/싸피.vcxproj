@@ -42,6 +42,7 @@
     <Content Include="Python\String 1) 문자의 표현.md" />
     <Content Include="Python\String 2) 문자열.md" />
     <Content Include="Python\test.py" />
+    <Content Include="Python\Tree 1) 트리.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Cpp\" />
