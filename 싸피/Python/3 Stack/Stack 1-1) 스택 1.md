@@ -52,14 +52,12 @@
 
 ```python
 def push(item, size):
-
-
     global top
-top += 1
-if top == size:
-    print('overflow!')
-else:
-stack[top] = item
+    top += 1
+    if top == size:
+        print('overflow!')
+    else:
+        stack[top] = item
 
 size = 10
 stack = [0] * size
@@ -76,25 +74,23 @@ stack[top] = 20
 
 ```python
 def pop():
-
-
     if len(s) == 0:
-# underflow
-return
-else:
-return s.pop()
+        # underflow
+        return
+    else:
+        return s.pop()
 
 
 def pop():
-
-
     global top
-if top == -1:
-    print('underflow!')
-return 0
-else:
-top -= 1
-return stack[top + 1]
+    if top == -1:
+        print('underflow!')
+        return 0
+    else:
+        top -= 1
+        return stack[top + 1]
+
+
 # 반환 순서상 top을 먼저 1을 감소시켰기 때문에
 # 리턴값은 top에서 +1을 함.
 print(pop())
