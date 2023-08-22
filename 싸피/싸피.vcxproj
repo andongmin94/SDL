@@ -52,6 +52,7 @@
     <Content Include="Python\2 String\String 2-4) 문자열 암호화 및 압축.md" />
     <Content Include="Python\test.py" />
     <Content Include="Python\Tree 1) 트리.md" />
+    <Content Include="Python\Tree 2) 트리.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Cpp\" />

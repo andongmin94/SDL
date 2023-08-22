@@ -2,24 +2,11 @@
 
 using namespace std;
 
-int KFC(int* arr)
-{
-    for (int i = 0; i < 5; i++)
-        cout << arr[i];
-}
-
 int main()
 {
-    int arr[5];
-
-    int oneminus;
-    cin >> oneminus;
-
-    for (int i = 0; i < 5; i++)
-    {
-        arr[i] = oneminus;
-        oneminus -= 1;
-    }
-
-    KFC(arr);
+    char a, b, c;
+    cin >> a >> b >> c;
+    cout << (int)a << endl;
+    cout << (int)b << endl;
+    cout << (int)c << endl;
 }
