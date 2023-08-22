@@ -1344,7 +1344,7 @@
     <None Include="Cpp\2292. 벌집.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Cpp\15894. 수학은 체육과목 입니다.cpp" />
+    <ClCompile Include="Cpp\15894. 수학은 체육과목 입니다.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
