@@ -1170,6 +1170,7 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
     </None>
+    <None Include="Cpp\3733. Shares.cpp" />
     <None Include="Cpp\9086. 문자열.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -1343,7 +1344,7 @@
     <None Include="Cpp\2292. 벌집.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="3733. Shares.cpp" />
+    <None Include="Cpp\15894. 수학은 체육과목 입니다.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

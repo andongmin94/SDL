@@ -33,6 +33,9 @@
     <Content Include="Python\1 List\List 2-7) 셀렉션 알고리즘 및 선택 정렬.md" />
     <Content Include="Python\3 Stack\Stack 1-4) 재귀호출.md" />
     <Content Include="Python\3 Stack\Stack 1-5) Memoization.md" />
+    <Content Include="Python\3 Stack\Stack 1-6) DP.md" />
+    <Content Include="Python\3 Stack\Stack 1-7) DFS 1.md" />
+    <Content Include="Python\3 Stack\Stack 1-8) 연습문제.md" />
     <Content Include="Python\Queue 2.md" />
     <Content Include="Python\Queue.md" />
     <Content Include="Python\3 Stack\Stack 1-1) 스택 1.md" />
