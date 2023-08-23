@@ -1399,6 +1399,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Solved\10798. 세로읽기.py" />
+    <Content Include="Solved\10828. 스택.py" />
     <Content Include="Solved\10988. 팰린드롬인지 확인하기.py" />
     <Content Include="Solved\1157. 단어공부.py" />
     <Content Include="Solved\1316. 그룹 단어 체커.py" />
