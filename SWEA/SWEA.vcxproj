@@ -1185,6 +1185,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Python\11092. 최대 최소의 간격.py" />
+    <Content Include="Python\11315. 오목 판정.py" />
     <Content Include="Python\1206. View.py" />
     <Content Include="Python\1208. Flatten.py" />
     <Content Include="Python\1215. 회문1.py" />
@@ -1192,6 +1193,7 @@
     <Content Include="Python\1225. 암호생성기.py" />
     <Content Include="Python\1227. 미로2.py" />
     <Content Include="Python\1234. 비밀번호.py" />
+    <Content Include="Python\1289. 원재의 메모리 복구하기.py" />
     <Content Include="Python\16055. min max.py" />
     <Content Include="Python\16058. 구간합.py" />
     <Content Include="Python\16066. Gravity.py" />
@@ -1214,6 +1216,8 @@
     <Content Include="Python\16910. 원 안의 점.py" />
     <Content Include="Python\18418. 풍선팡3.py" />
     <Content Include="Python\1860. 진기의 최고급 붕어빵.py" />
+    <Content Include="Python\1926. 간단한 369게임.py" />
+    <Content Include="Python\6190. 정곤이의 단조 증가하는 수.py" />
     <Content Include="Python\1961. 숫자 배열 회전.py" />
     <Content Include="Python\1979. 어디에 단어가 들어갈 수 있을까.py" />
     <Content Include="Python\1989. 초심자의 회문 검사.py" />
@@ -1226,7 +1230,7 @@
     <Content Include="Python\9490. 풍선팡.py" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Cpp\9490. 풍선팡.cpp" />
+    <None Include="Cpp\9490. 풍선팡.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
