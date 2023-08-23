@@ -1400,9 +1400,12 @@
   <ItemGroup>
     <Content Include="Solved\10798. 세로읽기.py" />
     <Content Include="Solved\10828. 스택.py" />
+    <Content Include="Solved\10872. 팩토리얼.py" />
     <Content Include="Solved\10988. 팰린드롬인지 확인하기.py" />
     <Content Include="Solved\1157. 단어공부.py" />
     <Content Include="Solved\1316. 그룹 단어 체커.py" />
+    <Content Include="Solved\1427. 소트인사이드.py" />
+    <Content Include="Solved\15964. 이상한 기호.py" />
     <Content Include="Solved\25083. 새싹.py" />
     <Content Include="Solved\25206. 너의 평점은.py" />
     <Content Include="Solved\2563. 색종이.py" />
