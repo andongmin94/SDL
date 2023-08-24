@@ -18,7 +18,7 @@ int main()
                 max_pos[1] = j;
             }
         }
-        cout << endl;
+    cout << endl;
 
     cout << max << endl;
     cout << max_pos[0] << " " << max_pos[1] << endl;

@@ -11,7 +11,7 @@ int main()
     for (int i = 0; i < s.size() - 1; i++)
         if (s[i] == ' ')
             count++;
-        if (s[0] == ' ')
-            count--;
+    if (s[0] == ' ')
+        count--;
     cout << count;
 }
