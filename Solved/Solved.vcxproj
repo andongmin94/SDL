@@ -19,16 +19,137 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <Folder Include="민코딩\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Solved\" />
+    <Content Include="SWEA\11092. 최대 최소의 간격.py" />
+    <Content Include="SWEA\11315. 오목 판정.py" />
+    <Content Include="SWEA\1204. 최빈수 구하기.py" />
+    <Content Include="SWEA\1206. View.py" />
+    <Content Include="SWEA\1208. Flatten.py" />
+    <Content Include="SWEA\1215. 회문1.py" />
+    <Content Include="SWEA\1219. 길찾기.py" />
+    <Content Include="SWEA\1225. 암호생성기.py" />
+    <Content Include="SWEA\1227. 미로2.py" />
+    <Content Include="SWEA\1234. 비밀번호.py" />
+    <Content Include="SWEA\1289. 원재의 메모리 복구하기.py" />
+    <Content Include="SWEA\16055. min max.py" />
+    <Content Include="SWEA\16058. 구간합.py" />
+    <Content Include="SWEA\16066. Gravity.py" />
+    <Content Include="SWEA\16182. 숫자 카드.py" />
+    <Content Include="SWEA\16183. 전기버스.py" />
+    <Content Include="SWEA\16268. 풍선팡2.py" />
+    <Content Include="SWEA\16432. 오르막길 내리막길 2D HARD.py" />
+    <Content Include="SWEA\16473. 괄호검사.py" />
+    <Content Include="SWEA\16479. 반복문자 지우기.py" />
+    <Content Include="SWEA\16485. 종이붙이기.py" />
+    <Content Include="SWEA\16487. 그래프 경로.py" />
+    <Content Include="SWEA\16507. Forth.py" />
+    <Content Include="SWEA\16624. 피자 굽기.py" />
+    <Content Include="SWEA\16625. 회전.py" />
+    <Content Include="SWEA\16646. 미로의 거리.py" />
+    <Content Include="SWEA\16681. subtree.py" />
+    <Content Include="SWEA\16682. 이진탐색.py" />
+    <Content Include="SWEA\16703. 이진 힙.py" />
+    <Content Include="SWEA\16704. 노드의 합.py" />
+    <Content Include="SWEA\16910. 원 안의 점.py" />
+    <Content Include="SWEA\18418. 풍선팡3.py" />
+    <Content Include="SWEA\1860. 진기의 최고급 붕어빵.py" />
+    <Content Include="SWEA\1926. 간단한 369게임.py" />
+    <Content Include="SWEA\1961. 숫자 배열 회전.py" />
+    <Content Include="SWEA\1979. 어디에 단어가 들어갈 수 있을까.py" />
+    <Content Include="SWEA\1989. 초심자의 회문 검사.py" />
+    <Content Include="SWEA\2005. 파스칼의 삼각형.py" />
+    <Content Include="SWEA\2050. 알파벳을 숫자로 변환.py" />
+    <Content Include="SWEA\2754. 학점계산.py" />
+    <Content Include="SWEA\3499. 퍼펙트 셔플.py" />
+    <Content Include="SWEA\5432. 쇠막대기 자르기.py" />
+    <Content Include="SWEA\6190. 정곤이의 단조 증가하는 수.py" />
+    <Content Include="SWEA\6485. 삼성시의 버스 노선.py" />
+    <Content Include="SWEA\9386. 연속한 1의 개수.py" />
+    <Content Include="SWEA\9490. 풍선팡.py" />
+    <Content Include="백준\10798. 세로읽기.py" />
+    <Content Include="백준\10828. 스택.py" />
+    <Content Include="백준\10872. 팩토리얼.py" />
+    <Content Include="백준\10988. 팰린드롬인지 확인하기.py" />
+    <Content Include="백준\1157. 단어공부.py" />
+    <Content Include="백준\1316. 그룹 단어 체커.py" />
+    <Content Include="백준\1427. 소트인사이드.py" />
+    <Content Include="백준\15964. 이상한 기호.py" />
+    <Content Include="백준\25083. 새싹.py" />
+    <Content Include="백준\25206. 너의 평점은.py" />
+    <Content Include="백준\2563. 색종이.py" />
+    <Content Include="백준\2745. 진법 변환.py" />
+    <Content Include="백준\2903. 중앙 이동 알고리즘.py" />
+    <Content Include="백준\2941. 크로아티아 알파벳.py" />
+    <Content Include="백준\3003. 킹, 퀸, 룩, 비숍, 나이트, 폰.py" />
+    <Content Include="백준\5597. 과제 안 내신 분.py" />
+    <Content Include="백준\9935. 문자열 폭발.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SWEA\1206. View.cpp" />
+    <ClCompile Include="SWEA\1208. Flatten.cpp" />
+    <ClCompile Include="SWEA\1213. String.cpp" />
+    <ClCompile Include="SWEA\1215. 회문1.cpp" />
+    <ClCompile Include="SWEA\1221. GNS.cpp" />
+    <ClCompile Include="SWEA\1285. 아름이의 돌 던지기.cpp" />
+    <ClCompile Include="SWEA\1545. 거꾸로 출력해 보아요.cpp" />
+    <ClCompile Include="SWEA\16055. min max.cpp" />
+    <ClCompile Include="SWEA\16058. 구간합.cpp" />
+    <ClCompile Include="SWEA\16066. Gravity.cpp" />
+    <ClCompile Include="SWEA\16182. 숫자 카드.cpp" />
+    <ClCompile Include="SWEA\16183. 전기버스.cpp" />
+    <ClCompile Include="SWEA\1859. 백만 장자 프로젝트.cpp" />
+    <ClCompile Include="SWEA\1933. 간단한 N 의 약수.cpp" />
+    <ClCompile Include="SWEA\1936. 1대1 가위바위보.cpp" />
+    <ClCompile Include="SWEA\1938. 아주 간단한 계산기.cpp" />
+    <ClCompile Include="SWEA\1974. 스도쿠 검증.cpp" />
+    <ClCompile Include="SWEA\1989. 초심자의 회문 검사.cpp" />
+    <ClCompile Include="SWEA\2019. 더블더블.cpp" />
+    <ClCompile Include="SWEA\2025. N줄덧셈.cpp" />
+    <ClCompile Include="SWEA\2027. 대각선 출력하기.cpp" />
+    <ClCompile Include="SWEA\2029. 몫과 나머지 출력하기.cpp" />
+    <ClCompile Include="SWEA\2043. 서랍의 비밀번호.cpp" />
+    <ClCompile Include="SWEA\2046. 스탬프 찍기.cpp" />
+    <ClCompile Include="SWEA\2047. 신문 헤드라인.cpp" />
+    <ClCompile Include="SWEA\2056. 연월일 달력.cpp" />
+    <ClCompile Include="SWEA\2058. 자릿수 더하기.cpp" />
+    <ClCompile Include="SWEA\2063. 중간값 찾기.cpp" />
+    <ClCompile Include="SWEA\2068. 최대수 구하기.cpp" />
+    <ClCompile Include="SWEA\2070. 큰 놈, 작은 놈, 같은 놈.cpp" />
+    <ClCompile Include="SWEA\2071. 평균값 구하기.cpp" />
+    <ClCompile Include="SWEA\2072. 홀수만 더하기.cpp" />
+    <ClCompile Include="SWEA\3143. 가장 빠른 문자열 타이핑.cpp" />
+    <ClCompile Include="SWEA\9490. 풍선팡.cpp" />
+    <ClCompile Include="백준\10809. 알파벳 찾기.cpp" />
+    <ClCompile Include="백준\10811. 바구니 뒤집기.cpp" />
+    <ClCompile Include="백준\10813. 공 바꾸기.cpp" />
+    <ClCompile Include="백준\11005. 진법 변환 2.cpp" />
+    <ClCompile Include="백준\1152. 단어의 개수.cpp" />
+    <ClCompile Include="백준\11654. 아스키 코드.cpp" />
+    <ClCompile Include="백준\11718. 그대로 출력하기.cpp" />
+    <ClCompile Include="백준\11720. 숫자의 합.cpp" />
+    <ClCompile Include="백준\1546. 평균.cpp" />
+    <ClCompile Include="백준\15894. 수학은 체육과목 입니다.cpp" />
+    <ClCompile Include="백준\2292. 벌집.cpp" />
+    <ClCompile Include="백준\2444. 별 찍기 - 7.cpp" />
+    <ClCompile Include="백준\2501. 약수 구하기.cpp" />
+    <ClCompile Include="백준\2566. 최댓값.cpp" />
+    <ClCompile Include="백준\2675. 문자열 반복.cpp" />
+    <ClCompile Include="백준\2720. 세탁소 사장 동혁.cpp" />
+    <ClCompile Include="백준\2738. 행렬 덧셈.cpp" />
+    <ClCompile Include="백준\2903. 중앙 이동 알고리즘.cpp" />
+    <ClCompile Include="백준\2908. 상수.cpp" />
+    <ClCompile Include="백준\3052. 나머지.cpp" />
+    <ClCompile Include="백준\3733. Shares.cpp" />
+    <ClCompile Include="백준\5086. 배수와 약수.cpp" />
+    <ClCompile Include="백준\9086. 문자열.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{8BFE68CE-70D5-42CA-AA09-F77935123880}</ProjectGuid>
+    <ProjectGuid>{63E65A2B-6ECD-4F18-92DB-13D010AB911D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>민코딩</RootNamespace>
+    <RootNamespace>Solved</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
