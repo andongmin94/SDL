@@ -1,25 +1,9 @@
-stack = [0] * 100
-top = -1
-susik = input()
-for x in susik:
-    if x not in '+-/*': # 피연산자면...
-        top += 1        # push(x)
-        stack[top] = int(x)
-    else:
-        op1 = stack[top]
-        top -= 1
-        op2 = stack[top]
-        top -= 1
-        if x == '+': # op2 + op1
-            top += 1
-            stack[top] = op2 + op1
-        elif x == '-':
-            top += 1
-            stack[top] = op2 - op1
-        elif x == '/':
-            top += 1
-            stack[top] = op2 / op1
-        elif x == '*':
-            top += 1
-            stack[top] = op2 * op1
-print(stack[top])
+for tc in range(11):
+    print(f'#{tc}', end=" ")
+    N = int(input())
+    not_table = [list(map(int, input().split())) for _ in range(N)]
+    # 왼쪽이 N극... N극 성질의 자성체는 1
+    # 오른쪽이 S극... S극 성질의 자성체는 2
+    table = list((map(list, zip(*not_table))))
+
+    print(table)

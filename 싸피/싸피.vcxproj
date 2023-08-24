@@ -56,6 +56,7 @@
     <Content Include="Python\test.py" />
     <Content Include="Python\Tree 1) 트리.md" />
     <Content Include="Python\Tree 2) 트리.md" />
+    <Content Include="Python\비트 연산.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Cpp\" />
