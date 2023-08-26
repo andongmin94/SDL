@@ -38,8 +38,18 @@
     <Content Include="Python\3 Stack\Stack 1-8) 연습문제.md" />
     <Content Include="Python\3 Stack\Stack 2-5) [참고] 부분집합의 합 1.md" />
     <Content Include="Python\3 Stack\Stack 2-6) [참고] 부분집합의 합 2.md" />
-    <Content Include="Python\Queue 2.md" />
-    <Content Include="Python\Queue.md" />
+    <Content Include="Python\3 Stack\Stack 2-7) [참고] 순열.md" />
+    <Content Include="Python\3 Stack\Stack 2-8) 분할정복 알고리즘.md" />
+    <Content Include="Python\4 Queue\Queue 1-1) Queue 1.md" />
+    <Content Include="Python\4 Queue\Queue 1-2) Queue 2.md" />
+    <Content Include="Python\4 Queue\Queue 1-3) Queue 3.md" />
+    <Content Include="Python\4 Queue\Queue 1-4) Queue 4.md" />
+    <Content Include="Python\4 Queue\Queue 2-1) BFS 및 BFS 예제.md" />
+    <Content Include="Python\4 Queue\Queue 2-2) BFS 예제 1.md" />
+    <Content Include="Python\4 Queue\Queue 2-3) BFS 예제 2.md" />
+    <Content Include="Python\4 Queue\Queue 2-4) BFS 예제 3.md" />
+    <Content Include="Python\4 Queue\Queue 2.md" />
+    <Content Include="Python\4 Queue\Queue 1.md" />
     <Content Include="Python\3 Stack\Stack 1-1) 스택 1.md" />
     <Content Include="Python\3 Stack\Stack 1-2) 스택 2.md" />
     <Content Include="Python\3 Stack\Stack 1-3) 스택 3.md" />
@@ -56,8 +66,8 @@
     <Content Include="Python\2 String\String 2-3) 보이어무어 알고리즘.md" />
     <Content Include="Python\2 String\String 2-4) 문자열 암호화 및 압축.md" />
     <Content Include="Python\test.py" />
-    <Content Include="Python\Tree 1) 트리.md" />
-    <Content Include="Python\Tree 2) 트리.md" />
+    <Content Include="Python\Tree 1.md" />
+    <Content Include="Python\Tree 2.md" />
     <Content Include="Python\비트 연산.md" />
   </ItemGroup>
   <ItemGroup>
