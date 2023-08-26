@@ -78,7 +78,7 @@ Q[rear] = C
 * 상태 표현
   : 초기 상태 : front = rear = -1
   : 공백 상태 : front = rear
-  : 포화 상태 : rear == -1 (n : 배열의 크기, n-1 : 배열의 마지막 인덱스)
+  : 포화 상태 : rear == n-1 (n : 배열의 크기, n-1 : 배열의 마지막 인덱스)
 
 #### 초기 공백 큐 생성
 
@@ -439,13 +439,3 @@ def isEmpty():
 def Qpeek():
     return queue[(front + 1) % QSIZE]
 ```
-
-
-
-
-
-
-
-
-
-
