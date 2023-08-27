@@ -19,9 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="민코딩\" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="SWEA\11092. 최대 최소의 간격.py" />
     <Content Include="SWEA\11315. 오목 판정.py" />
     <Content Include="SWEA\1204. 최빈수 구하기.py" />
@@ -144,6 +141,7 @@
     <ClCompile Include="SWEA\2072. 홀수만 더하기.cpp" />
     <ClCompile Include="SWEA\3143. 가장 빠른 문자열 타이핑.cpp" />
     <ClCompile Include="SWEA\9490. 풍선팡.cpp" />
+    <ClCompile Include="민코딩\main.cpp" />
     <ClCompile Include="백준\10809. 알파벳 찾기.cpp" />
     <ClCompile Include="백준\10811. 바구니 뒤집기.cpp" />
     <ClCompile Include="백준\10813. 공 바꾸기.cpp" />
