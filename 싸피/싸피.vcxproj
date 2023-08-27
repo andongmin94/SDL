@@ -65,9 +65,12 @@
     <Content Include="Python\2 String\String 2-2) KMP 알고리즘.md" />
     <Content Include="Python\2 String\String 2-3) 보이어무어 알고리즘.md" />
     <Content Include="Python\2 String\String 2-4) 문자열 암호화 및 압축.md" />
+    <Content Include="Python\5 Tree\1231. 중위순회2.py" />
+    <Content Include="Python\5 Tree\Tree 1.md" />
+    <Content Include="Python\5 Tree\Tree 2.md" />
+    <Content Include="Python\5 Tree\Tree 연습문제 1.md" />
+    <Content Include="Python\5 Tree\Tree 연습문제 2.md" />
     <Content Include="Python\test.py" />
-    <Content Include="Python\Tree 1.md" />
-    <Content Include="Python\Tree 2.md" />
     <Content Include="Python\비트 연산.md" />
   </ItemGroup>
   <ItemGroup>
