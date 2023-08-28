@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="백준">
+      <UniqueIdentifier>{9a9c8629-4594-4160-a754-7aa97f60cfa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SWEA">
+      <UniqueIdentifier>{751c4de4-cac3-44c2-9b0e-cc94d349ba09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="민코딩">
+      <UniqueIdentifier>{72e50e19-d341-4857-9ce7-337c42cc1f64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1206. View.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="1208. Flatten.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="1213. String.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="1215. 회문1.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="1221. GNS.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="1285. 아름이의 돌 던지기.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="1545. 거꾸로 출력해 보아요.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="1859. 백만 장자 프로젝트.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="1933. 간단한 N 의 약수.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="1936. 1대1 가위바위보.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="1938. 아주 간단한 계산기.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="1974. 스도쿠 검증.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="1989. 초심자의 회문 검사.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="2019. 더블더블.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="2025. N줄덧셈.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="2027. 대각선 출력하기.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="2029. 몫과 나머지 출력하기.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="2043. 서랍의 비밀번호.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="2046. 스탬프 찍기.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="2047. 신문 헤드라인.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="2056. 연월일 달력.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="2058. 자릿수 더하기.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="2063. 중간값 찾기.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="2068. 최대수 구하기.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="2070. 큰 놈, 작은 놈, 같은 놈.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="2071. 평균값 구하기.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="2072. 홀수만 더하기.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="3143. 가장 빠른 문자열 타이핑.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="9490. 풍선팡.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="16055. min max.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="16058. 구간합.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="16066. Gravity.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="16182. 숫자 카드.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="16183. 전기버스.cpp">
+      <Filter>SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="2675. 문자열 반복.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="2720. 세탁소 사장 동혁.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="2738. 행렬 덧셈.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="2903. 중앙 이동 알고리즘.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="2908. 상수.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="3052. 나머지.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="3733. Shares.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="5086. 배수와 약수.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="9086. 문자열.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="10809. 알파벳 찾기.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="10811. 바구니 뒤집기.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="10813. 공 바꾸기.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="11005. 진법 변환 2.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="11654. 아스키 코드.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="11718. 그대로 출력하기.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="11720. 숫자의 합.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="15894. 수학은 체육과목 입니다.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="18185. 라면 사기 (Small).cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="27331. Two-digit Integer.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="1152. 단어의 개수.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="1546. 평균.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="2292. 벌집.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="2444. 별 찍기 - 7.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="2501. 약수 구하기.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="2566. 최댓값.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="2609. 최대공약수와 최소공배수.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>
