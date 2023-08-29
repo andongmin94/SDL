@@ -179,6 +179,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18185. 라면 사기 (Small
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "27331. Two-digit Integer", "알고리즘\백준\27331. Two-digit Integer\27331. Two-digit Integer.vcxproj", "{40491429-44A5-4FB9-9557-7A6D4595AA5A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.10 구조체 struct", "홍정모\따라배우는C++\4.10 구조체 struct\4.10 구조체 struct.vcxproj", "{B4B60978-B547-4F12-A65C-19873CD3A67B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -803,6 +805,14 @@ Global
 		{40491429-44A5-4FB9-9557-7A6D4595AA5A}.Release|x64.Build.0 = Release|x64
 		{40491429-44A5-4FB9-9557-7A6D4595AA5A}.Release|x86.ActiveCfg = Release|Win32
 		{40491429-44A5-4FB9-9557-7A6D4595AA5A}.Release|x86.Build.0 = Release|Win32
+		{B4B60978-B547-4F12-A65C-19873CD3A67B}.Debug|x64.ActiveCfg = Debug|x64
+		{B4B60978-B547-4F12-A65C-19873CD3A67B}.Debug|x64.Build.0 = Debug|x64
+		{B4B60978-B547-4F12-A65C-19873CD3A67B}.Debug|x86.ActiveCfg = Debug|Win32
+		{B4B60978-B547-4F12-A65C-19873CD3A67B}.Debug|x86.Build.0 = Debug|Win32
+		{B4B60978-B547-4F12-A65C-19873CD3A67B}.Release|x64.ActiveCfg = Release|x64
+		{B4B60978-B547-4F12-A65C-19873CD3A67B}.Release|x64.Build.0 = Release|x64
+		{B4B60978-B547-4F12-A65C-19873CD3A67B}.Release|x86.ActiveCfg = Release|Win32
+		{B4B60978-B547-4F12-A65C-19873CD3A67B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -893,6 +903,7 @@ Global
 		{EE8D55D2-9C63-4D47-A063-2EF3DFAF26CF} = {89BBEAA2-5AF3-4324-8950-67F8D3C08CFC}
 		{E193E074-054C-4338-AF00-CC4029DC3E9F} = {89BBEAA2-5AF3-4324-8950-67F8D3C08CFC}
 		{40491429-44A5-4FB9-9557-7A6D4595AA5A} = {89BBEAA2-5AF3-4324-8950-67F8D3C08CFC}
+		{B4B60978-B547-4F12-A65C-19873CD3A67B} = {748E2906-7269-486D-ABAB-5C118B1E11E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C538F23A-1B76-4BA7-BE24-D132BCDC7087}
