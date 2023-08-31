@@ -1,3 +1,0 @@
-﻿  main.cpp
-C:\Users\Andongmin\Desktop\SDL\C++\알고리즘\SWEA\3143. 가장 빠른 문자열 타이핑\main.cpp(18,13): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  3143. 가장 빠른 문자열 타이핑.vcxproj -> C:\Users\Andongmin\Desktop\SDL\C++\x64\Debug\3143. 가장 빠른 문자열 타이핑.exe
