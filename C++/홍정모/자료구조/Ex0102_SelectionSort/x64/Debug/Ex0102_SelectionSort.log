@@ -1,3 +1,0 @@
-﻿  Ex0102_SelectionSort.cpp
-C:\Users\Andongmin\Desktop\SDL\C++\홍정모\자료구조\Ex0102_SelectionSort\Ex0102_SelectionSort.cpp(111,7): warning C4101: 'min_index' :참조되지 않은 지역 변수입니다.
-  Ex0102_SelectionSort.vcxproj -> C:\Users\Andongmin\Desktop\SDL\C++\x64\Debug\Ex0102_SelectionSort.exe
