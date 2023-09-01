@@ -3,17 +3,17 @@
 
 using namespace std;
 
-int n;
+int N;
 int arr[100001];
 int res = 0;
 
 int main()
 {
-    cin >> n;
-    for (int i = 1; i <= n; i++)
+    cin >> N;
+    for (int i = 1; i <= N; i++)
         cin >> arr[i];
 
-    for (int i = 1; i <= n; i++)
+    for (int i = 1; i <= N; i++)
     {
         if (arr[i + 1] > arr[i + 2])
         {
