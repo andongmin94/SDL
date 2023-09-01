@@ -1,19 +1,12 @@
-#include <iostream>
+#include <string>
+#include <vector>
 
 using namespace std;
 
-int a, b;
-
-void BBQ()
+string solution(vector<string> arr)
 {
-	cout << "ÇÕ:" << a + b << endl;
-	cout << "Â÷:" << a - b << endl;
-	cout << "°ö:" << a * b << endl;
-	cout << "¸ò:" << a / b << endl;
-}
-
-int main()
-{
-	cin >> a >> b;
-	BBQ();
+    string answer = "";
+    for (int i = 0; i < arr.size(); i++)
+        answer += arr[i];
+    return answer;
 }
