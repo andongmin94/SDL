@@ -2,28 +2,35 @@
 
 using namespace std;
 
-/*
+
 int MySwapValue(int i, int j)
 {
 	// TODO:
 
-	return ? ;
+	return  0;
 }
 
 void MySwapPtr(int* i, int* j)
 {
 	// TODO:
+	int temp = *i;
+	*i = *j;
+	*j = temp;
 }
 
 void MySwapRef(int& i, int& j)
 {
 	// TODO:
+	int temp = i;
+	i = j;
+	j = temp;
 }
-*/
+
 
 bool CheckSorted(int a, int b)
 {
-	return false;
+	if (a <= b) return true;
+	else return false;
 }
 
 int main()
@@ -36,6 +43,8 @@ int main()
 		cout << a << " " << b << endl;
 
 		// TODO:
+		/*MySwapPtr(&a, &b);*/
+		MySwapRef(a, b);
 
 		cout << a << " " << b << endl;
 	}
@@ -48,6 +57,7 @@ int main()
 		cout << arr[0] << " " << arr[1] << endl;
 
 		// TODO:
+		MySwapRef(arr[0], arr[1]);
 
 		cout << arr[0] << " " << arr[1] << endl;
 	}
@@ -58,6 +68,18 @@ int main()
 		int arr[2];
 
 		// TODO:
+		for (int j = 0; j < 5; j++)
+			for (int i = 0; i < 5; i++)
+			{
+				arr[0] = i;
+				arr[1] = j;
+				
+				if (arr[0] > arr[1])
+					swap(arr[0], arr[1]);
+
+				cout << boolalpha;
+				cout << arr[0] << " " << arr[1] << " " << CheckSorted(arr[0], arr[1]) << endl;
+			}
 	}
 
 	return 0;
