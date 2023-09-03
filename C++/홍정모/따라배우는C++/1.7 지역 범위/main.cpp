@@ -2,7 +2,19 @@
 
 using namespace std;
 
+void doSomething(int x)
+{
+	x = 123;
+	cout << x << endl;
+}
+
 int main()
 {
+	int x = 0;
 
+	cout << x << endl;
+
+	doSomething(x);
+	
+	cout << x << endl;
 }
