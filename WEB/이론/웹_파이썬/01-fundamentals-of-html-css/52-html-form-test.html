@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1> Form 활용 실습 </h1></h>
+    <!-- 서버에 데이터를 전달하귀 위한 머시기 -->
+    <form> <!-- text : 기본적인 글자를 입력할 수 있는 머시기 -->
+        <p>아이디</p>
+        <input type="text" id="idname" name="idnickname">
+        <p></p>
+        <label for="username">이름 </label>
+        <p></p>
+        <input type="text" id="username" name="nickname" value="홍길동" disabled>
+        <!-- 한 줄을 차지할 수 있게끔 하는 블럭형 컨테이너 div-->
+        <!-- label 태그를 사용해서 체크박스를 클릭한 것처럼 상호작용 -->
+        <!-- 해당 input 태그에 id 값을 label 태그에 있는 for -->
+        <div>
+            <label for="check">개인정보 수집에 동의합니다.</label>
+        </div>
+        <div>
+            <input type="checkbox" id="check" name="q">
+        </div>
+        <div>
+            <label for="check">최종 제출을 확인합니다.</label>
+        </div>
+        <div>
+            <input type="checkbox" id="check" name="q">
+        </div>
+        <input type="submit" value="제출">
+    </form>
+</body>
+</html>
