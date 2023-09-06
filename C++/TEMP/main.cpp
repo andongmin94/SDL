@@ -1,17 +1,33 @@
 #include <iostream>
-#include <set>
 
 using namespace std;
 
+void BBQ(int n)
+{
+	for (int i = 0; i < n; i++)
+		cout << i + 1;
+}
+
+void KFC(char b)
+{
+	for (int i = 0; i < 7; i++)
+		cout << b;
+}
+
 int main()
 {
-	int arr[10];
-	set<int> res;
-	for (int i = 0; i < 10; i++)
+	int a;
+	cin >> a;
+	if (a % 2 != 0)
 	{
-		cin >> arr[i];
-		arr[i] %= 42;
-		res.insert(arr[i]);
+		int b;
+		cin >> b;
+		BBQ(b);
 	}
-	cout << res.size();
+	else
+	{
+		char b;
+		cin >> b;
+		KFC(b);
+	}
 }
