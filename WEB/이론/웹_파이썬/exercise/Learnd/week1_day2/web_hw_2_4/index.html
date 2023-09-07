@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  <style>
+    .손자 {
+      position: relative;
+      margin: 30px;
+    }
+  </style>
+</head>
+<body>
+  <!-- 자손 결합자는 종속된 모든 하위 스타일에 상속 -->
+  <!-- 자식 결합자는 하나만 상속 -->
+  <div>
+    <div><span style="color: red">자식</span></div>
+      <div class="손자"><span style="color: blue">손자</span></div>
+    <div><span style="color: red">자식</span></div>
+  </div>
+</body>
+</html>
