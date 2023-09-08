@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+    <!-- 부트 스트랩 적용 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- css 연결 -->
+    <link rel="stylesheet" href="style.css">
+    <title>구미 3반 김상훈</title>
+    
+</head>
+<body>
+    <!-- 네브바 -->
+    <nav class="navbar navbar-dark bg-dark" >
+        <img src="images/logo.png" alt="logo" style="width: 200px;">
+        <div class="container container-fluid" style="justify-content: flex-end; margin: 0px;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="text-align: end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="02_home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="03_community.html">Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#modal" id="login">
+                            Login
+                            <script>
+                                $('#login').click(function () {
+                                    $('#modal').modal('show');
+                                });
+                            </script>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="modal" id="modal" role="dialog" aria-labelledby="remoteModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="width:1000px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Login</h4>
+                </div>
+                    <div class="modal-body">
+                        <div class="jarviswidget jarviswidget-color-blueDark" id="wid-id-4" data-widget-editbutton="false"
+                             data-widget-colorbutton="false" data-widget-deletebutton="false" data-widget-togglebutton="false">
+                            <div role="content">
+                                <div class="widget-body">
+                                    <p>ID</p>
+                                    <input type="text"><br>
+                                    We'll naver share your email with anyone else.
+                                    <p></p>
+                                    <p>Password</p>
+                                    <input type="text">
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="btn_save">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">구미 3반 김상훈</footer>
+</body>
+</html>
