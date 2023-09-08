@@ -1,0 +1,56 @@
+/* 구글 폰트 */
+@font-face {
+    font-family : '던';
+    src : url(DNFBitBitv2.ttf)
+}
+* {
+    font-family: '던';
+
+}
+
+.header {
+    height: 300px;
+    background-color: lightgray;
+}
+
+.section {
+    height: 300px;
+}
+
+.footer {
+    height: 50px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 1. not-provided 클래스를 기본적으로 보이지 않도록 설정 */
+.not-provided {
+    display: none;
+}
+
+@media (max-width: 972px) {
+    main,
+    section,
+    .nav {
+        display: none;
+    }
+    footer {
+        display: none !important;
+    }
+    .not-provided {
+        display: block;
+    }
+}
+
+@media (max-width: 1400px) {
+
+}
+@media (max-width: 992px) {
+
+}
