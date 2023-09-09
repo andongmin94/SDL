@@ -4,34 +4,36 @@ using namespace std;
 
 int main()
 {
-	int arr[3][4];
-	int a, b, c;
-	cin >> a >> b >> c;
-	for (int i = 0; i < 3; i++)
+	int N, M;
+	cin >> N >> M;
+	int* arr_N = new int[N];
+	for (int i = 0; i < N; i++)
+		cin >> arr_N[i];
+	int* arr_M = new int[M];
+	for (int i = 0; i < M; i++)
+		cin >> arr_M[i];
+	int cnt_N = 1;
+	int cnt_M = 1;
+	int check_N = arr_N[0];
+	int check_M = arr_M[0];
+	for (int i = 1; i < N; i++)
 	{
-		if (i == 0)
-			for (int j = 0; j < 4; j++)
-			{
-				arr[i][j] = a;
-				a++;
-			}
-		if (i == 1)
-			for (int j = 0; j < 4; j++)
-			{
-				arr[i][j] = b;
-				b++;
-			}
-		if (i == 2)
-			for (int j = 0; j < 4; j++)
-			{
-				arr[i][j] = c;
-				c++;
-			}
-	}
-		for (int i = 0; i < 3; i++)
+		if (check_N + 100 <= arr_N[i])
 		{
-			for (int j = 0; j < 4; j++)
-				cout << arr[i][j] << " ";
-			cout << endl;
+			check_N = arr_N[i];
+			cnt_N++;
 		}
+	}
+
+	for (int i = 1; i < M; i++)
+	{
+		if (check_M + 360 <= arr_M[i])
+		{
+			check_M = arr_M[i];
+			cnt_M++;
+		}
+	}
+	cout << cnt_N << " " << cnt_M << endl;
+	delete[] arr_N;
+	delete[] arr_M;
 }
