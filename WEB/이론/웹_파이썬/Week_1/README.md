@@ -8,4 +8,3 @@
 | 09/05  | CSS Layout            |
 | 09/06  | Bootstrap             |
 | 09/07  | Bootstrap Grid system |
-
