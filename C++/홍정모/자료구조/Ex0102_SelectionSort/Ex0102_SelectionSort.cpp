@@ -242,7 +242,16 @@ int main()
 		Print(arr, size); // arr이 Element의 배열
 
 		// TODO:
+		int min_index;
+		for (int i = 0; i < size - 1; i++)
+		{
+			min_index = i;
+			for (int j = i + 1; j < size; j++)
+				if (arr[j].key < arr[min_index].key)
+					min_index = j;
+			swap(arr[i], arr[min_index]);
 
-		Print(arr, size); // arr이 Element의 배열
+			Print(arr, size); // arr이 Element의 배열
+		}
 	}
 }
