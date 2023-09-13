@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>{{pick}}은 {{pick | length }} 글자</p>
+    <p>{{ foods | join:", " }}</p>
+    <p>{{ info | default:"없음" }}</p>
+
+    <p>메뉴판</p>
+    <ul>
+        {% for food in foods  %}
+        {% if forloop.first %}
+            <li><strong>{{forloop.counter}}.{{food}}</strong></li>
+        {% else %}
+            <li>{{forloop.counter}}.{{food}}</li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+
+    {# 이것은 주석입니다 #}
+
+    {% comment %}
+    <p>여러 줄</p>
+    <p>주석</p>
+    <p>입니다</p>
+    {% endcomment %}
+
+    <!-- 저는 HTML 주석이에요!!! -->
+
+    <a href="{% url "articles:home" %}">뒤로</a>
+</body>
+</html>
