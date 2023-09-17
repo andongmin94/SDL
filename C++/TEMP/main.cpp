@@ -2,12 +2,9 @@
 
 using namespace std;
 
-struct Node
-{
-
-};
-
 int main()
 {
-
+	char arr[4] = "abc";
+	cin >> arr;
+	cout << arr;
 }
