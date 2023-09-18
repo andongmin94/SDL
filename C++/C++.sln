@@ -305,6 +305,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.5 형변환 Type conversi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11050. 이항 계수 1", "알고리즘\백준\11050. 이항 계수 1\11050. 이항 계수 1.vcxproj", "{1964D871-4012-4754-AD27-A50B5CC149EB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0301_StringAbstractDataType", "홍정모\자료구조\Ex0301_StringAbstractDataType\Ex0301_StringAbstractDataType.vcxproj", "{986C2BED-7F98-4B95-9541-1B2C45C44B03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1329,6 +1331,14 @@ Global
 		{1964D871-4012-4754-AD27-A50B5CC149EB}.Release|x64.Build.0 = Release|x64
 		{1964D871-4012-4754-AD27-A50B5CC149EB}.Release|x86.ActiveCfg = Release|Win32
 		{1964D871-4012-4754-AD27-A50B5CC149EB}.Release|x86.Build.0 = Release|Win32
+		{986C2BED-7F98-4B95-9541-1B2C45C44B03}.Debug|x64.ActiveCfg = Debug|x64
+		{986C2BED-7F98-4B95-9541-1B2C45C44B03}.Debug|x64.Build.0 = Debug|x64
+		{986C2BED-7F98-4B95-9541-1B2C45C44B03}.Debug|x86.ActiveCfg = Debug|Win32
+		{986C2BED-7F98-4B95-9541-1B2C45C44B03}.Debug|x86.Build.0 = Debug|Win32
+		{986C2BED-7F98-4B95-9541-1B2C45C44B03}.Release|x64.ActiveCfg = Release|x64
+		{986C2BED-7F98-4B95-9541-1B2C45C44B03}.Release|x64.Build.0 = Release|x64
+		{986C2BED-7F98-4B95-9541-1B2C45C44B03}.Release|x86.ActiveCfg = Release|Win32
+		{986C2BED-7F98-4B95-9541-1B2C45C44B03}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1481,6 +1491,7 @@ Global
 		{0C283F25-89AF-4DAE-8A39-CC729C6A920B} = {F3D1CB12-A15D-4EA2-BC4B-E071C3E7C283}
 		{7A06DB79-3914-428B-8A83-4EC596117EB9} = {F3D1CB12-A15D-4EA2-BC4B-E071C3E7C283}
 		{1964D871-4012-4754-AD27-A50B5CC149EB} = {0F5A8643-548E-4CFB-B3E6-75A630376641}
+		{986C2BED-7F98-4B95-9541-1B2C45C44B03} = {1549E218-4D14-4A0D-AA06-2DDB69EFBA5F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C538F23A-1B76-4BA7-BE24-D132BCDC7087}
