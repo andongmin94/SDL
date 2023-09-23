@@ -22,12 +22,12 @@ int main()
 
 	cout << endl;
 
-	Array2D add = m1.Add(m1); // ÀÚ±â ÀÚ½Å°ú ´õÇÏ±â
+	Array2D add = m1.Add(m1); // ìê¸° ìì‹ ê³¼ ë”í•˜ê¸°
 	add.Print();
 
 	cout << endl;
 
-	Array2D tr = m1.Transpose(); // ÀüÄ¡Çà·Ä
+	Array2D tr = m1.Transpose(); // ì „ì¹˜í–‰ë ¬
 	tr.Print();
 
 	return 0;

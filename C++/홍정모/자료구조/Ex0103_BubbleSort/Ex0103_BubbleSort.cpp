@@ -22,7 +22,7 @@ void Print(int* arr, int size)
 
 int main()
 {
-	int arr[] = { 5, 1, 4, 2, 8 }; // À§Å°ÇÇµð¾Æ ¿¹½Ã
+	int arr[] = { 5, 1, 4, 2, 8 }; // ìœ„í‚¤í”¼ë””ì•„ ì˜ˆì‹œ
 	// int arr[] = { 5, 4, 3, 2, 1 }; // Worst Case
 	// int arr[] = { 1, 2, 3, 5, 4 }; // Best Case
 	int n = sizeof(arr) / sizeof(arr[0]);

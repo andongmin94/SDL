@@ -12,12 +12,12 @@ int main()
 
 	for (int i : { 9, 8, 7, 6, 5, 4, 3, 2, 1 })
 		//for (int i : { 1, 2, 3, 4, 5, 6, 7, 8, 9 })
-	{
+		{
 		bst.Insert(Item{ i, char('A' + i) });
 		bst.Print2D();
-	}
+		}
 
-	bst.Inorder(); // key¿¡ ´ëÇØ Á¤·Ä
+	bst.Inorder(); // keyì— ëŒ€í•´ ì •ë ¬
 
 	cout << bst.RecurGet(5)->value << endl;
 	cout << bst.RecurGet(3)->value << endl;
