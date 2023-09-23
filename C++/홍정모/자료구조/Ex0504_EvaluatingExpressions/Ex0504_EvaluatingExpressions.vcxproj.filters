@@ -3,4 +3,7 @@
   <ItemGroup>
     <ClCompile Include="Ex0504_EvaluatingExpressions.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\shared\Queue.h" />
+  </ItemGroup>
 </Project>

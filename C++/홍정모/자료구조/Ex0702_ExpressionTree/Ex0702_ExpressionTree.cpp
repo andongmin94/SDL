@@ -31,24 +31,24 @@ public:
 
 	int Evaluate(Node* node)
 	{
-		// TODO: Æ®¸®¿¡ ÀúÀåµÈ ¼ö½ÄÀÇ °á°ú°ªÀ» °è»ê
+		// TODO: íŠ¸ë¦¬ì— ì €ìž¥ëœ ìˆ˜ì‹ì˜ ê²°ê³¼ê°’ì„ ê³„ì‚°
 		return 0;
 	}
 
 	void Infix() { Infix(root_); cout << endl; }
 	void Infix(Node* node) {
-		// TODO: ¼ö½ÄÀ» Infix Çü½ÄÀ¸·Î Ãâ·Â (°ýÈ£ Æ÷ÇÔ)
+		// TODO: ìˆ˜ì‹ì„ Infix í˜•ì‹ìœ¼ë¡œ ì¶œë ¥ (ê´„í˜¸ í¬í•¨)
 	}
 
 	void Postfix() { Postfix(root_);  cout << endl; }
 	void Postfix(Node* node) {
-		// TODO: ¼ö½ÄÀ» Postfix Çü½ÄÀ¸·Î Ãâ·Â
+		// TODO: ìˆ˜ì‹ì„ Postfix í˜•ì‹ìœ¼ë¡œ ì¶œë ¥
 	}
 
 	// Infix -> postfix -> expression tree
 	ExpressionTree(const char* infix)
 	{
-		// Infix -> Postfix (¿¹Á¦ Àç»ç¿ë)
+		// Infix -> Postfix (ì˜ˆì œ ìž¬ì‚¬ìš©)
 		Queue<char> q;
 		for (int i = 0; infix[i] != '\0'; i++)
 			q.Enqueue(infix[i]);
@@ -120,16 +120,16 @@ int main()
 
 	tree.Print2D();
 
-	// ¼ö½Ä Æ®¸®¿¡ ÀúÀåµÇ¾î ÀÖ´Â ¼ö½ÄÀ» ½ÇÁ¦·Î °è»êÇØ¼­ ±× °á°ú¸¦ Ãâ·ÂÇÕ´Ï´Ù.
+	// ìˆ˜ì‹ íŠ¸ë¦¬ì— ì €ìž¥ë˜ì–´ ìžˆëŠ” ìˆ˜ì‹ì„ ì‹¤ì œë¡œ ê³„ì‚°í•´ì„œ ê·¸ ê²°ê³¼ë¥¼ ì¶œë ¥í•©ë‹ˆë‹¤.
 	cout << "Evaluated = " << tree.Evaluate() << endl; // Evaluated = 9
 
-	// ¼ö½Ä Æ®¸®¿¡ ÀúÀåµÇ¾î ÀÖ´Â ¼ö½ÄÀ» Infix ¹æ½ÄÀ¸·Î Ãâ·ÂÇÕ´Ï´Ù.
+	// ìˆ˜ì‹ íŠ¸ë¦¬ì— ì €ìž¥ë˜ì–´ ìžˆëŠ” ìˆ˜ì‹ì„ Infix ë°©ì‹ìœ¼ë¡œ ì¶œë ¥í•©ë‹ˆë‹¤.
 	cout << "  Infix: ";
-	tree.Infix();   // (5+((3-2)*4)) <- Ãâ·Â ¿¹½Ã
+	tree.Infix();   // (5+((3-2)*4)) <- ì¶œë ¥ ì˜ˆì‹œ
 
-	// ¼ö½Ä Æ®¸®¿¡ ÀúÀåµÇ¾î ÀÖ´Â ¼ö½ÄÀ» Postfix ¹æ½ÄÀ¸·Î Ãâ·ÂÇÕ´Ï´Ù.
+	// ìˆ˜ì‹ íŠ¸ë¦¬ì— ì €ìž¥ë˜ì–´ ìžˆëŠ” ìˆ˜ì‹ì„ Postfix ë°©ì‹ìœ¼ë¡œ ì¶œë ¥í•©ë‹ˆë‹¤.
 	cout << "Postfix: ";
-	tree.Postfix(); // 532-4*+ <- Ãâ·Â ¿¹½Ã
+	tree.Postfix(); // 532-4*+ <- ì¶œë ¥ ì˜ˆì‹œ
 
 	cout << endl;
 
@@ -138,12 +138,12 @@ int main()
 		// const char infix[] = "1+(1*2+3)*4";
 		const char infix[] = "(5+((3-2)*4))";
 
-		// »ý¼ºÀÚ¿¡¼­ ¹®ÀÚ¿­·Î ÀÔ·Â¹ÞÀº ¼ö½ÄÀ» ³»ºÎÀûÀ¸·Î Infix->Postfix °úÁ¤À» °ÅÃÄ Æ®¸®·Î ÀúÀåÇÕ´Ï´Ù.
+		// ìƒì„±ìžì—ì„œ ë¬¸ìžì—´ë¡œ ìž…ë ¥ë°›ì€ ìˆ˜ì‹ì„ ë‚´ë¶€ì ìœ¼ë¡œ Infix->Postfix ê³¼ì •ì„ ê±°ì³ íŠ¸ë¦¬ë¡œ ì €ìž¥í•©ë‹ˆë‹¤.
 		ExpressionTree tree(infix);
 
 		tree.Print2D();
 
-		// ¼ö½Ä Æ®¸®¿¡ ÀúÀåµÇ¾î ÀÖ´Â ¼ö½ÄÀ» ½ÇÁ¦·Î °è»êÇØ¼­ ±× °á°ú¸¦ Ãâ·ÂÇÕ´Ï´Ù.
+		// ìˆ˜ì‹ íŠ¸ë¦¬ì— ì €ìž¥ë˜ì–´ ìžˆëŠ” ìˆ˜ì‹ì„ ì‹¤ì œë¡œ ê³„ì‚°í•´ì„œ ê·¸ ê²°ê³¼ë¥¼ ì¶œë ¥í•©ë‹ˆë‹¤.
 		cout << "Evaluated = " << tree.Evaluate() << endl; // Evaluated = 9
 	}
 
@@ -158,12 +158,12 @@ int Prec(char c)
 	else if (c == '+' || c == '-')
 		return 1;
 	else
-		return -1; // '('´Â ¿ì¼±¼øÀ§°¡ ¾ÆÁÖ ³·Àº °ÍÀ¸·Î Ã³¸®
+		return -1; // '('ëŠ” ìš°ì„ ìˆœìœ„ê°€ ì•„ì£¼ ë‚®ì€ ê²ƒìœ¼ë¡œ ì²˜ë¦¬
 }
 
 void InfixToPostfix(Queue<char>& q, Queue<char>& output)
 {
-	Stack<char> s; // ¿ì¼±¼øÀ§°¡ ³·Àº ¿¬»êÀ» º¸·ùÇÏ±â À§ÇÑ ½ºÅÃ
+	Stack<char> s; // ìš°ì„ ìˆœìœ„ê°€ ë‚®ì€ ì—°ì‚°ì„ ë³´ë¥˜í•˜ê¸° ìœ„í•œ ìŠ¤íƒ
 
 	output.SetDebugFlag(false);
 
@@ -174,30 +174,30 @@ void InfixToPostfix(Queue<char>& q, Queue<char>& output)
 
 		//cout << c << endl;
 
-		if (c >= '0' && c <= '9') // ¼ýÀÚ(ÇÇ¿¬»êÀÚ)¶ó¸é output¿¡ Ãß°¡
+		if (c >= '0' && c <= '9') // ìˆ«ìž(í”¼ì—°ì‚°ìž)ë¼ë©´ outputì— ì¶”ê°€
 			output.Enqueue(c);
-		else if (c == '(') // ¿©´Â °ýÈ£¶ó¸é ½ºÅÃ¿¡ Ãß°¡
+		else if (c == '(') // ì—¬ëŠ” ê´„í˜¸ë¼ë©´ ìŠ¤íƒì— ì¶”ê°€
 			s.Push(c);
-		else if (c == ')') // ´Ý´Â °ýÈ£¸¦ ¸¸³ª¸é
+		else if (c == ')') // ë‹«ëŠ” ê´„í˜¸ë¥¼ ë§Œë‚˜ë©´
 		{
-			// ¿©´Â °ýÈ£ Àü±îÁö¸¦ ½ºÅÃ¿¡¼­ ²¨³»¼­ Ãâ·Â¿¡ ³Ö±â
+			// ì—¬ëŠ” ê´„í˜¸ ì „ê¹Œì§€ë¥¼ ìŠ¤íƒì—ì„œ êº¼ë‚´ì„œ ì¶œë ¥ì— ë„£ê¸°
 			while (s.Top() != '(')
 			{
 				output.Enqueue(s.Top());
 				s.Pop();
 			}
-			s.Pop(); // ¿©´Â °ýÈ£ Á¦°Å
+			s.Pop(); // ì—¬ëŠ” ê´„í˜¸ ì œê±°
 		}
-		else // ¿¬»êÀÚ¸¦ ¸¸³ª¸é
+		else // ì—°ì‚°ìžë¥¼ ë§Œë‚˜ë©´
 		{
-			// ½ºÅÃ¿¡¼­ cº¸´Ù ¿ì¼±¼øÀ§°¡ ³ô°Å³ª °°Àº °ÍµéÀ» ²¨³»¼­ Ãß°¡
+			// ìŠ¤íƒì—ì„œ cë³´ë‹¤ ìš°ì„ ìˆœìœ„ê°€ ë†’ê±°ë‚˜ ê°™ì€ ê²ƒë“¤ì„ êº¼ë‚´ì„œ ì¶”ê°€
 			while (!s.IsEmpty() && Prec(c) <= Prec(s.Top()))
 			{
 				output.Enqueue(s.Top());
 				s.Pop();
 			}
 
-			// c´Â ½ºÅÃ¿¡ Ãß°¡
+			// cëŠ” ìŠ¤íƒì— ì¶”ê°€
 			s.Push(c);
 		}
 
@@ -208,7 +208,7 @@ void InfixToPostfix(Queue<char>& q, Queue<char>& output)
 		//cout << endl;
 	}
 
-	// ½ºÅÃ¿¡ ³²¾ÆÀÖ´Â °ÍµéÀ» ¸ðµÎ Ãß°¡
+	// ìŠ¤íƒì— ë‚¨ì•„ìžˆëŠ” ê²ƒë“¤ì„ ëª¨ë‘ ì¶”ê°€
 	while (!s.IsEmpty())
 	{
 		output.Enqueue(s.Top());
@@ -229,14 +229,14 @@ int EvalPostfix(Queue<char>& q)
 
 		if (c != '+' && c != '-' && c != '*' && c != '/')
 		{
-			s.Push(c - '0'); // ÀÔ·ÂÀÌ ¿¬»êÀÚ°¡ ¾Æ´Ï¸é ÀÏ´Ü ÀúÀå
+			s.Push(c - '0'); // ìž…ë ¥ì´ ì—°ì‚°ìžê°€ ì•„ë‹ˆë©´ ì¼ë‹¨ ì €ìž¥
 		}
 		else
 		{
 			//cout << "Operator: " << c << endl;
 
-			// ÀÔ·ÂÀÌ ¿¬»êÀÚÀÌ¸é ½ºÅÃ¿¡¼­ ²¨³»¼­ ¿¬»ê¿¡ »ç¿ë
-			int op2 = s.Top(); // op1, op2 ¼ø¼­ ÁÖÀÇ
+			// ìž…ë ¥ì´ ì—°ì‚°ìžì´ë©´ ìŠ¤íƒì—ì„œ êº¼ë‚´ì„œ ì—°ì‚°ì— ì‚¬ìš©
+			int op2 = s.Top(); // op1, op2 ìˆœì„œ ì£¼ì˜
 			s.Pop();
 			int op1 = s.Top();
 			s.Pop();
@@ -257,7 +257,7 @@ int EvalPostfix(Queue<char>& q)
 			else
 			{
 				cout << "Wrong operator" << endl;
-				exit(-1); // °­Á¦ Á¾·á
+				exit(-1); // ê°•ì œ ì¢…ë£Œ
 			}
 		}
 

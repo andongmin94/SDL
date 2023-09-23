@@ -22,14 +22,14 @@ void Print(int* arr, int size)
 
 int main()
 {
-	// ¿À¸¥ÂÊÀ¸·Î ÇÏ³ª¾¿ ¹Ğ±â (»ğÀÔ Á¤·ÄÀÇ Áß°£ ´Ü°è)
+	// ì˜¤ë¥¸ìª½ìœ¼ë¡œ í•˜ë‚˜ì”© ë°€ê¸° (ì‚½ì… ì •ë ¬ì˜ ì¤‘ê°„ ë‹¨ê³„)
 	{
 		int arr[] = { 1, 2, 4, 5, 3, 6 };
 		int n = sizeof(arr) / sizeof(arr[0]);
 
 		Print(arr, n);
 
-		// i = 4ÀÎ °æ¿ì¿¡ ´ëÇØ¼­ ±¸Çö
+		// i = 4ì¸ ê²½ìš°ì— ëŒ€í•´ì„œ êµ¬í˜„
 		int i = 4;
 		// TODO:
 
@@ -40,7 +40,7 @@ int main()
 			arr[j] = arr[j - 1];
 			Print(arr, n);
 		}
-		// »ğÀÔ
+		// ì‚½ì…
 		arr[j] = temp;
 
 		Print(arr, n);

@@ -17,8 +17,7 @@ for tc in range(1, T + 1):
         elif 0 <= P[i] <= 9:
             P[i] = chr(P[i] + 48)
 
-    print(f'#{tc}', end=' ')
-    print(''.join(P))
+    print(f'#{tc} {"".join(P)}')
 
 # T = int(input())
 # for tc in range(1, T + 1):
