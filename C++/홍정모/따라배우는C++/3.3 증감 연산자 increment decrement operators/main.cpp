@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 using namespace std;
 
@@ -8,6 +8,6 @@ int main()
 	cout << x << " " << y << endl;
 	cout << ++x << " " << --y << endl;
 
-	// ¸Å°³º¯¼ö·Î (x, ++x)¿Í °°Àº ¿¬»êÀÚ °â¿ë ÇüÅÂ »ç¿ë Nope
+	// ë§¤ê°œë³€ìˆ˜ë¡œ (x, ++x)ì™€ ê°™ì€ ì—°ì‚°ìž ê²¸ìš© í˜•íƒœ ì‚¬ìš© Nope
 
 }

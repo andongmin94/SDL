@@ -1,12 +1,12 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <algorithm>
 using namespace std;
 
 #define MAX(a, b) (((a) > (b)) ? (a) : (b))
 #define LIKE_APPLE
-// ÀüÃ³¸®±â´Â ÇØ´ç ÆÄÀÏ ¾È¿¡¼­¸¸ È¿·ÂÀÌ ÀÖÀ½.
-// ±×·¡¼­ ÇÔ¼ö ¹Ùµð¸¦ ´Ù¸¥ cppÆÄÀÏ¿¡ Á¤ÀÇÇÏ°í
-// ÀüÃ³¸®±â¸¦ »ç¿ëÇÏ¸é ¿À·ù°¡ ¹ß»ýÇÔ.
+// ì „ì²˜ë¦¬ê¸°ëŠ” í•´ë‹¹ íŒŒì¼ ì•ˆì—ì„œë§Œ íš¨ë ¥ì´ ìžˆìŒ.
+// ê·¸ëž˜ì„œ í•¨ìˆ˜ ë°”ë””ë¥¼ ë‹¤ë¥¸ cppíŒŒì¼ì— ì •ì˜í•˜ê³ 
+// ì „ì²˜ë¦¬ê¸°ë¥¼ ì‚¬ìš©í•˜ë©´ ì˜¤ë¥˜ê°€ ë°œìƒí•¨.
 
 int main()
 {

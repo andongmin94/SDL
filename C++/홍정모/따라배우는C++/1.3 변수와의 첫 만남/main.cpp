@@ -1,11 +1,11 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 /*
-°´Ã¼ objects
-º¯¼ö variables
-Left-values¿Í Right-values
-ÃÊ±âÈ­ initialization¿Í ´ëÀÔ assignment
-ÃÊ±âÈ­¸¦ ¾È ÇßÀ» ¶§ÀÇ ¹®Á¦Á¡
+ê°ì²´ objects
+ë³€ìˆ˜ variables
+Left-valuesì™€ Right-values
+ì´ˆê¸°í™” initializationì™€ ëŒ€ì… assignment
+ì´ˆê¸°í™”ë¥¼ ì•ˆ í–ˆì„ ë•Œì˜ ë¬¸ì œì 
 */
 
 int main()

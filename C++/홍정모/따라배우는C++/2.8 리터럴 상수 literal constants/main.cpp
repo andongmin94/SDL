@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 using namespace std;
 
@@ -8,15 +8,15 @@ int main()
 	// Octal	: 0 1 2 3 4 5 6 7 10 11 12 13
 	// Hexa		: 0 1 2 3 4 5 6 7 8 9 A B C D E F 10
 
-	int x = 012; //   0À» ºÙÀÌ¸é 8Áø¼ö°¡ ‰Î (0°¡ octal ´À³¦)
-	int y = 0xF; // 0x¸¦ ºÙÀÌ¸é 16Áø¼ö°¡ ‰Î  (x°¡ heXa ´À³¦)
+	int x = 012; //   0ì„ ë¶™ì´ë©´ 8ì§„ìˆ˜ê°€ ëŒ (0ê°€ octal ëŠë‚Œ)
+	int y = 0xF; // 0xë¥¼ ë¶™ì´ë©´ 16ì§„ìˆ˜ê°€ ëŒ  (xê°€ heXa ëŠë‚Œ)
 	cout << x << endl;
 	cout << y << endl;
 
 	// 0011 1010 1111
 	//		 --> 3A7F
 
-	int z = 0b1010; // 0b¸¦ ºÙÀÌ¸é 2Áø¼ö°¡ ‰Î (b´Â ¹ÙÀÌ³Ê¸®)
+	int z = 0b1010; // 0bë¥¼ ë¶™ì´ë©´ 2ì§„ìˆ˜ê°€ ëŒ (bëŠ” ë°”ì´ë„ˆë¦¬)
 	cout << z << endl;
 
 	const int price_per_item = 10;

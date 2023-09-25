@@ -1,10 +1,10 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include "add.h"
-// Çì´õ°¡ ´Ù¸¥ Æú´õ¿¡ ÀÖÀ¸¸é ±× ·çÆ®µµ Ç¥±âÇØ¾ßÇÔ
+// í—¤ë”ê°€ ë‹¤ë¥¸ í´ë”ì— ìžˆìœ¼ë©´ ê·¸ ë£¨íŠ¸ë„ í‘œê¸°í•´ì•¼í•¨
 // ex) "Myheaders/add.h"
 
-// ¼±¾ð°ú Á¤ÀÇ´Â Çì´õ¿¡ ¸ô¾Æ³ÖÁö¸»°í ºÐ¸®ÇØ¶ó.
-// ¾È±×·¯¸é Çì´õ¸¦ ¿©·¯¹ø ¾µ ¶§ ¹®Á¦°¡ ‰Î.
+// ì„ ì–¸ê³¼ ì •ì˜ëŠ” í—¤ë”ì— ëª°ì•„ë„£ì§€ë§ê³  ë¶„ë¦¬í•´ë¼.
+// ì•ˆê·¸ëŸ¬ë©´ í—¤ë”ë¥¼ ì—¬ëŸ¬ë²ˆ ì“¸ ë•Œ ë¬¸ì œê°€ ëŒ.
 
 using namespace std;
 

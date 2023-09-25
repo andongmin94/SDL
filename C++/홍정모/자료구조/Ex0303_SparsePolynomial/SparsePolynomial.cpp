@@ -1,4 +1,4 @@
-#include "SparsePolynomial.h"
+﻿#include "SparsePolynomial.h"
 
 #include <iostream>
 #include <cassert>

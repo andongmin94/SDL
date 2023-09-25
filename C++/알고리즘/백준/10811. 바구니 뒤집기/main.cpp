@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 int main()
 {
@@ -15,8 +15,8 @@ int main()
     {
         int i, j, temp;
         cin >> i >> j;
-        // n(n+1)/2 ·Î ¿ª¼øÀ¸·Î µÚÁý´Â°Çµ¥
-        // ÀÎµ¦½º ¶§¹®¿¡ (j - 1 + 1) / 2 ÀÇ ÇüÅÂÀÓ.
+        // n(n+1)/2 ë¡œ ì—­ìˆœìœ¼ë¡œ ë’¤ì§‘ëŠ”ê±´ë°
+        // ì¸ë±ìŠ¤ ë•Œë¬¸ì— (j - 1 + 1) / 2 ì˜ í˜•íƒœìž„.
         for (int k = 0; k < (j - i + 1) / 2; k++)
         {
             temp = arr[i - 1 + k];

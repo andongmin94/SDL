@@ -16,8 +16,8 @@ int main()
         for (int j = 1; j < M + 1; j++)
             cin >> arr[j];
 
-        int cnt = 0; // ÃæÀü È½¼ö
-        int start = 0; // Ãâ¹ß À§Ä¡
+        int cnt = 0; // ì¶©ì „ íšŸìˆ˜
+        int start = 0; // ì¶œë°œ ìœ„ì¹˜
 
         for (int x = 1; x < M + 2; x++)
         {

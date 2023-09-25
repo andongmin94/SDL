@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <string>
 
 using namespace std;
@@ -12,14 +12,14 @@ int main()
         int N;
         string S;
         cin >> N >> S;
-        // char ¹®ÀÚ¿­ÀÌ±â ¶§¹®¿¡ ³¡¿¡ NULL °ø°£À» Àâ¾ÆÁà¾ß ÇÏ´Âµí
+        // char ë¬¸ìžì—´ì´ê¸° ë•Œë¬¸ì— ëì— NULL ê³µê°„ì„ ìž¡ì•„ì¤˜ì•¼ í•˜ëŠ”ë“¯
         char P[8 * 20 + 1] = { 0, };
         int n = 0;
         for (int j = 0; j < S.length(); j++)
             for (int k = 0; k < N; k++)
             {
-                // P ¹®ÀÚ¿­ ÀÎµ¦½º·Î nÀ» Àâ°í »ó½Â½ÃÅ°´Â°Ç
-                // k¸¦ ³ÖÀ¸¸é °è¼Ó PÀÇ ÀÎµ¦½º°¡ ÃÊ±âÈ­µÇ¼­ÀÓ.
+                // P ë¬¸ìžì—´ ì¸ë±ìŠ¤ë¡œ nì„ ìž¡ê³  ìƒìŠ¹ì‹œí‚¤ëŠ”ê±´
+                // kë¥¼ ë„£ìœ¼ë©´ ê³„ì† Pì˜ ì¸ë±ìŠ¤ê°€ ì´ˆê¸°í™”ë˜ì„œìž„.
                 P[n] = S[j];
                 n++;
             }

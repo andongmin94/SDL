@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 using namespace std;
 
@@ -15,5 +15,5 @@ int pow(int base, int exponent)
 int main()
 {
 	//for (unsigned int i = 9; i >= 0; --i)
-	//	cout << i << endl; unsigned¶ó¼­ 0ÀÌ µÇ¸é ¿¡·¯ ¹ß»ýÇÔ.
+	//	cout << i << endl; unsignedë¼ì„œ 0ì´ ë˜ë©´ ì—ëŸ¬ ë°œìƒí•¨.
 }

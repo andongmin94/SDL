@@ -1,10 +1,10 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 using namespace std;
 
 int main()
 {
-	int x = 3 * 4 / 2; // µ¿ÀÏ ¿ì¼± ¼øÀ§¿¡¼­´Â L 2 R
+	int x = 3 * 4 / 2; // ë™ì¼ ìš°ì„  ìˆœìœ„ì—ì„œëŠ” L 2 R
 	double y = std::pow(2, 3);
 	
 	cout << y;
