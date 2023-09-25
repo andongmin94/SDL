@@ -8,7 +8,7 @@ int a[12];
 
 void back(int cur, int d)
 {   // current, depth
-	// ±âÀú Á¶°Ç
+	// ê¸°ì € ì¡°ê±´
 	if (cur == cnt || d == K)
 	{
 		int sum = 0;
@@ -18,7 +18,7 @@ void back(int cur, int d)
 		res = max(res, sum);
 		return;
 	}
-	// Àç±Í
+	// ìž¬ê·€
 	for (int i = cur; i < cnt; i++)
 	{
 		for (int j = i + 1; j < cnt; j++)

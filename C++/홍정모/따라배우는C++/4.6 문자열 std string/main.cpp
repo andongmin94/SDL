@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <string>
 #include <limits>
 
@@ -9,7 +9,7 @@ int main()
     // const char my_strs[] = "Hello, World";
     // const string my_hello{"Hello, World"};
     //
-    // // string my_ID = 123; ¹®ÀÚ¿­ ÀÚ·áÇü¿¡ ¼ıÀÚ¸¦ »ç¿ëÇÒ ¼ö ¾øÀ½.
+    // // string my_ID = 123; ë¬¸ìì—´ ìë£Œí˜•ì— ìˆ«ìë¥¼ ì‚¬ìš©í•  ìˆ˜ ì—†ìŒ.
     // string my_ID = "123";
     // cout << my_hello << endl;
     // cout << my_strs << endl;
