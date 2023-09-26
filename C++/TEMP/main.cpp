@@ -4,13 +4,9 @@ using namespace std;
 
 int main()
 {
-    int a, b, c;
-    cin >> a >> b >> c;
-    int logic = a + b;
-    for (int i = 0; i < c; i++)
-    {
-        for (int j = a; j < logic; j++)
-            cout << j << " ";
-        cout << endl;
-    }
+	char arr[4][5] = { "ABKT","KFCF","BBQQ","TPZF" };
+	char a, b;
+	cin >> a >> b;
+	int cnt_a = 0;
+	int cnt_b = 0;
 }
