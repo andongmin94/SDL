@@ -30,4 +30,26 @@ int main()
 	array[1] = temp;
 
 	printArray(array, length);
+
+	for (int startIndex = 0; startIndex < length - 1; startIndex++)
+	{
+		int smallestIndex = startIndex;
+
+		for (int currentIndex = startIndex + 1; currentIndex < length; currentIndex++)
+		{
+			if (array[smallestIndex] > array[currentIndex])
+			{
+				smallestIndex = currentIndex;
+			}
+		}
+
+		// swap two values in the arrray
+		// std::swap(array[smallestIndex], array[startIndex]);
+		{
+			int temp = array[smallestIndex];
+			array[smallestIndex] = array[startIndex];
+			array[startIndex] = temp;
+		}
+		printArray(array, length);
+	}
 }

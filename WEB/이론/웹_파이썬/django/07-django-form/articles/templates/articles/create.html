@@ -6,12 +6,16 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>NEW</h1>
+  <h1>CREATE</h1>
   <form action="{% url "articles:create" %}" method="POST">
     {% csrf_token %}
+    <!--
+      form 인스턴스를 쪼개고 싶다면
+      - https://docs.djangoproject.com/en/4.2/topics/forms/#rendering-fields-manually
+    -->
     {{ form.as_p }}
     {% comment %} <div>
-      <label for="title">제목임 : </label>
+      <label for="title">제목 : </label>
       <input type="text" id="title" name="title">
     </div>
     <div>

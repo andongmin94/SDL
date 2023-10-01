@@ -29,27 +29,27 @@ int BinarySearch(int* arr, int n, int x) // 이진 탐색
 	{
 		PrintHelper(arr, n, left, right);
 
-		// int middle = ... ; // 정수 나누기 (버림)
+		 int middle = (left + right) / 2; // 정수 나누기 (버림)
 
-		// cout << "middle " << middle << endl;
+		 cout << "middle " << middle << endl;
 
-		//if ()
-		//{
-		//	...
-		//	cout << "right " << right << endl;
-		//}
-		//else if ()
-		//{
-		//	...
-		//	cout << "left " << left << endl;
-		//}
-		//else
-		//{
-		//	cout << "Found " << middle << endl;
-		//	return middle;
-		//}
+		if (x > arr[middle])
+		{
+			right = middle - 1;
+			cout << "right " << right << endl;
+		}
+		else if (x < arr[middle])
+		{
+			left = middle + 1;
+			cout << "left " << left << endl;
+		}
+		else
+		{
+			cout << "Found " << middle << endl;
+			return middle;
+		}
 
-		break; // 임시: 무한루프 방지
+		// break; // 임시: 무한루프 방지
 	}
 
 	cout << "Not found" << endl;
