@@ -2,11 +2,28 @@
 
 using namespace std;
 
+void isExist(char (*arr)[7], char a, char b)
+{
+	bool a_check = false;
+	bool b_check = false;
+
+	for (int i = 0; i < 2; i++)
+		for (int j = 0; j < 6; j++)
+		{
+			if (arr[i][j] == a)
+				a_check = true;
+			if (arr[i][j] == b)
+				a_check = true;
+		}
+	if (a_check == true)
+		cout << a << " : 존재" << endl;
+	else cout << a << " : 없음" << endl;
+}
+
 int main()
 {
-	char arr[4][5] = { "ABKT","KFCF","BBQQ","TPZF" };
+	char arr2[2][7] = { "A79TKQ","MINCOD" };
 	char a, b;
 	cin >> a >> b;
-	int cnt_a = 0;
-	int cnt_b = 0;
+	
 }

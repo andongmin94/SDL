@@ -6,13 +6,23 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
+<<<<<<< HEAD
         ("articles", "0001_initial"),
+=======
+        ('articles', '0001_initial'),
+>>>>>>> d09683326456766d5d9f3ccc0cfe3cd8ae8ea008
     ]
 
     operations = [
         migrations.AddField(
+<<<<<<< HEAD
             model_name="article",
             name="image",
             field=models.ImageField(blank=True, upload_to=""),
+=======
+            model_name='article',
+            name='image',
+            field=models.ImageField(blank=True, upload_to=''),
+>>>>>>> d09683326456766d5d9f3ccc0cfe3cd8ae8ea008
         ),
     ]
