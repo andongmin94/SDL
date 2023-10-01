@@ -25,6 +25,7 @@ urlpatterns = [
     path('search/', views.search),
     path('throw/', views.throw),
     path('catch/', views.catch),
-    path('hello/<str:name>/', views.greeting),
-    path('articles/<int:num>/', views.detail)
+    # path('hello/<str:name>/', views.greeting),
+    path('hello/<name>/', views.greeting),
+    path('articles/<int:num>/', views.detail),
 ]

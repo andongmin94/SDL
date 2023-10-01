@@ -1,5 +1,9 @@
 from django.contrib import admin
-from .models import Articles
+# 명시적 상대경로
+from .models import Article
 
 # Register your models here.
-admin.site.register(Articles)
+
+# Article 모델 클래스를 admin site에 등록
+# admin site에 등록(register)한다.
+admin.site.register(Article)
