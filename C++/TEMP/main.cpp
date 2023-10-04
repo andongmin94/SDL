@@ -13,17 +13,20 @@ void isExist(char (*arr)[7], char a, char b)
 			if (arr[i][j] == a)
 				a_check = true;
 			if (arr[i][j] == b)
-				a_check = true;
+				b_check = true;
 		}
 	if (a_check == true)
 		cout << a << " : 존재" << endl;
 	else cout << a << " : 없음" << endl;
+	if (b_check == true)
+		cout << b << " : 존재" << endl;
+	else cout << b << " : 없음" << endl;
 }
 
 int main()
 {
-	char arr2[2][7] = { "A79TKQ","MINCOD" };
+	char arr[2][7] = { "A79TKQ","MINCOD" };
 	char a, b;
 	cin >> a >> b;
-	
+	isExist(arr, a, b);
 }
