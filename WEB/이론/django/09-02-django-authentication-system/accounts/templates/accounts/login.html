@@ -6,11 +6,11 @@
   <title>Document</title>
 </head>
 <body>
-  <form action="{% url "articles:introduce" %}" method="GET">
-		<label>던지자!:
-			<input type="text" name="message" />
-		</label>
-		<input type="" value="submit"/>
-</form>
+  <h1>로그인</h1>
+  <form action="{% url "accounts:login" %}" method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit">
+  </form>
 </body>
 </html>
