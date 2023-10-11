@@ -4,7 +4,20 @@ using namespace std;
 
 int main()
 {
-	int n;
-	cin >> n;
-	cout << n * 4000 << endl;
+	int a, b;
+	char c;
+	cin >> a >> b >> c;
+	for (int i = 0; i < a; i++)
+	{
+		for (int j = 0; j < b; j++)
+			cout << c;
+		cout << endl;
+	}
+	cout << endl;
+	for (int i = 0; i < a; i++)
+	{
+		for (int j = 0; j < b; j++)
+			cout << c;
+		cout << endl;
+	}
 }
