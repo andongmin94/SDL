@@ -2,22 +2,29 @@
 
 using namespace std;
 
+int min(int a, int b, int c)
+{
+	if (a <= b && a <= c)
+		return a;
+
+	if (b <= a && b <= c)
+		return b;
+
+	if (c <= a && c <= b)
+		return c;
+}
+
 int main()
 {
-	int a, b;
-	char c;
+	int a, b, c;
 	cin >> a >> b >> c;
-	for (int i = 0; i < a; i++)
-	{
-		for (int j = 0; j < b; j++)
-			cout << c;
-		cout << endl;
-	}
-	cout << endl;
-	for (int i = 0; i < a; i++)
-	{
-		for (int j = 0; j < b; j++)
-			cout << c;
-		cout << endl;
-	}
+	if (a + b + c >= 100)
+		cout << "OK";
+	else
+		if (min(a, b, c) == a)
+			cout << "Soongsil";
+		else if (min(a, b, c) == b)
+			cout << "Korea";
+		else
+			cout << "Hanyang";
 }
