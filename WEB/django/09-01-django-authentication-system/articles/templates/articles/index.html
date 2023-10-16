@@ -7,13 +7,6 @@
 </head>
 <body>
   <h1>INDEX</h1>
-  <h3>{{ user.username }}님 안녕하세요!</h3>
-  <a href="{% url "accounts:login" %}">LOGIN</a>
-  <form action="{% url "accounts:logout" %}" method="POST">
-    {% csrf_token %}
-    <input type="submit" value="LOGOUT">
-  </form>
-
   <a href="{% url 'articles:create' %}">CREATE</a>
   <hr>
   {% for article in articles %}
