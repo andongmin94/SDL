@@ -14,8 +14,4 @@ urlpatterns = [
         views.comments_delete,
         name='comments_delete',
     ),
-<<<<<<< HEAD
-=======
-    path('<int:article_pk>/likes/', views.likes, name='likes'),
->>>>>>> 165534eb2eddaf0045cb065d7a008a0c724940fe
 ]

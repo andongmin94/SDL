@@ -93,23 +93,3 @@ def comments_delete(request, article_pk, comment_pk):
     if request.user == comment.user:
         comment.delete()
     return redirect('articles:detail', article_pk)
-<<<<<<< HEAD
-=======
-
-
-def likes(request, article_pk):
-    # 별도의 페이지 필요? NO (게시글이 출력되는 페이지에 같이 좋아요 버튼이 출력됨)
-    # 어떤 게시글에 좋아요를 누른건지
-    article = Article.objects.get(pk=article_pk)
-    # 좋아요를 추가 or 취소 할지에 대한 기준??
-    # 현재 좋아요 버튼을 누른 유저가 어디(현재 게시글의 좋아요를 누른 유저 목록 전체)에 있는지 없는지를 확인
-    if request.user in article.like_users.all():
-        # 취소
-        article.like_users.remove(request.user)
-        # request.user.like_articles.remove(article)
-    else:
-        # 추가
-        article.like_users.add(request.user)
-        # request.user.like_articles.add(article)
-    return redirect('articles:index')
->>>>>>> 165534eb2eddaf0045cb065d7a008a0c724940fe
