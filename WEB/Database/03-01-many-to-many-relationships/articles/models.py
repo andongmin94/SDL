@@ -9,6 +9,7 @@ class Article(models.Model):
     )
 <<<<<<< HEAD
 =======
+    like_users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_articles')
 >>>>>>> 165534eb2eddaf0045cb065d7a008a0c724940fe
     title = models.CharField(max_length=10)
     content = models.TextField()
