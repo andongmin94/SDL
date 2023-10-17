@@ -1,17 +1,41 @@
 ﻿#include <iostream>
+#include <array>
+#include <functional>
 
 using namespace std;
 
-int func()
+bool isEven(const int& number)
 {
-	return 5;
+	if (number % 2 == 0) return true;
+	else return false;
+}
+
+bool isOdd(const int& number)
+{
+	if (number % 2 != 0) return true;
+	else return false;
+}
+
+// typedef bool (*check_fcn_t)(const int&);
+
+using check_fcn_t = bool (*)(const int&);
+
+void printNumbers(const array<int, 10>& my_arr, function<bool(const int&)> check_fcn)
+{
+	for (auto element : my_arr)
+	{
+		if (check_fcn(element) == true) cout << element << " ";
+	}
+	cout << endl;
 }
 
 int main()
 {
-	// 함수도 포인터임. 그래서 아래는 주소가 찍힘
-	cout << func << endl;
+	array<int, 10> my_arr{ 0,1,2,3,4,5,6,7,8,9 };
 
-	// 주소로 가서 기능을 실행함
-	cout << func() << endl;
+	function<bool(const int&)> fcnptr = isEven;
+	printNumbers(my_arr, fcnptr);
+
+	fcnptr = isOdd;
+	printNumbers(my_arr, isOdd);
 }
