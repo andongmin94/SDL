@@ -97,8 +97,11 @@ def comments_delete(request, article_pk, comment_pk):
 
 def likes(request, article_pk):
     article = Article.objects.get(pk=article_pk)
-    if request.user in article.like_users.all():
+    if article.like_users.filter(pk=request.user.pk).exists():
+    # if request.user in article.like_users.all():
         article.like_users.remove(request.user)
     else:
         article.like_users.add(request.user)
     return redirect('articles:index')
+
+
