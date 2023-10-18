@@ -1,17 +1,18 @@
 ﻿#include <iostream>
 
 using namespace std;
+
 int main()
 {
-	int a, b, c;
-	cin >> a >> b >> c;
-	if (a + b + c >= 100)
-		cout << "OK";
-	else
-		if (min(a, b, c) == a)
-			cout << "Soongsil";
-		else if (min(a, b, c) == b)
-			cout << "Korea";
-		else
-			cout << "Hanyang";
+	int a;
+	cin >> a;
+	for (int i = 0; i < a; i++)
+	{
+		char Si[21];
+		cin >> Si;
+		for (int j = 0; Si[j] != 0; j++)
+			if (Si[j] >= 'A' && Si[j] <= 'Z')
+				Si[j] = Si[j] - 'A' + 'a';
+		cout << Si << endl;
+	}
 }
