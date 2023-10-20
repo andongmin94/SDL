@@ -10,16 +10,32 @@
     .card {
       width: 80%;
       border: 1px solid black;
-
+      /* 1 */
+      display: flex;
+      /* 2 */
+      flex-wrap: wrap;
     }
 
     img {
       width: 100%;
     }
 
-    .thumbnail {}
+    .thumbnail {
+      /* 3 */
+      flex-basis: 700px;
+      /* 4 */
+      flex-grow: 1;
+      /* flex: 1 700px; */
+    }
 
-    .content {}
+    .content {
+      /* 3 */
+      flex-basis: 350px;
+      /* 4 */
+      flex-grow: 1;
+      /* flex: 1 350px; */
+    }
+
   </style>
 </head>
 
