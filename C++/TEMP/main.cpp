@@ -4,15 +4,18 @@ using namespace std;
 
 int main()
 {
-	int a;
-	cin >> a;
-	for (int i = 0; i < a; i++)
+	int a, b, c, d;
+	cin >> a >> b;
+
+	c = (a + b) / 2;
+	d = (a - b) / 2;
+	if (a < b)
+		cout << -1 << endl;
+	else
 	{
-		char Si[21];
-		cin >> Si;
-		for (int j = 0; Si[j] != 0; j++)
-			if (Si[j] >= 'A' && Si[j] <= 'Z')
-				Si[j] = Si[j] - 'A' + 'a';
-		cout << Si << endl;
+		if (c + d == a && c - d == b)
+			cout << c << " " << d;
+		else
+			cout << "-1";
 	}
 }
