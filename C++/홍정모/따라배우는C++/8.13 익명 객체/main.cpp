@@ -24,20 +24,20 @@ public:
 	}
 };
 
-class Cents
+class Digit
 {
 private:
 	int m_cents;
 
 public:
-	Cents(int cents) { m_cents = cents; }
+	Digit(int cents) { m_cents = cents; }
 
 	int getCents() const { return m_cents; }
 };
 
-Cents add(const Cents& c1, const Cents& c2)
+Digit add(const Digit& c1, const Digit& c2)
 {
-	return Cents(c1.getCents() + c2.getCents());
+	return Digit(c1.getCents() + c2.getCents());
 }
 
 int main()
@@ -49,5 +49,5 @@ int main()
 	A(3).print();
 	A(4).print();
 
-	cout << add(Cents(6), Cents(8)).getCents() << endl;
+	cout << add(Digit(6), Digit(8)).getCents() << endl;
 }
