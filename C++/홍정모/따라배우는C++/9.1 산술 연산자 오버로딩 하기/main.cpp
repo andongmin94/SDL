@@ -9,32 +9,20 @@ private:
 
 public:
 	Cents(int cents = 0) { m_cents = cents; }
-<<<<<<< Updated upstream
+
+	// = [] () ->
 	int getCents() const { return m_cents; }
 	int& getCents() { return m_cents; }
 
-	// = [] () ->
-=======
-	
-	int getCents() const { return m_cents; }
-	int& getCents() { return m_cents; }
+	Cents operator + (const Cents& c2)
+	{
+		return Cents(this->m_cents + c2.m_cents);
+	}
 
 	//friend Cents operator + (const Cents& c1, const Cents& c2)
 	//{
 	//	return Cents(c1.getCents() + c2.getCents());
 	//}
-
->>>>>>> Stashed changes
-	Cents operator + (const Cents& c2)
-	{
-		return Cents(this->m_cents + c2.m_cents);
-	}
-<<<<<<< Updated upstream
-
-	friend Cents operator + (const Cents& c1, const Cents& c2)
-	{
-		return Cents(c1.getCents() + c2.getCents());
-	}
 };
 
 //void add(const Cents& c1, const Cents& c2, Cents& c_out)
@@ -42,10 +30,6 @@ public:
 //	c_out.getCents() = c1.getCents() + c2.getCents();
 //}
 
-=======
-};
-
->>>>>>> Stashed changes
 int main()
 {
 	Cents cents1(6);
@@ -53,7 +37,7 @@ int main()
 
 	//Cents sum;
 	//add(cents1, cents2, sum);
-<<<<<<< Updated upstream
+
 	//cout << sum.getCents() << endl;
 
 	//cout << add(cents1, cents2).getCents() << endl;
@@ -62,10 +46,4 @@ int main()
 
 	// ?: :: sizeof . .*
 	// 연산자 간 우선순위는 변하지 않음.
-=======
-
-	//cout << add(cents1,cents2).getCents() << endl;
-
-	cout << (cents1 + cents2 + Cents(16) + Cents(10) + Cents(10)).getCents() << endl;
->>>>>>> Stashed changes
 }
