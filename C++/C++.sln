@@ -367,11 +367,21 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.13 익명 객체", "홍�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.14 클래스 안에 포함된 자료형 nested types", "홍정모\따라배우는C++\8.14 클래스 안에 포함된 자료형 nested types\8.14 클래스 안에 포함된 자료형 nested types.vcxproj", "{2F7F1511-CAFA-473E-B276-67703A593147}"
 EndProject
+<<<<<<< Updated upstream
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.1 산술 연산자 오버로딩 하기", "홍정모\따라배우는C++\9.1 산술 연산자 오버로딩 하기\9.1 산술 연산자 오버로딩 하기.vcxproj", "{F5C17569-EFDC-475D-9B2A-72C9FFFEA58B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 9", "챕터 9", "{7754EF78-0117-4984-A5F4-D5D8D5E72308}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.2 입출력 연산자 오버로딩 하기", "홍정모\따라배우는C++\9.2 입출력 연산자 오버로딩 하기\9.2 입출력 연산자 오버로딩 하기.vcxproj", "{4101F786-088F-45A5-84D0-A0EBA7CCCC43}"
+=======
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.15 실행 시간 측정하기", "홍정모\따라배우는C++\8.15 실행 시간 측정하기\8.15 실행 시간 측정하기.vcxproj", "{1E00F54B-D152-46F9-87D4-42FD60B3FEF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 9", "챕터 9", "{CE15F4CF-D3AE-41C5-B2A5-A4E94B12CB27}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.1 산술 연산자 오버로딩 하기", "홍정모\따라배우는C++\9.1 산술 연산자 오버로딩 하기\9.1 산술 연산자 오버로딩 하기.vcxproj", "{F5C17569-EFDC-475D-9B2A-72C9FFFEA58B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.2 입출력 연산자 오버로딩 하기", "홍정모\따라배우는C++\9.2 입출력 연산자 오버로딩 하기\9.2 입출력 연산자 오버로딩 하기.vcxproj", "{3C9C9EFA-2FA2-46E0-B4B0-722D19D5E83E}"
+>>>>>>> Stashed changes
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1613,6 +1623,17 @@ Global
 		{2F7F1511-CAFA-473E-B276-67703A593147}.Release|x64.Build.0 = Release|x64
 		{2F7F1511-CAFA-473E-B276-67703A593147}.Release|x86.ActiveCfg = Release|Win32
 		{2F7F1511-CAFA-473E-B276-67703A593147}.Release|x86.Build.0 = Release|Win32
+<<<<<<< Updated upstream
+=======
+		{1E00F54B-D152-46F9-87D4-42FD60B3FEF7}.Debug|x64.ActiveCfg = Debug|x64
+		{1E00F54B-D152-46F9-87D4-42FD60B3FEF7}.Debug|x64.Build.0 = Debug|x64
+		{1E00F54B-D152-46F9-87D4-42FD60B3FEF7}.Debug|x86.ActiveCfg = Debug|Win32
+		{1E00F54B-D152-46F9-87D4-42FD60B3FEF7}.Debug|x86.Build.0 = Debug|Win32
+		{1E00F54B-D152-46F9-87D4-42FD60B3FEF7}.Release|x64.ActiveCfg = Release|x64
+		{1E00F54B-D152-46F9-87D4-42FD60B3FEF7}.Release|x64.Build.0 = Release|x64
+		{1E00F54B-D152-46F9-87D4-42FD60B3FEF7}.Release|x86.ActiveCfg = Release|Win32
+		{1E00F54B-D152-46F9-87D4-42FD60B3FEF7}.Release|x86.Build.0 = Release|Win32
+>>>>>>> Stashed changes
 		{F5C17569-EFDC-475D-9B2A-72C9FFFEA58B}.Debug|x64.ActiveCfg = Debug|x64
 		{F5C17569-EFDC-475D-9B2A-72C9FFFEA58B}.Debug|x64.Build.0 = Debug|x64
 		{F5C17569-EFDC-475D-9B2A-72C9FFFEA58B}.Debug|x86.ActiveCfg = Debug|Win32
@@ -1621,6 +1642,7 @@ Global
 		{F5C17569-EFDC-475D-9B2A-72C9FFFEA58B}.Release|x64.Build.0 = Release|x64
 		{F5C17569-EFDC-475D-9B2A-72C9FFFEA58B}.Release|x86.ActiveCfg = Release|Win32
 		{F5C17569-EFDC-475D-9B2A-72C9FFFEA58B}.Release|x86.Build.0 = Release|Win32
+<<<<<<< Updated upstream
 		{4101F786-088F-45A5-84D0-A0EBA7CCCC43}.Debug|x64.ActiveCfg = Debug|x64
 		{4101F786-088F-45A5-84D0-A0EBA7CCCC43}.Debug|x64.Build.0 = Debug|x64
 		{4101F786-088F-45A5-84D0-A0EBA7CCCC43}.Debug|x86.ActiveCfg = Debug|Win32
@@ -1629,6 +1651,16 @@ Global
 		{4101F786-088F-45A5-84D0-A0EBA7CCCC43}.Release|x64.Build.0 = Release|x64
 		{4101F786-088F-45A5-84D0-A0EBA7CCCC43}.Release|x86.ActiveCfg = Release|Win32
 		{4101F786-088F-45A5-84D0-A0EBA7CCCC43}.Release|x86.Build.0 = Release|Win32
+=======
+		{3C9C9EFA-2FA2-46E0-B4B0-722D19D5E83E}.Debug|x64.ActiveCfg = Debug|x64
+		{3C9C9EFA-2FA2-46E0-B4B0-722D19D5E83E}.Debug|x64.Build.0 = Debug|x64
+		{3C9C9EFA-2FA2-46E0-B4B0-722D19D5E83E}.Debug|x86.ActiveCfg = Debug|Win32
+		{3C9C9EFA-2FA2-46E0-B4B0-722D19D5E83E}.Debug|x86.Build.0 = Debug|Win32
+		{3C9C9EFA-2FA2-46E0-B4B0-722D19D5E83E}.Release|x64.ActiveCfg = Release|x64
+		{3C9C9EFA-2FA2-46E0-B4B0-722D19D5E83E}.Release|x64.Build.0 = Release|x64
+		{3C9C9EFA-2FA2-46E0-B4B0-722D19D5E83E}.Release|x86.ActiveCfg = Release|Win32
+		{3C9C9EFA-2FA2-46E0-B4B0-722D19D5E83E}.Release|x86.Build.0 = Release|Win32
+>>>>>>> Stashed changes
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1812,9 +1844,16 @@ Global
 		{619AD72B-09FE-4A21-B473-887A04A0663B} = {8F2CA5BA-ECE3-488C-BE7F-7F5A0A652520}
 		{F207243A-FC25-44E9-8912-A6EAC3D3A99E} = {8F2CA5BA-ECE3-488C-BE7F-7F5A0A652520}
 		{2F7F1511-CAFA-473E-B276-67703A593147} = {8F2CA5BA-ECE3-488C-BE7F-7F5A0A652520}
+<<<<<<< Updated upstream
 		{F5C17569-EFDC-475D-9B2A-72C9FFFEA58B} = {7754EF78-0117-4984-A5F4-D5D8D5E72308}
 		{7754EF78-0117-4984-A5F4-D5D8D5E72308} = {748E2906-7269-486D-ABAB-5C118B1E11E8}
 		{4101F786-088F-45A5-84D0-A0EBA7CCCC43} = {7754EF78-0117-4984-A5F4-D5D8D5E72308}
+=======
+		{1E00F54B-D152-46F9-87D4-42FD60B3FEF7} = {8F2CA5BA-ECE3-488C-BE7F-7F5A0A652520}
+		{CE15F4CF-D3AE-41C5-B2A5-A4E94B12CB27} = {748E2906-7269-486D-ABAB-5C118B1E11E8}
+		{F5C17569-EFDC-475D-9B2A-72C9FFFEA58B} = {CE15F4CF-D3AE-41C5-B2A5-A4E94B12CB27}
+		{3C9C9EFA-2FA2-46E0-B4B0-722D19D5E83E} = {CE15F4CF-D3AE-41C5-B2A5-A4E94B12CB27}
+>>>>>>> Stashed changes
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C538F23A-1B76-4BA7-BE24-D132BCDC7087}

@@ -18,10 +18,20 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+<<<<<<< Updated upstream
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{4101f786-088f-45a5-84d0-a0eba7cccc43}</ProjectGuid>
+=======
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{3c9c9efa-2fa2-46e0-b4b0-722d19d5e83e}</ProjectGuid>
+>>>>>>> Stashed changes
     <RootNamespace>My92입출력연산자오버로딩하기</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -126,9 +136,12 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+<<<<<<< Updated upstream
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+=======
+>>>>>>> Stashed changes
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

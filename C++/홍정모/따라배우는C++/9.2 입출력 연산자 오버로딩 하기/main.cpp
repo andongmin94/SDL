@@ -1,4 +1,5 @@
 ﻿#include <iostream>
+<<<<<<< Updated upstream
 #include <fstream>
 
 using namespace std;
@@ -56,4 +57,12 @@ int main()
 	// of << p1 << " " << p2 << endl;
 
 	of.close();
+=======
+
+using namespace std;
+
+int main()
+{
+
+>>>>>>> Stashed changes
 }
