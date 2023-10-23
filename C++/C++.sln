@@ -371,6 +371,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.1 산술 연산자 오버
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 9", "챕터 9", "{7754EF78-0117-4984-A5F4-D5D8D5E72308}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.2 입출력 연산자 오버로딩 하기", "홍정모\따라배우는C++\9.2 입출력 연산자 오버로딩 하기\9.2 입출력 연산자 오버로딩 하기.vcxproj", "{4101F786-088F-45A5-84D0-A0EBA7CCCC43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1619,6 +1621,14 @@ Global
 		{F5C17569-EFDC-475D-9B2A-72C9FFFEA58B}.Release|x64.Build.0 = Release|x64
 		{F5C17569-EFDC-475D-9B2A-72C9FFFEA58B}.Release|x86.ActiveCfg = Release|Win32
 		{F5C17569-EFDC-475D-9B2A-72C9FFFEA58B}.Release|x86.Build.0 = Release|Win32
+		{4101F786-088F-45A5-84D0-A0EBA7CCCC43}.Debug|x64.ActiveCfg = Debug|x64
+		{4101F786-088F-45A5-84D0-A0EBA7CCCC43}.Debug|x64.Build.0 = Debug|x64
+		{4101F786-088F-45A5-84D0-A0EBA7CCCC43}.Debug|x86.ActiveCfg = Debug|Win32
+		{4101F786-088F-45A5-84D0-A0EBA7CCCC43}.Debug|x86.Build.0 = Debug|Win32
+		{4101F786-088F-45A5-84D0-A0EBA7CCCC43}.Release|x64.ActiveCfg = Release|x64
+		{4101F786-088F-45A5-84D0-A0EBA7CCCC43}.Release|x64.Build.0 = Release|x64
+		{4101F786-088F-45A5-84D0-A0EBA7CCCC43}.Release|x86.ActiveCfg = Release|Win32
+		{4101F786-088F-45A5-84D0-A0EBA7CCCC43}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1804,6 +1814,7 @@ Global
 		{2F7F1511-CAFA-473E-B276-67703A593147} = {8F2CA5BA-ECE3-488C-BE7F-7F5A0A652520}
 		{F5C17569-EFDC-475D-9B2A-72C9FFFEA58B} = {7754EF78-0117-4984-A5F4-D5D8D5E72308}
 		{7754EF78-0117-4984-A5F4-D5D8D5E72308} = {748E2906-7269-486D-ABAB-5C118B1E11E8}
+		{4101F786-088F-45A5-84D0-A0EBA7CCCC43} = {7754EF78-0117-4984-A5F4-D5D8D5E72308}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C538F23A-1B76-4BA7-BE24-D132BCDC7087}
