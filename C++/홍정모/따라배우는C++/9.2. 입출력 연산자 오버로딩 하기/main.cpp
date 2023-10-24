@@ -25,6 +25,14 @@ public:
 
 		return out;
 	}
+
+	friend istream& operator >> (istream& in, Point& point)
+	{
+		in >> point.m_x >> point.m_y >> point.m_z;
+		//out << "(" << point.m_x << " " << point.m_y << " " << point.m_z << ")" << endl;
+
+		return in;
+	}
 };
 
 int main()
@@ -32,7 +40,7 @@ int main()
 	ofstream of("out.txt");
 
 	Point p1(0.1, 0.2, 0.3), p2(3.3, 3.4, 3.5);
-
+	cin >> p1 >> p2;
 
 	// 오버로딩이 되어있었다면
 	cout << p1 << p2 << endl;
