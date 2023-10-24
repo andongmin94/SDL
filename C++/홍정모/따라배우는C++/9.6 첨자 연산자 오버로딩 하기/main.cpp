@@ -1,20 +1,32 @@
 ﻿#include <iostream>
+#include <cassert>
 
 using namespace std;
 
 class IntList
 {
 private:
-	int m_list[10];
+	int m_list[10]{ 1,2,3,4,5,6,7,8,9,10 };
 
 public:
-	void setItem(int index, int value)
+	int& operator[] (const int index)
 	{
-		m_list[index] = value;
+		assert(index >= 0);
+		assert(index < 10);
+		return m_list[index];
 	}
 
-	int getItem(int index)
+	const int& operator[] (const int index) const
 	{
+		assert(index >= 0);
+		assert(index < 10);
 		return m_list[index];
 	}
 };
+
+int main()
+{
+	IntList* list = new IntList;
+
+	cout << (*list)[3] << endl;
+}
