@@ -4,25 +4,15 @@ using namespace std;
 
 int main()
 {
-	int a, b;
-	cin >> a;
-	if (a == 1010)
-	{
-		a = 10;
-		b = 10;
-	}
-	else
-	{
-		if (a >= 100 && (a % 100) / 10 == 1)
-		{
-			a = a / 100;
-			b = 10;
-		}
-		else
-		{
-			b = a % 10;
-			a = a / 10;
-		}
-	}
-	cout << a + b << endl;
+    long long a1, a2, a3, b, c;
+
+    cin >> a1 >> a2 >> a3;
+
+    b = static_cast<double>(a1 * a2) / a3;
+    c = static_cast<double>(a1) / a2 * a3;
+
+    if (b > c)
+        cout << b;
+    else
+        cout << c;
 }
