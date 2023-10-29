@@ -47,23 +47,7 @@ def comment_list(request):
     return Response(serializer.data)
 
 
-@api_view(['GET'])
-def comment_detail(request, comment_pk):
-    comment = Comment.objects.get(pk=comment_pk)
-    serializer = CommentSerializer(comment)
-    return Response(serializer.data)
-
-
-@api_view(['POST'])
-def comment_create(request, article_pk):
-    article = Article.objects.get(pk=article_pk)
-    serializer = CommentSerializer(data=request.data)
-    if serializer.is_valid(raise_exception=True):
-        serializer.save(article=article)
-        return Response(serializer.data, status=status.HTTP_201_CREATED)
-
-
-@api_view(['GET', 'DELETE', 'PUT'])
+@api_view(['GET',' DELETE', 'PUT'])
 def comment_detail(request, comment_pk):
     comment = Comment.objects.get(pk=comment_pk)
     if request.method == 'GET':
@@ -73,9 +57,18 @@ def comment_detail(request, comment_pk):
     elif request.method == 'DELETE':
         comment.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
-    
+
     elif request.method == 'PUT':
         serializer = CommentSerializer(comment, data=request.data)
         if serializer.is_valid(raise_exception=True):
             serializer.save()
             return Response(serializer.data)
+
+
+@api_view(['POST'])
+def comment_create(request, article_pk):
+    article = Article.objects.get(pk=article_pk)
+    serializer = CommentSerializer(data=request.data)
+    if serializer.is_valid(raise_exception=True):
+        serializer.save(article=article)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
