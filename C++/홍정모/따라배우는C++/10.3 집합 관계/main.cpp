@@ -7,12 +7,12 @@ using namespace std;
 
 int main()
 {
-	Student std1("Jack Jack", 0);
-	Student std2("Dash", 1);
-	Student std3("Violet", 2);
+	Student *std1 = new Student("Jack Jack", 0);
+	Student *std2 = new Student("Dash", 1);
+	Student *std3 = new Student("Violet", 2);
 
-	Teacher teacher1("Prof. Hong");
-	Teacher teacher2("Prof. Good");
+	Teacher *teacher1 = new Teacher("Prof. Hong");
+	Teacher *teacher2 = new Teacher("Prof. Good");
 
 	// Compositin Relationship
 	Lecture lec1("Introduction to Computer Programming");
@@ -38,4 +38,14 @@ int main()
 		cout << lec1 << endl;
 		cout << lec2 << endl;
 	}
+
+	// TODO: class hobbyClub
+
+	// delete memory (if necessary)
+	delete std1;
+	delete std2;
+	delete std3;
+
+	delete teacher1;
+	delete teacher2;
 }
