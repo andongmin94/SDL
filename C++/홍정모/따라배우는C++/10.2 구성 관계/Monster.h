@@ -23,7 +23,7 @@ public:
 
 	friend std::ostream& operator << (std::ostream& out, const Monster& monster)
 	{
-		out << monster.m_name << " " << monster.m_location << std::endl;
+		out << monster.m_name << " " << monster.m_location;
 		return out;
 	}
 };
