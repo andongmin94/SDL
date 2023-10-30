@@ -4,25 +4,18 @@ using namespace std;
 
 int main()
 {
-	int a, b;
-	cin >> a;
-	if (a == 1010)
+	int a, b, c, d, e;
+	cin >> a >> b >> c >> d >> e;
+	int time = 0;
+	while (a < b)
 	{
-		a = 10;
-		b = 10;
+		if (a < 0)
+			time += c;
+		if (a >= 0)
+			time += e;
+		if (a == 0 && time > 0)
+			time += d;
+		a++;
 	}
-	else
-	{
-		if (a >= 100 && (a % 100) / 10 == 1)
-		{
-			a = a / 100;
-			b = 10;
-		}
-		else
-		{
-			b = a % 10;
-			a = a / 10;
-		}
-	}
-	cout << a + b << endl;
+	cout << time;
 }
