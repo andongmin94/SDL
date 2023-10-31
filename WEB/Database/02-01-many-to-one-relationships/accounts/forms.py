@@ -12,5 +12,3 @@ class CustomUserChangeForm(UserChangeForm):
         model = get_user_model()
         fields = ('first_name', 'last_name', 'email')
 
-
-
