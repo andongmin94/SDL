@@ -4,18 +4,14 @@ using namespace std;
 
 int main()
 {
-	int a, b, c, d, e;
-	cin >> a >> b >> c >> d >> e;
-	int time = 0;
-	while (a < b)
+	int sum = 0;
+	while (1)
 	{
-		if (a < 0)
-			time += c;
-		if (a >= 0)
-			time += e;
-		if (a == 0 && time > 0)
-			time += d;
-		a++;
+		int a;
+		cin >> a;
+		if (a == -1)
+			break;
+		sum += a;
 	}
-	cout << time;
+	cout << sum;
 }
