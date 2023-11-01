@@ -417,6 +417,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.2 상속의 기본 (2)",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.3 유도된 클래스들의 생성 순서", "홍정모\따라배우는C++\11.3 유도된 클래스들의 생성 순서\11.3 유도된 클래스들의 생성 순서.vcxproj", "{7C672AE4-DC14-497C-820F-A7A7EE3E3902}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.4 유도된 클래스들의 생성과 초기화", "홍정모\따라배우는C++\11.4 유도된 클래스들의 생성과 초기화\11.4 유도된 클래스들의 생성과 초기화.vcxproj", "{2BC00F47-72C0-48A5-92EC-EF69978B7283}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1833,6 +1835,14 @@ Global
 		{7C672AE4-DC14-497C-820F-A7A7EE3E3902}.Release|x64.Build.0 = Release|x64
 		{7C672AE4-DC14-497C-820F-A7A7EE3E3902}.Release|x86.ActiveCfg = Release|Win32
 		{7C672AE4-DC14-497C-820F-A7A7EE3E3902}.Release|x86.Build.0 = Release|Win32
+		{2BC00F47-72C0-48A5-92EC-EF69978B7283}.Debug|x64.ActiveCfg = Debug|x64
+		{2BC00F47-72C0-48A5-92EC-EF69978B7283}.Debug|x64.Build.0 = Debug|x64
+		{2BC00F47-72C0-48A5-92EC-EF69978B7283}.Debug|x86.ActiveCfg = Debug|Win32
+		{2BC00F47-72C0-48A5-92EC-EF69978B7283}.Debug|x86.Build.0 = Debug|Win32
+		{2BC00F47-72C0-48A5-92EC-EF69978B7283}.Release|x64.ActiveCfg = Release|x64
+		{2BC00F47-72C0-48A5-92EC-EF69978B7283}.Release|x64.Build.0 = Release|x64
+		{2BC00F47-72C0-48A5-92EC-EF69978B7283}.Release|x86.ActiveCfg = Release|Win32
+		{2BC00F47-72C0-48A5-92EC-EF69978B7283}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2041,6 +2051,7 @@ Global
 		{5400CA2E-0BDC-4947-992A-C49F5771890A} = {BF8961E9-3152-4334-BDFC-7BFC03A3E1F1}
 		{11C7261C-9C8C-4304-AEDF-334CF12B04E6} = {BF8961E9-3152-4334-BDFC-7BFC03A3E1F1}
 		{7C672AE4-DC14-497C-820F-A7A7EE3E3902} = {BF8961E9-3152-4334-BDFC-7BFC03A3E1F1}
+		{2BC00F47-72C0-48A5-92EC-EF69978B7283} = {BF8961E9-3152-4334-BDFC-7BFC03A3E1F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C538F23A-1B76-4BA7-BE24-D132BCDC7087}
