@@ -2,10 +2,10 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Worker.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Timer.h" />
-    <ClInclude Include="Worker.h" />
+    <ClInclude Include="Student.h" />
+    <ClInclude Include="Teacher.h" />
+    <ClInclude Include="Person.h" />
   </ItemGroup>
 </Project>
