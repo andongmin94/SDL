@@ -407,6 +407,16 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.4 제휴 관계", "홍�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.5 의존 관계", "홍정모\따라배우는C++\10.5 의존 관계\10.5 의존 관계.vcxproj", "{712C1966-8EC3-4B92-8801-275271BB3430}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.6 컨테이너 클래스", "홍정모\따라배우는C++\10.6 컨테이너 클래스\10.6 컨테이너 클래스.vcxproj", "{1B4194C3-53CA-40B5-9E56-6A2E2ACEF20A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 11", "챕터 11", "{BF8961E9-3152-4334-BDFC-7BFC03A3E1F1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.1 상속의 기본 (1)", "홍정모\따라배우는C++\11.1 상속의 기본 (1)\11.1 상속의 기본 (1).vcxproj", "{5400CA2E-0BDC-4947-992A-C49F5771890A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.2 상속의 기본 (2)", "홍정모\따라배우는C++\11.2 상속의 기본 (2)\11.2 상속의 기본 (2).vcxproj", "{11C7261C-9C8C-4304-AEDF-334CF12B04E6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.3 유도된 클래스들의 생성 순서", "홍정모\따라배우는C++\11.3 유도된 클래스들의 생성 순서\11.3 유도된 클래스들의 생성 순서.vcxproj", "{7C672AE4-DC14-497C-820F-A7A7EE3E3902}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1791,6 +1801,38 @@ Global
 		{712C1966-8EC3-4B92-8801-275271BB3430}.Release|x64.Build.0 = Release|x64
 		{712C1966-8EC3-4B92-8801-275271BB3430}.Release|x86.ActiveCfg = Release|Win32
 		{712C1966-8EC3-4B92-8801-275271BB3430}.Release|x86.Build.0 = Release|Win32
+		{1B4194C3-53CA-40B5-9E56-6A2E2ACEF20A}.Debug|x64.ActiveCfg = Debug|x64
+		{1B4194C3-53CA-40B5-9E56-6A2E2ACEF20A}.Debug|x64.Build.0 = Debug|x64
+		{1B4194C3-53CA-40B5-9E56-6A2E2ACEF20A}.Debug|x86.ActiveCfg = Debug|Win32
+		{1B4194C3-53CA-40B5-9E56-6A2E2ACEF20A}.Debug|x86.Build.0 = Debug|Win32
+		{1B4194C3-53CA-40B5-9E56-6A2E2ACEF20A}.Release|x64.ActiveCfg = Release|x64
+		{1B4194C3-53CA-40B5-9E56-6A2E2ACEF20A}.Release|x64.Build.0 = Release|x64
+		{1B4194C3-53CA-40B5-9E56-6A2E2ACEF20A}.Release|x86.ActiveCfg = Release|Win32
+		{1B4194C3-53CA-40B5-9E56-6A2E2ACEF20A}.Release|x86.Build.0 = Release|Win32
+		{5400CA2E-0BDC-4947-992A-C49F5771890A}.Debug|x64.ActiveCfg = Debug|x64
+		{5400CA2E-0BDC-4947-992A-C49F5771890A}.Debug|x64.Build.0 = Debug|x64
+		{5400CA2E-0BDC-4947-992A-C49F5771890A}.Debug|x86.ActiveCfg = Debug|Win32
+		{5400CA2E-0BDC-4947-992A-C49F5771890A}.Debug|x86.Build.0 = Debug|Win32
+		{5400CA2E-0BDC-4947-992A-C49F5771890A}.Release|x64.ActiveCfg = Release|x64
+		{5400CA2E-0BDC-4947-992A-C49F5771890A}.Release|x64.Build.0 = Release|x64
+		{5400CA2E-0BDC-4947-992A-C49F5771890A}.Release|x86.ActiveCfg = Release|Win32
+		{5400CA2E-0BDC-4947-992A-C49F5771890A}.Release|x86.Build.0 = Release|Win32
+		{11C7261C-9C8C-4304-AEDF-334CF12B04E6}.Debug|x64.ActiveCfg = Debug|x64
+		{11C7261C-9C8C-4304-AEDF-334CF12B04E6}.Debug|x64.Build.0 = Debug|x64
+		{11C7261C-9C8C-4304-AEDF-334CF12B04E6}.Debug|x86.ActiveCfg = Debug|Win32
+		{11C7261C-9C8C-4304-AEDF-334CF12B04E6}.Debug|x86.Build.0 = Debug|Win32
+		{11C7261C-9C8C-4304-AEDF-334CF12B04E6}.Release|x64.ActiveCfg = Release|x64
+		{11C7261C-9C8C-4304-AEDF-334CF12B04E6}.Release|x64.Build.0 = Release|x64
+		{11C7261C-9C8C-4304-AEDF-334CF12B04E6}.Release|x86.ActiveCfg = Release|Win32
+		{11C7261C-9C8C-4304-AEDF-334CF12B04E6}.Release|x86.Build.0 = Release|Win32
+		{7C672AE4-DC14-497C-820F-A7A7EE3E3902}.Debug|x64.ActiveCfg = Debug|x64
+		{7C672AE4-DC14-497C-820F-A7A7EE3E3902}.Debug|x64.Build.0 = Debug|x64
+		{7C672AE4-DC14-497C-820F-A7A7EE3E3902}.Debug|x86.ActiveCfg = Debug|Win32
+		{7C672AE4-DC14-497C-820F-A7A7EE3E3902}.Debug|x86.Build.0 = Debug|Win32
+		{7C672AE4-DC14-497C-820F-A7A7EE3E3902}.Release|x64.ActiveCfg = Release|x64
+		{7C672AE4-DC14-497C-820F-A7A7EE3E3902}.Release|x64.Build.0 = Release|x64
+		{7C672AE4-DC14-497C-820F-A7A7EE3E3902}.Release|x86.ActiveCfg = Release|Win32
+		{7C672AE4-DC14-497C-820F-A7A7EE3E3902}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1994,6 +2036,11 @@ Global
 		{1CDDF20F-9D74-408A-AF2E-01FA5CD23557} = {FF0A7D12-C30F-4346-8422-0D554BE5197F}
 		{28D129EF-0749-475E-BE5C-29AAC691D50E} = {FF0A7D12-C30F-4346-8422-0D554BE5197F}
 		{712C1966-8EC3-4B92-8801-275271BB3430} = {FF0A7D12-C30F-4346-8422-0D554BE5197F}
+		{1B4194C3-53CA-40B5-9E56-6A2E2ACEF20A} = {FF0A7D12-C30F-4346-8422-0D554BE5197F}
+		{BF8961E9-3152-4334-BDFC-7BFC03A3E1F1} = {748E2906-7269-486D-ABAB-5C118B1E11E8}
+		{5400CA2E-0BDC-4947-992A-C49F5771890A} = {BF8961E9-3152-4334-BDFC-7BFC03A3E1F1}
+		{11C7261C-9C8C-4304-AEDF-334CF12B04E6} = {BF8961E9-3152-4334-BDFC-7BFC03A3E1F1}
+		{7C672AE4-DC14-497C-820F-A7A7EE3E3902} = {BF8961E9-3152-4334-BDFC-7BFC03A3E1F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C538F23A-1B76-4BA7-BE24-D132BCDC7087}
