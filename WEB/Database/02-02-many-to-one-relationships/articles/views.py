@@ -30,9 +30,7 @@ def create(request):
     if request.method == 'POST':
         form = ArticleForm(request.POST)
         if form.is_valid():
-            article = form.save(commit=False)
-            article.user = request.user
-            article.save()
+            article = form.save()
             return redirect('articles:detail', article.pk)
     else:
         form = ArticleForm()
@@ -52,16 +50,13 @@ def delete(request, pk):
 @login_required
 def update(request, pk):
     article = Article.objects.get(pk=pk)
-    if request.user == article.user:
-        if request.method == 'POST':
-            form = ArticleForm(request.POST, instance=article)
-            if form.is_valid:
-                form.save()
-                return redirect('articles:detail', article.pk)
-        else:
-            form = ArticleForm(instance=article)
+    if request.method == 'POST':
+        form = ArticleForm(request.POST, instance=article)
+        if form.is_valid:
+            form.save()
+            return redirect('articles:detail', article.pk)
     else:
-        return redirect('articles:index')
+        form = ArticleForm(instance=article)
     context = {
         'article': article,
         'form': form,
