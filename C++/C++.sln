@@ -437,6 +437,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.2 가상 함수와 다�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.3 override, final, 공변 반환값", "홍정모\따라배우는C++\12.3 override, final, 공변 반환값\12.3 override, final, 공변 반환값.vcxproj", "{46FC8E35-61B3-4761-9ABB-1105671D1539}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.4 가상 소멸자", "홍정모\따라배우는C++\12.4 가상 소멸자\12.4 가상 소멸자.vcxproj", "{9FA99C21-FA02-461C-8A4B-E872533B3273}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.5 동적 바인딩과 정적 바인딩", "홍정모\따라배우는C++\12.5 동적 바인딩과 정적 바인딩\12.5 동적 바인딩과 정적 바인딩.vcxproj", "{11B7C2B1-5228-400E-8844-595171FBB165}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.6 가상 (함수) 표", "홍정모\따라배우는C++\12.6 가상 (함수) 표\12.6 가상 (함수) 표.vcxproj", "{86968385-AF1C-452A-B817-0520CE490E36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1925,6 +1931,30 @@ Global
 		{46FC8E35-61B3-4761-9ABB-1105671D1539}.Release|x64.Build.0 = Release|x64
 		{46FC8E35-61B3-4761-9ABB-1105671D1539}.Release|x86.ActiveCfg = Release|Win32
 		{46FC8E35-61B3-4761-9ABB-1105671D1539}.Release|x86.Build.0 = Release|Win32
+		{9FA99C21-FA02-461C-8A4B-E872533B3273}.Debug|x64.ActiveCfg = Debug|x64
+		{9FA99C21-FA02-461C-8A4B-E872533B3273}.Debug|x64.Build.0 = Debug|x64
+		{9FA99C21-FA02-461C-8A4B-E872533B3273}.Debug|x86.ActiveCfg = Debug|Win32
+		{9FA99C21-FA02-461C-8A4B-E872533B3273}.Debug|x86.Build.0 = Debug|Win32
+		{9FA99C21-FA02-461C-8A4B-E872533B3273}.Release|x64.ActiveCfg = Release|x64
+		{9FA99C21-FA02-461C-8A4B-E872533B3273}.Release|x64.Build.0 = Release|x64
+		{9FA99C21-FA02-461C-8A4B-E872533B3273}.Release|x86.ActiveCfg = Release|Win32
+		{9FA99C21-FA02-461C-8A4B-E872533B3273}.Release|x86.Build.0 = Release|Win32
+		{11B7C2B1-5228-400E-8844-595171FBB165}.Debug|x64.ActiveCfg = Debug|x64
+		{11B7C2B1-5228-400E-8844-595171FBB165}.Debug|x64.Build.0 = Debug|x64
+		{11B7C2B1-5228-400E-8844-595171FBB165}.Debug|x86.ActiveCfg = Debug|Win32
+		{11B7C2B1-5228-400E-8844-595171FBB165}.Debug|x86.Build.0 = Debug|Win32
+		{11B7C2B1-5228-400E-8844-595171FBB165}.Release|x64.ActiveCfg = Release|x64
+		{11B7C2B1-5228-400E-8844-595171FBB165}.Release|x64.Build.0 = Release|x64
+		{11B7C2B1-5228-400E-8844-595171FBB165}.Release|x86.ActiveCfg = Release|Win32
+		{11B7C2B1-5228-400E-8844-595171FBB165}.Release|x86.Build.0 = Release|Win32
+		{86968385-AF1C-452A-B817-0520CE490E36}.Debug|x64.ActiveCfg = Debug|x64
+		{86968385-AF1C-452A-B817-0520CE490E36}.Debug|x64.Build.0 = Debug|x64
+		{86968385-AF1C-452A-B817-0520CE490E36}.Debug|x86.ActiveCfg = Debug|Win32
+		{86968385-AF1C-452A-B817-0520CE490E36}.Debug|x86.Build.0 = Debug|Win32
+		{86968385-AF1C-452A-B817-0520CE490E36}.Release|x64.ActiveCfg = Release|x64
+		{86968385-AF1C-452A-B817-0520CE490E36}.Release|x64.Build.0 = Release|x64
+		{86968385-AF1C-452A-B817-0520CE490E36}.Release|x86.ActiveCfg = Release|Win32
+		{86968385-AF1C-452A-B817-0520CE490E36}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2143,6 +2173,9 @@ Global
 		{69942A19-F59C-4639-881F-06B2F897DE1C} = {9166F80B-911D-4924-9AC9-A93CA82A189F}
 		{B73EAA6E-AC5A-492D-8881-452F0285CE5E} = {9166F80B-911D-4924-9AC9-A93CA82A189F}
 		{46FC8E35-61B3-4761-9ABB-1105671D1539} = {9166F80B-911D-4924-9AC9-A93CA82A189F}
+		{9FA99C21-FA02-461C-8A4B-E872533B3273} = {9166F80B-911D-4924-9AC9-A93CA82A189F}
+		{11B7C2B1-5228-400E-8844-595171FBB165} = {9166F80B-911D-4924-9AC9-A93CA82A189F}
+		{86968385-AF1C-452A-B817-0520CE490E36} = {9166F80B-911D-4924-9AC9-A93CA82A189F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C538F23A-1B76-4BA7-BE24-D132BCDC7087}
