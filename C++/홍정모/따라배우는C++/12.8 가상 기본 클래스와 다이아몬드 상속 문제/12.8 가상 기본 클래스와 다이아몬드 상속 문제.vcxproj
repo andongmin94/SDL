@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{05863209-0935-481b-a3cb-9415206d17d1}</ProjectGuid>
-    <RootNamespace>My127순수가상함수추상기본클래스인터페이스클래스</RootNamespace>
+    <ProjectGuid>{d4fe5011-9ada-423d-a42b-c32e51f37aa2}</ProjectGuid>
+    <RootNamespace>My128가상기본클래스와다이아몬드상속문제</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -128,7 +128,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="main2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
