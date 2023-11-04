@@ -4,15 +4,20 @@ using namespace std;
 
 int main()
 {
-	int n, min = -1;
-	cin >> n;
+	int n, a, b, ans = 0x3f3f3f3f;
 
-	for (int i = 0; i < n; i++)
+	cin >> n;
+	while (n--)
 	{
-		int a, b;
 		cin >> a >> b;
-		if (a <= b && min < b)
-			min = b;
+
+		if (a <= b) ans = min(ans, b);
+
+		if (n == 0) break;
 	}
-	cout << min;
+
+	if (ans == 0x3f3f3f3f)
+		cout << -1;
+	else
+		cout << ans;
 }
