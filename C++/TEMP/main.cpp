@@ -4,10 +4,15 @@ using namespace std;
 
 int main()
 {
-	char a;
-	cin >> a;
-	if (a == 'N' || a == 'n')
-		cout << "Naver D2";
-	else
-		cout << "Naver Whale";
+	int n, min = -1;
+	cin >> n;
+
+	for (int i = 0; i < n; i++)
+	{
+		int a, b;
+		cin >> a >> b;
+		if (a <= b && min < b)
+			min = b;
+	}
+	cout << min;
 }

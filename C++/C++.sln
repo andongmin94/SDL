@@ -443,6 +443,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.5 동적 바인딩과 �
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.6 가상 (함수) 표", "홍정모\따라배우는C++\12.6 가상 (함수) 표\12.6 가상 (함수) 표.vcxproj", "{86968385-AF1C-452A-B817-0520CE490E36}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.7 순수 가상 함수, 추상 기본 클래스, 인터페이스 클래스", "홍정모\따라배우는C++\12.7 순수 가상 함수, 추상 기본 클래스, 인터페이스 클래스\12.7 순수 가상 함수, 추상 기본 클래스, 인터페이스 클래스.vcxproj", "{05863209-0935-481B-A3CB-9415206D17D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1955,6 +1957,14 @@ Global
 		{86968385-AF1C-452A-B817-0520CE490E36}.Release|x64.Build.0 = Release|x64
 		{86968385-AF1C-452A-B817-0520CE490E36}.Release|x86.ActiveCfg = Release|Win32
 		{86968385-AF1C-452A-B817-0520CE490E36}.Release|x86.Build.0 = Release|Win32
+		{05863209-0935-481B-A3CB-9415206D17D1}.Debug|x64.ActiveCfg = Debug|x64
+		{05863209-0935-481B-A3CB-9415206D17D1}.Debug|x64.Build.0 = Debug|x64
+		{05863209-0935-481B-A3CB-9415206D17D1}.Debug|x86.ActiveCfg = Debug|Win32
+		{05863209-0935-481B-A3CB-9415206D17D1}.Debug|x86.Build.0 = Debug|Win32
+		{05863209-0935-481B-A3CB-9415206D17D1}.Release|x64.ActiveCfg = Release|x64
+		{05863209-0935-481B-A3CB-9415206D17D1}.Release|x64.Build.0 = Release|x64
+		{05863209-0935-481B-A3CB-9415206D17D1}.Release|x86.ActiveCfg = Release|Win32
+		{05863209-0935-481B-A3CB-9415206D17D1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2176,6 +2186,7 @@ Global
 		{9FA99C21-FA02-461C-8A4B-E872533B3273} = {9166F80B-911D-4924-9AC9-A93CA82A189F}
 		{11B7C2B1-5228-400E-8844-595171FBB165} = {9166F80B-911D-4924-9AC9-A93CA82A189F}
 		{86968385-AF1C-452A-B817-0520CE490E36} = {9166F80B-911D-4924-9AC9-A93CA82A189F}
+		{05863209-0935-481B-A3CB-9415206D17D1} = {9166F80B-911D-4924-9AC9-A93CA82A189F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C538F23A-1B76-4BA7-BE24-D132BCDC7087}
