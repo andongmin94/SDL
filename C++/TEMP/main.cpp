@@ -4,20 +4,13 @@ using namespace std;
 
 int main()
 {
-	int n, a, b, ans = 0x3f3f3f3f;
+	long long n, m;
+	cin >> n >> m;
 
-	cin >> n;
-	while (n--)
-	{
-		cin >> a >> b;
-
-		if (a <= b) ans = min(ans, b);
-
-		if (n == 0) break;
-	}
-
-	if (ans == 0x3f3f3f3f)
-		cout << -1;
+	if (n % 2 == 0)
+		cout << (n / 2) * m << endl;
+	else if (m % 2 == 0)
+		cout << n * (m / 2) << endl;
 	else
-		cout << ans;
+		cout << (n / 2) * m + m / 2 << endl;
 }
