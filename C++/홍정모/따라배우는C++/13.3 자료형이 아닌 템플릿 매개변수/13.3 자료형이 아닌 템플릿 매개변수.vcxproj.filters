@@ -4,6 +4,6 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Cents.h" />
+    <ClInclude Include="MyArray.h" />
   </ItemGroup>
 </Project>
