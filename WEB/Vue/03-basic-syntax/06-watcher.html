@@ -28,10 +28,15 @@
         const message = ref('')
         const messageLength = ref(0)
 
+        const countWatch = watch(count, (newValue, oldValue) => {
+          console.log(`newValue: ${newValue}, oldValue: ${oldValue}`)
+        })
+
         return {
           count,
           message,
-          messageLength
+          messageLength,
+          countWatch
         }
       }
     })

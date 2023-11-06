@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0a62b685-e134-4cb3-a57e-9a694280ec78}</ProjectGuid>
-    <RootNamespace>My131함수템플릿</RootNamespace>
+    <ProjectGuid>{d869a3ad-2840-4f7b-91c1-b23c9ae8ce42}</ProjectGuid>
+    <RootNamespace>My132클래스템플릿</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -128,9 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MyArray.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Cents.h" />
+    <ClInclude Include="MyArray.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
