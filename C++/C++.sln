@@ -465,6 +465,16 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.4 함수 템플릿 특�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.5 클래스 템플릿 특수화", "홍정모\따라배우는C++\13.5 클래스 템플릿 특수화\13.5 클래스 템플릿 특수화.vcxproj", "{A91CD6FD-FFB9-4045-BFDA-388DF2C52ED2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.6 템플릿을 부분적으로 특수화하기", "홍정모\따라배우는C++\13.6 템플릿을 부분적으로 특수화하기\13.6 템플릿을 부분적으로 특수화하기.vcxproj", "{D714560E-97D4-43F6-AE53-0D518201F805}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.7 포인터에 대한 템플릿 특수화", "홍정모\따라배우는C++\13.7 포인터에 대한 템플릿 특수화\13.7 포인터에 대한 템플릿 특수화.vcxproj", "{860ADDCA-FE06-4827-91F5-9E4A5F23813D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.8 멤버 함수를 한 번 더 템플릿화 하기", "홍정모\따라배우는C++\13.8 멤버 함수를 한 번 더 템플릿화 하기\13.8 멤버 함수를 한 번 더 템플릿화 하기.vcxproj", "{FC856901-8C84-4C16-A772-AEF615D395F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 14", "챕터 14", "{984BB36A-E213-453E-87AA-D724FFD9E90C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.1 예외처리의 기본", "홍정모\따라배우는C++\14.1 예외처리의 기본\14.1 예외처리의 기본.vcxproj", "{B5113A2F-B93C-4094-A475-D772FDBDA016}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -2057,6 +2067,38 @@ Global
 		{A91CD6FD-FFB9-4045-BFDA-388DF2C52ED2}.Release|x64.Build.0 = Release|x64
 		{A91CD6FD-FFB9-4045-BFDA-388DF2C52ED2}.Release|x86.ActiveCfg = Release|Win32
 		{A91CD6FD-FFB9-4045-BFDA-388DF2C52ED2}.Release|x86.Build.0 = Release|Win32
+		{D714560E-97D4-43F6-AE53-0D518201F805}.Debug|x64.ActiveCfg = Debug|x64
+		{D714560E-97D4-43F6-AE53-0D518201F805}.Debug|x64.Build.0 = Debug|x64
+		{D714560E-97D4-43F6-AE53-0D518201F805}.Debug|x86.ActiveCfg = Debug|Win32
+		{D714560E-97D4-43F6-AE53-0D518201F805}.Debug|x86.Build.0 = Debug|Win32
+		{D714560E-97D4-43F6-AE53-0D518201F805}.Release|x64.ActiveCfg = Release|x64
+		{D714560E-97D4-43F6-AE53-0D518201F805}.Release|x64.Build.0 = Release|x64
+		{D714560E-97D4-43F6-AE53-0D518201F805}.Release|x86.ActiveCfg = Release|Win32
+		{D714560E-97D4-43F6-AE53-0D518201F805}.Release|x86.Build.0 = Release|Win32
+		{860ADDCA-FE06-4827-91F5-9E4A5F23813D}.Debug|x64.ActiveCfg = Debug|x64
+		{860ADDCA-FE06-4827-91F5-9E4A5F23813D}.Debug|x64.Build.0 = Debug|x64
+		{860ADDCA-FE06-4827-91F5-9E4A5F23813D}.Debug|x86.ActiveCfg = Debug|Win32
+		{860ADDCA-FE06-4827-91F5-9E4A5F23813D}.Debug|x86.Build.0 = Debug|Win32
+		{860ADDCA-FE06-4827-91F5-9E4A5F23813D}.Release|x64.ActiveCfg = Release|x64
+		{860ADDCA-FE06-4827-91F5-9E4A5F23813D}.Release|x64.Build.0 = Release|x64
+		{860ADDCA-FE06-4827-91F5-9E4A5F23813D}.Release|x86.ActiveCfg = Release|Win32
+		{860ADDCA-FE06-4827-91F5-9E4A5F23813D}.Release|x86.Build.0 = Release|Win32
+		{FC856901-8C84-4C16-A772-AEF615D395F9}.Debug|x64.ActiveCfg = Debug|x64
+		{FC856901-8C84-4C16-A772-AEF615D395F9}.Debug|x64.Build.0 = Debug|x64
+		{FC856901-8C84-4C16-A772-AEF615D395F9}.Debug|x86.ActiveCfg = Debug|Win32
+		{FC856901-8C84-4C16-A772-AEF615D395F9}.Debug|x86.Build.0 = Debug|Win32
+		{FC856901-8C84-4C16-A772-AEF615D395F9}.Release|x64.ActiveCfg = Release|x64
+		{FC856901-8C84-4C16-A772-AEF615D395F9}.Release|x64.Build.0 = Release|x64
+		{FC856901-8C84-4C16-A772-AEF615D395F9}.Release|x86.ActiveCfg = Release|Win32
+		{FC856901-8C84-4C16-A772-AEF615D395F9}.Release|x86.Build.0 = Release|Win32
+		{B5113A2F-B93C-4094-A475-D772FDBDA016}.Debug|x64.ActiveCfg = Debug|x64
+		{B5113A2F-B93C-4094-A475-D772FDBDA016}.Debug|x64.Build.0 = Debug|x64
+		{B5113A2F-B93C-4094-A475-D772FDBDA016}.Debug|x86.ActiveCfg = Debug|Win32
+		{B5113A2F-B93C-4094-A475-D772FDBDA016}.Debug|x86.Build.0 = Debug|Win32
+		{B5113A2F-B93C-4094-A475-D772FDBDA016}.Release|x64.ActiveCfg = Release|x64
+		{B5113A2F-B93C-4094-A475-D772FDBDA016}.Release|x64.Build.0 = Release|x64
+		{B5113A2F-B93C-4094-A475-D772FDBDA016}.Release|x86.ActiveCfg = Release|Win32
+		{B5113A2F-B93C-4094-A475-D772FDBDA016}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2289,6 +2331,11 @@ Global
 		{D136AAA5-1558-456C-9CE1-6F63A54F7421} = {CC1E16E5-F2A2-4DDB-BD65-A671D8A2F9AA}
 		{E1B59796-A4AE-4981-9220-0E536F1431C3} = {CC1E16E5-F2A2-4DDB-BD65-A671D8A2F9AA}
 		{A91CD6FD-FFB9-4045-BFDA-388DF2C52ED2} = {CC1E16E5-F2A2-4DDB-BD65-A671D8A2F9AA}
+		{D714560E-97D4-43F6-AE53-0D518201F805} = {CC1E16E5-F2A2-4DDB-BD65-A671D8A2F9AA}
+		{860ADDCA-FE06-4827-91F5-9E4A5F23813D} = {CC1E16E5-F2A2-4DDB-BD65-A671D8A2F9AA}
+		{FC856901-8C84-4C16-A772-AEF615D395F9} = {CC1E16E5-F2A2-4DDB-BD65-A671D8A2F9AA}
+		{984BB36A-E213-453E-87AA-D724FFD9E90C} = {748E2906-7269-486D-ABAB-5C118B1E11E8}
+		{B5113A2F-B93C-4094-A475-D772FDBDA016} = {984BB36A-E213-453E-87AA-D724FFD9E90C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C538F23A-1B76-4BA7-BE24-D132BCDC7087}
