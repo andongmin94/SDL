@@ -3,16 +3,17 @@
 
 using namespace std;
 
+long long recur(long long a)
+{
+	int b = 0;
+	int c = 0;
+
+
+	return
+}
+
 int main()
 {
-	string a, c;	
-	int b, d = 0;
-	cin >> a >> b;
-	for (int i = 0; i < b; i++)
-	{
-		cin >> c;
-		if (a == c)
-			d++;
-	}
-	cout << d;
+	long long a;
+	cin >> a
 }
