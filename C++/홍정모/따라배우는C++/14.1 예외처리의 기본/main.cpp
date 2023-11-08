@@ -4,28 +4,30 @@
 
 using namespace std;
 
-int findFirstChar(const char* string, char ch)
-{
-	for (std::size_t index = 0; index < strlen(string); index++)
-		if (string[index] == ch)
-			return index;
-
-	return -1; // no match
-}
-
-double divide(int x, int y, bool& success)
-{
-	if (y == 0)
-	{
-		success = false;
-		return 0.0;
-	}
-
-	success = false;
-	return static_cast<double>(x) / y;
-}
-
 int main()
 {
+	// try, catch, throw
 
+	try
+	{
+		// something happend
+		throw string("My error message");
+	}
+	catch (int x)
+	{
+		cout << "Catch integer " << x << endl;
+	}
+	catch (double x)
+	{
+		cout << "Double integer " << x << endl;
+	}
+	catch (const char* error_message)
+	{
+		cout << "Char * " << error_message << endl;
+	}
+	catch (std::string error_message)
+	{
+		// do something to respond
+		cout << error_message << endl;
+	}
 }
