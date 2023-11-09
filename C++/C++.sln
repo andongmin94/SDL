@@ -481,6 +481,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.3 예외 클래스와 �
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.4 exception 소개", "홍정모\따라배우는C++\14.4 exception 소개\14.4 exception 소개.vcxproj", "{D645AA51-47F4-49FF-BDF7-602EA19F551D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.5 함수 try", "홍정모\따라배우는C++\14.5 함수 try\14.5 함수 try.vcxproj", "{6571FF86-A23E-413E-ADBC-F64BBB4376E8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.6 예외처리의 위험성과 단점", "홍정모\따라배우는C++\14.6 예외처리의 위험성과 단점\14.6 예외처리의 위험성과 단점.vcxproj", "{45D011EE-0313-4305-BF28-C7E7F5FFA5A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 15", "챕터 15", "{A7136C99-DBF6-46AA-BBD7-E234A092B7D6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.1 이동의 의미와 스마트 포인터", "홍정모\따라배우는C++\15.1 이동의 의미와 스마트 포인터\15.1 이동의 의미와 스마트 포인터.vcxproj", "{B7F27270-AB23-4AF2-9C52-AC638A0A24CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -2129,6 +2137,30 @@ Global
 		{D645AA51-47F4-49FF-BDF7-602EA19F551D}.Release|x64.Build.0 = Release|x64
 		{D645AA51-47F4-49FF-BDF7-602EA19F551D}.Release|x86.ActiveCfg = Release|Win32
 		{D645AA51-47F4-49FF-BDF7-602EA19F551D}.Release|x86.Build.0 = Release|Win32
+		{6571FF86-A23E-413E-ADBC-F64BBB4376E8}.Debug|x64.ActiveCfg = Debug|x64
+		{6571FF86-A23E-413E-ADBC-F64BBB4376E8}.Debug|x64.Build.0 = Debug|x64
+		{6571FF86-A23E-413E-ADBC-F64BBB4376E8}.Debug|x86.ActiveCfg = Debug|Win32
+		{6571FF86-A23E-413E-ADBC-F64BBB4376E8}.Debug|x86.Build.0 = Debug|Win32
+		{6571FF86-A23E-413E-ADBC-F64BBB4376E8}.Release|x64.ActiveCfg = Release|x64
+		{6571FF86-A23E-413E-ADBC-F64BBB4376E8}.Release|x64.Build.0 = Release|x64
+		{6571FF86-A23E-413E-ADBC-F64BBB4376E8}.Release|x86.ActiveCfg = Release|Win32
+		{6571FF86-A23E-413E-ADBC-F64BBB4376E8}.Release|x86.Build.0 = Release|Win32
+		{45D011EE-0313-4305-BF28-C7E7F5FFA5A2}.Debug|x64.ActiveCfg = Debug|x64
+		{45D011EE-0313-4305-BF28-C7E7F5FFA5A2}.Debug|x64.Build.0 = Debug|x64
+		{45D011EE-0313-4305-BF28-C7E7F5FFA5A2}.Debug|x86.ActiveCfg = Debug|Win32
+		{45D011EE-0313-4305-BF28-C7E7F5FFA5A2}.Debug|x86.Build.0 = Debug|Win32
+		{45D011EE-0313-4305-BF28-C7E7F5FFA5A2}.Release|x64.ActiveCfg = Release|x64
+		{45D011EE-0313-4305-BF28-C7E7F5FFA5A2}.Release|x64.Build.0 = Release|x64
+		{45D011EE-0313-4305-BF28-C7E7F5FFA5A2}.Release|x86.ActiveCfg = Release|Win32
+		{45D011EE-0313-4305-BF28-C7E7F5FFA5A2}.Release|x86.Build.0 = Release|Win32
+		{B7F27270-AB23-4AF2-9C52-AC638A0A24CF}.Debug|x64.ActiveCfg = Debug|x64
+		{B7F27270-AB23-4AF2-9C52-AC638A0A24CF}.Debug|x64.Build.0 = Debug|x64
+		{B7F27270-AB23-4AF2-9C52-AC638A0A24CF}.Debug|x86.ActiveCfg = Debug|Win32
+		{B7F27270-AB23-4AF2-9C52-AC638A0A24CF}.Debug|x86.Build.0 = Debug|Win32
+		{B7F27270-AB23-4AF2-9C52-AC638A0A24CF}.Release|x64.ActiveCfg = Release|x64
+		{B7F27270-AB23-4AF2-9C52-AC638A0A24CF}.Release|x64.Build.0 = Release|x64
+		{B7F27270-AB23-4AF2-9C52-AC638A0A24CF}.Release|x86.ActiveCfg = Release|Win32
+		{B7F27270-AB23-4AF2-9C52-AC638A0A24CF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2369,6 +2401,10 @@ Global
 		{E26D663B-D2C9-44B6-8307-F41A61A0E8F7} = {984BB36A-E213-453E-87AA-D724FFD9E90C}
 		{CCE65221-1D38-4BA0-8128-04521C8EB5F1} = {984BB36A-E213-453E-87AA-D724FFD9E90C}
 		{D645AA51-47F4-49FF-BDF7-602EA19F551D} = {984BB36A-E213-453E-87AA-D724FFD9E90C}
+		{6571FF86-A23E-413E-ADBC-F64BBB4376E8} = {984BB36A-E213-453E-87AA-D724FFD9E90C}
+		{45D011EE-0313-4305-BF28-C7E7F5FFA5A2} = {984BB36A-E213-453E-87AA-D724FFD9E90C}
+		{A7136C99-DBF6-46AA-BBD7-E234A092B7D6} = {748E2906-7269-486D-ABAB-5C118B1E11E8}
+		{B7F27270-AB23-4AF2-9C52-AC638A0A24CF} = {A7136C99-DBF6-46AA-BBD7-E234A092B7D6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C538F23A-1B76-4BA7-BE24-D132BCDC7087}
