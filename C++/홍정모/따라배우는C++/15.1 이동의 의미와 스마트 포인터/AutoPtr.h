@@ -30,5 +30,10 @@ public:
 	{
 		if (&a == this)
 			return *this;
+
+		delete m_ptr;
+		m_ptr = a.m_ptr;
+		a.m_ptr = nullptr;
+		return *this;
 	}
 };
