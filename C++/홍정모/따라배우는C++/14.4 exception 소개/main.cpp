@@ -4,15 +4,24 @@
 
 using namespace std;
 
+class CustomException : public std::exception
+{
+public:
+	const char* what() const noexcept override
+	{
+		return "Custrom exception";
+	}
+};
+
 int main()
 {
 	try
 	{
-		std::string s;
-		s.resize(-1);
+		//std::string s;
+		//s.resize(-1);
 
 		//throw std::runtime_error("Bad thing happened");
-		//throw CustomException();
+		throw CustomException();
 	}
 	catch (std::exception& exception)
 	{
