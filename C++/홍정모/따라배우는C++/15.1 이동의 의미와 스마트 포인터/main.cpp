@@ -42,9 +42,13 @@ int main()
 		cout << res1.m_ptr << endl;
 		cout << res2.m_ptr << endl;
 
-		res2 = res1;
+		res2 = res1; // move semantics
 
 		cout << res1.m_ptr << endl;
 		cout << res2.m_ptr << endl;
 	}
+	// doSomething(res1);
+	// value semantics (copy semantics)
+	// reference semantics (pointer)
+	// move semantics (move)
 }
