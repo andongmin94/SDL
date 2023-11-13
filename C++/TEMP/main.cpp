@@ -4,17 +4,12 @@ using namespace std;
 
 int main() {
 
-    unsigned long long a = -1;
-
-    while (1)
-    {
-        cin >> a;
-        if (a == 0)
-            break;
-
-        if (a % 42 == 0)
-            cout << "PREMIADO" << endl;
-        else
-            cout << "TENTE NOVAMENTE" << endl;
-    }
+    int a, b;
+    cin >> a >> b;
+    if (a >= 3 && b <= 4)
+        cout << "TroyMartian" << endl;
+    if (a <= 6 && b >= 2)
+        cout << "VladSaturnian" << endl;
+    if (a <= 2 && b <= 3)
+        cout << "GraemeMercurian" << endl;
 }
