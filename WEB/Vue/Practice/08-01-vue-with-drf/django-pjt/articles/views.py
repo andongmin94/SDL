@@ -11,6 +11,9 @@ from django.shortcuts import get_object_or_404, get_list_or_404
 from .serializers import ArticleListSerializer, ArticleSerializer
 from .models import Article
 
+from rest_framework.decorators import authentication_classes
+from rest_framework.authentication import TokenAuthentication, BasicAuthentication
+
 
 @api_view(['GET', 'POST'])
 # @permission_classes([IsAuthenticated])
@@ -24,7 +27,7 @@ def article_list(request):
         serializer = ArticleSerializer(data=request.data)
         if serializer.is_valid(raise_exception=True):
             serializer.save()
-            # serializer.save(user=request.user)
+            serializer.save(user=request.user)
             return Response(serializer.data, status=status.HTTP_201_CREATED)
 
 
@@ -36,3 +39,9 @@ def article_detail(request, article_pk):
         serializer = ArticleSerializer(article)
         print(serializer.data)
         return Response(serializer.data)
+
+
+# @api_view(['GET','POST'])
+# @authentication_classes([TokenAuthentication, BasicAuthentication])
+# def article_list(request):
+#     pass
