@@ -1,18 +1,13 @@
 <template>
   <div>
     <h1>Article Page</h1>
-    <RouterLink :to="{ name: 'CreateView'}">
-      <button>글 작성</button>
-    </RouterLink>
-    <hr>
     <ArticleList />
   </div>
 </template>
 
 <script setup>
-import {onMounted} from 'vue'
-import { useCounterStore } from '@/stores/counter'
-import { RouterLink } from 'vue-router';
+import { onMounted } from 'vue';
+import { useCounterStore } from '@/stores/counter';
 import ArticleList from '@/components/ArticleList.vue'
 
 const store = useCounterStore()
@@ -20,7 +15,6 @@ const store = useCounterStore()
 onMounted(() => {
   store.getArticles()
 })
-
 </script>
 
 <style>
