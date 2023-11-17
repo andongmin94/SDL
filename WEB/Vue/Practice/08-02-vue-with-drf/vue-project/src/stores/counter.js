@@ -20,5 +20,27 @@ export const useCounterStore = defineStore('counter', () => {
         console.log(err)
       })
   }
-  return { articles, API_URL, getArticles }
+
+  const signUp = (payload) => {
+    const { username, password, password2 } = payload
+
+    axios({
+      method:'post',
+      url: `${API_URL}/accounts/signup/`,
+      data: {
+        username,
+        password,
+        password2
+      }
+    })
+    .then((res) => {
+      console.log(res)
+      console.log('회원가입 성공')
+    })
+    .catch((err) => {
+      console.log(err)
+    })
+  }
+
+  return { articles, API_URL, getArticles, signUp }
 }, { persist: true })
