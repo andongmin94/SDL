@@ -1,7 +1,8 @@
 <template>
   <header>
     <nav>
-      <RouterLink :to="{ name: 'ArticleView' }">Articles</RouterLink>
+      <RouterLink :to="{ name: 'ArticleView' }">Articles</RouterLink> | 
+      <RouterLink :to="{ name: 'SignUpView' }">SignUpPage</RouterLink>
     </nav>
   </header>
   <RouterView />
