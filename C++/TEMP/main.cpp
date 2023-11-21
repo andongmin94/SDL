@@ -4,18 +4,9 @@ using namespace std;
 
 int main() {
 
-    long a, b, c;
-    cin >> a >> b >> c;
-
-    if (a % c == 0)
-        a = a / c;
-    else
-        a = a / c + 1;
-
-    if (b % c == 0)
-        b = b / c;
-    else
-        b = b / c + 1;
-
-    cout << a * b;
+    int a = 91;
+    int b, c, d;
+    cin >> b >> c >> d;
+    c = c * 3;
+    cout << "The 1-3-sum is " << a + b + c + d;
 }
