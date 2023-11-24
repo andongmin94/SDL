@@ -4,15 +4,14 @@ using namespace std;
 
 int main() {
 
-<<<<<<< Updated upstream
-    int a = 91;
-    int b, c, d;
-    cin >> b >> c >> d;
-    c = c * 3;
-    cout << "The 1-3-sum is " << a + b + c + d;
-=======
-    int a, b;
-    cin >> a >> b;
-    cout << min(a / 2, b);
->>>>>>> Stashed changes
+    int a, b, c;
+    cin >> a >> b >> c;
+    
+    a = a - 11;
+    b = b - 11;
+    c = c - 11;
+    
+    if ((a * 1440) + b * 60 + c < 0)
+         cout << -1;
+    else cout << (a * 1440) + b * 60 + c;
 }
