@@ -37,7 +37,7 @@ public:
 	}
 	catch (...)
 	{
-		cout << "Catfch in B constructor " << endl;
+		cout << "Catch in B constructor " << endl;
 		//throw;
 	}
 };

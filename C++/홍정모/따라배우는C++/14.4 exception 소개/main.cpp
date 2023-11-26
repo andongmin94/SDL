@@ -9,7 +9,7 @@ class CustomException : public std::exception
 public:
 	const char* what() const noexcept override
 	{
-		return "Custrom exception";
+		return "Custom exception";
 	}
 };
 
