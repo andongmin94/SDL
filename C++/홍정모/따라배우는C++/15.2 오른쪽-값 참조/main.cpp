@@ -2,6 +2,21 @@
 
 using namespace std;
 
+void doSomething(int& lref)
+{
+	cout << "L-value ref" << endl;
+}
+
+void doSomething(int&& ref)
+{
+	cout << "R-value ref" << endl;
+}
+
+int getResult()
+{
+	return 100 * 100;
+}
+
 int main()
 {
 	int x = 5;
@@ -25,6 +40,17 @@ int main()
 	//int &&rr1 = x; // Modifiable l-values
 	//int &&rr2 = cx; // Non-modifiable l-values
 	int&& rr3 = 5; // R-values
+	
 
 	//const int &&rr4 = x; // Modifiable l-values
+	//const int &&rr5 = cx; // Non-modifiable l-values
+	const int&& rr6 = 5; // R-values
+
+
+	// L/R-value reference parameters
+
+	doSomething(x);
+	//doSomething(cx);
+	doSomething(5);
+	doSomething(getResult());
 }
