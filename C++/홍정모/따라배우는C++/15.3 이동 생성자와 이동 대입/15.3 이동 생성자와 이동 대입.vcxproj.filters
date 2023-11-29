@@ -3,4 +3,9 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="AutoPtr.h" />
+    <ClInclude Include="Timer.h" />
+  </ItemGroup>
 </Project>
