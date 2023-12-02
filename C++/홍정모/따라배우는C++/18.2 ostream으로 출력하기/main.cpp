@@ -1,8 +1,48 @@
 ﻿#include <iostream>
+#include <iomanip>
 
 using namespace std;
 
 int main()
 {
+	cout.setf(std::ios::showpos);
+	cout << 108 << endl;
 
+	cout.unsetf(std::ios::showpos);
+	cout << 109 << endl;
+
+	//cout.unsetf(std::ios::dec);
+	cout.setf(std::ios::hex, std::ios::basefield);
+	cout << 108 << endl;
+
+	cout << std::hex;
+	cout << 108 << endl;
+	cout << 109 << endl;
+	cout << std::dec;
+	cout << 108 << endl;
+
+	cout.setf(std::ios::uppercase);
+	cout << std::hex;
+	cout << 108 << endl;
+	cout << 109 << endl;
+	cout << std::dec;
+	cout << 108 << endl;
+
+	cout << std::hex << std::uppercase;
+	cout << 108 << endl;
+	cout << 109 << endl;
+	cout << std::dec;
+	cout << 108 << endl;
+
+	cout << std::boolalpha;
+	cout << true << " " << false << endl;
+
+	//cout << std::defaultfloat;
+	//cout << std::fixed;
+	cout << std::scientific;
+	cout << std::setprecision(3) << 123.456 << endl;
+	cout << std::setprecision(4) << 123.456 << endl;
+	cout << std::setprecision(5) << 123.456 << endl;
+	cout << std::setprecision(6) << 123.456 << endl;
+	cout << std::setprecision(7) << 123.456 << endl;
 }
