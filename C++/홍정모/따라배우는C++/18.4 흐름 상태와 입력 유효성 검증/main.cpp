@@ -7,7 +7,12 @@ using namespace std;
 
 void printCharacterClassification(const int& i)
 {
-
+	cout << boolalpha;
+	cout << "isalnum " << bool(std::isalnum(i)) << endl;
+	cout << "isblank " << bool(std::isblank(i)) << endl;
+	cout << "isdigit " << bool(std::isdigit(i)) << endl;
+	cout << "islower " << bool(std::islower(i)) << endl;
+	cout << "isupper " << bool(std::isupper(i)) << endl;
 }
 
 void printStates(const std::ios& stream)
@@ -21,22 +26,52 @@ void printStates(const std::ios& stream)
 
 bool isAllDigit(const string& str)
 {
+	bool ok_flag = true;
 
+	//for (auto e : str)
+	//	if (!std::isdigit(e))
+	//	{
+	//		ok_flag = false;
+	//		break;
+	//	}
+	
+	for (auto e : str)
+	{
+		cout << e << endl;
+		cout << "isdigit " << std::isdigit(e) << endl;
+		cout << "isblank " << std::isblank(e) << endl;
+		cout << "isalpha " << std::isalpha(e) << endl;
+	}
+	// 추가적인 유효성 검증
+
+	return ok_flag;
 }
 
 int main()
 {
-	while (true)
-	{
-		int i;
-		cin >> i;
+	//while (true)
+	//{
+	//	char i;
+	//	cin >> i;
 
-		printStates(cin);
+	//	printStates(cin);
 
-		cout << boolalpha;
-		cout << std::bitset<8>(cin.rdstate()) << endl;
-		cout << std::bitset<8>(std::istream::goodbit) << endl;
-		cout << std::bitset<8>(std::istream::failbit) << endl;
-		cout << !bool((cin.rdstate() & std::istream::failbit) != 0) << endl;
-	}
+	//	//cout << i << endl;
+
+	//	//cout << boolalpha;
+	//	//cout << std::bitset<8>(cin.rdstate()) << endl;
+	//	//cout << std::bitset<8>(std::istream::goodbit) << endl;
+	//	//cout << std::bitset<8>(std::istream::failbit) << endl;
+	//	//cout << !bool((cin.rdstate() & std::istream::failbit) != 0) << endl;
+
+	//	printCharacterClassification(i);
+
+	//	cin.clear();
+	//	cin.ignore(1024, '\n');
+	//	cout << endl;
+	//}
+
+	cout << boolalpha;
+	cout << isAllDigit("1234") << endl;
+	cout << isAllDigit("a 1234") << endl;
 }
