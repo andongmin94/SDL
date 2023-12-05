@@ -4,19 +4,15 @@ using namespace std;
 
 int main()
 {
-    int cnt = 0;
-    for (int i = 0; i < 6; i++)
+    int arr[10] = { 0, };
+
+    for (int i = 0; i < 5; i++)
     {
-        char a;
-        cin >> a;
-        if (a == 'W')
-            cnt++;
+        int b;
+        cin >> b;
+        arr[b]++;
     }
-    if (cnt >= 5)
-        cout << 1 << endl;
-    else if (cnt >= 3)
-        cout << 2 << endl;
-    else if (cnt >= 1)
-        cout << 3 << endl;
-    else cout << -1 << endl;
+    for (int i = 0; i < sizeof(arr) / sizeof(int); i++)
+        if (arr[i] % 2 != 0)
+            cout << i;
 }
