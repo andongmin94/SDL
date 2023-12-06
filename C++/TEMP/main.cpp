@@ -1,18 +1,16 @@
 ﻿#include <iostream>
+#include <string>
 
 using namespace std;
 
 int main()
 {
-    int arr[10] = { 0, };
+    int a;
+    cin >> a;
 
-    for (int i = 0; i < 5; i++)
-    {
-        int b;
-        cin >> b;
-        arr[b]++;
-    }
-    for (int i = 0; i < sizeof(arr) / sizeof(int); i++)
-        if (arr[i] % 2 != 0)
-            cout << i;
+    string b;
+    cin >> b;
+
+    for (int i = a - 5; i < b.length(); i++)
+        cout << b[i];
 }
