@@ -1,20 +1,25 @@
 ﻿#include <iostream>
-#include <vector>
-#include <algorithm>
 
 using namespace std;
 
 int main()
 {
-    int a, b, c;
+	int a, b, c, d;
+	cin >> a >> b >> c >> d;
+	bool check = true;
 
-    cin >> a >> b >> c;
+	if (a == 8 || a == 9)
+		check = false;
 
-    vector<int> k;
-    k.push_back(a);
-    k.push_back(b);
-    k.push_back(c);
-    sort(k.begin(), k.end());
+	if (check == false && b == c)
+		check = false;
+	else check = true;
 
-    cout << k[2] + k[1] << endl;
+	if (check == false && d == 8 || d == 9)
+		check = false;
+	else check = true;
+
+	if (check == true)
+		cout << "answer";
+	else cout << "ignore";
 }
