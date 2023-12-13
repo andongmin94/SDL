@@ -24,6 +24,7 @@
     <ProjectGuid>{1b4194c3-53ca-40b5-9e56-6a2e2acef20a}</ProjectGuid>
     <RootNamespace>My106컨테이너클래스</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>10.06 컨테이너 클래스</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -24,6 +24,7 @@
     <ProjectGuid>{d32e7233-8420-4573-8fe7-08c0164f086f}</ProjectGuid>
     <RootNamespace>My185정규표현식소개</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>18.05 정규 표현식 소개</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

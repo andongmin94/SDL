@@ -24,6 +24,7 @@
     <ProjectGuid>{48294caa-bca8-4c67-910d-c88bb4fca399}</ProjectGuid>
     <RootNamespace>My191람다함수와functionbindforeach</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>19.01 람다 함수와 function bind, for_each</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

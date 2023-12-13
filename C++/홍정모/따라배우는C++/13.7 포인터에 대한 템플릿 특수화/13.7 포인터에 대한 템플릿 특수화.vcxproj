@@ -24,6 +24,7 @@
     <ProjectGuid>{860addca-fe06-4827-91f5-9e4a5f23813d}</ProjectGuid>
     <RootNamespace>My137포인터에대한템플릿특수화</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>13.07 포인터에 대한 템플릿 특수화</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

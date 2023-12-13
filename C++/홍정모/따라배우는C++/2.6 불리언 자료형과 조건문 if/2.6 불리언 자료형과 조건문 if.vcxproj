@@ -24,6 +24,7 @@
     <ProjectGuid>{e78c439e-8e6c-49b0-aa9f-3ce20ca2775c}</ProjectGuid>
     <RootNamespace>My26불리언자료형과조건문if</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>02.06 불리언 자료형과 조건문 if</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

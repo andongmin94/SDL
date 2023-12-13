@@ -24,6 +24,7 @@
     <ProjectGuid>{9d6d1d32-5132-4fa7-b003-c625853e13e9}</ProjectGuid>
     <RootNamespace>My196멀티쓰레딩예제벡터내적</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>19.06 멀티쓰레딩 예제 (벡터 내적)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -24,6 +24,7 @@
     <ProjectGuid>{5922247e-5319-46c7-aa30-b71ec7cd8e20}</ProjectGuid>
     <RootNamespace>My171string과wstring</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>17.01 string과 wstring</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

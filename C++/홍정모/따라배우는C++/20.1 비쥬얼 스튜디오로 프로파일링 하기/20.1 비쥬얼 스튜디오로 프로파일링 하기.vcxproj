@@ -24,6 +24,7 @@
     <ProjectGuid>{cceee9c4-7f65-4d3d-a178-d830e8731018}</ProjectGuid>
     <RootNamespace>My201비쥬얼스튜디오로프로파일링하기</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>20.01 비쥬얼 스튜디오로 프로파일링 하기</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

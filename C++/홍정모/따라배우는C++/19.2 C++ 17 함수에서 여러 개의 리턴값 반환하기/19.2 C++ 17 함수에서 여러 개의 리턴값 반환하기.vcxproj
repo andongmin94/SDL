@@ -24,6 +24,7 @@
     <ProjectGuid>{e7549d38-e31d-4ae6-bf43-ea301eabf981}</ProjectGuid>
     <RootNamespace>My192C17함수에서여러개의리턴값반환하기</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>19.02 C++ 17 함수에서 여러 개의 리턴값 반환하기</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

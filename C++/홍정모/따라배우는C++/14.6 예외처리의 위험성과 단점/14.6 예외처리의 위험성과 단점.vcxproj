@@ -24,6 +24,7 @@
     <ProjectGuid>{45d011ee-0313-4305-bf28-c7e7f5ffa5a2}</ProjectGuid>
     <RootNamespace>My146예외처리의위험성과단점</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>14.06 예외처리의 위험성과 단점</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

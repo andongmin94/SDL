@@ -24,6 +24,7 @@
     <ProjectGuid>{b7f27270-ab23-4af2-9c52-ac638a0a24cf}</ProjectGuid>
     <RootNamespace>My151이동의의미와스마트포인터</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>15.01 이동의 의미와 스마트 포인터</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

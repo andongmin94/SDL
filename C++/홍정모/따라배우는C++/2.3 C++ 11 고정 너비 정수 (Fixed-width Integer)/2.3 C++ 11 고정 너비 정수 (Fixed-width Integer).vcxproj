@@ -24,6 +24,7 @@
     <ProjectGuid>{ea23f0ab-6ec1-4bea-9137-aa1959a18bbb}</ProjectGuid>
     <RootNamespace>My23C11고정너비정수FixedwidthInteger</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>02.03 C++ 11 고정 너비 정수 (Fixed-width Integer)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

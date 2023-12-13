@@ -24,6 +24,7 @@
     <ProjectGuid>{ff0f6082-bbf2-4a33-a02c-e3513b24d389}</ProjectGuid>
     <RootNamespace>My117상속받은함수를오버라이딩하기</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>11.07 상속받은 함수를 오버라이딩 하기</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

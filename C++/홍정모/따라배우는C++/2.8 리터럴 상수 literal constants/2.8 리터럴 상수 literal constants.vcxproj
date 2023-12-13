@@ -24,6 +24,7 @@
     <ProjectGuid>{b3f91d7e-d43c-4a17-ae71-10b896e02597}</ProjectGuid>
     <RootNamespace>My28리터럴상수literalconstants</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>02.08 리터럴 상수 literal constants</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
