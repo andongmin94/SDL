@@ -24,6 +24,7 @@
     <ProjectGuid>{959f661a-985a-4acf-893c-c06916d469bf}</ProjectGuid>
     <RootNamespace>My42전역변수정적변수내부연결외부연결</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>04.02 전역 변수, 정적 변수, 내부 연결, 외부 연결</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,7 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="MyContants.cpp" />
     <ClCompile Include="test.cpp" />
   </ItemGroup>
