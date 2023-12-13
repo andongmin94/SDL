@@ -53,23 +53,23 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TEMP", "TEMP\TEMP.vcxproj",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Learned", "Learned", "{858D1532-49BB-498C-BF67-07D79EB1A4DF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.1 제어 흐름 개요 Control flow", "홍정모\따라배우는C++\5.1 제어 흐름 개요 Control flow\5.1 제어 흐름 개요 Control flow.vcxproj", "{6218A6BB-C331-43A3-8C92-4E817D9678D1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.01 제어 흐름 개요 Control flow", "홍정모\따라배우는C++\5.1 제어 흐름 개요 Control flow\5.1 제어 흐름 개요 Control flow.vcxproj", "{6218A6BB-C331-43A3-8C92-4E817D9678D1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.2 조건문 if", "홍정모\따라배우는C++\5.2 조건문 if\5.2 조건문 if.vcxproj", "{95ED848D-DF72-44E5-8C47-95083FC89BA6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.02 조건문 if", "홍정모\따라배우는C++\5.2 조건문 if\5.2 조건문 if.vcxproj", "{95ED848D-DF72-44E5-8C47-95083FC89BA6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 04", "챕터 04", "{F3D1CB12-A15D-4EA2-BC4B-E071C3E7C283}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 1", "챕터 1", "{86DFE8FD-9B7B-4FDD-AB44-5CF0743D95EB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 01", "챕터 01", "{86DFE8FD-9B7B-4FDD-AB44-5CF0743D95EB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 2", "챕터 2", "{0CA7C9DB-89AE-485E-8FD7-F11EE36EDDFB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 02", "챕터 02", "{0CA7C9DB-89AE-485E-8FD7-F11EE36EDDFB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 5", "챕터 5", "{C5D4E107-3CC8-4CED-87CD-19BD100FAC8A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 05", "챕터 05", "{C5D4E107-3CC8-4CED-87CD-19BD100FAC8A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.3 switch-case", "홍정모\따라배우는C++\5.3 switch-case\5.3 switch-case.vcxproj", "{C5D2A6B3-CA8B-4F8C-9663-13CD99704238}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.03 switch-case", "홍정모\따라배우는C++\5.3 switch-case\5.3 switch-case.vcxproj", "{C5D2A6B3-CA8B-4F8C-9663-13CD99704238}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.4 goto", "홍정모\따라배우는C++\5.4 goto\5.4 goto.vcxproj", "{E9E8807E-29AF-45C2-B901-2ACE740C4A7C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.04 goto", "홍정모\따라배우는C++\5.4 goto\5.4 goto.vcxproj", "{E9E8807E-29AF-45C2-B901-2ACE740C4A7C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.5 반복문 while", "홍정모\따라배우는C++\5.5 반복문 while\5.5 반복문 while.vcxproj", "{313AF1A9-082F-41EF-ADB3-44D9893F97BB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.05 반복문 while", "홍정모\따라배우는C++\5.5 반복문 while\5.5 반복문 while.vcxproj", "{313AF1A9-082F-41EF-ADB3-44D9893F97BB}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.01 프로그램의 구조", "홍정모\따라배우는C++\1.1 프로그램의 구조\1.1 프로그램의 구조.vcxproj", "{9A9C521B-C929-4619-A038-441510B9C9E6}"
 EndProject
@@ -153,7 +153,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.05 형변환 Type conver
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0301_StringAbstractDataType", "홍정모\자료구조\Ex0301_StringAbstractDataType\Ex0301_StringAbstractDataType.vcxproj", "{986C2BED-7F98-4B95-9541-1B2C45C44B03}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 3", "챕터 3", "{15868C8F-B8F2-4919-B42F-133443846977}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 03", "챕터 03", "{15868C8F-B8F2-4919-B42F-133443846977}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0302_Polynomial", "홍정모\자료구조\Ex0302_Polynomial\Ex0302_Polynomial.vcxproj", "{8762EB53-2EF4-49FB-B4BA-F053E40288A5}"
 EndProject
@@ -165,17 +165,17 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0305_ArrayOfArrays", "홍
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0306_SparseMatrix", "홍정모\자료구조\Ex0306_SparseMatrix\Ex0306_SparseMatrix.vcxproj", "{B5645FFB-5817-4F74-9890-B108D218314E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 4", "챕터 4", "{F586DE55-BEDA-4DDC-97B4-8CDFCDF13B41}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 04", "챕터 04", "{F586DE55-BEDA-4DDC-97B4-8CDFCDF13B41}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 5", "챕터 5", "{54FB8D5A-DBF5-4108-BFC2-CB3BEFCD0944}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 05", "챕터 05", "{54FB8D5A-DBF5-4108-BFC2-CB3BEFCD0944}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 6", "챕터 6", "{092F67E9-F3EF-4B59-8148-D56FD8732103}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 06", "챕터 06", "{092F67E9-F3EF-4B59-8148-D56FD8732103}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 7", "챕터 7", "{FDB800F5-4724-469D-A217-A21E7DA7B8F6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 07", "챕터 07", "{FDB800F5-4724-469D-A217-A21E7DA7B8F6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 8", "챕터 8", "{58D832FF-8521-436E-8917-94DFEF791857}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 08", "챕터 08", "{58D832FF-8521-436E-8917-94DFEF791857}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 9", "챕터 9", "{8FE028AA-2529-4141-8BD3-84047D5FAF42}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 09", "챕터 09", "{8FE028AA-2529-4141-8BD3-84047D5FAF42}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0401_Stack", "홍정모\자료구조\Ex0401_Stack\Ex0401_Stack.vcxproj", "{F28B81B8-9A87-4E49-8E03-0BE8F0F05897}"
 EndProject
@@ -225,21 +225,21 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex1004_RadixSort", "홍정�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "배열 (DAT. 방향배열) 1", "알고리즘\SSAFY\배열 (DAT. 방향배열) 1\배열 (DAT. 방향배열) 1.vcxproj", "{58DD779B-1D3D-4AF2-9D95-9288B9BC7E91}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.6 반복문 do-while", "홍정모\따라배우는C++\5.6 반복문 do-while\5.6 반복문 do-while.vcxproj", "{411FCD66-974A-4466-A712-13599396513A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.06 반복문 do-while", "홍정모\따라배우는C++\5.6 반복문 do-while\5.6 반복문 do-while.vcxproj", "{411FCD66-974A-4466-A712-13599396513A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.7 반복문 for", "홍정모\따라배우는C++\5.7 반복문 for\5.7 반복문 for.vcxproj", "{76789DDB-07CB-4682-A433-85E4538329D2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.07 반복문 for", "홍정모\따라배우는C++\5.7 반복문 for\5.7 반복문 for.vcxproj", "{76789DDB-07CB-4682-A433-85E4538329D2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.8 break, continue", "홍정모\따라배우는C++\5.8 break, continue\5.8 break, continue.vcxproj", "{385E0110-A8FF-4BDC-82EA-61E36C5EC587}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.08 break, continue", "홍정모\따라배우는C++\5.8 break, continue\5.8 break, continue.vcxproj", "{385E0110-A8FF-4BDC-82EA-61E36C5EC587}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.9 난수 만들기 random numbers", "홍정모\따라배우는C++\5.9 난수 만들기 random numbers\5.9 난수 만들기 random numbers.vcxproj", "{8F21CFBA-92BC-4FA1-B823-322BD80F32D1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.09 난수 만들기 random numbers", "홍정모\따라배우는C++\5.9 난수 만들기 random numbers\5.9 난수 만들기 random numbers.vcxproj", "{8F21CFBA-92BC-4FA1-B823-322BD80F32D1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.10 cin 더 잘 쓰기", "홍정모\따라배우는C++\5.10 cin 더 잘 쓰기\5.10 cin 더 잘 쓰기.vcxproj", "{5DBC0B93-9F2B-451D-86CF-547F6C9155E1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.10 cin 더 잘 쓰기", "홍정모\따라배우는C++\5.10 cin 더 잘 쓰기\5.10 cin 더 잘 쓰기.vcxproj", "{5DBC0B93-9F2B-451D-86CF-547F6C9155E1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 6", "챕터 6", "{2400A1D7-8548-402B-BC21-8F40DA14A900}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 06", "챕터 06", "{2400A1D7-8548-402B-BC21-8F40DA14A900}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.1 배열 기초 [1 of 2] array", "홍정모\따라배우는C++\6.1 배열 기초 [1 of 2] array\6.1 배열 기초 [1 of 2] array.vcxproj", "{BAC8FE0C-9969-4E0E-8E04-1C1ADE1822EF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.01 배열 기초 [1 of 2] array", "홍정모\따라배우는C++\6.1 배열 기초 [1 of 2] array\6.1 배열 기초 [1 of 2] array.vcxproj", "{BAC8FE0C-9969-4E0E-8E04-1C1ADE1822EF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.2 배열 기초 [2 of 2] array", "홍정모\따라배우는C++\6.2 배열 기초 [2 of 2] array\6.2 배열 기초 [2 of 2] array.vcxproj", "{DE124CCE-AB32-4C41-94BF-B1322B252616}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.02 배열 기초 [2 of 2] array", "홍정모\따라배우는C++\6.2 배열 기초 [2 of 2] array\6.2 배열 기초 [2 of 2] array.vcxproj", "{DE124CCE-AB32-4C41-94BF-B1322B252616}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 11", "챕터 11", "{9E73D474-12E9-4B55-BBBD-1135385DAEE6}"
 EndProject
@@ -255,135 +255,135 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex1102_IndexedSequentialSea
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex1103_HashTable", "홍정모\자료구조\Ex1103_HashTable\Ex1103_HashTable.vcxproj", "{DBF760E8-110B-4795-8E7E-BB9B8FAA47D3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.3 배열과 반복문", "홍정모\따라배우는C++\6.3 배열과 반복문\6.3 배열과 반복문.vcxproj", "{2E2C7173-2728-4F38-8A8B-B31CEBEA5D1E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.03 배열과 반복문", "홍정모\따라배우는C++\6.3 배열과 반복문\6.3 배열과 반복문.vcxproj", "{2E2C7173-2728-4F38-8A8B-B31CEBEA5D1E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.4 배열과 선택 정렬 selection sort", "홍정모\따라배우는C++\6.4 배열과 선택 정렬 selection sort\6.4 배열과 선택 정렬 selection sort.vcxproj", "{21246364-F132-426B-BF83-D8EE63E1EE81}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.04 배열과 선택 정렬 selection sort", "홍정모\따라배우는C++\6.4 배열과 선택 정렬 selection sort\6.4 배열과 선택 정렬 selection sort.vcxproj", "{21246364-F132-426B-BF83-D8EE63E1EE81}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.5 정적 다차원 배열", "홍정모\따라배우는C++\6.5 정적 다차원 배열\6.5 정적 다차원 배열.vcxproj", "{6D1CE001-68A6-497B-B861-196163C10574}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.05 정적 다차원 배열", "홍정모\따라배우는C++\6.5 정적 다차원 배열\6.5 정적 다차원 배열.vcxproj", "{6D1CE001-68A6-497B-B861-196163C10574}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.6 C언어 스타일의 배열 문자열", "홍정모\따라배우는C++\6.6 C언어 스타일의 배열 문자열\6.6 C언어 스타일의 배열 문자열.vcxproj", "{55443418-1E75-4406-BFA8-6D28F163E578}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.06 C언어 스타일의 배열 문자열", "홍정모\따라배우는C++\6.6 C언어 스타일의 배열 문자열\6.6 C언어 스타일의 배열 문자열.vcxproj", "{55443418-1E75-4406-BFA8-6D28F163E578}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.7 포인터의 기본적인 사용법", "홍정모\따라배우는C++\6.7 포인터의 기본적인 사용법\6.7 포인터의 기본적인 사용법.vcxproj", "{AE29017B-B6AF-4B7D-B076-8D63C1974C51}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.07 포인터의 기본적인 사용법", "홍정모\따라배우는C++\6.7 포인터의 기본적인 사용법\6.7 포인터의 기본적인 사용법.vcxproj", "{AE29017B-B6AF-4B7D-B076-8D63C1974C51}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.7a 널 포인터 Null Pointer", "홍정모\따라배우는C++\6.7a 널 포인터 Null Pointer\6.7a 널 포인터 Null Pointer.vcxproj", "{7FEDEBAF-E342-439D-9B5A-61CF50F1D98B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.07a 널 포인터 Null Pointer", "홍정모\따라배우는C++\6.7a 널 포인터 Null Pointer\6.7a 널 포인터 Null Pointer.vcxproj", "{7FEDEBAF-E342-439D-9B5A-61CF50F1D98B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.8 포인터와 정적 배열", "홍정모\따라배우는C++\6.8 포인터와 정적 배열\6.8 포인터와 정적 배열.vcxproj", "{7BB0F813-BC10-42A7-A6C0-7E10335FEEA6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.08 포인터와 정적 배열", "홍정모\따라배우는C++\6.8 포인터와 정적 배열\6.8 포인터와 정적 배열.vcxproj", "{7BB0F813-BC10-42A7-A6C0-7E10335FEEA6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.9 포인터 연산과 배열 인덱싱", "홍정모\따라배우는C++\6.9 포인터 연산과 배열 인덱싱\6.9 포인터 연산과 배열 인덱싱.vcxproj", "{B24C830B-4260-4EA5-8D90-AE1915EB6595}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.09 포인터 연산과 배열 인덱싱", "홍정모\따라배우는C++\6.9 포인터 연산과 배열 인덱싱\6.9 포인터 연산과 배열 인덱싱.vcxproj", "{B24C830B-4260-4EA5-8D90-AE1915EB6595}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.10 C언어 스타일의 문자열 심볼릭 상수", "홍정모\따라배우는C++\6.10 C언어 스타일의 문자열 심볼릭 상수\6.10 C언어 스타일의 문자열 심볼릭 상수.vcxproj", "{5FF7ADA4-97F8-428A-87EA-674092376858}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.10 C언어 스타일의 문자열 심볼릭 상수", "홍정모\따라배우는C++\6.10 C언어 스타일의 문자열 심볼릭 상수\6.10 C언어 스타일의 문자열 심볼릭 상수.vcxproj", "{5FF7ADA4-97F8-428A-87EA-674092376858}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.11 메모리 동적 할당 new와 delete", "홍정모\따라배우는C++\6.11 메모리 동적 할당 new와 delete\6.11 메모리 동적 할당 new와 delete.vcxproj", "{63F6FCDF-2516-4087-9030-F3D497E6DB7E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.11 메모리 동적 할당 new와 delete", "홍정모\따라배우는C++\6.11 메모리 동적 할당 new와 delete\6.11 메모리 동적 할당 new와 delete.vcxproj", "{63F6FCDF-2516-4087-9030-F3D497E6DB7E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.12 동적 할당 배열", "홍정모\따라배우는C++\6.12 동적 할당 배열\6.12 동적 할당 배열.vcxproj", "{60CCC3C6-92CC-4435-8D0C-31B6820DF7F8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.12 동적 할당 배열", "홍정모\따라배우는C++\6.12 동적 할당 배열\6.12 동적 할당 배열.vcxproj", "{60CCC3C6-92CC-4435-8D0C-31B6820DF7F8}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.13 포인터와 const", "홍정모\따라배우는C++\6.13 포인터와 const\6.13 포인터와 const.vcxproj", "{7AED3F34-1D7E-4D99-910B-8149F2A3EE94}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.13 포인터와 const", "홍정모\따라배우는C++\6.13 포인터와 const\6.13 포인터와 const.vcxproj", "{7AED3F34-1D7E-4D99-910B-8149F2A3EE94}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.14 참조 변수 reference variable", "홍정모\따라배우는C++\6.14 참조 변수 reference variable\6.14 참조 변수 reference variable.vcxproj", "{0270D93C-2230-45D2-957D-779CFBD6C452}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.14 참조 변수 reference variable", "홍정모\따라배우는C++\6.14 참조 변수 reference variable\6.14 참조 변수 reference variable.vcxproj", "{0270D93C-2230-45D2-957D-779CFBD6C452}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.15 참조와 const", "홍정모\따라배우는C++\6.15 참조와 const\6.15 참조와 const.vcxproj", "{FBFDA371-129E-431C-8EAD-1576900CF886}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.15 참조와 const", "홍정모\따라배우는C++\6.15 참조와 const\6.15 참조와 const.vcxproj", "{FBFDA371-129E-431C-8EAD-1576900CF886}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.16 포인터와 참조의 멤버 선택", "홍정모\따라배우는C++\6.16 포인터와 참조의 멤버 선택\6.16 포인터와 참조의 멤버 선택.vcxproj", "{D6327CCB-0535-4543-A458-6E3471DF8832}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.16 포인터와 참조의 멤버 선택", "홍정모\따라배우는C++\6.16 포인터와 참조의 멤버 선택\6.16 포인터와 참조의 멤버 선택.vcxproj", "{D6327CCB-0535-4543-A458-6E3471DF8832}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.17 C++11 For-each 반복문", "홍정모\따라배우는C++\6.17 C++11 For-each 반복문\6.17 C++11 For-each 반복문.vcxproj", "{39A217F4-86DF-4C21-8F23-70535B052ADA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.17 C++11 For-each 반복문", "홍정모\따라배우는C++\6.17 C++11 For-each 반복문\6.17 C++11 For-each 반복문.vcxproj", "{39A217F4-86DF-4C21-8F23-70535B052ADA}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.18 보이드 포인터", "홍정모\따라배우는C++\6.18 보이드 포인터\6.18 보이드 포인터.vcxproj", "{74CD8E89-2DAE-4D7A-A706-ED281FCAED81}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.18 보이드 포인터", "홍정모\따라배우는C++\6.18 보이드 포인터\6.18 보이드 포인터.vcxproj", "{74CD8E89-2DAE-4D7A-A706-ED281FCAED81}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.19 다중 포인터와 동적 다차원 배열", "홍정모\따라배우는C++\6.19 다중 포인터와 동적 다차원 배열\6.19 다중 포인터와 동적 다차원 배열.vcxproj", "{A2EDAAB0-9C25-4BE7-BA18-3EB817140C2A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.19 다중 포인터와 동적 다차원 배열", "홍정모\따라배우는C++\6.19 다중 포인터와 동적 다차원 배열\6.19 다중 포인터와 동적 다차원 배열.vcxproj", "{A2EDAAB0-9C25-4BE7-BA18-3EB817140C2A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.20 array 소개", "홍정모\따라배우는C++\6.20 array 소개\6.20 array 소개.vcxproj", "{82929666-4E54-43A3-B648-97D82DE66F67}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.20 array 소개", "홍정모\따라배우는C++\6.20 array 소개\6.20 array 소개.vcxproj", "{82929666-4E54-43A3-B648-97D82DE66F67}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.21 vector 소개", "홍정모\따라배우는C++\6.21 vector 소개\6.21 vector 소개.vcxproj", "{1AD5A165-87E0-49A0-84CC-11DBE90B6629}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.21 vector 소개", "홍정모\따라배우는C++\6.21 vector 소개\6.21 vector 소개.vcxproj", "{1AD5A165-87E0-49A0-84CC-11DBE90B6629}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.1 매개변수와 실인자의 구분", "홍정모\따라배우는C++\7.1 매개변수와 실인자의 구분\7.1 매개변수와 실인자의 구분.vcxproj", "{DCB58C64-606A-4280-9D6E-737F5D95C707}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.01 매개변수와 실인자의 구분", "홍정모\따라배우는C++\7.1 매개변수와 실인자의 구분\7.1 매개변수와 실인자의 구분.vcxproj", "{DCB58C64-606A-4280-9D6E-737F5D95C707}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 7", "챕터 7", "{47AE4EB3-8595-4996-BF57-2E024AD924F6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 07", "챕터 07", "{47AE4EB3-8595-4996-BF57-2E024AD924F6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.2 값에 의한 전달", "홍정모\따라배우는C++\7.2 값에 의한 전달\7.2 값에 의한 전달.vcxproj", "{578AC812-BD62-4AE6-A207-3B9FE3DE3BA0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.02 값에 의한 전달", "홍정모\따라배우는C++\7.2 값에 의한 전달\7.2 값에 의한 전달.vcxproj", "{578AC812-BD62-4AE6-A207-3B9FE3DE3BA0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.3 참조에 의한 인수 전달", "홍정모\따라배우는C++\7.3 참조에 의한 인수 전달\7.3 참조에 의한 인수 전달.vcxproj", "{9FB423E1-6D8D-492F-B787-D655A2288339}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.03 참조에 의한 인수 전달", "홍정모\따라배우는C++\7.3 참조에 의한 인수 전달\7.3 참조에 의한 인수 전달.vcxproj", "{9FB423E1-6D8D-492F-B787-D655A2288339}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.4 주소에 의한 인수 전달", "홍정모\따라배우는C++\7.4 주소에 의한 인수 전달\7.4 주소에 의한 인수 전달.vcxproj", "{2683777D-59F6-4CE3-BD11-E390BD6BFEDC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.04 주소에 의한 인수 전달", "홍정모\따라배우는C++\7.4 주소에 의한 인수 전달\7.4 주소에 의한 인수 전달.vcxproj", "{2683777D-59F6-4CE3-BD11-E390BD6BFEDC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.5 다양한 반환 값들(값, 참조, 주소, 구조체, 튜플)", "홍정모\따라배우는C++\7.5 다양한 반환 값들(값, 참조, 주소, 구조체, 튜플)\7.5 다양한 반환 값들(값, 참조, 주소, 구조체, 튜플).vcxproj", "{F92ADDB7-3687-47B3-8D2E-769A8ABCC6FE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.05 다양한 반환 값들(값, 참조, 주소, 구조체, 튜플)", "홍정모\따라배우는C++\7.5 다양한 반환 값들(값, 참조, 주소, 구조체, 튜플)\7.5 다양한 반환 값들(값, 참조, 주소, 구조체, 튜플).vcxproj", "{F92ADDB7-3687-47B3-8D2E-769A8ABCC6FE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.6 인라인 함수", "홍정모\따라배우는C++\7.6 인라인 함수\7.6 인라인 함수.vcxproj", "{66D4AA27-750D-464D-8994-931941B98858}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.06 인라인 함수", "홍정모\따라배우는C++\7.6 인라인 함수\7.6 인라인 함수.vcxproj", "{66D4AA27-750D-464D-8994-931941B98858}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.7 함수 오버로딩", "홍정모\따라배우는C++\7.7 함수 오버로딩\7.7 함수 오버로딩.vcxproj", "{9173E97E-8691-424A-B96A-D774CCB5CC6D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.07 함수 오버로딩", "홍정모\따라배우는C++\7.7 함수 오버로딩\7.7 함수 오버로딩.vcxproj", "{9173E97E-8691-424A-B96A-D774CCB5CC6D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.8 매개변수의 기본값", "홍정모\따라배우는C++\7.8 매개변수의 기본값\7.8 매개변수의 기본값.vcxproj", "{4EBD0097-60FD-4CCC-B98B-862050B2A9D9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.08 매개변수의 기본값", "홍정모\따라배우는C++\7.8 매개변수의 기본값\7.8 매개변수의 기본값.vcxproj", "{4EBD0097-60FD-4CCC-B98B-862050B2A9D9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.9 함수 포인터", "홍정모\따라배우는C++\7.9 함수 포인터\7.9 함수 포인터.vcxproj", "{8206DF13-EF24-4E0A-8698-A397AD019C14}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.09 함수 포인터", "홍정모\따라배우는C++\7.9 함수 포인터\7.9 함수 포인터.vcxproj", "{8206DF13-EF24-4E0A-8698-A397AD019C14}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.10 스택과 힙", "홍정모\따라배우는C++\7.10 스택과 힙\7.10 스택과 힙.vcxproj", "{92350F4A-995D-4A6F-9D13-98CBE7C1F8B0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.10 스택과 힙", "홍정모\따라배우는C++\7.10 스택과 힙\7.10 스택과 힙.vcxproj", "{92350F4A-995D-4A6F-9D13-98CBE7C1F8B0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.11 std vector를 스택처럼 사용하기", "홍정모\따라배우는C++\7.11 std vector를 스택처럼 사용하기\7.11 std vector를 스택처럼 사용하기.vcxproj", "{C7D716A1-3E5F-4185-BEC4-3E8D87B2CB05}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.11 std vector를 스택처럼 사용하기", "홍정모\따라배우는C++\7.11 std vector를 스택처럼 사용하기\7.11 std vector를 스택처럼 사용하기.vcxproj", "{C7D716A1-3E5F-4185-BEC4-3E8D87B2CB05}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.12 재귀적 함수 호출", "홍정모\따라배우는C++\7.12 재귀적 함수 호출\7.12 재귀적 함수 호출.vcxproj", "{4C4DC156-2DBC-4AEC-B120-D4A5F121CFC6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.12 재귀적 함수 호출", "홍정모\따라배우는C++\7.12 재귀적 함수 호출\7.12 재귀적 함수 호출.vcxproj", "{4C4DC156-2DBC-4AEC-B120-D4A5F121CFC6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.13 방어적 프로그래밍의 개념", "홍정모\따라배우는C++\7.13 방어적 프로그래밍의 개념\7.13 방어적 프로그래밍의 개념.vcxproj", "{8413E310-0D11-4AEC-AE06-8CB305581C9E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.13 방어적 프로그래밍의 개념", "홍정모\따라배우는C++\7.13 방어적 프로그래밍의 개념\7.13 방어적 프로그래밍의 개념.vcxproj", "{8413E310-0D11-4AEC-AE06-8CB305581C9E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.14 단언하기 assert", "홍정모\따라배우는C++\7.14 단언하기 assert\7.14 단언하기 assert.vcxproj", "{17966CB9-B673-45DA-A1F5-90E81523BF0B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.14 단언하기 assert", "홍정모\따라배우는C++\7.14 단언하기 assert\7.14 단언하기 assert.vcxproj", "{17966CB9-B673-45DA-A1F5-90E81523BF0B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.15 명령줄 인수 command line arguments", "홍정모\따라배우는C++\7.15 명령줄 인수 command line arguments\7.15 명령줄 인수 command line arguments.vcxproj", "{0F4ACE5F-9F76-4D75-AB28-8C38116FEFB9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.15 명령줄 인수 command line arguments", "홍정모\따라배우는C++\7.15 명령줄 인수 command line arguments\7.15 명령줄 인수 command line arguments.vcxproj", "{0F4ACE5F-9F76-4D75-AB28-8C38116FEFB9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.16 생략부호 Ellipsis", "홍정모\따라배우는C++\7.16 생략부호 Ellipsis\7.16 생략부호 Ellipsis.vcxproj", "{2F4EAB37-0BD0-4838-B8C7-883E6A5E226B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.16 생략부호 Ellipsis", "홍정모\따라배우는C++\7.16 생략부호 Ellipsis\7.16 생략부호 Ellipsis.vcxproj", "{2F4EAB37-0BD0-4838-B8C7-883E6A5E226B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 8", "챕터 8", "{8F2CA5BA-ECE3-488C-BE7F-7F5A0A652520}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 08", "챕터 08", "{8F2CA5BA-ECE3-488C-BE7F-7F5A0A652520}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.1 객체지향 프로그래밍과 클래스", "홍정모\따라배우는C++\8.1 객체지향 프로그래밍과 클래스\8.1 객체지향 프로그래밍과 클래스.vcxproj", "{9920689B-C87B-4E43-AAFA-3C1181C83063}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.01 객체지향 프로그래밍과 클래스", "홍정모\따라배우는C++\8.1 객체지향 프로그래밍과 클래스\8.1 객체지향 프로그래밍과 클래스.vcxproj", "{9920689B-C87B-4E43-AAFA-3C1181C83063}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.2 캡슐화, 접근 지정자, 접근 함수", "홍정모\따라배우는C++\8.2 캡슐화, 접근 지정자, 접근 함수\8.2 캡슐화, 접근 지정자, 접근 함수.vcxproj", "{3CE91D45-2B73-4521-AC01-35EADD3E173C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.02 캡슐화, 접근 지정자, 접근 함수", "홍정모\따라배우는C++\8.2 캡슐화, 접근 지정자, 접근 함수\8.2 캡슐화, 접근 지정자, 접근 함수.vcxproj", "{3CE91D45-2B73-4521-AC01-35EADD3E173C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.3 생성자 Constructors", "홍정모\따라배우는C++\8.3 생성자 Constructors\8.3 생성자 Constructors.vcxproj", "{5411C080-705F-4F54-B2DA-7EC67B6DFE7D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.03 생성자 Constructors", "홍정모\따라배우는C++\8.3 생성자 Constructors\8.3 생성자 Constructors.vcxproj", "{5411C080-705F-4F54-B2DA-7EC67B6DFE7D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.4 생성자 멤버 초기화 목록", "홍정모\따라배우는C++\8.4 생성자 멤버 초기화 목록\8.4 생성자 멤버 초기화 목록.vcxproj", "{0552CA62-A39F-4C8D-9BE7-3905DAE8E049}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.04 생성자 멤버 초기화 목록", "홍정모\따라배우는C++\8.4 생성자 멤버 초기화 목록\8.4 생성자 멤버 초기화 목록.vcxproj", "{0552CA62-A39F-4C8D-9BE7-3905DAE8E049}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.5 위임 생성자", "홍정모\따라배우는C++\8.5 위임 생성자\8.5 위임 생성자.vcxproj", "{F32C7A18-D6FF-4B15-A760-48E5B96D5F85}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.05 위임 생성자", "홍정모\따라배우는C++\8.5 위임 생성자\8.5 위임 생성자.vcxproj", "{F32C7A18-D6FF-4B15-A760-48E5B96D5F85}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.6 소멸자 destructor", "홍정모\따라배우는C++\8.6 소멸자 destructor\8.6 소멸자 destructor.vcxproj", "{F6403C67-D91D-45D0-AD13-E3D1B4814E8F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.06 소멸자 destructor", "홍정모\따라배우는C++\8.6 소멸자 destructor\8.6 소멸자 destructor.vcxproj", "{F6403C67-D91D-45D0-AD13-E3D1B4814E8F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.7 this 포인터와 연쇄 호출", "홍정모\따라배우는C++\8.7 this 포인터와 연쇄 호출\8.7 this 포인터와 연쇄 호출.vcxproj", "{E15D8AEF-8CB4-40A5-8752-EB46CB52F67C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.07 this 포인터와 연쇄 호출", "홍정모\따라배우는C++\8.7 this 포인터와 연쇄 호출\8.7 this 포인터와 연쇄 호출.vcxproj", "{E15D8AEF-8CB4-40A5-8752-EB46CB52F67C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.8 클래스 코드와 헤더 파일", "홍정모\따라배우는C++\8.8 클래스 코드와 헤더 파일\8.8 클래스 코드와 헤더 파일.vcxproj", "{EEFCF5A2-6450-45B5-93AD-D135B4A9F3A1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.08 클래스 코드와 헤더 파일", "홍정모\따라배우는C++\8.8 클래스 코드와 헤더 파일\8.8 클래스 코드와 헤더 파일.vcxproj", "{EEFCF5A2-6450-45B5-93AD-D135B4A9F3A1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.9 클래스와 const", "홍정모\따라배우는C++\8.9 클래스와 const\8.9 클래스와 const.vcxproj", "{D9579B59-4905-4243-9020-AE41AEA449CE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.09 클래스와 const", "홍정모\따라배우는C++\8.9 클래스와 const\8.9 클래스와 const.vcxproj", "{D9579B59-4905-4243-9020-AE41AEA449CE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.10 정적 멤버 변수", "홍정모\따라배우는C++\8.10 정적 멤버 변수\8.10 정적 멤버 변수.vcxproj", "{10960EF0-6E75-4B4C-93FD-001039821D74}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.10 정적 멤버 변수", "홍정모\따라배우는C++\8.10 정적 멤버 변수\8.10 정적 멤버 변수.vcxproj", "{10960EF0-6E75-4B4C-93FD-001039821D74}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.11 정적 멤버 함수", "홍정모\따라배우는C++\8.11 정적 멤버 함수\8.11 정적 멤버 함수.vcxproj", "{D6AF69FD-1C6F-46D6-A026-7B25FD57C2DA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.11 정적 멤버 함수", "홍정모\따라배우는C++\8.11 정적 멤버 함수\8.11 정적 멤버 함수.vcxproj", "{D6AF69FD-1C6F-46D6-A026-7B25FD57C2DA}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.12 친구 함수와 클래스 friend", "홍정모\따라배우는C++\8.12 친구 함수와 클래스 friend\8.12 친구 함수와 클래스 friend.vcxproj", "{619AD72B-09FE-4A21-B473-887A04A0663B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.12 친구 함수와 클래스 friend", "홍정모\따라배우는C++\8.12 친구 함수와 클래스 friend\8.12 친구 함수와 클래스 friend.vcxproj", "{619AD72B-09FE-4A21-B473-887A04A0663B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.13 익명 객체", "홍정모\따라배우는C++\8.13 익명 객체\8.13 익명 객체.vcxproj", "{F207243A-FC25-44E9-8912-A6EAC3D3A99E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.13 익명 객체", "홍정모\따라배우는C++\8.13 익명 객체\8.13 익명 객체.vcxproj", "{F207243A-FC25-44E9-8912-A6EAC3D3A99E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.14 클래스 안에 포함된 자료형 nested types", "홍정모\따라배우는C++\8.14 클래스 안에 포함된 자료형 nested types\8.14 클래스 안에 포함된 자료형 nested types.vcxproj", "{2F7F1511-CAFA-473E-B276-67703A593147}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.14 클래스 안에 포함된 자료형 nested types", "홍정모\따라배우는C++\8.14 클래스 안에 포함된 자료형 nested types\8.14 클래스 안에 포함된 자료형 nested types.vcxproj", "{2F7F1511-CAFA-473E-B276-67703A593147}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.1 산술 연산자 오버로딩 하기", "홍정모\따라배우는C++\9.1 산술 연산자 오버로딩 하기\9.1 산술 연산자 오버로딩 하기.vcxproj", "{F5C17569-EFDC-475D-9B2A-72C9FFFEA58B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.01 산술 연산자 오버로딩 하기", "홍정모\따라배우는C++\9.1 산술 연산자 오버로딩 하기\9.1 산술 연산자 오버로딩 하기.vcxproj", "{F5C17569-EFDC-475D-9B2A-72C9FFFEA58B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.15 실행 시간 측정하기", "홍정모\따라배우는C++\8.15 실행 시간 측정하기\8.15 실행 시간 측정하기.vcxproj", "{1E00F54B-D152-46F9-87D4-42FD60B3FEF7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.15 실행 시간 측정하기", "홍정모\따라배우는C++\8.15 실행 시간 측정하기\8.15 실행 시간 측정하기.vcxproj", "{1E00F54B-D152-46F9-87D4-42FD60B3FEF7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 9", "챕터 9", "{CE15F4CF-D3AE-41C5-B2A5-A4E94B12CB27}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 09", "챕터 09", "{CE15F4CF-D3AE-41C5-B2A5-A4E94B12CB27}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.3 단항 연산자 오버로딩 하기", "홍정모\따라배우는C++\9.3 단항 연산자 오버로딩 하기\9.3 단항 연산자 오버로딩 하기.vcxproj", "{D0983725-5EB3-4DEA-A5A7-A21B3ED09B4A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.03 단항 연산자 오버로딩 하기", "홍정모\따라배우는C++\9.3 단항 연산자 오버로딩 하기\9.3 단항 연산자 오버로딩 하기.vcxproj", "{D0983725-5EB3-4DEA-A5A7-A21B3ED09B4A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.4 비교 연산자 오버로딩 하기", "홍정모\따라배우는C++\9.4 비교 연산자 오버로딩 하기\9.4 비교 연산자 오버로딩 하기.vcxproj", "{1FC5F58B-7C8B-4E69-BCE4-F8BA603EC97C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.04 비교 연산자 오버로딩 하기", "홍정모\따라배우는C++\9.4 비교 연산자 오버로딩 하기\9.4 비교 연산자 오버로딩 하기.vcxproj", "{1FC5F58B-7C8B-4E69-BCE4-F8BA603EC97C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.5 증감 연산자 오버로딩 하기", "홍정모\따라배우는C++\9.5 증감 연산자 오버로딩 하기\9.5 증감 연산자 오버로딩 하기.vcxproj", "{C6308CB9-CA66-4C80-8ECC-25192F7FDE14}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.05 증감 연산자 오버로딩 하기", "홍정모\따라배우는C++\9.5 증감 연산자 오버로딩 하기\9.5 증감 연산자 오버로딩 하기.vcxproj", "{C6308CB9-CA66-4C80-8ECC-25192F7FDE14}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.6 첨자 연산자 오버로딩 하기", "홍정모\따라배우는C++\9.6 첨자 연산자 오버로딩 하기\9.6 첨자 연산자 오버로딩 하기.vcxproj", "{428ACE26-6A34-43D2-801D-A22223CDFF07}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.06 첨자 연산자 오버로딩 하기", "홍정모\따라배우는C++\9.6 첨자 연산자 오버로딩 하기\9.6 첨자 연산자 오버로딩 하기.vcxproj", "{428ACE26-6A34-43D2-801D-A22223CDFF07}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.7 괄호 연산자 오버로딩과 함수 객체", "홍정모\따라배우는C++\9.7 괄호 연산자 오버로딩과 함수 객체\9.7 괄호 연산자 오버로딩과 함수 객체.vcxproj", "{594FF84E-A913-457B-BD6B-D90494B9B3C0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.07 괄호 연산자 오버로딩과 함수 객체", "홍정모\따라배우는C++\9.7 괄호 연산자 오버로딩과 함수 객체\9.7 괄호 연산자 오버로딩과 함수 객체.vcxproj", "{594FF84E-A913-457B-BD6B-D90494B9B3C0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.8 형변환을 오버로딩 하기", "홍정모\따라배우는C++\9.8 형변환을 오버로딩 하기\9.8 형변환을 오버로딩 하기.vcxproj", "{1857927C-DEA5-40D2-A37C-470ED231DFD7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.08 형변환을 오버로딩 하기", "홍정모\따라배우는C++\9.8 형변환을 오버로딩 하기\9.8 형변환을 오버로딩 하기.vcxproj", "{1857927C-DEA5-40D2-A37C-470ED231DFD7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.9 복사 생성자, 복사 초기화 반환값 최적화", "홍정모\따라배우는C++\9.9 복사 생성자, 복사 초기화 반환값 최적화\9.9 복사 생성자, 복사 초기화 반환값 최적화.vcxproj", "{04336DE8-C03A-4D0C-9C64-1D2E7489F142}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.09 복사 생성자, 복사 초기화 반환값 최적화", "홍정모\따라배우는C++\9.9 복사 생성자, 복사 초기화 반환값 최적화\9.9 복사 생성자, 복사 초기화 반환값 최적화.vcxproj", "{04336DE8-C03A-4D0C-9C64-1D2E7489F142}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.10 변환 생성자, explicit, delete", "홍정모\따라배우는C++\9.10 변환 생성자, explicit, delete\9.10 변환 생성자, explicit, delete.vcxproj", "{535BF59B-23FD-4601-94FB-9D38C28CE3D0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.10 변환 생성자, explicit, delete", "홍정모\따라배우는C++\9.10 변환 생성자, explicit, delete\9.10 변환 생성자, explicit, delete.vcxproj", "{535BF59B-23FD-4601-94FB-9D38C28CE3D0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.11 대입 연산자 오버로딩, 깊은 복사, 얕은 복사", "홍정모\따라배우는C++\9.11 대입 연산자 오버로딩, 깊은 복사, 얕은 복사\9.11 대입 연산자 오버로딩, 깊은 복사, 얕은 복사.vcxproj", "{CEFF14D2-A79F-4DA1-9021-06A721042500}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.11 대입 연산자 오버로딩, 깊은 복사, 얕은 복사", "홍정모\따라배우는C++\9.11 대입 연산자 오버로딩, 깊은 복사, 얕은 복사\9.11 대입 연산자 오버로딩, 깊은 복사, 얕은 복사.vcxproj", "{CEFF14D2-A79F-4DA1-9021-06A721042500}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.12 이니셜라이져 리스트 initializer list", "홍정모\따라배우는C++\9.12 이니셜라이져 리스트 initializer list\9.12 이니셜라이져 리스트 initializer list.vcxproj", "{AAE3610B-2591-4776-915D-16CE36210E5B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.12 이니셜라이져 리스트 initializer list", "홍정모\따라배우는C++\9.12 이니셜라이져 리스트 initializer list\9.12 이니셜라이져 리스트 initializer list.vcxproj", "{AAE3610B-2591-4776-915D-16CE36210E5B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 10", "챕터 10", "{FF0A7D12-C30F-4346-8422-0D554BE5197F}"
 EndProject
@@ -559,7 +559,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20.06 외부 라이브러�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18.04 흐름 상태와 입력 유효성 검증", "홍정모\따라배우는C++\18.4 흐름 상태와 입력 유효성 검증\18.4 흐름 상태와 입력 유효성 검증.vcxproj", "{EF3A462F-19A6-4FF5-A418-E38F38D9F716}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.2 입출력 연산자 오버로딩하기", "홍정모\따라배우는C++\9.2 입출력 연산자 오버로딩하기\9.2 입출력 연산자 오버로딩하기.vcxproj", "{8B197131-F573-4ECB-B8F5-6B59894F0BA9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.02 입출력 연산자 오버로딩하기", "홍정모\따라배우는C++\9.2 입출력 연산자 오버로딩하기\9.2 입출력 연산자 오버로딩하기.vcxproj", "{8B197131-F573-4ECB-B8F5-6B59894F0BA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
