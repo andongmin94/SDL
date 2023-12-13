@@ -49,8 +49,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.09 자료형에게 가�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.10 구조체 struct", "홍정모\따라배우는C++\4.10 구조체 struct\4.10 구조체 struct.vcxproj", "{B4B60978-B547-4F12-A65C-19873CD3A67B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TEMP", "TEMP\TEMP.vcxproj", "{D0E7A427-4C8E-41B6-B17C-59FBDFEBEF2D}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Learned", "Learned", "{858D1532-49BB-498C-BF67-07D79EB1A4DF}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.01 제어 흐름 개요 Control flow", "홍정모\따라배우는C++\5.1 제어 흐름 개요 Control flow\5.1 제어 흐름 개요 Control flow.vcxproj", "{6218A6BB-C331-43A3-8C92-4E817D9678D1}"
@@ -561,6 +559,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18.04 흐름 상태와 입�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.02 입출력 연산자 오버로딩하기", "홍정모\따라배우는C++\9.2 입출력 연산자 오버로딩하기\9.2 입출력 연산자 오버로딩하기.vcxproj", "{8B197131-F573-4ECB-B8F5-6B59894F0BA9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Solution", "Solution\Solution.vcxproj", "{144D3EBD-35DD-4062-8E4B-9894D6591EC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -713,14 +713,6 @@ Global
 		{B4B60978-B547-4F12-A65C-19873CD3A67B}.Release|x64.Build.0 = Release|x64
 		{B4B60978-B547-4F12-A65C-19873CD3A67B}.Release|x86.ActiveCfg = Release|Win32
 		{B4B60978-B547-4F12-A65C-19873CD3A67B}.Release|x86.Build.0 = Release|Win32
-		{D0E7A427-4C8E-41B6-B17C-59FBDFEBEF2D}.Debug|x64.ActiveCfg = Debug|x64
-		{D0E7A427-4C8E-41B6-B17C-59FBDFEBEF2D}.Debug|x64.Build.0 = Debug|x64
-		{D0E7A427-4C8E-41B6-B17C-59FBDFEBEF2D}.Debug|x86.ActiveCfg = Debug|Win32
-		{D0E7A427-4C8E-41B6-B17C-59FBDFEBEF2D}.Debug|x86.Build.0 = Debug|Win32
-		{D0E7A427-4C8E-41B6-B17C-59FBDFEBEF2D}.Release|x64.ActiveCfg = Release|x64
-		{D0E7A427-4C8E-41B6-B17C-59FBDFEBEF2D}.Release|x64.Build.0 = Release|x64
-		{D0E7A427-4C8E-41B6-B17C-59FBDFEBEF2D}.Release|x86.ActiveCfg = Release|Win32
-		{D0E7A427-4C8E-41B6-B17C-59FBDFEBEF2D}.Release|x86.Build.0 = Release|Win32
 		{6218A6BB-C331-43A3-8C92-4E817D9678D1}.Debug|x64.ActiveCfg = Debug|x64
 		{6218A6BB-C331-43A3-8C92-4E817D9678D1}.Debug|x64.Build.0 = Debug|x64
 		{6218A6BB-C331-43A3-8C92-4E817D9678D1}.Debug|x86.ActiveCfg = Debug|Win32
@@ -2497,6 +2489,14 @@ Global
 		{8B197131-F573-4ECB-B8F5-6B59894F0BA9}.Release|x64.Build.0 = Release|x64
 		{8B197131-F573-4ECB-B8F5-6B59894F0BA9}.Release|x86.ActiveCfg = Release|Win32
 		{8B197131-F573-4ECB-B8F5-6B59894F0BA9}.Release|x86.Build.0 = Release|Win32
+		{144D3EBD-35DD-4062-8E4B-9894D6591EC0}.Debug|x64.ActiveCfg = Debug|x64
+		{144D3EBD-35DD-4062-8E4B-9894D6591EC0}.Debug|x64.Build.0 = Debug|x64
+		{144D3EBD-35DD-4062-8E4B-9894D6591EC0}.Debug|x86.ActiveCfg = Debug|Win32
+		{144D3EBD-35DD-4062-8E4B-9894D6591EC0}.Debug|x86.Build.0 = Debug|Win32
+		{144D3EBD-35DD-4062-8E4B-9894D6591EC0}.Release|x64.ActiveCfg = Release|x64
+		{144D3EBD-35DD-4062-8E4B-9894D6591EC0}.Release|x64.Build.0 = Release|x64
+		{144D3EBD-35DD-4062-8E4B-9894D6591EC0}.Release|x86.ActiveCfg = Release|Win32
+		{144D3EBD-35DD-4062-8E4B-9894D6591EC0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
