@@ -24,6 +24,7 @@
     <ProjectGuid>{034ef6d8-dcde-4087-ac81-dd7abc6f937e}</ProjectGuid>
     <RootNamespace>My29심볼릭상수symbolicconstants</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>02.09 심볼릭 상수 symbolic constants</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

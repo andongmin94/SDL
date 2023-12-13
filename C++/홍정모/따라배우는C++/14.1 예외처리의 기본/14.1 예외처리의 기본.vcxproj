@@ -24,6 +24,7 @@
     <ProjectGuid>{b5113a2f-b93c-4094-a475-d772fdbda016}</ProjectGuid>
     <RootNamespace>My141예외처리의기본</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>14.01 예외처리의 기본</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

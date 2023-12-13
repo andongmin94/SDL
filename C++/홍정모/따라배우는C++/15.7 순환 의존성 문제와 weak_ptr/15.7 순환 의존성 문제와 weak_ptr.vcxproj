@@ -27,6 +27,7 @@
     <ProjectGuid>{ed1098cf-1140-4851-adde-8f6ae55392c5}</ProjectGuid>
     <RootNamespace>My157순환의존성문제와weakptr</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>15.07 순환 의존성 문제와 weak_ptr</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

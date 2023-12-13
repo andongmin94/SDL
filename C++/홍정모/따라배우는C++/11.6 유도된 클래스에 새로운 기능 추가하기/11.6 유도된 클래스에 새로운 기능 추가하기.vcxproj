@@ -24,6 +24,7 @@
     <ProjectGuid>{d1f8bc05-ee9f-4cce-b569-083bf203ec6a}</ProjectGuid>
     <RootNamespace>My116유도된클래스에새로운기능추가하기</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>11.06 유도된 클래스에 새로운 기능 추가하기</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

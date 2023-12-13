@@ -24,6 +24,7 @@
     <ProjectGuid>{b6078d32-9fa5-49d0-a7b4-7d65f1717fe2}</ProjectGuid>
     <RootNamespace>My162STL반복자소개</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>16.02 STL 반복자 소개</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

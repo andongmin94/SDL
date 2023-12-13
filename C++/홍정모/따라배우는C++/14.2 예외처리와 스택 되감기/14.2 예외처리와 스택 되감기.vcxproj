@@ -24,6 +24,7 @@
     <ProjectGuid>{e26d663b-d2c9-44b6-8307-f41a61a0e8f7}</ProjectGuid>
     <RootNamespace>My142예외처리와스택되감기</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>14.02 예외처리와 스택 되감기</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

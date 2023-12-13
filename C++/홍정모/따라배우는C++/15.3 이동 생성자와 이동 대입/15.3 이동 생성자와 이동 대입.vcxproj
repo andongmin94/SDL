@@ -24,6 +24,7 @@
     <ProjectGuid>{7cde1ff5-d6cb-45cf-bc2b-1cdcb4a02bc7}</ProjectGuid>
     <RootNamespace>My153이동생성자와이동대입</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>15.03 이동 생성자와 이동 대입</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

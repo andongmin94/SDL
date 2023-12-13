@@ -17,6 +17,6 @@ int main(void)
 	sight = 0;
 
 	// 1 + 1 event
-	int cost = n_items / 2 * price_per_item;
+	//int cost = n_items / 2 * price_per_item;
 
 }

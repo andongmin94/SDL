@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{5a5a55e8-bc3a-45ee-b0ef-81d7be60cac6}</ProjectGuid>
+    <ProjectGuid>{8b197131-f573-4ecb-b8f5-6b59894f0ba9}</ProjectGuid>
     <RootNamespace>My92입출력연산자오버로딩하기</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

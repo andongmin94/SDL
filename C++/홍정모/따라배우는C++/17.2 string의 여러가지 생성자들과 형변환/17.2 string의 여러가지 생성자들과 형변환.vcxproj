@@ -24,6 +24,7 @@
     <ProjectGuid>{ae79fdb6-18cd-423c-8b48-d157912f2c88}</ProjectGuid>
     <RootNamespace>My172string의여러가지생성자들과형변환</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>17.02 string의 여러가지 생성자들과 형변환</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -24,6 +24,7 @@
     <ProjectGuid>{5400ca2e-0bdc-4947-992a-c49f5771890a}</ProjectGuid>
     <RootNamespace>My111상속의기본1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>11.01 상속의 기본 (1)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

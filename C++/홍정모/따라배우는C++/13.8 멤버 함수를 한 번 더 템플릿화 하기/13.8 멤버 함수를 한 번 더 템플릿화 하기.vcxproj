@@ -24,6 +24,7 @@
     <ProjectGuid>{fc856901-8c84-4c16-a772-aef615d395f9}</ProjectGuid>
     <RootNamespace>My138멤버함수를한번더템플릿화하기</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>13.08 멤버 함수를 한 번 더 템플릿화 하기</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

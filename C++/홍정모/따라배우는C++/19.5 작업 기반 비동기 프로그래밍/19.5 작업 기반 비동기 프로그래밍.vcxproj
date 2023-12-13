@@ -24,6 +24,7 @@
     <ProjectGuid>{4010b6fe-8df0-4c84-8b08-55f49eb25a32}</ProjectGuid>
     <RootNamespace>My195작업기반비동기프로그래밍</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>19.05 작업 기반 비동기 프로그래밍</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -24,6 +24,7 @@
     <ProjectGuid>{1bd363eb-353a-4e31-9dc5-4296187ecce6}</ProjectGuid>
     <RootNamespace>My202깃깃헙시작하기GitGithub</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>20.02 깃, 깃헙 시작하기 Git, Github</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
