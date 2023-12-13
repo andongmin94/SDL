@@ -1,13 +1,19 @@
 ﻿#include <iostream>
-#include <iomanip>
-#include <math.h>
+#include <vector>
+#include <algorithm>
 
 using namespace std;
 
 int main()
 {
-	long double a;
-	cin >> a;
-	cout << fixed << setprecision(9);
-	cout << sqrt(a) * 4 << '\n';
+	vector<int> a;
+	int b;
+	cin >> b;
+	a.push_back(b);
+	cin >> b;
+	a.push_back(b);
+	cin >> b;
+	a.push_back(b);
+	sort(a.begin(), a.end());
+	cout << a[0] << endl;
 }
