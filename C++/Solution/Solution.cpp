@@ -1,19 +1,19 @@
 ﻿#include <iostream>
-#include <vector>
-#include <algorithm>
 
 using namespace std;
 
 int main()
 {
-	vector<int> a;
-	int b;
-	cin >> b;
-	a.push_back(b);
-	cin >> b;
-	a.push_back(b);
-	cin >> b;
-	a.push_back(b);
-	sort(a.begin(), a.end());
-	cout << a[0] << endl;
+	int a;
+	cin >> a;
+	for (int i = 0; i < a; i++)
+	{
+		int b, c, d;
+		cin >> b >> c >> d;
+		if (b < c && c < d)
+			cout << "Ordered" << endl;
+		else if (b > c && c > d)
+			cout << "Ordered" << endl;
+		else cout << "Unordered" << endl;
+	}
 }
