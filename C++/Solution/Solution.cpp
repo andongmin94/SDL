@@ -6,6 +6,7 @@ int main()
 {
 	int a;
 	cin >> a;
+	cout << "Gnomes:" << endl;
 	for (int i = 0; i < a; i++)
 	{
 		int b, c, d;
