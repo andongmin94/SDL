@@ -3,4 +3,7 @@
   <ItemGroup>
     <ClCompile Include="Ex0802_PriorityQueue.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\shared\MaxHeap.h" />
+  </ItemGroup>
 </Project>

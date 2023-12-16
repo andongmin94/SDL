@@ -3,4 +3,9 @@
   <ItemGroup>
     <ClCompile Include="Ex0702_ExpressionTree.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\shared\BinaryTree.h" />
+    <ClInclude Include="..\shared\Queue.h" />
+    <ClInclude Include="..\shared\Stack.h" />
+  </ItemGroup>
 </Project>

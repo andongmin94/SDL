@@ -3,4 +3,8 @@
   <ItemGroup>
     <ClCompile Include="Ex1202_AdjacentList.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\shared\Stack.h" />
+    <ClInclude Include="..\shared\Queue.h" />
+  </ItemGroup>
 </Project>

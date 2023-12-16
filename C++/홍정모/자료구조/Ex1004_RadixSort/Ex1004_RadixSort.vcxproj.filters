@@ -3,4 +3,7 @@
   <ItemGroup>
     <ClCompile Include="Ex1004_RadixSort.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\shared\Queue.h" />
+  </ItemGroup>
 </Project>
