@@ -3,4 +3,7 @@
   <ItemGroup>
     <ClCompile Include="Ex0403_TowerOfHanoi.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\shared\Stack.h" />
+  </ItemGroup>
 </Project>

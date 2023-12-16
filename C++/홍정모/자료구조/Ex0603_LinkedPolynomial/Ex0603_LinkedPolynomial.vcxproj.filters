@@ -3,4 +3,7 @@
   <ItemGroup>
     <ClCompile Include="Ex0603_LinkedPolynomial.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\shared\SinglyLinkedList.h" />
+  </ItemGroup>
 </Project>

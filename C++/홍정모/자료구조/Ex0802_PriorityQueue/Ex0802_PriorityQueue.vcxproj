@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="Ex0802_PriorityQueue.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\shared\MaxHeap.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

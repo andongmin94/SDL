@@ -561,6 +561,19 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20.05 TCP IP 네트워킹 �
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20.06 외부 라이브러리 설치, 프로젝트 템플릿", "홍정모\따라배우는C++\챕터 20\20.06 외부 라이브러리 설치, 프로젝트 템플릿\20.06 외부 라이브러리 설치, 프로젝트 템플릿.vcxproj", "{52C9611B-65CD-4C61-B626-3E4B744C47C9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{B3E07C27-576F-49F3-8713-F17E81724699}"
+	ProjectSection(SolutionItems) = preProject
+		홍정모\자료구조\shared\AVL.h = 홍정모\자료구조\shared\AVL.h
+		홍정모\자료구조\shared\BinarySearchTree.h = 홍정모\자료구조\shared\BinarySearchTree.h
+		홍정모\자료구조\shared\BinaryTree.h = 홍정모\자료구조\shared\BinaryTree.h
+		홍정모\자료구조\shared\Deque.h = 홍정모\자료구조\shared\Deque.h
+		홍정모\자료구조\shared\DoublyLinkedList.h = 홍정모\자료구조\shared\DoublyLinkedList.h
+		홍정모\자료구조\shared\MaxHeap.h = 홍정모\자료구조\shared\MaxHeap.h
+		홍정모\자료구조\shared\Queue.h = 홍정모\자료구조\shared\Queue.h
+		홍정모\자료구조\shared\SinglyLinkedList.h = 홍정모\자료구조\shared\SinglyLinkedList.h
+		홍정모\자료구조\shared\Stack.h = 홍정모\자료구조\shared\Stack.h
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -2778,6 +2791,7 @@ Global
 		{BB64E53C-07B9-4786-B036-2DA4A9030EAC} = {BD5A2893-9674-4CBF-BAE2-C1024E709D3A}
 		{DF6EC15C-C884-419F-95CF-BAE13B17357E} = {BD5A2893-9674-4CBF-BAE2-C1024E709D3A}
 		{52C9611B-65CD-4C61-B626-3E4B744C47C9} = {BD5A2893-9674-4CBF-BAE2-C1024E709D3A}
+		{B3E07C27-576F-49F3-8713-F17E81724699} = {1549E218-4D14-4A0D-AA06-2DDB69EFBA5F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C538F23A-1B76-4BA7-BE24-D132BCDC7087}

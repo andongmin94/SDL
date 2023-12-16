@@ -3,4 +3,8 @@
   <ItemGroup>
     <ClCompile Include="Ex1201_AdjacentMatrix.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\shared\Queue.h" />
+    <ClInclude Include="..\shared\Stack.h" />
+  </ItemGroup>
 </Project>

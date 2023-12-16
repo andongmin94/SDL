@@ -3,4 +3,7 @@
   <ItemGroup>
     <ClCompile Include="Ex0502_Josephus.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\shared\Queue.h" />
+  </ItemGroup>
 </Project>
