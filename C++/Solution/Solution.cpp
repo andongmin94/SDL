@@ -4,14 +4,13 @@ using namespace std;
 
 int main()
 {
-	int a, b, c;
-	int cnt = 0;
-	cin >> a >> b >> c;
+	int a, b;
+	cin >> a >> b;
 
-	while (a < b)
+	for (int i = 0; i < a; i++)
 	{
-		a += c;
-		cnt++;
+		for (int j = 0; j < b; j++)
+			cout << "*";
+		cout << endl;
 	}
-	cout << cnt << endl;
 }
