@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 
-#include "../../shared/Stack.h" // 경로 "shared" 주의
+#include "Stack.h" // 경로 "shared" 주의
 
 int main()
 {

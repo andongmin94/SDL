@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 
-#include "../../shared/DoublyLinkedList.h"
+#include "DoublyLinkedList.h"
 
 using namespace std;
 

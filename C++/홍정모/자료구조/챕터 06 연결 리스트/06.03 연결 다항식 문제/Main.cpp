@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-#include "../../shared/SinglyLinkedList.h"
+#include "SinglyLinkedList.h"
 
 using namespace std;
 

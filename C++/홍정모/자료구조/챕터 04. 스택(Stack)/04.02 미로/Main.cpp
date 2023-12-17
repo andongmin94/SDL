@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 
-#include "../../shared/Stack.h"
+#include "Stack.h"
 
 using namespace std;
 

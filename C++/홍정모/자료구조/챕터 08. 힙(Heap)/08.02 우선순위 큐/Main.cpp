@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 
-#include "../../shared/MaxHeap.h"
+#include "MaxHeap.h"
 
 using namespace std;
 

@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-#include "../../shared/Queue.h"
+#include "Queue.h"
 
 using namespace std;
 

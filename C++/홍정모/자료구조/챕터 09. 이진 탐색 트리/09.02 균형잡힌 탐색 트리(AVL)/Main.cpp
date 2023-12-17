@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 
-#include "../../shared/AVL.h"
+#include "AVL.h"
 
 using namespace std;
 
