@@ -4,13 +4,9 @@ using namespace std;
 
 int main()
 {
-	int a, b;
-	cin >> a >> b;
+	long double a;
+	cin >> a;
 
-	for (int i = 0; i < a; i++)
-	{
-		for (int j = 0; j < b; j++)
-			cout << "*";
-		cout << endl;
-	}
+	cout << setprecision(17);
+	cout << sqrt(a) * 4 << endl;
 }
