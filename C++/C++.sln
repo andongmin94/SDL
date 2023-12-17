@@ -7,559 +7,83 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "홍정모", "홍정모", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "자료구조", "자료구조", "{1549E218-4D14-4A0D-AA06-2DDB69EFBA5F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0101_Swap", "홍정모\자료구조\Ex0101_Swap\Ex0101_Swap.vcxproj", "{07BAEE20-FBAA-4B3F-B72F-D42D0C4FCD15}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0102_SelectionSort", "홍정모\자료구조\Ex0102_SelectionSort\Ex0102_SelectionSort.vcxproj", "{92157883-1DC3-4C43-924F-6F44D8936AE5}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0103_BubbleSort", "홍정모\자료구조\Ex0103_BubbleSort\Ex0103_BubbleSort.vcxproj", "{199B1A32-3760-4A4F-8ED3-B4DD5C188595}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0106_StringCompression", "홍정모\자료구조\Ex0106_StringCompression\Ex0106_StringCompression.vcxproj", "{D2E9993F-6063-4B05-AF54-FFD9CEE3A223}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0107_BinarySearch", "홍정모\자료구조\Ex0107_BinarySearch\Ex0107_BinarySearch.vcxproj", "{D0972058-BE60-4C17-B524-78FD2DD305E7}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0104_InsertionSort", "홍정모\자료구조\Ex0104_InsertionSort\Ex0104_InsertionSort.vcxproj", "{20ACAF7C-B0F7-4284-931B-0DE0718BF25B}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0105_SequentialSearch", "홍정모\자료구조\Ex0105_SequentialSearch\Ex0105_SequentialSearch.vcxproj", "{6298E432-0A98-46C9-811F-E960851A5FE4}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0108_PerformanceMeasurement", "홍정모\자료구조\Ex0108_PerformanceMeasurement\Ex0108_PerformanceMeasurement.vcxproj", "{F3EF97EC-9D5E-45A5-89A6-73BA6F29EB92}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0201_Recursion", "홍정모\자료구조\Ex0201_Recursion\Ex0201_Recursion.vcxproj", "{A376F875-B3CA-42F3-9168-FBF128F5283E}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0202_RecursiveSum", "홍정모\자료구조\Ex0202_RecursiveSum\Ex0202_RecursiveSum.vcxproj", "{9A7716D7-484B-497C-A9F7-F052341C2776}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0203_Fibonacci", "홍정모\자료구조\Ex0203_Fibonacci\Ex0203_Fibonacci.vcxproj", "{EBF1827C-12B8-41C1-BC68-428568909677}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0204_RecursiveBinarySearch", "홍정모\자료구조\Ex0204_RecursiveBinarySearch\Ex0204_RecursiveBinarySearch.vcxproj", "{0A8D6BBF-A9CB-4918-AB27-D4DFE6C298DA}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0205_Permutations", "홍정모\자료구조\Ex0205_Permutations\Ex0205_Permutations.vcxproj", "{472563EE-3ACD-45B3-9CA0-F0B218F42C9B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "알고리즘", "알고리즘", "{2B108539-4922-4C96-9D9C-1A84523D01C0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SSAFY", "SSAFY", "{1E29C463-FF19-4970-AE0B-91C46FDDDF4F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Learned", "Learned", "{858D1532-49BB-498C-BF67-07D79EB1A4DF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 01", "챕터 01", "{86DFE8FD-9B7B-4FDD-AB44-5CF0743D95EB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 01. 기본 개념", "챕터 01. 기본 개념", "{86DFE8FD-9B7B-4FDD-AB44-5CF0743D95EB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 02", "챕터 02", "{0CA7C9DB-89AE-485E-8FD7-F11EE36EDDFB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 02. 재귀(Recursion)", "챕터 02. 재귀(Recursion)", "{0CA7C9DB-89AE-485E-8FD7-F11EE36EDDFB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0301_StringAbstractDataType", "홍정모\자료구조\Ex0301_StringAbstractDataType\Ex0301_StringAbstractDataType.vcxproj", "{986C2BED-7F98-4B95-9541-1B2C45C44B03}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 03. 배열", "챕터 03. 배열", "{15868C8F-B8F2-4919-B42F-133443846977}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 03", "챕터 03", "{15868C8F-B8F2-4919-B42F-133443846977}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 04. 스택(Stack)", "챕터 04. 스택(Stack)", "{F586DE55-BEDA-4DDC-97B4-8CDFCDF13B41}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0302_Polynomial", "홍정모\자료구조\Ex0302_Polynomial\Ex0302_Polynomial.vcxproj", "{8762EB53-2EF4-49FB-B4BA-F053E40288A5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 05. 큐(Queue)", "챕터 05. 큐(Queue)", "{54FB8D5A-DBF5-4108-BFC2-CB3BEFCD0944}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0303_SparsePolynomial", "홍정모\자료구조\Ex0303_SparsePolynomial\Ex0303_SparsePolynomial.vcxproj", "{0C4C1279-7E97-4DE4-A0E3-6030AA16E34F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 06 연결 리스트", "챕터 06 연결 리스트", "{092F67E9-F3EF-4B59-8148-D56FD8732103}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0304_Matrix", "홍정모\자료구조\Ex0304_Matrix\Ex0304_Matrix.vcxproj", "{92A14540-3CFC-45DD-8A88-EEFA281C7F6E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 07. 트리(Tree)", "챕터 07. 트리(Tree)", "{FDB800F5-4724-469D-A217-A21E7DA7B8F6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0305_ArrayOfArrays", "홍정모\자료구조\Ex0305_ArrayOfArrays\Ex0305_ArrayOfArrays.vcxproj", "{F43E3B93-CBDE-48DA-B040-4A028F563A80}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 08. 힙(Heap)", "챕터 08. 힙(Heap)", "{58D832FF-8521-436E-8917-94DFEF791857}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0306_SparseMatrix", "홍정모\자료구조\Ex0306_SparseMatrix\Ex0306_SparseMatrix.vcxproj", "{B5645FFB-5817-4F74-9890-B108D218314E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 09. 이진 탐색 트리", "챕터 09. 이진 탐색 트리", "{8FE028AA-2529-4141-8BD3-84047D5FAF42}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 04", "챕터 04", "{F586DE55-BEDA-4DDC-97B4-8CDFCDF13B41}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 05", "챕터 05", "{54FB8D5A-DBF5-4108-BFC2-CB3BEFCD0944}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 06", "챕터 06", "{092F67E9-F3EF-4B59-8148-D56FD8732103}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 07", "챕터 07", "{FDB800F5-4724-469D-A217-A21E7DA7B8F6}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 08", "챕터 08", "{58D832FF-8521-436E-8917-94DFEF791857}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 09", "챕터 09", "{8FE028AA-2529-4141-8BD3-84047D5FAF42}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0401_Stack", "홍정모\자료구조\Ex0401_Stack\Ex0401_Stack.vcxproj", "{F28B81B8-9A87-4E49-8E03-0BE8F0F05897}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0402_Maze", "홍정모\자료구조\Ex0402_Maze\Ex0402_Maze.vcxproj", "{89167C99-A240-4F9D-A2BB-4CA8A04BBE1D}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0403_TowerOfHanoi", "홍정모\자료구조\Ex0403_TowerOfHanoi\Ex0403_TowerOfHanoi.vcxproj", "{4A358AE7-E532-4BBC-B755-D27F615F5271}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0501_Queue", "홍정모\자료구조\Ex0501_Queue\Ex0501_Queue.vcxproj", "{B2E272BD-3A19-44F9-98A0-8E9E676A3666}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0502_Josephus", "홍정모\자료구조\Ex0502_Josephus\Ex0502_Josephus.vcxproj", "{1FA0E377-6E1E-4704-997C-4C18EC90564B}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0503_Deque", "홍정모\자료구조\Ex0503_Deque\Ex0503_Deque.vcxproj", "{F8DE634E-9C27-40A9-96B3-CD837F9C45D7}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0504_EvaluatingExpressions", "홍정모\자료구조\Ex0504_EvaluatingExpressions\Ex0504_EvaluatingExpressions.vcxproj", "{31FC763B-56AE-4F48-A36E-96AB8C147F3D}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0601_LinkedNode", "홍정모\자료구조\Ex0601_LinkedNode\Ex0601_LinkedNode.vcxproj", "{7DDE6C55-9FA8-4056-BF77-E02FBB0B6D5F}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0701_BinaryTree", "홍정모\자료구조\Ex0701_BinaryTree\Ex0701_BinaryTree.vcxproj", "{13E1F026-0222-42A3-B8FE-59F54D14D5D2}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0602_SinglyLinkedList", "홍정모\자료구조\Ex0602_SinglyLinkedList\Ex0602_SinglyLinkedList.vcxproj", "{8D780622-2166-42C6-AE5C-EE48AF10248C}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0603_LinkedPolynomial", "홍정모\자료구조\Ex0603_LinkedPolynomial\Ex0603_LinkedPolynomial.vcxproj", "{F1AE3D4F-3BEA-49A4-AD9A-1F0751FF4FEB}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0604_DoublyLinkedList", "홍정모\자료구조\Ex0604_DoublyLinkedList\Ex0604_DoublyLinkedList.vcxproj", "{1129D05D-E047-4233-82F9-CB6EC0D530D4}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0702_ExpressionTree", "홍정모\자료구조\Ex0702_ExpressionTree\Ex0702_ExpressionTree.vcxproj", "{8093EC73-E78A-4EB7-8609-93DE2BBCA187}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0703_ThreadedBinaryTree", "홍정모\자료구조\Ex0703_ThreadedBinaryTree\Ex0703_ThreadedBinaryTree.vcxproj", "{BECF0351-7C66-4F5E-AEA5-E21504B69D64}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0801_Heap", "홍정모\자료구조\Ex0801_Heap\Ex0801_Heap.vcxproj", "{3F9E06E0-B70C-45AB-BF70-16E262EADC2D}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0802_PriorityQueue", "홍정모\자료구조\Ex0802_PriorityQueue\Ex0802_PriorityQueue.vcxproj", "{2FB0133D-4525-4F44-94EC-63843A8A243A}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0901_BinarySearchTree", "홍정모\자료구조\Ex0901_BinarySearchTree\Ex0901_BinarySearchTree.vcxproj", "{5B90F930-4C7E-460F-9AFF-65443D49A281}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex0902_AVL", "홍정모\자료구조\Ex0902_AVL\Ex0902_AVL.vcxproj", "{362A46B2-2D53-47B5-8945-8384A171DB22}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 10", "챕터 10", "{834A76B7-A1F6-4D38-9307-C79253D62B0A}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex1001_ShellSort", "홍정모\자료구조\Ex1001_ShellSort\Ex1001_ShellSort.vcxproj", "{BE69E929-BCF9-4A1A-AE1B-794805944ADC}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex1002_MergeSort", "홍정모\자료구조\Ex1002_MergeSort\Ex1002_MergeSort.vcxproj", "{C88293BB-A30A-4C8D-A1F1-3D08E7E46125}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex1003_QuickSort", "홍정모\자료구조\Ex1003_QuickSort\Ex1003_QuickSort.vcxproj", "{0DF353FC-A964-4738-932F-A4CD125EEDA5}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex1004_RadixSort", "홍정모\자료구조\Ex1004_RadixSort\Ex1004_RadixSort.vcxproj", "{B5A62A36-D30C-4ED2-993A-D88DEA524791}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 10. 정렬", "챕터 10. 정렬", "{834A76B7-A1F6-4D38-9307-C79253D62B0A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "배열 (DAT. 방향배열) 1", "알고리즘\SSAFY\배열 (DAT. 방향배열) 1\배열 (DAT. 방향배열) 1.vcxproj", "{58DD779B-1D3D-4AF2-9D95-9288B9BC7E91}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 11", "챕터 11", "{9E73D474-12E9-4B55-BBBD-1135385DAEE6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 11. 해슁(Hashing)", "챕터 11. 해슁(Hashing)", "{9E73D474-12E9-4B55-BBBD-1135385DAEE6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 12", "챕터 12", "{04954A37-5EAE-4755-A4DD-180E98E43672}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex1201_AdjacentMatrix", "홍정모\자료구조\Ex1201_AdjacentMatrix\Ex1201_AdjacentMatrix.vcxproj", "{B7D1CCD3-5043-4F2C-83BD-79AB49C1AE15}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex1202_AdjacentList", "홍정모\자료구조\Ex1202_AdjacentList\Ex1202_AdjacentList.vcxproj", "{D376D153-59A1-4972-89EA-516C3BBECB47}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex1101_InterpolationSearch", "홍정모\자료구조\Ex1101_InterpolationSearch\Ex1101_InterpolationSearch.vcxproj", "{082EB603-F58D-4A27-9DFA-51CA7B6B2BF8}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex1102_IndexedSequentialSearch", "홍정모\자료구조\Ex1102_IndexedSequentialSearch\Ex1102_IndexedSequentialSearch.vcxproj", "{BB91748A-5BCB-4034-A668-87B314737798}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex1103_HashTable", "홍정모\자료구조\Ex1103_HashTable\Ex1103_HashTable.vcxproj", "{DBF760E8-110B-4795-8E7E-BB9B8FAA47D3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 12. 그래프", "챕터 12. 그래프", "{04954A37-5EAE-4755-A4DD-180E98E43672}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Solution", "Solution\Solution.vcxproj", "{144D3EBD-35DD-4062-8E4B-9894D6591EC0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "따라배우는C++", "따라배우는C++", "{EC38D619-99F6-4B6F-83E9-068391EE5E80}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 01", "챕터 01", "{D5700CCC-2830-41CB-B478-BCADC651340C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 01. C++의 기초적인 사용법", "챕터 01. C++의 기초적인 사용법", "{D5700CCC-2830-41CB-B478-BCADC651340C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 02", "챕터 02", "{DB061C48-13D7-4B38-B3FB-F572BAD20F47}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 02. 변수와 기본적인 자료형", "챕터 02. 변수와 기본적인 자료형", "{DB061C48-13D7-4B38-B3FB-F572BAD20F47}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 03", "챕터 03", "{2BD51EC8-DADA-4ADF-9EAB-E82A4099D0ED}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 03. 연산자들", "챕터 03. 연산자들", "{2BD51EC8-DADA-4ADF-9EAB-E82A4099D0ED}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 04", "챕터 04", "{EE690805-8500-4CE3-8A3C-4A189F36F848}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 04. 변수 범위와 더 다양한 변수형", "챕터 04. 변수 범위와 더 다양한 변수형", "{EE690805-8500-4CE3-8A3C-4A189F36F848}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 05", "챕터 05", "{FA119F0E-451A-47E0-98AF-68EC010867ED}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 05. 흐름제어", "챕터 05. 흐름제어", "{FA119F0E-451A-47E0-98AF-68EC010867ED}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 06", "챕터 06", "{3A7EFF10-8639-4241-BA0D-3CF7F2FC53D7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 06. 행렬, 문자열, 포인터, 참조", "챕터 06. 행렬, 문자열, 포인터, 참조", "{3A7EFF10-8639-4241-BA0D-3CF7F2FC53D7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 07", "챕터 07", "{4C19F0B9-12E8-4C08-8DA5-B639A9D5469D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 07. 함수", "챕터 07. 함수", "{4C19F0B9-12E8-4C08-8DA5-B639A9D5469D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 08", "챕터 08", "{9FE90C30-9659-40E3-A7AF-58CAD81B8E48}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 08. 객체지향의 기초", "챕터 08. 객체지향의 기초", "{9FE90C30-9659-40E3-A7AF-58CAD81B8E48}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 09", "챕터 09", "{88245FC3-7370-4537-9AF2-1271424D8152}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 09. 연산자 오버로딩", "챕터 09. 연산자 오버로딩", "{88245FC3-7370-4537-9AF2-1271424D8152}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 10", "챕터 10", "{E0ADA68D-F021-4194-BF77-BD9777814A80}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 10. 객체들 사이의 관계에 대해", "챕터 10. 객체들 사이의 관계에 대해", "{E0ADA68D-F021-4194-BF77-BD9777814A80}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 11", "챕터 11", "{E9E17F25-DED5-432B-9FF1-664540CA3A46}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 11. 상속", "챕터 11. 상속", "{E9E17F25-DED5-432B-9FF1-664540CA3A46}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 12", "챕터 12", "{15699A6C-88E5-4911-ABCB-DE316FC2E674}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 12. 가상 함수들", "챕터 12. 가상 함수들", "{15699A6C-88E5-4911-ABCB-DE316FC2E674}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 13", "챕터 13", "{2A078FB9-73D8-4956-839D-EA8F4D3C8910}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 13. 템플릿", "챕터 13. 템플릿", "{2A078FB9-73D8-4956-839D-EA8F4D3C8910}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 14", "챕터 14", "{67971C51-B5D7-44BA-8E29-2FF3F87FB1E0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 14. 예외 처리", "챕터 14. 예외 처리", "{67971C51-B5D7-44BA-8E29-2FF3F87FB1E0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 15", "챕터 15", "{9948C0B4-C6C1-4E52-AFF6-ED9EFE6FEE32}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 15. 의미론적 이동과 스마트 포인터", "챕터 15. 의미론적 이동과 스마트 포인터", "{9948C0B4-C6C1-4E52-AFF6-ED9EFE6FEE32}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 16", "챕터 16", "{7905B768-CF24-40C3-857C-BF2F302F418E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 16. 표준 템플릿 라이브러리", "챕터 16. 표준 템플릿 라이브러리", "{7905B768-CF24-40C3-857C-BF2F302F418E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 17", "챕터 17", "{ACA05B89-FD87-4496-9596-BA2422447631}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 17. string 문자열 클래스", "챕터 17. string 문자열 클래스", "{ACA05B89-FD87-4496-9596-BA2422447631}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 18", "챕터 18", "{31AB5398-FB58-4088-B59A-6C7835FDF2E0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 18. 입력과 출력", "챕터 18. 입력과 출력", "{31AB5398-FB58-4088-B59A-6C7835FDF2E0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 19", "챕터 19", "{903B4374-0518-4D78-83DB-7FCED5D0120F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 19. 모던 C++필수 요소들", "챕터 19. 모던 C++필수 요소들", "{903B4374-0518-4D78-83DB-7FCED5D0120F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 20", "챕터 20", "{BD5A2893-9674-4CBF-BAE2-C1024E709D3A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 20. 중급 프로그래머들의 상식", "챕터 20. 중급 프로그래머들의 상식", "{BD5A2893-9674-4CBF-BAE2-C1024E709D3A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.01 프로그램의 구조", "홍정모\따라배우는C++\챕터 01\01.01 프로그램의 구조\01.01 프로그램의 구조.vcxproj", "{395B9D30-5DCF-4178-AD8E-30A031F9130F}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.02 주석 comments", "홍정모\따라배우는C++\챕터 01\01.02 주석 comments\01.02 주석 comments.vcxproj", "{BD47E753-CFAD-4B2E-A4A3-CC7C04A43C36}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.03 변수와의 첫 만남", "홍정모\따라배우는C++\챕터 01\01.03 변수와의 첫 만남\01.03 변수와의 첫 만남.vcxproj", "{20FD4E7C-54F3-47C5-A418-FDC07E875ADF}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.04 입출력 스트림과의 첫 만남 cin, cout", "홍정모\따라배우는C++\챕터 01\01.04 입출력 스트림과의 첫 만남 cin, cout\01.04 입출력 스트림과의 첫 만남 cin, cout.vcxproj", "{411212FA-5EE7-40C8-9C39-13000B3CE63B}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.05 함수와의 첫 만남", "홍정모\따라배우는C++\챕터 01\01.05 함수와의 첫 만남\01.05 함수와의 첫 만남.vcxproj", "{8A31B7C5-6106-4289-8966-D9C5633CE2C4}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.06 키워드와 식별자 이름짓기", "홍정모\따라배우는C++\챕터 01\01.06 키워드와 식별자 이름짓기\01.06 키워드와 식별자 이름짓기.vcxproj", "{0478F99E-4BC1-40AC-B11F-AD651A5CC2FD}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.07 지역 범위", "홍정모\따라배우는C++\챕터 01\01.07 지역 범위\01.07 지역 범위.vcxproj", "{0F169754-CAED-4AB8-80BD-D9F34FB252CF}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.08 연산자와의 첫 만남", "홍정모\따라배우는C++\챕터 01\01.08 연산자와의 첫 만남\01.08 연산자와의 첫 만남.vcxproj", "{5464FCE4-D757-49BA-BFF8-EB72DB0CC1B3}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.09 기본적인 서식 맞추기", "홍정모\따라배우는C++\챕터 01\01.09 기본적인 서식 맞추기\01.09 기본적인 서식 맞추기.vcxproj", "{18B82309-7FB5-43D6-8C51-0DD4FC730C39}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.10 선언과 정의의 분리", "홍정모\따라배우는C++\챕터 01\01.10 선언과 정의의 분리\01.10 선언과 정의의 분리.vcxproj", "{7821D4D8-7D2E-4BC5-9D1D-1F4754457D65}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.11 헤더파일 만들기", "홍정모\따라배우는C++\챕터 01\01.11 헤더파일 만들기\01.11 헤더파일 만들기.vcxproj", "{6DF825B5-D3AD-43B9-86EB-9490763E48CE}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.12 헤더 가드가 필요한 이유", "홍정모\따라배우는C++\챕터 01\01.12 헤더 가드가 필요한 이유\01.12 헤더 가드가 필요한 이유.vcxproj", "{3231D968-D484-412E-8FDC-DD1B87305CDA}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.13 네임스페이스 (명칭 공간)", "홍정모\따라배우는C++\챕터 01\01.13 네임스페이스 (명칭 공간)\01.13 네임스페이스 (명칭 공간).vcxproj", "{9662EBCA-0B4A-455B-8AE8-2C00551BA392}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.14 전처리기와의 첫 만남", "홍정모\따라배우는C++\챕터 01\01.14 전처리기와의 첫 만남\01.14 전처리기와의 첫 만남.vcxproj", "{34F86936-10B8-4286-A0F5-47A850E182C0}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.01 기본 자료형 소개", "홍정모\따라배우는C++\챕터 02\02.01 기본 자료형 소개\02.01 기본 자료형 소개.vcxproj", "{4DEDA7B6-0926-4701-9289-412371FC8D61}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.02 정수형 (Integers)", "홍정모\따라배우는C++\챕터 02\02.02 정수형 (Integers)\02.02 정수형 (Integers).vcxproj", "{48DF1C25-B3FA-4E00-B29D-9EE05237C111}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.03 C++ 11 고정 너비 정수 (Fixed-width Integer)", "홍정모\따라배우는C++\챕터 02\02.03 C++ 11 고정 너비 정수 (Fixed-width Integer)\02.03 C++ 11 고정 너비 정수 (Fixed-width Integer).vcxproj", "{8D22D7B3-9ED9-4429-BD38-9F416845B14F}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.04 무치형 (보이드, Void)", "홍정모\따라배우는C++\챕터 02\02.04 무치형 (보이드, Void)\02.04 무치형 (보이드, Void).vcxproj", "{9AB2496E-02FC-4C5B-A7F2-9D625A5ECCE2}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.05 부동소수점수 floating point numbers", "홍정모\따라배우는C++\챕터 02\02.05 부동소수점수 floating point numbers\02.05 부동소수점수 floating point numbers.vcxproj", "{C0E1C64A-0BFB-4B53-9643-49B855DAEEE3}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.06 불리언 자료형과 조건문 if", "홍정모\따라배우는C++\챕터 02\02.06 불리언 자료형과 조건문 if\02.06 불리언 자료형과 조건문 if.vcxproj", "{0C6BCFC9-EF20-4C90-8F34-A2D71781F812}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.07 문자형 char type", "홍정모\따라배우는C++\챕터 02\02.07 문자형 char type\02.07 문자형 char type.vcxproj", "{AD9F3419-4C7E-4807-BB68-E59C70589AAB}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.08 리터럴 상수 literal constants", "홍정모\따라배우는C++\챕터 02\02.08 리터럴 상수 literal constants\02.08 리터럴 상수 literal constants.vcxproj", "{63076309-3513-4DBF-A010-93DC91605022}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.09 심볼릭 상수 symbolic constants", "홍정모\따라배우는C++\챕터 02\02.09 심볼릭 상수 symbolic constants\02.09 심볼릭 상수 symbolic constants.vcxproj", "{CD7689E2-2F60-48E6-B83A-C56625754600}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.01 연산자 우선순위와 결합 법칙", "홍정모\따라배우는C++\챕터 03\03.01 연산자 우선순위와 결합 법칙\03.01 연산자 우선순위와 결합 법칙.vcxproj", "{8E8637A4-99FE-45E3-9D95-E15B323050B0}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.02 산술 연산자 arithmetic operators", "홍정모\따라배우는C++\챕터 03\03.02 산술 연산자 arithmetic operators\03.02 산술 연산자 arithmetic operators.vcxproj", "{2863A63E-04E5-41C8-9BF9-6EF0EC1224F0}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.03 증감 연산자 increment decrement operators", "홍정모\따라배우는C++\챕터 03\03.03 증감 연산자 increment decrement operators\03.03 증감 연산자 increment decrement operators.vcxproj", "{1AEA3FAA-A2AB-4CEE-BB88-2B4C5CC7071D}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.04 sizeof, 쉼표 연산자, 조건부 연산자", "홍정모\따라배우는C++\챕터 03\03.04 sizeof, 쉼표 연산자, 조건부 연산자\03.04 sizeof, 쉼표 연산자, 조건부 연산자.vcxproj", "{A271FE0C-5849-424D-B5E7-D2B4AB9D10C0}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.05 관계 연산자 Relational Operators", "홍정모\따라배우는C++\챕터 03\03.05 관계 연산자 Relational Operators\03.05 관계 연산자 Relational Operators.vcxproj", "{4D2362A7-B87C-49B9-AC7D-A95546978EDF}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.06 논리 연산자 logical operators", "홍정모\따라배우는C++\챕터 03\03.06 논리 연산자 logical operators\03.06 논리 연산자 logical operators.vcxproj", "{5410EA5F-5541-4424-A036-9A9260FAB178}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.07 이진수 Binary Numbers", "홍정모\따라배우는C++\챕터 03\03.07 이진수 Binary Numbers\03.07 이진수 Binary Numbers.vcxproj", "{455ABFF7-BB63-4CE9-A549-E58911CC13CA}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.08 비트단위 연산자 Bitwise Operators", "홍정모\따라배우는C++\챕터 03\03.08 비트단위 연산자 Bitwise Operators\03.08 비트단위 연산자 Bitwise Operators.vcxproj", "{23F9BE5E-F02F-4EC5-8CC2-B43556AA017E}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.09 비트 플래그, 비트 마스크 사용법 Bit flags, Bit masks", "홍정모\따라배우는C++\챕터 03\03.09 비트 플래그, 비트 마스크 사용법 Bit flags, Bit masks\03.09 비트 플래그, 비트 마스크 사용법 Bit flags, Bit masks.vcxproj", "{6D98CACD-4910-4DF7-AF7C-BAA04A6369E4}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.01 지역 변수, 범위, 지속기간", "홍정모\따라배우는C++\챕터 04\04.01 지역 변수, 범위, 지속기간\04.01 지역 변수, 범위, 지속기간.vcxproj", "{D2ABA3F7-4D1D-4496-BDA2-CEB73886D407}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.02 전역 변수, 정적 변수, 내부 연결, 외부 연결", "홍정모\따라배우는C++\챕터 04\04.02 전역 변수, 정적 변수, 내부 연결, 외부 연결\04.02 전역 변수, 정적 변수, 내부 연결, 외부 연결.vcxproj", "{E9296F4E-B660-42B8-B763-9B7D96010198}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.03 Using문과 모호성", "홍정모\따라배우는C++\챕터 04\04.03 Using문과 모호성\04.03 Using문과 모호성.vcxproj", "{05A25E54-2F49-4E7B-80C5-B764AAEBD7A9}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.04 auto 키워드와 자료형 추론", "홍정모\따라배우는C++\챕터 04\04.04 auto 키워드와 자료형 추론\04.04 auto 키워드와 자료형 추론.vcxproj", "{CB90BF4A-9981-403D-9A1C-A1C3535CAD24}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.05 형변환 Type conversion", "홍정모\따라배우는C++\챕터 04\04.05 형변환 Type conversion\04.05 형변환 Type conversion.vcxproj", "{666E8ACE-20D1-4F0B-9CCD-88F808D2A343}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.06 문자열 std string", "홍정모\따라배우는C++\챕터 04\04.06 문자열 std string\04.06 문자열 std string.vcxproj", "{737DD185-CF22-4C87-97AA-E527116C653B}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.07 열거형", "홍정모\따라배우는C++\챕터 04\04.07 열거형\04.07 열거형.vcxproj", "{7F549ADD-5F27-4C77-97D1-56D8E3F77757}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.08 영역 제한 열거형", "홍정모\따라배우는C++\챕터 04\04.08 영역 제한 열거형\04.08 영역 제한 열거형.vcxproj", "{4930987C-4C83-4335-8AB2-92EF9869EFF8}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.09 자료형에게 가명 붙여주기", "홍정모\따라배우는C++\챕터 04\04.09 자료형에게 가명 붙여주기\04.09 자료형에게 가명 붙여주기.vcxproj", "{4A39E897-7785-4239-97B5-4BE0C30ABDA7}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.10 구조체 struct", "홍정모\따라배우는C++\챕터 04\04.10 구조체 struct\04.10 구조체 struct.vcxproj", "{B2329166-21AB-41B6-991D-0FD8312C633D}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.01 제어 흐름 개요 Control flow", "홍정모\따라배우는C++\챕터 05\05.01 제어 흐름 개요 Control flow\05.01 제어 흐름 개요 Control flow.vcxproj", "{23055CB5-0801-4B62-9E17-B41C17113A9D}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.02 조건문 if", "홍정모\따라배우는C++\챕터 05\05.02 조건문 if\05.02 조건문 if.vcxproj", "{77A4FEA5-9B8C-4C00-8CBD-8857E3864102}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.03 switch-case", "홍정모\따라배우는C++\챕터 05\05.03 switch-case\05.03 switch-case.vcxproj", "{09796E1D-C144-45EC-905E-DDDECFE1CD39}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.04 goto", "홍정모\따라배우는C++\챕터 05\05.04 goto\05.04 goto.vcxproj", "{B2F2F4DB-D6B6-4950-BEC3-D9BB3114DD31}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.05 반복문 while", "홍정모\따라배우는C++\챕터 05\05.05 반복문 while\05.05 반복문 while.vcxproj", "{4E82D240-7EB5-4FEE-912B-1A3ED47C296E}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.06 반복문 do-while", "홍정모\따라배우는C++\챕터 05\05.06 반복문 do-while\05.06 반복문 do-while.vcxproj", "{B885EDB0-81AE-4D37-B298-BAB2EBFEBDC1}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.07 반복문 for", "홍정모\따라배우는C++\챕터 05\05.07 반복문 for\05.07 반복문 for.vcxproj", "{02ADCAF6-DB9D-4919-B65A-982AE14D4F22}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.08 break, continue", "홍정모\따라배우는C++\챕터 05\05.08 break, continue\05.08 break, continue.vcxproj", "{CBBF0F64-ABCA-40A0-9E28-0FC0BA385EBC}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.09 난수 만들기 random numbers", "홍정모\따라배우는C++\챕터 05\05.09 난수 만들기 random numbers\05.09 난수 만들기 random numbers.vcxproj", "{BA66B0EB-16AE-4612-BA31-CB07CE0EF2D5}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.10 cin 더 잘 쓰기", "홍정모\따라배우는C++\챕터 05\05.10 cin 더 잘 쓰기\05.10 cin 더 잘 쓰기.vcxproj", "{17026A20-D742-46FF-990F-914A86BB7218}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.01 배열 기초 [1 of 2] array", "홍정모\따라배우는C++\챕터 06\06.01 배열 기초 [1 of 2] array\06.01 배열 기초 [1 of 2] array.vcxproj", "{F88AC094-272D-4264-8C2F-741B81716044}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.02 배열 기초 [2 of 2] array", "홍정모\따라배우는C++\챕터 06\06.02 배열 기초 [2 of 2] array\06.02 배열 기초 [2 of 2] array.vcxproj", "{8E82F6D0-59E5-4203-BFFD-CF348311D70B}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.03 배열과 반복문", "홍정모\따라배우는C++\챕터 06\06.03 배열과 반복문\06.03 배열과 반복문.vcxproj", "{99485EE0-DA1C-49C0-98B3-A2C6D81BC898}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.04 배열과 선택 정렬 selection sort", "홍정모\따라배우는C++\챕터 06\06.04 배열과 선택 정렬 selection sort\06.04 배열과 선택 정렬 selection sort.vcxproj", "{8F5F2C82-F038-4706-AA72-EF581BEBCDC9}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.05 정적 다차원 배열", "홍정모\따라배우는C++\챕터 06\06.05 정적 다차원 배열\06.05 정적 다차원 배열.vcxproj", "{8848F7AC-2CAF-4153-B8D5-D2737A5DC365}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.06 C언어 스타일의 배열 문자열", "홍정모\따라배우는C++\챕터 06\06.06 C언어 스타일의 배열 문자열\06.06 C언어 스타일의 배열 문자열.vcxproj", "{94CECCC5-7C3A-4AB0-9059-300C182F58C6}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.07 포인터의 기본적인 사용법", "홍정모\따라배우는C++\챕터 06\06.07 포인터의 기본적인 사용법\06.07 포인터의 기본적인 사용법.vcxproj", "{B548497B-E2B9-4821-A051-CE61D530C2A2}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.07a 널 포인터 Null Pointer", "홍정모\따라배우는C++\챕터 06\06.07a 널 포인터 Null Pointer\06.07a 널 포인터 Null Pointer.vcxproj", "{AF50E1EB-ECE9-48E7-9D77-7609A04C597E}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.08 포인터와 정적 배열", "홍정모\따라배우는C++\챕터 06\06.08 포인터와 정적 배열\06.08 포인터와 정적 배열.vcxproj", "{BC4F0A37-463D-46A0-87B3-F2366D9ECC3C}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.09 포인터 연산과 배열 인덱싱", "홍정모\따라배우는C++\챕터 06\06.09 포인터 연산과 배열 인덱싱\06.09 포인터 연산과 배열 인덱싱.vcxproj", "{000632BA-C08A-4F4A-854E-CBA9CCEBBE6E}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.10 C언어 스타일의 문자열 심볼릭 상수", "홍정모\따라배우는C++\챕터 06\06.10 C언어 스타일의 문자열 심볼릭 상수\06.10 C언어 스타일의 문자열 심볼릭 상수.vcxproj", "{BD1E9E78-4187-4511-84EA-EE67A2F6193D}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.11 메모리 동적 할당 new와 delete", "홍정모\따라배우는C++\챕터 06\06.11 메모리 동적 할당 new와 delete\06.11 메모리 동적 할당 new와 delete.vcxproj", "{B6EF1628-9E91-4B13-944B-05C671CDEEFA}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.12 동적 할당 배열", "홍정모\따라배우는C++\챕터 06\06.12 동적 할당 배열\06.12 동적 할당 배열.vcxproj", "{1ED660BF-487C-4932-97B1-D2B76911B193}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.13 포인터와 const", "홍정모\따라배우는C++\챕터 06\06.13 포인터와 const\06.13 포인터와 const.vcxproj", "{2A42C76A-8A0D-4FCD-8A20-2C32A836B9E3}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.14 참조 변수 reference variable", "홍정모\따라배우는C++\챕터 06\06.14 참조 변수 reference variable\06.14 참조 변수 reference variable.vcxproj", "{3DABFD8C-1A78-4634-988C-273B192F8DC4}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.15 참조와 const", "홍정모\따라배우는C++\챕터 06\06.15 참조와 const\06.15 참조와 const.vcxproj", "{2D427C37-9878-4E65-8B0A-76B513ACEF96}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.16 포인터와 참조의 멤버 선택", "홍정모\따라배우는C++\챕터 06\06.16 포인터와 참조의 멤버 선택\06.16 포인터와 참조의 멤버 선택.vcxproj", "{DF22A5DF-1DB1-430F-8C6A-D47C8DCE6EC2}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.17 C++11 For-each 반복문", "홍정모\따라배우는C++\챕터 06\06.17 C++11 For-each 반복문\06.17 C++11 For-each 반복문.vcxproj", "{120C5BAB-61DE-4F24-9089-A399DD350D4D}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.18 보이드 포인터", "홍정모\따라배우는C++\챕터 06\06.18 보이드 포인터\06.18 보이드 포인터.vcxproj", "{7F76D591-01C5-44E7-A165-1B11485935A7}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.19 다중 포인터와 동적 다차원 배열", "홍정모\따라배우는C++\챕터 06\06.19 다중 포인터와 동적 다차원 배열\06.19 다중 포인터와 동적 다차원 배열.vcxproj", "{C70C34D8-339D-4E3D-9D4E-D221C313D47E}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.20 array 소개", "홍정모\따라배우는C++\챕터 06\06.20 array 소개\06.20 array 소개.vcxproj", "{7C5A4659-2976-4AAC-8C9A-3969913FA04F}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.21 vector 소개", "홍정모\따라배우는C++\챕터 06\06.21 vector 소개\06.21 vector 소개.vcxproj", "{0A7559F5-E882-40A9-8ECF-7E5BF910F548}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.01 매개변수와 실인자의 구분", "홍정모\따라배우는C++\챕터 07\07.01 매개변수와 실인자의 구분\07.01 매개변수와 실인자의 구분.vcxproj", "{17412559-F4D6-4883-AE96-6F4A4C670DC3}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.02 값에 의한 전달", "홍정모\따라배우는C++\챕터 07\07.02 값에 의한 전달\07.02 값에 의한 전달.vcxproj", "{CFA67AF2-DFD7-48ED-8D32-5E94659DC824}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.03 참조에 의한 인수 전달", "홍정모\따라배우는C++\챕터 07\07.03 참조에 의한 인수 전달\07.03 참조에 의한 인수 전달.vcxproj", "{F4D9F904-2293-4721-B568-28058ADA69C3}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.04 주소에 의한 인수 전달", "홍정모\따라배우는C++\챕터 07\07.04 주소에 의한 인수 전달\07.04 주소에 의한 인수 전달.vcxproj", "{8D4010D0-275B-43FD-BCFD-A1A608EBEB94}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.05 다양한 반환 값들(값, 참조, 주소, 구조체, 튜플)", "홍정모\따라배우는C++\챕터 07\07.05 다양한 반환 값들(값, 참조, 주소, 구조체, 튜플)\07.05 다양한 반환 값들(값, 참조, 주소, 구조체, 튜플).vcxproj", "{0482D9E2-9EB3-4AAC-B134-C14166AB1289}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.06 인라인 함수", "홍정모\따라배우는C++\챕터 07\07.06 인라인 함수\07.06 인라인 함수.vcxproj", "{A86A1076-3D67-46C8-9C92-AA293A349F10}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.07 함수 오버로딩", "홍정모\따라배우는C++\챕터 07\07.07 함수 오버로딩\07.07 함수 오버로딩.vcxproj", "{E8541A1A-D1B1-41BD-80F5-15558503CB69}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.08 매개변수의 기본값", "홍정모\따라배우는C++\챕터 07\07.08 매개변수의 기본값\07.08 매개변수의 기본값.vcxproj", "{261F3F7D-7DBA-45EF-AACC-6AF25E10EE63}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.09 함수 포인터", "홍정모\따라배우는C++\챕터 07\07.09 함수 포인터\07.09 함수 포인터.vcxproj", "{619C4ED1-BC07-4C71-8358-76BF5E7B526B}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.10 스택과 힙", "홍정모\따라배우는C++\챕터 07\07.10 스택과 힙\07.10 스택과 힙.vcxproj", "{D2EF01D3-FEAD-4303-8B77-AA5B7B459591}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.11 std vector를 스택처럼 사용하기", "홍정모\따라배우는C++\챕터 07\07.11 std vector를 스택처럼 사용하기\07.11 std vector를 스택처럼 사용하기.vcxproj", "{25CC1111-FEC1-4750-B113-C1D085B96D9B}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.12 재귀적 함수 호출", "홍정모\따라배우는C++\챕터 07\07.12 재귀적 함수 호출\07.12 재귀적 함수 호출.vcxproj", "{7F21D07F-3471-4769-B2B0-A02222850FD9}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.13 방어적 프로그래밍의 개념", "홍정모\따라배우는C++\챕터 07\07.13 방어적 프로그래밍의 개념\07.13 방어적 프로그래밍의 개념.vcxproj", "{4FF06200-769D-4282-AB06-0B028C4A6514}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.14 단언하기 assert", "홍정모\따라배우는C++\챕터 07\07.14 단언하기 assert\07.14 단언하기 assert.vcxproj", "{4A591722-C5B9-4B9D-BCA1-0B2D7522F516}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.15 명령줄 인수 command line arguments", "홍정모\따라배우는C++\챕터 07\07.15 명령줄 인수 command line arguments\07.15 명령줄 인수 command line arguments.vcxproj", "{E02FB0B8-990B-4015-9E6B-7BD92DC56F80}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.16 생략부호 Ellipsis", "홍정모\따라배우는C++\챕터 07\07.16 생략부호 Ellipsis\07.16 생략부호 Ellipsis.vcxproj", "{FB38A21D-8CB2-40F6-BFC0-3050A4D1C6FA}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.01 객체지향 프로그래밍과 클래스", "홍정모\따라배우는C++\챕터 08\08.01 객체지향 프로그래밍과 클래스\08.01 객체지향 프로그래밍과 클래스.vcxproj", "{3883D209-B9B5-4D76-896C-BF78A9E61A16}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.02 캡슐화, 접근 지정자, 접근 함수", "홍정모\따라배우는C++\챕터 08\08.02 캡슐화, 접근 지정자, 접근 함수\08.02 캡슐화, 접근 지정자, 접근 함수.vcxproj", "{D3702D5F-010E-46D9-B3A6-BE7B20C1271F}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.03 생성자 Constructors", "홍정모\따라배우는C++\챕터 08\08.03 생성자 Constructors\08.03 생성자 Constructors.vcxproj", "{D97E7E9C-1304-49FA-A701-F8492AAA547C}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.04 생성자 멤버 초기화 목록", "홍정모\따라배우는C++\챕터 08\08.04 생성자 멤버 초기화 목록\08.04 생성자 멤버 초기화 목록.vcxproj", "{4D3C05BC-FF85-4CB3-9BF0-8C9170E73654}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.05 위임 생성자", "홍정모\따라배우는C++\챕터 08\08.05 위임 생성자\08.05 위임 생성자.vcxproj", "{0B7E2D04-D622-4F6F-9641-477B66EFA491}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.06 소멸자 destructor", "홍정모\따라배우는C++\챕터 08\08.06 소멸자 destructor\08.06 소멸자 destructor.vcxproj", "{37D83C00-5F44-47DE-9385-073D90041266}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.07 this 포인터와 연쇄 호출", "홍정모\따라배우는C++\챕터 08\08.07 this 포인터와 연쇄 호출\08.07 this 포인터와 연쇄 호출.vcxproj", "{832BB395-06BA-49D3-B43D-60DAA5D51123}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.08 클래스 코드와 헤더 파일", "홍정모\따라배우는C++\챕터 08\08.08 클래스 코드와 헤더 파일\08.08 클래스 코드와 헤더 파일.vcxproj", "{EE894C62-B836-4A2A-A1AB-E5CEF11D3896}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.09 클래스와 const", "홍정모\따라배우는C++\챕터 08\08.09 클래스와 const\08.09 클래스와 const.vcxproj", "{D631D663-06CE-48BE-A47C-168216E11E1E}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.10 정적 멤버 변수", "홍정모\따라배우는C++\챕터 08\08.10 정적 멤버 변수\08.10 정적 멤버 변수.vcxproj", "{C82A721B-D82E-47A4-B3E6-E1F89E3FA1E6}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.11 정적 멤버 함수", "홍정모\따라배우는C++\챕터 08\08.11 정적 멤버 함수\08.11 정적 멤버 함수.vcxproj", "{2C441540-D6DD-4E48-AA37-B5F484ADA7D1}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.12 친구 함수와 클래스 friend", "홍정모\따라배우는C++\챕터 08\08.12 친구 함수와 클래스 friend\08.12 친구 함수와 클래스 friend.vcxproj", "{B9ECDC33-3359-42F0-91F9-B29D87288BC8}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.13 익명 객체", "홍정모\따라배우는C++\챕터 08\08.13 익명 객체\08.13 익명 객체.vcxproj", "{2E8E5489-B180-40BE-A504-4CB861F3A66D}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.14 클래스 안에 포함된 자료형 nested types", "홍정모\따라배우는C++\챕터 08\08.14 클래스 안에 포함된 자료형 nested types\08.14 클래스 안에 포함된 자료형 nested types.vcxproj", "{1DE69FB9-1988-4A75-9AB1-7C3590477887}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.15 실행 시간 측정하기", "홍정모\따라배우는C++\챕터 08\08.15 실행 시간 측정하기\08.15 실행 시간 측정하기.vcxproj", "{80BAB3C6-F24A-4861-8D54-3ED6FDBFB1C6}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.01 산술 연산자 오버로딩 하기", "홍정모\따라배우는C++\챕터 09\09.01 산술 연산자 오버로딩 하기\09.01 산술 연산자 오버로딩 하기.vcxproj", "{A93C8ADF-1006-497E-9815-5B38A2E63895}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.02 입출력 연산자 오버로딩하기", "홍정모\따라배우는C++\챕터 09\09.02 입출력 연산자 오버로딩하기\09.02 입출력 연산자 오버로딩하기.vcxproj", "{AFA1E7B2-1D6C-432D-A45C-9BAF7BCE12C9}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.03 단항 연산자 오버로딩 하기", "홍정모\따라배우는C++\챕터 09\09.03 단항 연산자 오버로딩 하기\09.03 단항 연산자 오버로딩 하기.vcxproj", "{9A438BDD-3F28-4D37-812C-AB638047C8B1}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.04 비교 연산자 오버로딩 하기", "홍정모\따라배우는C++\챕터 09\09.04 비교 연산자 오버로딩 하기\09.04 비교 연산자 오버로딩 하기.vcxproj", "{B1A9554F-7CEE-49F4-8A1D-A2FF60643110}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.05 증감 연산자 오버로딩 하기", "홍정모\따라배우는C++\챕터 09\09.05 증감 연산자 오버로딩 하기\09.05 증감 연산자 오버로딩 하기.vcxproj", "{8FC8EB31-F9C6-402A-83B2-230231C2AC75}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.06 첨자 연산자 오버로딩 하기", "홍정모\따라배우는C++\챕터 09\09.06 첨자 연산자 오버로딩 하기\09.06 첨자 연산자 오버로딩 하기.vcxproj", "{BA5643DA-95DA-4274-B816-193EE1606F28}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.07 괄호 연산자 오버로딩과 함수 객체", "홍정모\따라배우는C++\챕터 09\09.07 괄호 연산자 오버로딩과 함수 객체\09.07 괄호 연산자 오버로딩과 함수 객체.vcxproj", "{B2F4B069-6855-4913-856F-C0C24D1AE064}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.08 형변환을 오버로딩 하기", "홍정모\따라배우는C++\챕터 09\09.08 형변환을 오버로딩 하기\09.08 형변환을 오버로딩 하기.vcxproj", "{A1087317-F6C5-4ACA-82DC-BAB9E5523637}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.09 복사 생성자, 복사 초기화 반환값 최적화", "홍정모\따라배우는C++\챕터 09\09.09 복사 생성자, 복사 초기화 반환값 최적화\09.09 복사 생성자, 복사 초기화 반환값 최적화.vcxproj", "{484E6833-AAEC-4B80-8C02-6C3F467D7AD3}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.10 변환 생성자, explicit, delete", "홍정모\따라배우는C++\챕터 09\09.10 변환 생성자, explicit, delete\09.10 변환 생성자, explicit, delete.vcxproj", "{38CACA5E-3B0E-4F00-9555-7D1B1DCD579E}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.11 대입 연산자 오버로딩, 깊은 복사, 얕은 복사", "홍정모\따라배우는C++\챕터 09\09.11 대입 연산자 오버로딩, 깊은 복사, 얕은 복사\09.11 대입 연산자 오버로딩, 깊은 복사, 얕은 복사.vcxproj", "{427064A3-754C-493D-B67D-1186287D57A6}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.12 이니셜라이져 리스트 initializer list", "홍정모\따라배우는C++\챕터 09\09.12 이니셜라이져 리스트 initializer list\09.12 이니셜라이져 리스트 initializer list.vcxproj", "{C9D8E72B-15EF-42B6-9E37-0DDBCD5D9E0C}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.01 객체들의 관계", "홍정모\따라배우는C++\챕터 10\10.01 객체들의 관계\10.01 객체들의 관계.vcxproj", "{A30F1C6C-01EA-4BA6-BF01-8ED06E23AC1F}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.02 구성 관계", "홍정모\따라배우는C++\챕터 10\10.02 구성 관계\10.02 구성 관계.vcxproj", "{193B3991-6213-44B7-8188-CAE6FAA23B8E}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.03 집합 관계", "홍정모\따라배우는C++\챕터 10\10.03 집합 관계\10.03 집합 관계.vcxproj", "{0BA8D158-65AE-44A2-AB49-8F05A1D0A674}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.04 제휴 관계", "홍정모\따라배우는C++\챕터 10\10.04 제휴 관계\10.04 제휴 관계.vcxproj", "{19D3BC21-836A-4175-A7E0-96EC6B19667F}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.05 의존 관계", "홍정모\따라배우는C++\챕터 10\10.05 의존 관계\10.05 의존 관계.vcxproj", "{516F7FAA-CC1B-47BC-8A49-DA18F7503D5C}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.06 컨테이너 클래스", "홍정모\따라배우는C++\챕터 10\10.06 컨테이너 클래스\10.06 컨테이너 클래스.vcxproj", "{396C6ED5-EA9F-4898-A8F5-7F30AA9202BE}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.01 상속의 기본 (1)", "홍정모\따라배우는C++\챕터 11\11.01 상속의 기본 (1)\11.01 상속의 기본 (1).vcxproj", "{E48E0846-AB30-487B-A9ED-E59B1C96644F}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.02 상속의 기본 (2)", "홍정모\따라배우는C++\챕터 11\11.02 상속의 기본 (2)\11.02 상속의 기본 (2).vcxproj", "{E75305CA-86DB-4FE2-BD57-DE857D0524D6}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.03 유도된 클래스들의 생성 순서", "홍정모\따라배우는C++\챕터 11\11.03 유도된 클래스들의 생성 순서\11.03 유도된 클래스들의 생성 순서.vcxproj", "{19952BB0-5E61-4944-B4CF-7BEA5BCB8899}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.04 유도된 클래스들의 생성과 초기화", "홍정모\따라배우는C++\챕터 11\11.04 유도된 클래스들의 생성과 초기화\11.04 유도된 클래스들의 생성과 초기화.vcxproj", "{CBA1B438-6EE5-429A-B84E-FAE1C468A333}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.05 상속과 접근 지정자", "홍정모\따라배우는C++\챕터 11\11.05 상속과 접근 지정자\11.05 상속과 접근 지정자.vcxproj", "{08F40A8E-50C8-4727-B0F5-45EBDF4DA276}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.06 유도된 클래스에 새로운 기능 추가하기", "홍정모\따라배우는C++\챕터 11\11.06 유도된 클래스에 새로운 기능 추가하기\11.06 유도된 클래스에 새로운 기능 추가하기.vcxproj", "{E4163604-F896-4ED0-BF01-06A7FB84CC62}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.07 상속받은 함수를 오버라이딩 하기", "홍정모\따라배우는C++\챕터 11\11.07 상속받은 함수를 오버라이딩 하기\11.07 상속받은 함수를 오버라이딩 하기.vcxproj", "{D5DA42ED-346D-44A3-8657-FFA0DEBDD88C}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.08 상속 받은 함수를 감추기", "홍정모\따라배우는C++\챕터 11\11.08 상속 받은 함수를 감추기\11.08 상속 받은 함수를 감추기.vcxproj", "{277C49C6-B0C2-4206-9623-46EE9B63B117}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.09 다중 상속", "홍정모\따라배우는C++\챕터 11\11.09 다중 상속\11.09 다중 상속.vcxproj", "{7EDD22D3-FC73-4BF4-B76D-7B72DDBB628D}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.01 다형성의 기본 개념", "홍정모\따라배우는C++\챕터 12\12.01 다형성의 기본 개념\12.01 다형성의 기본 개념.vcxproj", "{57288B85-7145-4CB5-B7FC-D19C9914C5C6}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.02 가상 함수와 다형성", "홍정모\따라배우는C++\챕터 12\12.02 가상 함수와 다형성\12.02 가상 함수와 다형성.vcxproj", "{A6701C36-0816-46D1-BD36-82C42E442721}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.03 override, final, 공변 반환값", "홍정모\따라배우는C++\챕터 12\12.03 override, final, 공변 반환값\12.03 override, final, 공변 반환값.vcxproj", "{49C51B0A-E88C-42BD-86A6-6EE8CEA5722F}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.04 가상 소멸자", "홍정모\따라배우는C++\챕터 12\12.04 가상 소멸자\12.04 가상 소멸자.vcxproj", "{FCFA6153-386D-4D64-A9EF-D1ED7DF1EFF9}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.05 동적 바인딩과 정적 바인딩", "홍정모\따라배우는C++\챕터 12\12.05 동적 바인딩과 정적 바인딩\12.05 동적 바인딩과 정적 바인딩.vcxproj", "{87E322BF-4798-4CC0-849F-935DC6CC3688}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.06 가상 (함수) 표", "홍정모\따라배우는C++\챕터 12\12.06 가상 (함수) 표\12.06 가상 (함수) 표.vcxproj", "{F1C42C49-4291-42BA-A2CA-4228F8EE699F}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.07 순수 가상 함수, 추상 기본 클래스, 인터페이스 클래스", "홍정모\따라배우는C++\챕터 12\12.07 순수 가상 함수, 추상 기본 클래스, 인터페이스 클래스\12.07 순수 가상 함수, 추상 기본 클래스, 인터페이스 클래스.vcxproj", "{C255BC83-5E59-4BB0-887D-C8D52606B282}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.08 가상 기본 클래스와 다이아몬드 상속 문제", "홍정모\따라배우는C++\챕터 12\12.08 가상 기본 클래스와 다이아몬드 상속 문제\12.08 가상 기본 클래스와 다이아몬드 상속 문제.vcxproj", "{3C3F7E16-B9BB-4A10-83BD-4FDED814C089}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.09 객체 잘림과 reference wrapper", "홍정모\따라배우는C++\챕터 12\12.09 객체 잘림과 reference wrapper\12.09 객체 잘림과 reference wrapper.vcxproj", "{81307240-1057-43D2-96A6-D80EDB5E1A58}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.10 동적 형변환", "홍정모\따라배우는C++\챕터 12\12.10 동적 형변환\12.10 동적 형변환.vcxproj", "{6CF1FE7B-ABF0-4A4B-BB19-7260C578DA94}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.11 유도 클래스에서 출력 연산자 사용하기", "홍정모\따라배우는C++\챕터 12\12.11 유도 클래스에서 출력 연산자 사용하기\12.11 유도 클래스에서 출력 연산자 사용하기.vcxproj", "{4D2B4E4B-E1A0-4438-9A36-AE314A51B19C}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.01 함수 템플릿", "홍정모\따라배우는C++\챕터 13\13.01 함수 템플릿\13.01 함수 템플릿.vcxproj", "{02B1847F-529A-47DA-A363-2F29F34C8603}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.02 클래스 템플릿", "홍정모\따라배우는C++\챕터 13\13.02 클래스 템플릿\13.02 클래스 템플릿.vcxproj", "{3ACC7BE3-F4AA-47B0-9F80-88C5A680EB53}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.03 자료형이 아닌 템플릿 매개변수", "홍정모\따라배우는C++\챕터 13\13.03 자료형이 아닌 템플릿 매개변수\13.03 자료형이 아닌 템플릿 매개변수.vcxproj", "{A8830B46-84B4-4356-9FBF-5749A0164DBE}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.04 함수 템플릿 특수화", "홍정모\따라배우는C++\챕터 13\13.04 함수 템플릿 특수화\13.04 함수 템플릿 특수화.vcxproj", "{730B84C0-6FE5-4BD1-8A57-E699745F9E7B}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.05 클래스 템플릿 특수화", "홍정모\따라배우는C++\챕터 13\13.05 클래스 템플릿 특수화\13.05 클래스 템플릿 특수화.vcxproj", "{6B6C7107-677E-4E6E-8CC6-5298C0FF7C22}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.06 템플릿을 부분적으로 특수화하기", "홍정모\따라배우는C++\챕터 13\13.06 템플릿을 부분적으로 특수화하기\13.06 템플릿을 부분적으로 특수화하기.vcxproj", "{87315F6E-8A71-4EED-A3B0-C58EE2AD8995}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.07 포인터에 대한 템플릿 특수화", "홍정모\따라배우는C++\챕터 13\13.07 포인터에 대한 템플릿 특수화\13.07 포인터에 대한 템플릿 특수화.vcxproj", "{AFB7C590-33EA-4B90-96D1-91643FBF71BA}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.08 멤버 함수를 한 번 더 템플릿화 하기", "홍정모\따라배우는C++\챕터 13\13.08 멤버 함수를 한 번 더 템플릿화 하기\13.08 멤버 함수를 한 번 더 템플릿화 하기.vcxproj", "{43F4261E-C2C2-49E0-AE8B-2EBC51CAE94A}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.01 예외처리의 기본", "홍정모\따라배우는C++\챕터 14\14.01 예외처리의 기본\14.01 예외처리의 기본.vcxproj", "{F33F44A2-2D71-4B27-9E66-079116AB91F8}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.02 예외처리와 스택 되감기", "홍정모\따라배우는C++\챕터 14\14.02 예외처리와 스택 되감기\14.02 예외처리와 스택 되감기.vcxproj", "{41331B35-5C94-4423-804C-5D430C9863B9}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.03 예외 클래스와 상속", "홍정모\따라배우는C++\챕터 14\14.03 예외 클래스와 상속\14.03 예외 클래스와 상속.vcxproj", "{38A53F62-1B0A-4FEC-9484-5EF3950DB084}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.04 exception 소개", "홍정모\따라배우는C++\챕터 14\14.04 exception 소개\14.04 exception 소개.vcxproj", "{F6E65A93-E042-4B4C-B284-ECA224182C78}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.05 함수 try", "홍정모\따라배우는C++\챕터 14\14.05 함수 try\14.05 함수 try.vcxproj", "{8608CACB-5E87-4327-BCFF-3C203F0A23B8}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.06 예외처리의 위험성과 단점", "홍정모\따라배우는C++\챕터 14\14.06 예외처리의 위험성과 단점\14.06 예외처리의 위험성과 단점.vcxproj", "{FB091981-0E5B-43AD-82F2-41D35E2AA0BA}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.01 이동의 의미와 스마트 포인터", "홍정모\따라배우는C++\챕터 15\15.01 이동의 의미와 스마트 포인터\15.01 이동의 의미와 스마트 포인터.vcxproj", "{302E7308-CE26-4B7E-837D-949CFC5F1FC0}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.02 오른쪽-값 참조", "홍정모\따라배우는C++\챕터 15\15.02 오른쪽-값 참조\15.02 오른쪽-값 참조.vcxproj", "{5B149A08-F95E-4D16-B54F-54E4F3E655CD}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.03 이동 생성자와 이동 대입", "홍정모\따라배우는C++\챕터 15\15.03 이동 생성자와 이동 대입\15.03 이동 생성자와 이동 대입.vcxproj", "{D2D203A8-41D9-4790-905E-BD362C7434D8}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.04 move", "홍정모\따라배우는C++\챕터 15\15.04 move\15.04 move.vcxproj", "{4DCC2B9B-9263-47DB-A081-F693B47786C7}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.05 unique_ptr", "홍정모\따라배우는C++\챕터 15\15.05 unique_ptr\15.05 unique_ptr.vcxproj", "{2E48CBB3-4480-4E2A-BA59-AEA7F95D347C}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.06 shard_ptr", "홍정모\따라배우는C++\챕터 15\15.06 shard_ptr\15.06 shard_ptr.vcxproj", "{B45BB912-7F2C-45EB-B2F3-A2EC3FEBBDF9}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.07 순환 의존성 문제와 weak_ptr", "홍정모\따라배우는C++\챕터 15\15.07 순환 의존성 문제와 weak_ptr\15.07 순환 의존성 문제와 weak_ptr.vcxproj", "{720F948D-2D55-44F8-9C48-56AD9CA122D2}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16.01 표준 템플릿 라이브러리, 컨테이너 소개", "홍정모\따라배우는C++\챕터 16\16.01 표준 템플릿 라이브러리, 컨테이너 소개\16.01 표준 템플릿 라이브러리, 컨테이너 소개.vcxproj", "{A7EB7464-E651-4651-9150-CB5C25C7BC4D}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16.02 STL 반복자 소개", "홍정모\따라배우는C++\챕터 16\16.02 STL 반복자 소개\16.02 STL 반복자 소개.vcxproj", "{DD9311D5-B400-47F8-AF15-BD2C750FBF0D}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16.03 STL 알고리즘 소개", "홍정모\따라배우는C++\챕터 16\16.03 STL 알고리즘 소개\16.03 STL 알고리즘 소개.vcxproj", "{532BB246-E168-494C-8BBF-38D3650D760C}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17.01 string과 wstring", "홍정모\따라배우는C++\챕터 17\17.01 string과 wstring\17.01 string과 wstring.vcxproj", "{B3430445-BDED-4276-867F-C29D37A2A55C}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17.02 string의 여러가지 생성자들과 형변환", "홍정모\따라배우는C++\챕터 17\17.02 string의 여러가지 생성자들과 형변환\17.02 string의 여러가지 생성자들과 형변환.vcxproj", "{CC4B11BC-AF0B-4865-982C-5E64AAE313F5}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17.03 string의 길이와 용량", "홍정모\따라배우는C++\챕터 17\17.03 string의 길이와 용량\17.03 string의 길이와 용량.vcxproj", "{8A75A3BA-1AFB-4C89-9EAE-5EA5E7E38C9E}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17.04 문자 접근하기와 배열로의 변환", "홍정모\따라배우는C++\챕터 17\17.04 문자 접근하기와 배열로의 변환\17.04 문자 접근하기와 배열로의 변환.vcxproj", "{AA9DB2A9-0017-4528-9221-8FFC5E3FC19B}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17.05 string 대입, 교환, 덧붙이기, 삽입", "홍정모\따라배우는C++\챕터 17\17.05 string 대입, 교환, 덧붙이기, 삽입\17.05 string 대입, 교환, 덧붙이기, 삽입.vcxproj", "{F325C7B9-7C11-42F4-A636-E12629F84998}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18.01 istream으로 입력받기", "홍정모\따라배우는C++\챕터 18\18.01 istream으로 입력받기\18.01 istream으로 입력받기.vcxproj", "{F851A576-6952-4A8F-919F-D40A90A3F94D}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18.02 ostream으로 출력하기", "홍정모\따라배우는C++\챕터 18\18.02 ostream으로 출력하기\18.02 ostream으로 출력하기.vcxproj", "{B900024E-4B8F-4685-B4B6-840C816862F2}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18.03 문자열 스트림", "홍정모\따라배우는C++\챕터 18\18.03 문자열 스트림\18.03 문자열 스트림.vcxproj", "{D453010F-C446-42F1-9063-E8B938775877}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18.04 흐름 상태와 입력 유효성 검증", "홍정모\따라배우는C++\챕터 18\18.04 흐름 상태와 입력 유효성 검증\18.04 흐름 상태와 입력 유효성 검증.vcxproj", "{C24C2F1C-1F14-414D-9014-83FBFD66FF97}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18.05 정규 표현식 소개", "홍정모\따라배우는C++\챕터 18\18.05 정규 표현식 소개\18.05 정규 표현식 소개.vcxproj", "{5ECA49AF-77F1-4EB8-92FE-3046205D92BC}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18.06 기본적인 파일 입출력", "홍정모\따라배우는C++\챕터 18\18.06 기본적인 파일 입출력\18.06 기본적인 파일 입출력.vcxproj", "{2C5F8364-1255-4253-92BD-5EB43E682506}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18.07 파일의 임의 위치 접근하기", "홍정모\따라배우는C++\챕터 18\18.07 파일의 임의 위치 접근하기\18.07 파일의 임의 위치 접근하기.vcxproj", "{4C539115-25D6-4BF2-9F88-A94AF3F20252}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19.01 람다 함수와 function bind, for_each", "홍정모\따라배우는C++\챕터 19\19.01 람다 함수와 function bind, for_each\19.01 람다 함수와 function bind, for_each.vcxproj", "{9158B8CF-9CBF-4005-9C2C-D8F17470B76D}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19.02 C++ 17 함수에서 여러 개의 리턴값 반환하기", "홍정모\따라배우는C++\챕터 19\19.02 C++ 17 함수에서 여러 개의 리턴값 반환하기\19.02 C++ 17 함수에서 여러 개의 리턴값 반환하기.vcxproj", "{F0E08B3A-748C-45DD-BE95-7022FC647091}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19.03 thread와 멀티쓰레딩 기초", "홍정모\따라배우는C++\챕터 19\19.03 thread와 멀티쓰레딩 기초\19.03 thread와 멀티쓰레딩 기초.vcxproj", "{CCD7EECF-FE13-4150-A088-C5F7B69F959F}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19.04 레이스 컨디션, atomic, scoped_lock", "홍정모\따라배우는C++\챕터 19\19.04 레이스 컨디션, atomic, scoped_lock\19.04 레이스 컨디션, atomic, scoped_lock.vcxproj", "{3FD6CE13-73EA-4BE9-9E28-148A7199F13F}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19.05 작업 기반 비동기 프로그래밍", "홍정모\따라배우는C++\챕터 19\19.05 작업 기반 비동기 프로그래밍\19.05 작업 기반 비동기 프로그래밍.vcxproj", "{286E648B-B0A1-4454-B1B3-48B76C8A2F0D}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19.06 멀티쓰레딩 예제 (벡터 내적)", "홍정모\따라배우는C++\챕터 19\19.06 멀티쓰레딩 예제 (벡터 내적)\19.06 멀티쓰레딩 예제 (벡터 내적).vcxproj", "{B3DBEF11-3810-4C16-A49F-C3A4F745DAD5}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19.07 완벽한 전달과 forward", "홍정모\따라배우는C++\챕터 19\19.07 완벽한 전달과 forward\19.07 완벽한 전달과 forward.vcxproj", "{4C3A6F7D-164E-47A7-993D-429088F5F7EB}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19.08 자료형 추론 auto와 decltype", "홍정모\따라배우는C++\챕터 19\19.08 자료형 추론 auto와 decltype\19.08 자료형 추론 auto와 decltype.vcxproj", "{EEBC64E2-4B8A-44F6-BA9C-629D3C5F17E9}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20.01 비쥬얼 스튜디오로 프로파일링 하기", "홍정모\따라배우는C++\챕터 20\20.01 비쥬얼 스튜디오로 프로파일링 하기\20.01 비쥬얼 스튜디오로 프로파일링 하기.vcxproj", "{C5E531FA-5772-4FF3-A8EA-19104C82B620}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20.02 깃, 깃헙 시작하기 Git, Github", "홍정모\따라배우는C++\챕터 20\20.02 깃, 깃헙 시작하기 Git, Github\20.02 깃, 깃헙 시작하기 Git, Github.vcxproj", "{30107A0B-F57D-4F37-A987-35E27A768492}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20.03 비쥬얼 스튜디오에서 깃헙 사용하기", "홍정모\따라배우는C++\챕터 20\20.03 비쥬얼 스튜디오에서 깃헙 사용하기\20.03 비쥬얼 스튜디오에서 깃헙 사용하기.vcxproj", "{F6B05FFA-933D-451E-8C3C-0F58E6A4B5A3}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20.04 Vcpkg 설치 방법", "홍정모\따라배우는C++\챕터 20\20.04 Vcpkg 설치 방법\20.04 Vcpkg 설치 방법.vcxproj", "{BB64E53C-07B9-4786-B036-2DA4A9030EAC}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20.05 TCP IP 네트워킹 맛보기 - Boost, Asio Socket IOStream", "홍정모\따라배우는C++\챕터 20\20.05 TCP IP 네트워킹 맛보기 - Boost, Asio Socket IOStream\20.05 TCP IP 네트워킹 맛보기 - Boost, Asio Socket IOStream.vcxproj", "{DF6EC15C-C884-419F-95CF-BAE13B17357E}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20.06 외부 라이브러리 설치, 프로젝트 템플릿", "홍정모\따라배우는C++\챕터 20\20.06 외부 라이브러리 설치, 프로젝트 템플릿\20.06 외부 라이브러리 설치, 프로젝트 템플릿.vcxproj", "{52C9611B-65CD-4C61-B626-3E4B744C47C9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.01 프로그램의 구조", "홍정모\따라배우는C++\챕터 01. C++의 기초적인 사용법\01.01 프로그램의 구조\01.01 프로그램의 구조.vcxproj", "{395B9D30-5DCF-4178-AD8E-30A031F9130F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{B3E07C27-576F-49F3-8713-F17E81724699}"
 	ProjectSection(SolutionItems) = preProject
@@ -574,6 +98,482 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{B3E07C
 		홍정모\자료구조\shared\Stack.h = 홍정모\자료구조\shared\Stack.h
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.02 주석 comments", "홍정모\따라배우는C++\챕터 01. C++의 기초적인 사용법\01.02 주석 comments\01.02 주석 comments.vcxproj", "{BD47E753-CFAD-4B2E-A4A3-CC7C04A43C36}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.03 변수와의 첫 만남", "홍정모\따라배우는C++\챕터 01. C++의 기초적인 사용법\01.03 변수와의 첫 만남\01.03 변수와의 첫 만남.vcxproj", "{3BBA0EA4-7B1F-47D1-B7FA-136E608D45CA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.04 입출력 스트림과의 첫 만남 cin, cout", "홍정모\따라배우는C++\챕터 01. C++의 기초적인 사용법\01.04 입출력 스트림과의 첫 만남 cin, cout\01.04 입출력 스트림과의 첫 만남 cin, cout.vcxproj", "{411212FA-5EE7-40C8-9C39-13000B3CE63B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.05 함수와의 첫 만남", "홍정모\따라배우는C++\챕터 01. C++의 기초적인 사용법\01.05 함수와의 첫 만남\01.05 함수와의 첫 만남.vcxproj", "{8A31B7C5-6106-4289-8966-D9C5633CE2C4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.06 키워드와 식별자 이름짓기", "홍정모\따라배우는C++\챕터 01. C++의 기초적인 사용법\01.06 키워드와 식별자 이름짓기\01.06 키워드와 식별자 이름짓기.vcxproj", "{0478F99E-4BC1-40AC-B11F-AD651A5CC2FD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.07 지역 범위", "홍정모\따라배우는C++\챕터 01. C++의 기초적인 사용법\01.07 지역 범위\01.07 지역 범위.vcxproj", "{0F169754-CAED-4AB8-80BD-D9F34FB252CF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.08 연산자와의 첫 만남", "홍정모\따라배우는C++\챕터 01. C++의 기초적인 사용법\01.08 연산자와의 첫 만남\01.08 연산자와의 첫 만남.vcxproj", "{5464FCE4-D757-49BA-BFF8-EB72DB0CC1B3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.09 기본적인 서식 맞추기", "홍정모\따라배우는C++\챕터 01. C++의 기초적인 사용법\01.09 기본적인 서식 맞추기\01.09 기본적인 서식 맞추기.vcxproj", "{18B82309-7FB5-43D6-8C51-0DD4FC730C39}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.10 선언과 정의의 분리", "홍정모\따라배우는C++\챕터 01. C++의 기초적인 사용법\01.10 선언과 정의의 분리\01.10 선언과 정의의 분리.vcxproj", "{7821D4D8-7D2E-4BC5-9D1D-1F4754457D65}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.11 헤더파일 만들기", "홍정모\따라배우는C++\챕터 01. C++의 기초적인 사용법\01.11 헤더파일 만들기\01.11 헤더파일 만들기.vcxproj", "{6DF825B5-D3AD-43B9-86EB-9490763E48CE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.12 헤더 가드가 필요한 이유", "홍정모\따라배우는C++\챕터 01. C++의 기초적인 사용법\01.12 헤더 가드가 필요한 이유\01.12 헤더 가드가 필요한 이유.vcxproj", "{3231D968-D484-412E-8FDC-DD1B87305CDA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.13 네임스페이스 (명칭 공간)", "홍정모\따라배우는C++\챕터 01. C++의 기초적인 사용법\01.13 네임스페이스 (명칭 공간)\01.13 네임스페이스 (명칭 공간).vcxproj", "{9662EBCA-0B4A-455B-8AE8-2C00551BA392}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.14 전처리기와의 첫 만남", "홍정모\따라배우는C++\챕터 01. C++의 기초적인 사용법\01.14 전처리기와의 첫 만남\01.14 전처리기와의 첫 만남.vcxproj", "{34F86936-10B8-4286-A0F5-47A850E182C0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.01 기본 자료형 소개", "홍정모\따라배우는C++\챕터 02. 변수와 기본적인 자료형\02.01 기본 자료형 소개\02.01 기본 자료형 소개.vcxproj", "{4DEDA7B6-0926-4701-9289-412371FC8D61}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.02 정수형 (Integers)", "홍정모\따라배우는C++\챕터 02. 변수와 기본적인 자료형\02.02 정수형 (Integers)\02.02 정수형 (Integers).vcxproj", "{48DF1C25-B3FA-4E00-B29D-9EE05237C111}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.03 C++ 11 고정 너비 정수 (Fixed-width Integer)", "홍정모\따라배우는C++\챕터 02. 변수와 기본적인 자료형\02.03 C++ 11 고정 너비 정수 (Fixed-width Integer)\02.03 C++ 11 고정 너비 정수 (Fixed-width Integer).vcxproj", "{8D22D7B3-9ED9-4429-BD38-9F416845B14F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.04 무치형 (보이드, Void)", "홍정모\따라배우는C++\챕터 02. 변수와 기본적인 자료형\02.04 무치형 (보이드, Void)\02.04 무치형 (보이드, Void).vcxproj", "{9AB2496E-02FC-4C5B-A7F2-9D625A5ECCE2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.05 부동소수점수 floating point numbers", "홍정모\따라배우는C++\챕터 02. 변수와 기본적인 자료형\02.05 부동소수점수 floating point numbers\02.05 부동소수점수 floating point numbers.vcxproj", "{C0E1C64A-0BFB-4B53-9643-49B855DAEEE3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.06 불리언 자료형과 조건문 if", "홍정모\따라배우는C++\챕터 02. 변수와 기본적인 자료형\02.06 불리언 자료형과 조건문 if\02.06 불리언 자료형과 조건문 if.vcxproj", "{0C6BCFC9-EF20-4C90-8F34-A2D71781F812}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.07 문자형 char type", "홍정모\따라배우는C++\챕터 02. 변수와 기본적인 자료형\02.07 문자형 char type\02.07 문자형 char type.vcxproj", "{AD9F3419-4C7E-4807-BB68-E59C70589AAB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.08 리터럴 상수 literal constants", "홍정모\따라배우는C++\챕터 02. 변수와 기본적인 자료형\02.08 리터럴 상수 literal constants\02.08 리터럴 상수 literal constants.vcxproj", "{63076309-3513-4DBF-A010-93DC91605022}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.09 심볼릭 상수 symbolic constants", "홍정모\따라배우는C++\챕터 02. 변수와 기본적인 자료형\02.09 심볼릭 상수 symbolic constants\02.09 심볼릭 상수 symbolic constants.vcxproj", "{CD7689E2-2F60-48E6-B83A-C56625754600}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.01 연산자 우선순위와 결합 법칙", "홍정모\따라배우는C++\챕터 03. 연산자들\03.01 연산자 우선순위와 결합 법칙\03.01 연산자 우선순위와 결합 법칙.vcxproj", "{8E8637A4-99FE-45E3-9D95-E15B323050B0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.02 산술 연산자 arithmetic operators", "홍정모\따라배우는C++\챕터 03. 연산자들\03.02 산술 연산자 arithmetic operators\03.02 산술 연산자 arithmetic operators.vcxproj", "{2863A63E-04E5-41C8-9BF9-6EF0EC1224F0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.03 증감 연산자 increment decrement operators", "홍정모\따라배우는C++\챕터 03. 연산자들\03.03 증감 연산자 increment decrement operators\03.03 증감 연산자 increment decrement operators.vcxproj", "{1AEA3FAA-A2AB-4CEE-BB88-2B4C5CC7071D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.04 sizeof, 쉼표 연산자, 조건부 연산자", "홍정모\따라배우는C++\챕터 03. 연산자들\03.04 sizeof, 쉼표 연산자, 조건부 연산자\03.04 sizeof, 쉼표 연산자, 조건부 연산자.vcxproj", "{A271FE0C-5849-424D-B5E7-D2B4AB9D10C0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.05 관계 연산자 Relational Operators", "홍정모\따라배우는C++\챕터 03. 연산자들\03.05 관계 연산자 Relational Operators\03.05 관계 연산자 Relational Operators.vcxproj", "{4D2362A7-B87C-49B9-AC7D-A95546978EDF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.06 논리 연산자 logical operators", "홍정모\따라배우는C++\챕터 03. 연산자들\03.06 논리 연산자 logical operators\03.06 논리 연산자 logical operators.vcxproj", "{5410EA5F-5541-4424-A036-9A9260FAB178}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.07 이진수 Binary Numbers", "홍정모\따라배우는C++\챕터 03. 연산자들\03.07 이진수 Binary Numbers\03.07 이진수 Binary Numbers.vcxproj", "{455ABFF7-BB63-4CE9-A549-E58911CC13CA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.08 비트단위 연산자 Bitwise Operators", "홍정모\따라배우는C++\챕터 03. 연산자들\03.08 비트단위 연산자 Bitwise Operators\03.08 비트단위 연산자 Bitwise Operators.vcxproj", "{23F9BE5E-F02F-4EC5-8CC2-B43556AA017E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.09 비트 플래그, 비트 마스크 사용법 Bit flags, Bit masks", "홍정모\따라배우는C++\챕터 03. 연산자들\03.09 비트 플래그, 비트 마스크 사용법 Bit flags, Bit masks\03.09 비트 플래그, 비트 마스크 사용법 Bit flags, Bit masks.vcxproj", "{6D98CACD-4910-4DF7-AF7C-BAA04A6369E4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.01 지역 변수, 범위, 지속기간", "홍정모\따라배우는C++\챕터 04. 변수 범위와 더 다양한 변수형\04.01 지역 변수, 범위, 지속기간\04.01 지역 변수, 범위, 지속기간.vcxproj", "{D2ABA3F7-4D1D-4496-BDA2-CEB73886D407}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.02 전역 변수, 정적 변수, 내부 연결, 외부 연결", "홍정모\따라배우는C++\챕터 04. 변수 범위와 더 다양한 변수형\04.02 전역 변수, 정적 변수, 내부 연결, 외부 연결\04.02 전역 변수, 정적 변수, 내부 연결, 외부 연결.vcxproj", "{E9296F4E-B660-42B8-B763-9B7D96010198}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.03 Using문과 모호성", "홍정모\따라배우는C++\챕터 04. 변수 범위와 더 다양한 변수형\04.03 Using문과 모호성\04.03 Using문과 모호성.vcxproj", "{05A25E54-2F49-4E7B-80C5-B764AAEBD7A9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.04 auto 키워드와 자료형 추론", "홍정모\따라배우는C++\챕터 04. 변수 범위와 더 다양한 변수형\04.04 auto 키워드와 자료형 추론\04.04 auto 키워드와 자료형 추론.vcxproj", "{CB90BF4A-9981-403D-9A1C-A1C3535CAD24}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.05 형변환 Type conversion", "홍정모\따라배우는C++\챕터 04. 변수 범위와 더 다양한 변수형\04.05 형변환 Type conversion\04.05 형변환 Type conversion.vcxproj", "{666E8ACE-20D1-4F0B-9CCD-88F808D2A343}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.06 문자열 std string", "홍정모\따라배우는C++\챕터 04. 변수 범위와 더 다양한 변수형\04.06 문자열 std string\04.06 문자열 std string.vcxproj", "{737DD185-CF22-4C87-97AA-E527116C653B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.07 열거형", "홍정모\따라배우는C++\챕터 04. 변수 범위와 더 다양한 변수형\04.07 열거형\04.07 열거형.vcxproj", "{7F549ADD-5F27-4C77-97D1-56D8E3F77757}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.08 영역 제한 열거형", "홍정모\따라배우는C++\챕터 04. 변수 범위와 더 다양한 변수형\04.08 영역 제한 열거형\04.08 영역 제한 열거형.vcxproj", "{4930987C-4C83-4335-8AB2-92EF9869EFF8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.09 자료형에게 가명 붙여주기", "홍정모\따라배우는C++\챕터 04. 변수 범위와 더 다양한 변수형\04.09 자료형에게 가명 붙여주기\04.09 자료형에게 가명 붙여주기.vcxproj", "{4A39E897-7785-4239-97B5-4BE0C30ABDA7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.10 구조체 struct", "홍정모\따라배우는C++\챕터 04. 변수 범위와 더 다양한 변수형\04.10 구조체 struct\04.10 구조체 struct.vcxproj", "{B2329166-21AB-41B6-991D-0FD8312C633D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.01 제어 흐름 개요 Control flow", "홍정모\따라배우는C++\챕터 05. 흐름제어\05.01 제어 흐름 개요 Control flow\05.01 제어 흐름 개요 Control flow.vcxproj", "{23055CB5-0801-4B62-9E17-B41C17113A9D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.02 조건문 if", "홍정모\따라배우는C++\챕터 05. 흐름제어\05.02 조건문 if\05.02 조건문 if.vcxproj", "{77A4FEA5-9B8C-4C00-8CBD-8857E3864102}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.03 switch-case", "홍정모\따라배우는C++\챕터 05. 흐름제어\05.03 switch-case\05.03 switch-case.vcxproj", "{09796E1D-C144-45EC-905E-DDDECFE1CD39}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.05 반복문 while", "홍정모\따라배우는C++\챕터 05. 흐름제어\05.05 반복문 while\05.05 반복문 while.vcxproj", "{4E82D240-7EB5-4FEE-912B-1A3ED47C296E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.04 goto", "홍정모\따라배우는C++\챕터 05. 흐름제어\05.04 goto\05.04 goto.vcxproj", "{B2F2F4DB-D6B6-4950-BEC3-D9BB3114DD31}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.06 반복문 do-while", "홍정모\따라배우는C++\챕터 05. 흐름제어\05.06 반복문 do-while\05.06 반복문 do-while.vcxproj", "{B885EDB0-81AE-4D37-B298-BAB2EBFEBDC1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.07 반복문 for", "홍정모\따라배우는C++\챕터 05. 흐름제어\05.07 반복문 for\05.07 반복문 for.vcxproj", "{02ADCAF6-DB9D-4919-B65A-982AE14D4F22}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.08 break, continue", "홍정모\따라배우는C++\챕터 05. 흐름제어\05.08 break, continue\05.08 break, continue.vcxproj", "{CBBF0F64-ABCA-40A0-9E28-0FC0BA385EBC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.09 난수 만들기 random numbers", "홍정모\따라배우는C++\챕터 05. 흐름제어\05.09 난수 만들기 random numbers\05.09 난수 만들기 random numbers.vcxproj", "{BA66B0EB-16AE-4612-BA31-CB07CE0EF2D5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.10 cin 더 잘 쓰기", "홍정모\따라배우는C++\챕터 05. 흐름제어\05.10 cin 더 잘 쓰기\05.10 cin 더 잘 쓰기.vcxproj", "{17026A20-D742-46FF-990F-914A86BB7218}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.01 배열 기초 [1 of 2] array", "홍정모\따라배우는C++\챕터 06. 행렬, 문자열, 포인터, 참조\06.01 배열 기초 [1 of 2] array\06.01 배열 기초 [1 of 2] array.vcxproj", "{F88AC094-272D-4264-8C2F-741B81716044}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.02 배열 기초 [2 of 2] array", "홍정모\따라배우는C++\챕터 06. 행렬, 문자열, 포인터, 참조\06.02 배열 기초 [2 of 2] array\06.02 배열 기초 [2 of 2] array.vcxproj", "{8E82F6D0-59E5-4203-BFFD-CF348311D70B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.03 배열과 반복문", "홍정모\따라배우는C++\챕터 06. 행렬, 문자열, 포인터, 참조\06.03 배열과 반복문\06.03 배열과 반복문.vcxproj", "{99485EE0-DA1C-49C0-98B3-A2C6D81BC898}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.04 배열과 선택 정렬 selection sort", "홍정모\따라배우는C++\챕터 06. 행렬, 문자열, 포인터, 참조\06.04 배열과 선택 정렬 selection sort\06.04 배열과 선택 정렬 selection sort.vcxproj", "{8F5F2C82-F038-4706-AA72-EF581BEBCDC9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.05 정적 다차원 배열", "홍정모\따라배우는C++\챕터 06. 행렬, 문자열, 포인터, 참조\06.05 정적 다차원 배열\06.05 정적 다차원 배열.vcxproj", "{8848F7AC-2CAF-4153-B8D5-D2737A5DC365}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.06 C언어 스타일의 배열 문자열", "홍정모\따라배우는C++\챕터 06. 행렬, 문자열, 포인터, 참조\06.06 C언어 스타일의 배열 문자열\06.06 C언어 스타일의 배열 문자열.vcxproj", "{94CECCC5-7C3A-4AB0-9059-300C182F58C6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.07 포인터의 기본적인 사용법", "홍정모\따라배우는C++\챕터 06. 행렬, 문자열, 포인터, 참조\06.07 포인터의 기본적인 사용법\06.07 포인터의 기본적인 사용법.vcxproj", "{B548497B-E2B9-4821-A051-CE61D530C2A2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.07a 널 포인터 Null Pointer", "홍정모\따라배우는C++\챕터 06. 행렬, 문자열, 포인터, 참조\06.07a 널 포인터 Null Pointer\06.07a 널 포인터 Null Pointer.vcxproj", "{AF50E1EB-ECE9-48E7-9D77-7609A04C597E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.08 포인터와 정적 배열", "홍정모\따라배우는C++\챕터 06. 행렬, 문자열, 포인터, 참조\06.08 포인터와 정적 배열\06.08 포인터와 정적 배열.vcxproj", "{BC4F0A37-463D-46A0-87B3-F2366D9ECC3C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.09 포인터 연산과 배열 인덱싱", "홍정모\따라배우는C++\챕터 06. 행렬, 문자열, 포인터, 참조\06.09 포인터 연산과 배열 인덱싱\06.09 포인터 연산과 배열 인덱싱.vcxproj", "{000632BA-C08A-4F4A-854E-CBA9CCEBBE6E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.10 C언어 스타일의 문자열 심볼릭 상수", "홍정모\따라배우는C++\챕터 06. 행렬, 문자열, 포인터, 참조\06.10 C언어 스타일의 문자열 심볼릭 상수\06.10 C언어 스타일의 문자열 심볼릭 상수.vcxproj", "{BD1E9E78-4187-4511-84EA-EE67A2F6193D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.11 메모리 동적 할당 new와 delete", "홍정모\따라배우는C++\챕터 06. 행렬, 문자열, 포인터, 참조\06.11 메모리 동적 할당 new와 delete\06.11 메모리 동적 할당 new와 delete.vcxproj", "{B6EF1628-9E91-4B13-944B-05C671CDEEFA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.12 동적 할당 배열", "홍정모\따라배우는C++\챕터 06. 행렬, 문자열, 포인터, 참조\06.12 동적 할당 배열\06.12 동적 할당 배열.vcxproj", "{1ED660BF-487C-4932-97B1-D2B76911B193}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.13 포인터와 const", "홍정모\따라배우는C++\챕터 06. 행렬, 문자열, 포인터, 참조\06.13 포인터와 const\06.13 포인터와 const.vcxproj", "{2A42C76A-8A0D-4FCD-8A20-2C32A836B9E3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.14 참조 변수 reference variable", "홍정모\따라배우는C++\챕터 06. 행렬, 문자열, 포인터, 참조\06.14 참조 변수 reference variable\06.14 참조 변수 reference variable.vcxproj", "{3DABFD8C-1A78-4634-988C-273B192F8DC4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.15 참조와 const", "홍정모\따라배우는C++\챕터 06. 행렬, 문자열, 포인터, 참조\06.15 참조와 const\06.15 참조와 const.vcxproj", "{2D427C37-9878-4E65-8B0A-76B513ACEF96}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.16 포인터와 참조의 멤버 선택", "홍정모\따라배우는C++\챕터 06. 행렬, 문자열, 포인터, 참조\06.16 포인터와 참조의 멤버 선택\06.16 포인터와 참조의 멤버 선택.vcxproj", "{DF22A5DF-1DB1-430F-8C6A-D47C8DCE6EC2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.17 C++11 For-each 반복문", "홍정모\따라배우는C++\챕터 06. 행렬, 문자열, 포인터, 참조\06.17 C++11 For-each 반복문\06.17 C++11 For-each 반복문.vcxproj", "{120C5BAB-61DE-4F24-9089-A399DD350D4D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.18 보이드 포인터", "홍정모\따라배우는C++\챕터 06. 행렬, 문자열, 포인터, 참조\06.18 보이드 포인터\06.18 보이드 포인터.vcxproj", "{7F76D591-01C5-44E7-A165-1B11485935A7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.19 다중 포인터와 동적 다차원 배열", "홍정모\따라배우는C++\챕터 06. 행렬, 문자열, 포인터, 참조\06.19 다중 포인터와 동적 다차원 배열\06.19 다중 포인터와 동적 다차원 배열.vcxproj", "{C70C34D8-339D-4E3D-9D4E-D221C313D47E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.20 array 소개", "홍정모\따라배우는C++\챕터 06. 행렬, 문자열, 포인터, 참조\06.20 array 소개\06.20 array 소개.vcxproj", "{7C5A4659-2976-4AAC-8C9A-3969913FA04F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.21 vector 소개", "홍정모\따라배우는C++\챕터 06. 행렬, 문자열, 포인터, 참조\06.21 vector 소개\06.21 vector 소개.vcxproj", "{0A7559F5-E882-40A9-8ECF-7E5BF910F548}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.01 매개변수와 실인자의 구분", "홍정모\따라배우는C++\챕터 07. 함수\07.01 매개변수와 실인자의 구분\07.01 매개변수와 실인자의 구분.vcxproj", "{17412559-F4D6-4883-AE96-6F4A4C670DC3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.02 값에 의한 전달", "홍정모\따라배우는C++\챕터 07. 함수\07.02 값에 의한 전달\07.02 값에 의한 전달.vcxproj", "{CFA67AF2-DFD7-48ED-8D32-5E94659DC824}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.03 참조에 의한 인수 전달", "홍정모\따라배우는C++\챕터 07. 함수\07.03 참조에 의한 인수 전달\07.03 참조에 의한 인수 전달.vcxproj", "{F4D9F904-2293-4721-B568-28058ADA69C3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.04 주소에 의한 인수 전달", "홍정모\따라배우는C++\챕터 07. 함수\07.04 주소에 의한 인수 전달\07.04 주소에 의한 인수 전달.vcxproj", "{8D4010D0-275B-43FD-BCFD-A1A608EBEB94}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.05 다양한 반환 값들(값, 참조, 주소, 구조체, 튜플)", "홍정모\따라배우는C++\챕터 07. 함수\07.05 다양한 반환 값들(값, 참조, 주소, 구조체, 튜플)\07.05 다양한 반환 값들(값, 참조, 주소, 구조체, 튜플).vcxproj", "{0482D9E2-9EB3-4AAC-B134-C14166AB1289}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.06 인라인 함수", "홍정모\따라배우는C++\챕터 07. 함수\07.06 인라인 함수\07.06 인라인 함수.vcxproj", "{A86A1076-3D67-46C8-9C92-AA293A349F10}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.07 함수 오버로딩", "홍정모\따라배우는C++\챕터 07. 함수\07.07 함수 오버로딩\07.07 함수 오버로딩.vcxproj", "{E8541A1A-D1B1-41BD-80F5-15558503CB69}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.08 매개변수의 기본값", "홍정모\따라배우는C++\챕터 07. 함수\07.08 매개변수의 기본값\07.08 매개변수의 기본값.vcxproj", "{261F3F7D-7DBA-45EF-AACC-6AF25E10EE63}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.09 함수 포인터", "홍정모\따라배우는C++\챕터 07. 함수\07.09 함수 포인터\07.09 함수 포인터.vcxproj", "{619C4ED1-BC07-4C71-8358-76BF5E7B526B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.10 스택과 힙", "홍정모\따라배우는C++\챕터 07. 함수\07.10 스택과 힙\07.10 스택과 힙.vcxproj", "{D2EF01D3-FEAD-4303-8B77-AA5B7B459591}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.11 std vector를 스택처럼 사용하기", "홍정모\따라배우는C++\챕터 07. 함수\07.11 std vector를 스택처럼 사용하기\07.11 std vector를 스택처럼 사용하기.vcxproj", "{25CC1111-FEC1-4750-B113-C1D085B96D9B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.12 재귀적 함수 호출", "홍정모\따라배우는C++\챕터 07. 함수\07.12 재귀적 함수 호출\07.12 재귀적 함수 호출.vcxproj", "{7F21D07F-3471-4769-B2B0-A02222850FD9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.13 방어적 프로그래밍의 개념", "홍정모\따라배우는C++\챕터 07. 함수\07.13 방어적 프로그래밍의 개념\07.13 방어적 프로그래밍의 개념.vcxproj", "{4FF06200-769D-4282-AB06-0B028C4A6514}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.14 단언하기 assert", "홍정모\따라배우는C++\챕터 07. 함수\07.14 단언하기 assert\07.14 단언하기 assert.vcxproj", "{4A591722-C5B9-4B9D-BCA1-0B2D7522F516}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.15 명령줄 인수 command line arguments", "홍정모\따라배우는C++\챕터 07. 함수\07.15 명령줄 인수 command line arguments\07.15 명령줄 인수 command line arguments.vcxproj", "{E02FB0B8-990B-4015-9E6B-7BD92DC56F80}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.16 생략부호 Ellipsis", "홍정모\따라배우는C++\챕터 07. 함수\07.16 생략부호 Ellipsis\07.16 생략부호 Ellipsis.vcxproj", "{FB38A21D-8CB2-40F6-BFC0-3050A4D1C6FA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.01 객체지향 프로그래밍과 클래스", "홍정모\따라배우는C++\챕터 08. 객체지향의 기초\08.01 객체지향 프로그래밍과 클래스\08.01 객체지향 프로그래밍과 클래스.vcxproj", "{3883D209-B9B5-4D76-896C-BF78A9E61A16}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.02 캡슐화, 접근 지정자, 접근 함수", "홍정모\따라배우는C++\챕터 08. 객체지향의 기초\08.02 캡슐화, 접근 지정자, 접근 함수\08.02 캡슐화, 접근 지정자, 접근 함수.vcxproj", "{D3702D5F-010E-46D9-B3A6-BE7B20C1271F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.03 생성자 Constructors", "홍정모\따라배우는C++\챕터 08. 객체지향의 기초\08.03 생성자 Constructors\08.03 생성자 Constructors.vcxproj", "{D97E7E9C-1304-49FA-A701-F8492AAA547C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.04 생성자 멤버 초기화 목록", "홍정모\따라배우는C++\챕터 08. 객체지향의 기초\08.04 생성자 멤버 초기화 목록\08.04 생성자 멤버 초기화 목록.vcxproj", "{4D3C05BC-FF85-4CB3-9BF0-8C9170E73654}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.05 위임 생성자", "홍정모\따라배우는C++\챕터 08. 객체지향의 기초\08.05 위임 생성자\08.05 위임 생성자.vcxproj", "{0B7E2D04-D622-4F6F-9641-477B66EFA491}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.06 소멸자 destructor", "홍정모\따라배우는C++\챕터 08. 객체지향의 기초\08.06 소멸자 destructor\08.06 소멸자 destructor.vcxproj", "{37D83C00-5F44-47DE-9385-073D90041266}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.07 this 포인터와 연쇄 호출", "홍정모\따라배우는C++\챕터 08. 객체지향의 기초\08.07 this 포인터와 연쇄 호출\08.07 this 포인터와 연쇄 호출.vcxproj", "{832BB395-06BA-49D3-B43D-60DAA5D51123}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.08 클래스 코드와 헤더 파일", "홍정모\따라배우는C++\챕터 08. 객체지향의 기초\08.08 클래스 코드와 헤더 파일\08.08 클래스 코드와 헤더 파일.vcxproj", "{EE894C62-B836-4A2A-A1AB-E5CEF11D3896}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.09 클래스와 const", "홍정모\따라배우는C++\챕터 08. 객체지향의 기초\08.09 클래스와 const\08.09 클래스와 const.vcxproj", "{D631D663-06CE-48BE-A47C-168216E11E1E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.10 정적 멤버 변수", "홍정모\따라배우는C++\챕터 08. 객체지향의 기초\08.10 정적 멤버 변수\08.10 정적 멤버 변수.vcxproj", "{C82A721B-D82E-47A4-B3E6-E1F89E3FA1E6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.11 정적 멤버 함수", "홍정모\따라배우는C++\챕터 08. 객체지향의 기초\08.11 정적 멤버 함수\08.11 정적 멤버 함수.vcxproj", "{2C441540-D6DD-4E48-AA37-B5F484ADA7D1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.12 친구 함수와 클래스 friend", "홍정모\따라배우는C++\챕터 08. 객체지향의 기초\08.12 친구 함수와 클래스 friend\08.12 친구 함수와 클래스 friend.vcxproj", "{B9ECDC33-3359-42F0-91F9-B29D87288BC8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.13 익명 객체", "홍정모\따라배우는C++\챕터 08. 객체지향의 기초\08.13 익명 객체\08.13 익명 객체.vcxproj", "{2E8E5489-B180-40BE-A504-4CB861F3A66D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.14 클래스 안에 포함된 자료형 nested types", "홍정모\따라배우는C++\챕터 08. 객체지향의 기초\08.14 클래스 안에 포함된 자료형 nested types\08.14 클래스 안에 포함된 자료형 nested types.vcxproj", "{1DE69FB9-1988-4A75-9AB1-7C3590477887}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.15 실행 시간 측정하기", "홍정모\따라배우는C++\챕터 08. 객체지향의 기초\08.15 실행 시간 측정하기\08.15 실행 시간 측정하기.vcxproj", "{80BAB3C6-F24A-4861-8D54-3ED6FDBFB1C6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.01 산술 연산자 오버로딩 하기", "홍정모\따라배우는C++\챕터 09. 연산자 오버로딩\09.01 산술 연산자 오버로딩 하기\09.01 산술 연산자 오버로딩 하기.vcxproj", "{A93C8ADF-1006-497E-9815-5B38A2E63895}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.02 입출력 연산자 오버로딩하기", "홍정모\따라배우는C++\챕터 09. 연산자 오버로딩\09.02 입출력 연산자 오버로딩하기\09.02 입출력 연산자 오버로딩하기.vcxproj", "{AFA1E7B2-1D6C-432D-A45C-9BAF7BCE12C9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.03 단항 연산자 오버로딩 하기", "홍정모\따라배우는C++\챕터 09. 연산자 오버로딩\09.03 단항 연산자 오버로딩 하기\09.03 단항 연산자 오버로딩 하기.vcxproj", "{9A438BDD-3F28-4D37-812C-AB638047C8B1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.04 비교 연산자 오버로딩 하기", "홍정모\따라배우는C++\챕터 09. 연산자 오버로딩\09.04 비교 연산자 오버로딩 하기\09.04 비교 연산자 오버로딩 하기.vcxproj", "{B1A9554F-7CEE-49F4-8A1D-A2FF60643110}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.05 증감 연산자 오버로딩 하기", "홍정모\따라배우는C++\챕터 09. 연산자 오버로딩\09.05 증감 연산자 오버로딩 하기\09.05 증감 연산자 오버로딩 하기.vcxproj", "{8FC8EB31-F9C6-402A-83B2-230231C2AC75}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.06 첨자 연산자 오버로딩 하기", "홍정모\따라배우는C++\챕터 09. 연산자 오버로딩\09.06 첨자 연산자 오버로딩 하기\09.06 첨자 연산자 오버로딩 하기.vcxproj", "{BA5643DA-95DA-4274-B816-193EE1606F28}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.07 괄호 연산자 오버로딩과 함수 객체", "홍정모\따라배우는C++\챕터 09. 연산자 오버로딩\09.07 괄호 연산자 오버로딩과 함수 객체\09.07 괄호 연산자 오버로딩과 함수 객체.vcxproj", "{B2F4B069-6855-4913-856F-C0C24D1AE064}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.08 형변환을 오버로딩 하기", "홍정모\따라배우는C++\챕터 09. 연산자 오버로딩\09.08 형변환을 오버로딩 하기\09.08 형변환을 오버로딩 하기.vcxproj", "{A1087317-F6C5-4ACA-82DC-BAB9E5523637}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.09 복사 생성자, 복사 초기화 반환값 최적화", "홍정모\따라배우는C++\챕터 09. 연산자 오버로딩\09.09 복사 생성자, 복사 초기화 반환값 최적화\09.09 복사 생성자, 복사 초기화 반환값 최적화.vcxproj", "{484E6833-AAEC-4B80-8C02-6C3F467D7AD3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.10 변환 생성자, explicit, delete", "홍정모\따라배우는C++\챕터 09. 연산자 오버로딩\09.10 변환 생성자, explicit, delete\09.10 변환 생성자, explicit, delete.vcxproj", "{38CACA5E-3B0E-4F00-9555-7D1B1DCD579E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.11 대입 연산자 오버로딩, 깊은 복사, 얕은 복사", "홍정모\따라배우는C++\챕터 09. 연산자 오버로딩\09.11 대입 연산자 오버로딩, 깊은 복사, 얕은 복사\09.11 대입 연산자 오버로딩, 깊은 복사, 얕은 복사.vcxproj", "{427064A3-754C-493D-B67D-1186287D57A6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.12 이니셜라이져 리스트 initializer list", "홍정모\따라배우는C++\챕터 09. 연산자 오버로딩\09.12 이니셜라이져 리스트 initializer list\09.12 이니셜라이져 리스트 initializer list.vcxproj", "{C9D8E72B-15EF-42B6-9E37-0DDBCD5D9E0C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.01 객체들의 관계", "홍정모\따라배우는C++\챕터 10. 객체들 사이의 관계에 대해\10.01 객체들의 관계\10.01 객체들의 관계.vcxproj", "{A30F1C6C-01EA-4BA6-BF01-8ED06E23AC1F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.02 구성 관계", "홍정모\따라배우는C++\챕터 10. 객체들 사이의 관계에 대해\10.02 구성 관계\10.02 구성 관계.vcxproj", "{193B3991-6213-44B7-8188-CAE6FAA23B8E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.03 집합 관계", "홍정모\따라배우는C++\챕터 10. 객체들 사이의 관계에 대해\10.03 집합 관계\10.03 집합 관계.vcxproj", "{0BA8D158-65AE-44A2-AB49-8F05A1D0A674}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.04 제휴 관계", "홍정모\따라배우는C++\챕터 10. 객체들 사이의 관계에 대해\10.04 제휴 관계\10.04 제휴 관계.vcxproj", "{19D3BC21-836A-4175-A7E0-96EC6B19667F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.05 의존 관계", "홍정모\따라배우는C++\챕터 10. 객체들 사이의 관계에 대해\10.05 의존 관계\10.05 의존 관계.vcxproj", "{516F7FAA-CC1B-47BC-8A49-DA18F7503D5C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.06 컨테이너 클래스", "홍정모\따라배우는C++\챕터 10. 객체들 사이의 관계에 대해\10.06 컨테이너 클래스\10.06 컨테이너 클래스.vcxproj", "{396C6ED5-EA9F-4898-A8F5-7F30AA9202BE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.01 상속의 기본 (1)", "홍정모\따라배우는C++\챕터 11. 상속\11.01 상속의 기본 (1)\11.01 상속의 기본 (1).vcxproj", "{E48E0846-AB30-487B-A9ED-E59B1C96644F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.02 상속의 기본 (2)", "홍정모\따라배우는C++\챕터 11. 상속\11.02 상속의 기본 (2)\11.02 상속의 기본 (2).vcxproj", "{E75305CA-86DB-4FE2-BD57-DE857D0524D6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.03 유도된 클래스들의 생성 순서", "홍정모\따라배우는C++\챕터 11. 상속\11.03 유도된 클래스들의 생성 순서\11.03 유도된 클래스들의 생성 순서.vcxproj", "{19952BB0-5E61-4944-B4CF-7BEA5BCB8899}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.04 유도된 클래스들의 생성과 초기화", "홍정모\따라배우는C++\챕터 11. 상속\11.04 유도된 클래스들의 생성과 초기화\11.04 유도된 클래스들의 생성과 초기화.vcxproj", "{CBA1B438-6EE5-429A-B84E-FAE1C468A333}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.05 상속과 접근 지정자", "홍정모\따라배우는C++\챕터 11. 상속\11.05 상속과 접근 지정자\11.05 상속과 접근 지정자.vcxproj", "{08F40A8E-50C8-4727-B0F5-45EBDF4DA276}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.06 유도된 클래스에 새로운 기능 추가하기", "홍정모\따라배우는C++\챕터 11. 상속\11.06 유도된 클래스에 새로운 기능 추가하기\11.06 유도된 클래스에 새로운 기능 추가하기.vcxproj", "{E4163604-F896-4ED0-BF01-06A7FB84CC62}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.07 상속받은 함수를 오버라이딩 하기", "홍정모\따라배우는C++\챕터 11. 상속\11.07 상속받은 함수를 오버라이딩 하기\11.07 상속받은 함수를 오버라이딩 하기.vcxproj", "{D5DA42ED-346D-44A3-8657-FFA0DEBDD88C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.08 상속 받은 함수를 감추기", "홍정모\따라배우는C++\챕터 11. 상속\11.08 상속 받은 함수를 감추기\11.08 상속 받은 함수를 감추기.vcxproj", "{277C49C6-B0C2-4206-9623-46EE9B63B117}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.09 다중 상속", "홍정모\따라배우는C++\챕터 11. 상속\11.09 다중 상속\11.09 다중 상속.vcxproj", "{7EDD22D3-FC73-4BF4-B76D-7B72DDBB628D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.01 다형성의 기본 개념", "홍정모\따라배우는C++\챕터 12. 가상 함수들\12.01 다형성의 기본 개념\12.01 다형성의 기본 개념.vcxproj", "{57288B85-7145-4CB5-B7FC-D19C9914C5C6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.02 가상 함수와 다형성", "홍정모\따라배우는C++\챕터 12. 가상 함수들\12.02 가상 함수와 다형성\12.02 가상 함수와 다형성.vcxproj", "{A6701C36-0816-46D1-BD36-82C42E442721}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.03 override, final, 공변 반환값", "홍정모\따라배우는C++\챕터 12. 가상 함수들\12.03 override, final, 공변 반환값\12.03 override, final, 공변 반환값.vcxproj", "{49C51B0A-E88C-42BD-86A6-6EE8CEA5722F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.04 가상 소멸자", "홍정모\따라배우는C++\챕터 12. 가상 함수들\12.04 가상 소멸자\12.04 가상 소멸자.vcxproj", "{FCFA6153-386D-4D64-A9EF-D1ED7DF1EFF9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.05 동적 바인딩과 정적 바인딩", "홍정모\따라배우는C++\챕터 12. 가상 함수들\12.05 동적 바인딩과 정적 바인딩\12.05 동적 바인딩과 정적 바인딩.vcxproj", "{87E322BF-4798-4CC0-849F-935DC6CC3688}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.06 가상 (함수) 표", "홍정모\따라배우는C++\챕터 12. 가상 함수들\12.06 가상 (함수) 표\12.06 가상 (함수) 표.vcxproj", "{F1C42C49-4291-42BA-A2CA-4228F8EE699F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.07 순수 가상 함수, 추상 기본 클래스, 인터페이스 클래스", "홍정모\따라배우는C++\챕터 12. 가상 함수들\12.07 순수 가상 함수, 추상 기본 클래스, 인터페이스 클래스\12.07 순수 가상 함수, 추상 기본 클래스, 인터페이스 클래스.vcxproj", "{C255BC83-5E59-4BB0-887D-C8D52606B282}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.08 가상 기본 클래스와 다이아몬드 상속 문제", "홍정모\따라배우는C++\챕터 12. 가상 함수들\12.08 가상 기본 클래스와 다이아몬드 상속 문제\12.08 가상 기본 클래스와 다이아몬드 상속 문제.vcxproj", "{3C3F7E16-B9BB-4A10-83BD-4FDED814C089}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.09 객체 잘림과 reference wrapper", "홍정모\따라배우는C++\챕터 12. 가상 함수들\12.09 객체 잘림과 reference wrapper\12.09 객체 잘림과 reference wrapper.vcxproj", "{81307240-1057-43D2-96A6-D80EDB5E1A58}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.10 동적 형변환", "홍정모\따라배우는C++\챕터 12. 가상 함수들\12.10 동적 형변환\12.10 동적 형변환.vcxproj", "{6CF1FE7B-ABF0-4A4B-BB19-7260C578DA94}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.11 유도 클래스에서 출력 연산자 사용하기", "홍정모\따라배우는C++\챕터 12. 가상 함수들\12.11 유도 클래스에서 출력 연산자 사용하기\12.11 유도 클래스에서 출력 연산자 사용하기.vcxproj", "{4D2B4E4B-E1A0-4438-9A36-AE314A51B19C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.01 함수 템플릿", "홍정모\따라배우는C++\챕터 13. 템플릿\13.01 함수 템플릿\13.01 함수 템플릿.vcxproj", "{02B1847F-529A-47DA-A363-2F29F34C8603}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.02 클래스 템플릿", "홍정모\따라배우는C++\챕터 13. 템플릿\13.02 클래스 템플릿\13.02 클래스 템플릿.vcxproj", "{3ACC7BE3-F4AA-47B0-9F80-88C5A680EB53}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.03 자료형이 아닌 템플릿 매개변수", "홍정모\따라배우는C++\챕터 13. 템플릿\13.03 자료형이 아닌 템플릿 매개변수\13.03 자료형이 아닌 템플릿 매개변수.vcxproj", "{A8830B46-84B4-4356-9FBF-5749A0164DBE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.04 함수 템플릿 특수화", "홍정모\따라배우는C++\챕터 13. 템플릿\13.04 함수 템플릿 특수화\13.04 함수 템플릿 특수화.vcxproj", "{730B84C0-6FE5-4BD1-8A57-E699745F9E7B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.05 클래스 템플릿 특수화", "홍정모\따라배우는C++\챕터 13. 템플릿\13.05 클래스 템플릿 특수화\13.05 클래스 템플릿 특수화.vcxproj", "{6B6C7107-677E-4E6E-8CC6-5298C0FF7C22}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.06 템플릿을 부분적으로 특수화하기", "홍정모\따라배우는C++\챕터 13. 템플릿\13.06 템플릿을 부분적으로 특수화하기\13.06 템플릿을 부분적으로 특수화하기.vcxproj", "{87315F6E-8A71-4EED-A3B0-C58EE2AD8995}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.07 포인터에 대한 템플릿 특수화", "홍정모\따라배우는C++\챕터 13. 템플릿\13.07 포인터에 대한 템플릿 특수화\13.07 포인터에 대한 템플릿 특수화.vcxproj", "{AFB7C590-33EA-4B90-96D1-91643FBF71BA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.08 멤버 함수를 한 번 더 템플릿화 하기", "홍정모\따라배우는C++\챕터 13. 템플릿\13.08 멤버 함수를 한 번 더 템플릿화 하기\13.08 멤버 함수를 한 번 더 템플릿화 하기.vcxproj", "{43F4261E-C2C2-49E0-AE8B-2EBC51CAE94A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.01 예외처리의 기본", "홍정모\따라배우는C++\챕터 14. 예외 처리\14.01 예외처리의 기본\14.01 예외처리의 기본.vcxproj", "{F33F44A2-2D71-4B27-9E66-079116AB91F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.02 예외처리와 스택 되감기", "홍정모\따라배우는C++\챕터 14. 예외 처리\14.02 예외처리와 스택 되감기\14.02 예외처리와 스택 되감기.vcxproj", "{41331B35-5C94-4423-804C-5D430C9863B9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.03 예외 클래스와 상속", "홍정모\따라배우는C++\챕터 14. 예외 처리\14.03 예외 클래스와 상속\14.03 예외 클래스와 상속.vcxproj", "{38A53F62-1B0A-4FEC-9484-5EF3950DB084}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.04 exception 소개", "홍정모\따라배우는C++\챕터 14. 예외 처리\14.04 exception 소개\14.04 exception 소개.vcxproj", "{F6E65A93-E042-4B4C-B284-ECA224182C78}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.05 함수 try", "홍정모\따라배우는C++\챕터 14. 예외 처리\14.05 함수 try\14.05 함수 try.vcxproj", "{8608CACB-5E87-4327-BCFF-3C203F0A23B8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.06 예외처리의 위험성과 단점", "홍정모\따라배우는C++\챕터 14. 예외 처리\14.06 예외처리의 위험성과 단점\14.06 예외처리의 위험성과 단점.vcxproj", "{FB091981-0E5B-43AD-82F2-41D35E2AA0BA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.01 이동의 의미와 스마트 포인터", "홍정모\따라배우는C++\챕터 15. 의미론적 이동과 스마트 포인터\15.01 이동의 의미와 스마트 포인터\15.01 이동의 의미와 스마트 포인터.vcxproj", "{302E7308-CE26-4B7E-837D-949CFC5F1FC0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.02 오른쪽-값 참조", "홍정모\따라배우는C++\챕터 15. 의미론적 이동과 스마트 포인터\15.02 오른쪽-값 참조\15.02 오른쪽-값 참조.vcxproj", "{5B149A08-F95E-4D16-B54F-54E4F3E655CD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.03 이동 생성자와 이동 대입", "홍정모\따라배우는C++\챕터 15. 의미론적 이동과 스마트 포인터\15.03 이동 생성자와 이동 대입\15.03 이동 생성자와 이동 대입.vcxproj", "{D2D203A8-41D9-4790-905E-BD362C7434D8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.04 move", "홍정모\따라배우는C++\챕터 15. 의미론적 이동과 스마트 포인터\15.04 move\15.04 move.vcxproj", "{4DCC2B9B-9263-47DB-A081-F693B47786C7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.05 unique_ptr", "홍정모\따라배우는C++\챕터 15. 의미론적 이동과 스마트 포인터\15.05 unique_ptr\15.05 unique_ptr.vcxproj", "{2E48CBB3-4480-4E2A-BA59-AEA7F95D347C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.06 shard_ptr", "홍정모\따라배우는C++\챕터 15. 의미론적 이동과 스마트 포인터\15.06 shard_ptr\15.06 shard_ptr.vcxproj", "{B45BB912-7F2C-45EB-B2F3-A2EC3FEBBDF9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.07 순환 의존성 문제와 weak_ptr", "홍정모\따라배우는C++\챕터 15. 의미론적 이동과 스마트 포인터\15.07 순환 의존성 문제와 weak_ptr\15.07 순환 의존성 문제와 weak_ptr.vcxproj", "{720F948D-2D55-44F8-9C48-56AD9CA122D2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16.01 표준 템플릿 라이브러리, 컨테이너 소개", "홍정모\따라배우는C++\챕터 16. 표준 템플릿 라이브러리\16.01 표준 템플릿 라이브러리, 컨테이너 소개\16.01 표준 템플릿 라이브러리, 컨테이너 소개.vcxproj", "{A7EB7464-E651-4651-9150-CB5C25C7BC4D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16.02 STL 반복자 소개", "홍정모\따라배우는C++\챕터 16. 표준 템플릿 라이브러리\16.02 STL 반복자 소개\16.02 STL 반복자 소개.vcxproj", "{DD9311D5-B400-47F8-AF15-BD2C750FBF0D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16.03 STL 알고리즘 소개", "홍정모\따라배우는C++\챕터 16. 표준 템플릿 라이브러리\16.03 STL 알고리즘 소개\16.03 STL 알고리즘 소개.vcxproj", "{532BB246-E168-494C-8BBF-38D3650D760C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17.01 string과 wstring", "홍정모\따라배우는C++\챕터 17. string 문자열 클래스\17.01 string과 wstring\17.01 string과 wstring.vcxproj", "{B3430445-BDED-4276-867F-C29D37A2A55C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17.02 string의 여러가지 생성자들과 형변환", "홍정모\따라배우는C++\챕터 17. string 문자열 클래스\17.02 string의 여러가지 생성자들과 형변환\17.02 string의 여러가지 생성자들과 형변환.vcxproj", "{CC4B11BC-AF0B-4865-982C-5E64AAE313F5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17.03 string의 길이와 용량", "홍정모\따라배우는C++\챕터 17. string 문자열 클래스\17.03 string의 길이와 용량\17.03 string의 길이와 용량.vcxproj", "{8A75A3BA-1AFB-4C89-9EAE-5EA5E7E38C9E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17.04 문자 접근하기와 배열로의 변환", "홍정모\따라배우는C++\챕터 17. string 문자열 클래스\17.04 문자 접근하기와 배열로의 변환\17.04 문자 접근하기와 배열로의 변환.vcxproj", "{AA9DB2A9-0017-4528-9221-8FFC5E3FC19B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17.05 string 대입, 교환, 덧붙이기, 삽입", "홍정모\따라배우는C++\챕터 17. string 문자열 클래스\17.05 string 대입, 교환, 덧붙이기, 삽입\17.05 string 대입, 교환, 덧붙이기, 삽입.vcxproj", "{F325C7B9-7C11-42F4-A636-E12629F84998}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18.01 istream으로 입력받기", "홍정모\따라배우는C++\챕터 18. 입력과 출력\18.01 istream으로 입력받기\18.01 istream으로 입력받기.vcxproj", "{F851A576-6952-4A8F-919F-D40A90A3F94D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18.02 ostream으로 출력하기", "홍정모\따라배우는C++\챕터 18. 입력과 출력\18.02 ostream으로 출력하기\18.02 ostream으로 출력하기.vcxproj", "{B900024E-4B8F-4685-B4B6-840C816862F2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18.03 문자열 스트림", "홍정모\따라배우는C++\챕터 18. 입력과 출력\18.03 문자열 스트림\18.03 문자열 스트림.vcxproj", "{D453010F-C446-42F1-9063-E8B938775877}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18.04 흐름 상태와 입력 유효성 검증", "홍정모\따라배우는C++\챕터 18. 입력과 출력\18.04 흐름 상태와 입력 유효성 검증\18.04 흐름 상태와 입력 유효성 검증.vcxproj", "{C24C2F1C-1F14-414D-9014-83FBFD66FF97}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18.05 정규 표현식 소개", "홍정모\따라배우는C++\챕터 18. 입력과 출력\18.05 정규 표현식 소개\18.05 정규 표현식 소개.vcxproj", "{5ECA49AF-77F1-4EB8-92FE-3046205D92BC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18.06 기본적인 파일 입출력", "홍정모\따라배우는C++\챕터 18. 입력과 출력\18.06 기본적인 파일 입출력\18.06 기본적인 파일 입출력.vcxproj", "{2C5F8364-1255-4253-92BD-5EB43E682506}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18.07 파일의 임의 위치 접근하기", "홍정모\따라배우는C++\챕터 18. 입력과 출력\18.07 파일의 임의 위치 접근하기\18.07 파일의 임의 위치 접근하기.vcxproj", "{4C539115-25D6-4BF2-9F88-A94AF3F20252}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19.01 람다 함수와 function bind, for_each", "홍정모\따라배우는C++\챕터 19. 모던 C++필수 요소들\19.01 람다 함수와 function bind, for_each\19.01 람다 함수와 function bind, for_each.vcxproj", "{9158B8CF-9CBF-4005-9C2C-D8F17470B76D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19.02 C++ 17 함수에서 여러 개의 리턴값 반환하기", "홍정모\따라배우는C++\챕터 19. 모던 C++필수 요소들\19.02 C++ 17 함수에서 여러 개의 리턴값 반환하기\19.02 C++ 17 함수에서 여러 개의 리턴값 반환하기.vcxproj", "{F0E08B3A-748C-45DD-BE95-7022FC647091}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19.03 thread와 멀티쓰레딩 기초", "홍정모\따라배우는C++\챕터 19. 모던 C++필수 요소들\19.03 thread와 멀티쓰레딩 기초\19.03 thread와 멀티쓰레딩 기초.vcxproj", "{CCD7EECF-FE13-4150-A088-C5F7B69F959F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19.04 레이스 컨디션, atomic, scoped_lock", "홍정모\따라배우는C++\챕터 19. 모던 C++필수 요소들\19.04 레이스 컨디션, atomic, scoped_lock\19.04 레이스 컨디션, atomic, scoped_lock.vcxproj", "{3FD6CE13-73EA-4BE9-9E28-148A7199F13F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19.05 작업 기반 비동기 프로그래밍", "홍정모\따라배우는C++\챕터 19. 모던 C++필수 요소들\19.05 작업 기반 비동기 프로그래밍\19.05 작업 기반 비동기 프로그래밍.vcxproj", "{286E648B-B0A1-4454-B1B3-48B76C8A2F0D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19.06 멀티쓰레딩 예제 (벡터 내적)", "홍정모\따라배우는C++\챕터 19. 모던 C++필수 요소들\19.06 멀티쓰레딩 예제 (벡터 내적)\19.06 멀티쓰레딩 예제 (벡터 내적).vcxproj", "{B3DBEF11-3810-4C16-A49F-C3A4F745DAD5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19.07 완벽한 전달과 forward", "홍정모\따라배우는C++\챕터 19. 모던 C++필수 요소들\19.07 완벽한 전달과 forward\19.07 완벽한 전달과 forward.vcxproj", "{4C3A6F7D-164E-47A7-993D-429088F5F7EB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19.08 자료형 추론 auto와 decltype", "홍정모\따라배우는C++\챕터 19. 모던 C++필수 요소들\19.08 자료형 추론 auto와 decltype\19.08 자료형 추론 auto와 decltype.vcxproj", "{EEBC64E2-4B8A-44F6-BA9C-629D3C5F17E9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20.01 비쥬얼 스튜디오로 프로파일링 하기", "홍정모\따라배우는C++\챕터 20. 중급 프로그래머들의 상식\20.01 비쥬얼 스튜디오로 프로파일링 하기\20.01 비쥬얼 스튜디오로 프로파일링 하기.vcxproj", "{C5E531FA-5772-4FF3-A8EA-19104C82B620}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20.02 깃, 깃헙 시작하기 Git, Github", "홍정모\따라배우는C++\챕터 20. 중급 프로그래머들의 상식\20.02 깃, 깃헙 시작하기 Git, Github\20.02 깃, 깃헙 시작하기 Git, Github.vcxproj", "{30107A0B-F57D-4F37-A987-35E27A768492}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20.03 비쥬얼 스튜디오에서 깃헙 사용하기", "홍정모\따라배우는C++\챕터 20. 중급 프로그래머들의 상식\20.03 비쥬얼 스튜디오에서 깃헙 사용하기\20.03 비쥬얼 스튜디오에서 깃헙 사용하기.vcxproj", "{F6B05FFA-933D-451E-8C3C-0F58E6A4B5A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20.04 Vcpkg 설치 방법", "홍정모\따라배우는C++\챕터 20. 중급 프로그래머들의 상식\20.04 Vcpkg 설치 방법\20.04 Vcpkg 설치 방법.vcxproj", "{BB64E53C-07B9-4786-B036-2DA4A9030EAC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20.05 TCP IP 네트워킹 맛보기 - Boost, Asio Socket IOStream", "홍정모\따라배우는C++\챕터 20. 중급 프로그래머들의 상식\20.05 TCP IP 네트워킹 맛보기 - Boost, Asio Socket IOStream\20.05 TCP IP 네트워킹 맛보기 - Boost, Asio Socket IOStream.vcxproj", "{DF6EC15C-C884-419F-95CF-BAE13B17357E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20.06 외부 라이브러리 설치, 프로젝트 템플릿", "홍정모\따라배우는C++\챕터 20. 중급 프로그래머들의 상식\20.06 외부 라이브러리 설치, 프로젝트 템플릿\20.06 외부 라이브러리 설치, 프로젝트 템플릿.vcxproj", "{52C9611B-65CD-4C61-B626-3E4B744C47C9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.01 교환(SWAP)", "홍정모\자료구조\챕터 01. 기본 개념\01.01 교환(SWAP)\01.01 교환(SWAP).vcxproj", "{D67BD873-0BC5-4F2F-896B-E131347709E2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.02 선택 정렬", "홍정모\자료구조\챕터 01. 기본 개념\01.02 선택 정렬\01.02 선택 정렬.vcxproj", "{14CE65F7-F714-49D9-8234-795A4D0B9930}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.03 버블 정렬", "홍정모\자료구조\챕터 01. 기본 개념\01.03 버블 정렬\01.03 버블 정렬.vcxproj", "{CAE44AB1-A55B-4079-865D-22D4DCE8C823}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.04 삽입 정렬", "홍정모\자료구조\챕터 01. 기본 개념\01.04 삽입 정렬\01.04 삽입 정렬.vcxproj", "{398B7A38-9356-4F35-B636-54423EED2B81}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.05 순차 탐색", "홍정모\자료구조\챕터 01. 기본 개념\01.05 순차 탐색\01.05 순차 탐색.vcxproj", "{FA50116F-9A85-4CD6-A59B-FABCF74A8FBA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.06 문자열 압축", "홍정모\자료구조\챕터 01. 기본 개념\01.06 문자열 압축\01.06 문자열 압축.vcxproj", "{BF6778A8-F20D-416F-8EFD-C72463D72948}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.07 이진 탐색", "홍정모\자료구조\챕터 01. 기본 개념\01.07 이진 탐색\01.07 이진 탐색.vcxproj", "{7EC89F21-1B82-4212-9B72-3CF7578EA821}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.08 성능 층적", "홍정모\자료구조\챕터 01. 기본 개념\01.08 성능 층적\01.08 성능 층적.vcxproj", "{3B394961-C139-40A1-9674-1CF5A57A592A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.01 재귀 호출", "홍정모\자료구조\챕터 02. 재귀(Recursion)\02.01 재귀 호출\02.01 재귀 호출.vcxproj", "{B58A28B6-3BBB-4479-BE20-EB09FC422552}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.02 재귀로 합 구하기", "홍정모\자료구조\챕터 02. 재귀(Recursion)\02.02 재귀로 합 구하기\02.02 재귀로 합 구하기.vcxproj", "{9BD0F72D-ED50-420C-820C-987EBC56A93D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.03 피보나치 수열", "홍정모\자료구조\챕터 02. 재귀(Recursion)\02.03 피보나치 수열\02.03 피보나치 수열.vcxproj", "{1ED3523C-6741-4C7A-8A27-EABE8D502B65}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.04 재귀 이진 탐색", "홍정모\자료구조\챕터 02. 재귀(Recursion)\02.04 재귀 이진 탐색\02.04 재귀 이진 탐색.vcxproj", "{75D131BA-EDBA-4059-BE22-9442F1888481}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.05 순열 문제", "홍정모\자료구조\챕터 02. 재귀(Recursion)\02.05 순열 문제\02.05 순열 문제.vcxproj", "{C41A5288-78CC-4822-8E51-27B8140441B0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.01 문자열 Abstract Date Type", "홍정모\자료구조\챕터 03. 배열\03.01 문자열 Abstract Date Type\03.01 문자열 Abstract Date Type.vcxproj", "{AA5E531F-140C-4AB2-8047-1B395841DB82}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.02 다항식", "홍정모\자료구조\챕터 03. 배열\03.02 다항식\03.02 다항식.vcxproj", "{486065C8-6DF0-4A35-9CEC-4AAD0CA294D8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.03 희소 다항식", "홍정모\자료구조\챕터 03. 배열\03.03 희소 다항식\03.03 희소 다항식.vcxproj", "{FFCAACE4-8509-4EE3-9E33-09124C1D7D5B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.04 행렬", "홍정모\자료구조\챕터 03. 배열\03.04 행렬\03.04 행렬.vcxproj", "{B532A643-A6C4-42A4-8326-0BCC6C268960}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.05 동적 배열의 행렬", "홍정모\자료구조\챕터 03. 배열\03.05 동적 배열의 행렬\03.05 동적 배열의 행렬.vcxproj", "{2E3B23C1-A5AD-41B3-A064-64803BCC74F7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.06 희소 행렬", "홍정모\자료구조\챕터 03. 배열\03.06 희소 행렬\03.06 희소 행렬.vcxproj", "{24F3E458-C409-4B30-ABC8-7D28DF18090F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.01 스택", "홍정모\자료구조\챕터 04. 스택(Stack)\04.01 스택\04.01 스택.vcxproj", "{31B44726-8E3C-4310-85DE-A81F53DB1A00}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.02 미로", "홍정모\자료구조\챕터 04. 스택(Stack)\04.02 미로\04.02 미로.vcxproj", "{CD470DDE-4795-4645-8395-DFA8DD24CEC3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.03 하노이의 탑", "홍정모\자료구조\챕터 04. 스택(Stack)\04.03 하노이의 탑\04.03 하노이의 탑.vcxproj", "{7D5E929A-5FA9-4A2F-A952-B2F43259AB0F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.01 원형 큐", "홍정모\자료구조\챕터 05. 큐(Queue)\05.01 원형 큐\05.01 원형 큐.vcxproj", "{CB79F121-ED9F-42D2-9430-5B59880E100B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.02 조세푸스 문제", "홍정모\자료구조\챕터 05. 큐(Queue)\05.02 조세푸스 문제\05.02 조세푸스 문제.vcxproj", "{B72D8413-6A89-4A97-8334-4F79AA3E9B6C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.03 덱(Deque)", "홍정모\자료구조\챕터 05. 큐(Queue)\05.03 덱(Deque)\05.03 덱(Deque).vcxproj", "{63654A22-9500-4CFA-957D-BF5FEA18C350}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.04 수식 계산", "홍정모\자료구조\챕터 05. 큐(Queue)\05.04 수식 계산\05.04 수식 계산.vcxproj", "{E11416EB-0A1C-44E1-937E-F3BA037E2871}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.01 연결 노드", "홍정모\자료구조\챕터 06 연결 리스트\06.01 연결 노드\06.01 연결 노드.vcxproj", "{81FBDCFE-8908-45BA-BA6D-BFC01E539F72}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.02 단방향 연결리스트", "홍정모\자료구조\챕터 06 연결 리스트\06.02 단방향 연결리스트\06.02 단방향 연결리스트.vcxproj", "{8D47E223-C2AE-4795-9E2F-CA27B539F1B6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.03 연결 다항식 문제", "홍정모\자료구조\챕터 06 연결 리스트\06.03 연결 다항식 문제\06.03 연결 다항식 문제.vcxproj", "{FE824B79-B03E-4C04-9EE4-8409524821A7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.04 양방향 연결 리스트", "홍정모\자료구조\챕터 06 연결 리스트\06.04 양방향 연결 리스트\06.04 양방향 연결 리스트.vcxproj", "{06DBB0D4-4A35-40EB-8C20-15EA3AD03A92}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.01 이진트리", "홍정모\자료구조\챕터 07. 트리(Tree)\07.01 이진트리\07.01 이진트리.vcxproj", "{B62332B7-B918-4DD2-88CA-C528182EC98D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.02 수식 계산 트리", "홍정모\자료구조\챕터 07. 트리(Tree)\07.02 수식 계산 트리\07.02 수식 계산 트리.vcxproj", "{02EDBF7A-4645-4E93-99AA-028C11F4DD2F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.03 쓰레드", "홍정모\자료구조\챕터 07. 트리(Tree)\07.03 쓰레드\07.03 쓰레드.vcxproj", "{BDAF745F-767B-4076-AA57-314443B21D73}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.01 힙", "홍정모\자료구조\챕터 08. 힙(Heap)\08.01 힙\08.01 힙.vcxproj", "{DF6E7BD4-BE33-4E10-A591-7E32C687A002}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.02 우선순위 큐", "홍정모\자료구조\챕터 08. 힙(Heap)\08.02 우선순위 큐\08.02 우선순위 큐.vcxproj", "{35D5AEDE-AC8C-4330-910B-139CE6239089}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.01 이진 탐색 트리", "홍정모\자료구조\챕터 09. 이진 탐색 트리\09.01 이진 탐색 트리\09.01 이진 탐색 트리.vcxproj", "{75C8E214-3A0F-4E4C-9533-724A7B4C5FF7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.02 균형잡힌 탐색 트리(AVL)", "홍정모\자료구조\챕터 09. 이진 탐색 트리\09.02 균형잡힌 탐색 트리(AVL)\09.02 균형잡힌 탐색 트리(AVL).vcxproj", "{E2AD2417-970E-4B71-9F80-8AF5141F7C05}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.01 쉘 정렬", "홍정모\자료구조\챕터 10. 정렬\10.01 쉘 정렬\10.01 쉘 정렬.vcxproj", "{5132F69B-2D75-45A9-948B-CE68D465239A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.02 병합 정렬", "홍정모\자료구조\챕터 10. 정렬\10.02 병합 정렬\10.02 병합 정렬.vcxproj", "{5FDB9769-2C6B-4332-A7B0-2F141BF7847E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.03 퀵 정렬", "홍정모\자료구조\챕터 10. 정렬\10.03 퀵 정렬\10.03 퀵 정렬.vcxproj", "{B7CD4BDB-F49D-4CED-A9FE-0DA34E6D01D6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.04 기수 정렬", "홍정모\자료구조\챕터 10. 정렬\10.04 기수 정렬\10.04 기수 정렬.vcxproj", "{672CF921-7AA0-49E0-946C-0D814A2F0B97}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.01 보간 탐색", "홍정모\자료구조\챕터 11. 해슁(Hashing)\11.01 보간 탐색\11.01 보간 탐색.vcxproj", "{82BAD80A-D263-4E72-AC29-78837CA4CE8F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.02 색인 순차 탐색", "홍정모\자료구조\챕터 11. 해슁(Hashing)\11.02 색인 순차 탐색\11.02 색인 순차 탐색.vcxproj", "{E15C4141-DEC7-4AE5-9CEF-8104E06559A0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.03 해쉬 테이블", "홍정모\자료구조\챕터 11. 해슁(Hashing)\11.03 해쉬 테이블\11.03 해쉬 테이블.vcxproj", "{8FDC8F9A-E89E-4E7D-ACA6-538C1840E165}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.01 인접 행렬", "홍정모\자료구조\챕터 12. 그래프\12.01 인접 행렬\12.01 인접 행렬.vcxproj", "{72BC58D2-B813-472E-9377-94EF09F7CC87}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.02 인접 리스트", "홍정모\자료구조\챕터 12. 그래프\12.02 인접 리스트\12.02 인접 리스트.vcxproj", "{F3553435-6E2C-4FD4-B8F6-3336158572C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -582,334 +582,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{07BAEE20-FBAA-4B3F-B72F-D42D0C4FCD15}.Debug|x64.ActiveCfg = Debug|x64
-		{07BAEE20-FBAA-4B3F-B72F-D42D0C4FCD15}.Debug|x64.Build.0 = Debug|x64
-		{07BAEE20-FBAA-4B3F-B72F-D42D0C4FCD15}.Debug|x86.ActiveCfg = Debug|Win32
-		{07BAEE20-FBAA-4B3F-B72F-D42D0C4FCD15}.Debug|x86.Build.0 = Debug|Win32
-		{07BAEE20-FBAA-4B3F-B72F-D42D0C4FCD15}.Release|x64.ActiveCfg = Release|x64
-		{07BAEE20-FBAA-4B3F-B72F-D42D0C4FCD15}.Release|x64.Build.0 = Release|x64
-		{07BAEE20-FBAA-4B3F-B72F-D42D0C4FCD15}.Release|x86.ActiveCfg = Release|Win32
-		{07BAEE20-FBAA-4B3F-B72F-D42D0C4FCD15}.Release|x86.Build.0 = Release|Win32
-		{92157883-1DC3-4C43-924F-6F44D8936AE5}.Debug|x64.ActiveCfg = Debug|x64
-		{92157883-1DC3-4C43-924F-6F44D8936AE5}.Debug|x64.Build.0 = Debug|x64
-		{92157883-1DC3-4C43-924F-6F44D8936AE5}.Debug|x86.ActiveCfg = Debug|Win32
-		{92157883-1DC3-4C43-924F-6F44D8936AE5}.Debug|x86.Build.0 = Debug|Win32
-		{92157883-1DC3-4C43-924F-6F44D8936AE5}.Release|x64.ActiveCfg = Release|x64
-		{92157883-1DC3-4C43-924F-6F44D8936AE5}.Release|x64.Build.0 = Release|x64
-		{92157883-1DC3-4C43-924F-6F44D8936AE5}.Release|x86.ActiveCfg = Release|Win32
-		{92157883-1DC3-4C43-924F-6F44D8936AE5}.Release|x86.Build.0 = Release|Win32
-		{199B1A32-3760-4A4F-8ED3-B4DD5C188595}.Debug|x64.ActiveCfg = Debug|x64
-		{199B1A32-3760-4A4F-8ED3-B4DD5C188595}.Debug|x64.Build.0 = Debug|x64
-		{199B1A32-3760-4A4F-8ED3-B4DD5C188595}.Debug|x86.ActiveCfg = Debug|Win32
-		{199B1A32-3760-4A4F-8ED3-B4DD5C188595}.Debug|x86.Build.0 = Debug|Win32
-		{199B1A32-3760-4A4F-8ED3-B4DD5C188595}.Release|x64.ActiveCfg = Release|x64
-		{199B1A32-3760-4A4F-8ED3-B4DD5C188595}.Release|x64.Build.0 = Release|x64
-		{199B1A32-3760-4A4F-8ED3-B4DD5C188595}.Release|x86.ActiveCfg = Release|Win32
-		{199B1A32-3760-4A4F-8ED3-B4DD5C188595}.Release|x86.Build.0 = Release|Win32
-		{D2E9993F-6063-4B05-AF54-FFD9CEE3A223}.Debug|x64.ActiveCfg = Debug|x64
-		{D2E9993F-6063-4B05-AF54-FFD9CEE3A223}.Debug|x64.Build.0 = Debug|x64
-		{D2E9993F-6063-4B05-AF54-FFD9CEE3A223}.Debug|x86.ActiveCfg = Debug|Win32
-		{D2E9993F-6063-4B05-AF54-FFD9CEE3A223}.Debug|x86.Build.0 = Debug|Win32
-		{D2E9993F-6063-4B05-AF54-FFD9CEE3A223}.Release|x64.ActiveCfg = Release|x64
-		{D2E9993F-6063-4B05-AF54-FFD9CEE3A223}.Release|x64.Build.0 = Release|x64
-		{D2E9993F-6063-4B05-AF54-FFD9CEE3A223}.Release|x86.ActiveCfg = Release|Win32
-		{D2E9993F-6063-4B05-AF54-FFD9CEE3A223}.Release|x86.Build.0 = Release|Win32
-		{D0972058-BE60-4C17-B524-78FD2DD305E7}.Debug|x64.ActiveCfg = Debug|x64
-		{D0972058-BE60-4C17-B524-78FD2DD305E7}.Debug|x64.Build.0 = Debug|x64
-		{D0972058-BE60-4C17-B524-78FD2DD305E7}.Debug|x86.ActiveCfg = Debug|Win32
-		{D0972058-BE60-4C17-B524-78FD2DD305E7}.Debug|x86.Build.0 = Debug|Win32
-		{D0972058-BE60-4C17-B524-78FD2DD305E7}.Release|x64.ActiveCfg = Release|x64
-		{D0972058-BE60-4C17-B524-78FD2DD305E7}.Release|x64.Build.0 = Release|x64
-		{D0972058-BE60-4C17-B524-78FD2DD305E7}.Release|x86.ActiveCfg = Release|Win32
-		{D0972058-BE60-4C17-B524-78FD2DD305E7}.Release|x86.Build.0 = Release|Win32
-		{20ACAF7C-B0F7-4284-931B-0DE0718BF25B}.Debug|x64.ActiveCfg = Debug|x64
-		{20ACAF7C-B0F7-4284-931B-0DE0718BF25B}.Debug|x64.Build.0 = Debug|x64
-		{20ACAF7C-B0F7-4284-931B-0DE0718BF25B}.Debug|x86.ActiveCfg = Debug|Win32
-		{20ACAF7C-B0F7-4284-931B-0DE0718BF25B}.Debug|x86.Build.0 = Debug|Win32
-		{20ACAF7C-B0F7-4284-931B-0DE0718BF25B}.Release|x64.ActiveCfg = Release|x64
-		{20ACAF7C-B0F7-4284-931B-0DE0718BF25B}.Release|x64.Build.0 = Release|x64
-		{20ACAF7C-B0F7-4284-931B-0DE0718BF25B}.Release|x86.ActiveCfg = Release|Win32
-		{20ACAF7C-B0F7-4284-931B-0DE0718BF25B}.Release|x86.Build.0 = Release|Win32
-		{6298E432-0A98-46C9-811F-E960851A5FE4}.Debug|x64.ActiveCfg = Debug|x64
-		{6298E432-0A98-46C9-811F-E960851A5FE4}.Debug|x64.Build.0 = Debug|x64
-		{6298E432-0A98-46C9-811F-E960851A5FE4}.Debug|x86.ActiveCfg = Debug|Win32
-		{6298E432-0A98-46C9-811F-E960851A5FE4}.Debug|x86.Build.0 = Debug|Win32
-		{6298E432-0A98-46C9-811F-E960851A5FE4}.Release|x64.ActiveCfg = Release|x64
-		{6298E432-0A98-46C9-811F-E960851A5FE4}.Release|x64.Build.0 = Release|x64
-		{6298E432-0A98-46C9-811F-E960851A5FE4}.Release|x86.ActiveCfg = Release|Win32
-		{6298E432-0A98-46C9-811F-E960851A5FE4}.Release|x86.Build.0 = Release|Win32
-		{F3EF97EC-9D5E-45A5-89A6-73BA6F29EB92}.Debug|x64.ActiveCfg = Debug|x64
-		{F3EF97EC-9D5E-45A5-89A6-73BA6F29EB92}.Debug|x64.Build.0 = Debug|x64
-		{F3EF97EC-9D5E-45A5-89A6-73BA6F29EB92}.Debug|x86.ActiveCfg = Debug|Win32
-		{F3EF97EC-9D5E-45A5-89A6-73BA6F29EB92}.Debug|x86.Build.0 = Debug|Win32
-		{F3EF97EC-9D5E-45A5-89A6-73BA6F29EB92}.Release|x64.ActiveCfg = Release|x64
-		{F3EF97EC-9D5E-45A5-89A6-73BA6F29EB92}.Release|x64.Build.0 = Release|x64
-		{F3EF97EC-9D5E-45A5-89A6-73BA6F29EB92}.Release|x86.ActiveCfg = Release|Win32
-		{F3EF97EC-9D5E-45A5-89A6-73BA6F29EB92}.Release|x86.Build.0 = Release|Win32
-		{A376F875-B3CA-42F3-9168-FBF128F5283E}.Debug|x64.ActiveCfg = Debug|x64
-		{A376F875-B3CA-42F3-9168-FBF128F5283E}.Debug|x64.Build.0 = Debug|x64
-		{A376F875-B3CA-42F3-9168-FBF128F5283E}.Debug|x86.ActiveCfg = Debug|Win32
-		{A376F875-B3CA-42F3-9168-FBF128F5283E}.Debug|x86.Build.0 = Debug|Win32
-		{A376F875-B3CA-42F3-9168-FBF128F5283E}.Release|x64.ActiveCfg = Release|x64
-		{A376F875-B3CA-42F3-9168-FBF128F5283E}.Release|x64.Build.0 = Release|x64
-		{A376F875-B3CA-42F3-9168-FBF128F5283E}.Release|x86.ActiveCfg = Release|Win32
-		{A376F875-B3CA-42F3-9168-FBF128F5283E}.Release|x86.Build.0 = Release|Win32
-		{9A7716D7-484B-497C-A9F7-F052341C2776}.Debug|x64.ActiveCfg = Debug|x64
-		{9A7716D7-484B-497C-A9F7-F052341C2776}.Debug|x64.Build.0 = Debug|x64
-		{9A7716D7-484B-497C-A9F7-F052341C2776}.Debug|x86.ActiveCfg = Debug|Win32
-		{9A7716D7-484B-497C-A9F7-F052341C2776}.Debug|x86.Build.0 = Debug|Win32
-		{9A7716D7-484B-497C-A9F7-F052341C2776}.Release|x64.ActiveCfg = Release|x64
-		{9A7716D7-484B-497C-A9F7-F052341C2776}.Release|x64.Build.0 = Release|x64
-		{9A7716D7-484B-497C-A9F7-F052341C2776}.Release|x86.ActiveCfg = Release|Win32
-		{9A7716D7-484B-497C-A9F7-F052341C2776}.Release|x86.Build.0 = Release|Win32
-		{EBF1827C-12B8-41C1-BC68-428568909677}.Debug|x64.ActiveCfg = Debug|x64
-		{EBF1827C-12B8-41C1-BC68-428568909677}.Debug|x64.Build.0 = Debug|x64
-		{EBF1827C-12B8-41C1-BC68-428568909677}.Debug|x86.ActiveCfg = Debug|Win32
-		{EBF1827C-12B8-41C1-BC68-428568909677}.Debug|x86.Build.0 = Debug|Win32
-		{EBF1827C-12B8-41C1-BC68-428568909677}.Release|x64.ActiveCfg = Release|x64
-		{EBF1827C-12B8-41C1-BC68-428568909677}.Release|x64.Build.0 = Release|x64
-		{EBF1827C-12B8-41C1-BC68-428568909677}.Release|x86.ActiveCfg = Release|Win32
-		{EBF1827C-12B8-41C1-BC68-428568909677}.Release|x86.Build.0 = Release|Win32
-		{0A8D6BBF-A9CB-4918-AB27-D4DFE6C298DA}.Debug|x64.ActiveCfg = Debug|x64
-		{0A8D6BBF-A9CB-4918-AB27-D4DFE6C298DA}.Debug|x64.Build.0 = Debug|x64
-		{0A8D6BBF-A9CB-4918-AB27-D4DFE6C298DA}.Debug|x86.ActiveCfg = Debug|Win32
-		{0A8D6BBF-A9CB-4918-AB27-D4DFE6C298DA}.Debug|x86.Build.0 = Debug|Win32
-		{0A8D6BBF-A9CB-4918-AB27-D4DFE6C298DA}.Release|x64.ActiveCfg = Release|x64
-		{0A8D6BBF-A9CB-4918-AB27-D4DFE6C298DA}.Release|x64.Build.0 = Release|x64
-		{0A8D6BBF-A9CB-4918-AB27-D4DFE6C298DA}.Release|x86.ActiveCfg = Release|Win32
-		{0A8D6BBF-A9CB-4918-AB27-D4DFE6C298DA}.Release|x86.Build.0 = Release|Win32
-		{472563EE-3ACD-45B3-9CA0-F0B218F42C9B}.Debug|x64.ActiveCfg = Debug|x64
-		{472563EE-3ACD-45B3-9CA0-F0B218F42C9B}.Debug|x64.Build.0 = Debug|x64
-		{472563EE-3ACD-45B3-9CA0-F0B218F42C9B}.Debug|x86.ActiveCfg = Debug|Win32
-		{472563EE-3ACD-45B3-9CA0-F0B218F42C9B}.Debug|x86.Build.0 = Debug|Win32
-		{472563EE-3ACD-45B3-9CA0-F0B218F42C9B}.Release|x64.ActiveCfg = Release|x64
-		{472563EE-3ACD-45B3-9CA0-F0B218F42C9B}.Release|x64.Build.0 = Release|x64
-		{472563EE-3ACD-45B3-9CA0-F0B218F42C9B}.Release|x86.ActiveCfg = Release|Win32
-		{472563EE-3ACD-45B3-9CA0-F0B218F42C9B}.Release|x86.Build.0 = Release|Win32
-		{986C2BED-7F98-4B95-9541-1B2C45C44B03}.Debug|x64.ActiveCfg = Debug|x64
-		{986C2BED-7F98-4B95-9541-1B2C45C44B03}.Debug|x64.Build.0 = Debug|x64
-		{986C2BED-7F98-4B95-9541-1B2C45C44B03}.Debug|x86.ActiveCfg = Debug|Win32
-		{986C2BED-7F98-4B95-9541-1B2C45C44B03}.Debug|x86.Build.0 = Debug|Win32
-		{986C2BED-7F98-4B95-9541-1B2C45C44B03}.Release|x64.ActiveCfg = Release|x64
-		{986C2BED-7F98-4B95-9541-1B2C45C44B03}.Release|x64.Build.0 = Release|x64
-		{986C2BED-7F98-4B95-9541-1B2C45C44B03}.Release|x86.ActiveCfg = Release|Win32
-		{986C2BED-7F98-4B95-9541-1B2C45C44B03}.Release|x86.Build.0 = Release|Win32
-		{8762EB53-2EF4-49FB-B4BA-F053E40288A5}.Debug|x64.ActiveCfg = Debug|x64
-		{8762EB53-2EF4-49FB-B4BA-F053E40288A5}.Debug|x64.Build.0 = Debug|x64
-		{8762EB53-2EF4-49FB-B4BA-F053E40288A5}.Debug|x86.ActiveCfg = Debug|Win32
-		{8762EB53-2EF4-49FB-B4BA-F053E40288A5}.Debug|x86.Build.0 = Debug|Win32
-		{8762EB53-2EF4-49FB-B4BA-F053E40288A5}.Release|x64.ActiveCfg = Release|x64
-		{8762EB53-2EF4-49FB-B4BA-F053E40288A5}.Release|x64.Build.0 = Release|x64
-		{8762EB53-2EF4-49FB-B4BA-F053E40288A5}.Release|x86.ActiveCfg = Release|Win32
-		{8762EB53-2EF4-49FB-B4BA-F053E40288A5}.Release|x86.Build.0 = Release|Win32
-		{0C4C1279-7E97-4DE4-A0E3-6030AA16E34F}.Debug|x64.ActiveCfg = Debug|x64
-		{0C4C1279-7E97-4DE4-A0E3-6030AA16E34F}.Debug|x64.Build.0 = Debug|x64
-		{0C4C1279-7E97-4DE4-A0E3-6030AA16E34F}.Debug|x86.ActiveCfg = Debug|Win32
-		{0C4C1279-7E97-4DE4-A0E3-6030AA16E34F}.Debug|x86.Build.0 = Debug|Win32
-		{0C4C1279-7E97-4DE4-A0E3-6030AA16E34F}.Release|x64.ActiveCfg = Release|x64
-		{0C4C1279-7E97-4DE4-A0E3-6030AA16E34F}.Release|x64.Build.0 = Release|x64
-		{0C4C1279-7E97-4DE4-A0E3-6030AA16E34F}.Release|x86.ActiveCfg = Release|Win32
-		{0C4C1279-7E97-4DE4-A0E3-6030AA16E34F}.Release|x86.Build.0 = Release|Win32
-		{92A14540-3CFC-45DD-8A88-EEFA281C7F6E}.Debug|x64.ActiveCfg = Debug|x64
-		{92A14540-3CFC-45DD-8A88-EEFA281C7F6E}.Debug|x64.Build.0 = Debug|x64
-		{92A14540-3CFC-45DD-8A88-EEFA281C7F6E}.Debug|x86.ActiveCfg = Debug|Win32
-		{92A14540-3CFC-45DD-8A88-EEFA281C7F6E}.Debug|x86.Build.0 = Debug|Win32
-		{92A14540-3CFC-45DD-8A88-EEFA281C7F6E}.Release|x64.ActiveCfg = Release|x64
-		{92A14540-3CFC-45DD-8A88-EEFA281C7F6E}.Release|x64.Build.0 = Release|x64
-		{92A14540-3CFC-45DD-8A88-EEFA281C7F6E}.Release|x86.ActiveCfg = Release|Win32
-		{92A14540-3CFC-45DD-8A88-EEFA281C7F6E}.Release|x86.Build.0 = Release|Win32
-		{F43E3B93-CBDE-48DA-B040-4A028F563A80}.Debug|x64.ActiveCfg = Debug|x64
-		{F43E3B93-CBDE-48DA-B040-4A028F563A80}.Debug|x64.Build.0 = Debug|x64
-		{F43E3B93-CBDE-48DA-B040-4A028F563A80}.Debug|x86.ActiveCfg = Debug|Win32
-		{F43E3B93-CBDE-48DA-B040-4A028F563A80}.Debug|x86.Build.0 = Debug|Win32
-		{F43E3B93-CBDE-48DA-B040-4A028F563A80}.Release|x64.ActiveCfg = Release|x64
-		{F43E3B93-CBDE-48DA-B040-4A028F563A80}.Release|x64.Build.0 = Release|x64
-		{F43E3B93-CBDE-48DA-B040-4A028F563A80}.Release|x86.ActiveCfg = Release|Win32
-		{F43E3B93-CBDE-48DA-B040-4A028F563A80}.Release|x86.Build.0 = Release|Win32
-		{B5645FFB-5817-4F74-9890-B108D218314E}.Debug|x64.ActiveCfg = Debug|x64
-		{B5645FFB-5817-4F74-9890-B108D218314E}.Debug|x64.Build.0 = Debug|x64
-		{B5645FFB-5817-4F74-9890-B108D218314E}.Debug|x86.ActiveCfg = Debug|Win32
-		{B5645FFB-5817-4F74-9890-B108D218314E}.Debug|x86.Build.0 = Debug|Win32
-		{B5645FFB-5817-4F74-9890-B108D218314E}.Release|x64.ActiveCfg = Release|x64
-		{B5645FFB-5817-4F74-9890-B108D218314E}.Release|x64.Build.0 = Release|x64
-		{B5645FFB-5817-4F74-9890-B108D218314E}.Release|x86.ActiveCfg = Release|Win32
-		{B5645FFB-5817-4F74-9890-B108D218314E}.Release|x86.Build.0 = Release|Win32
-		{F28B81B8-9A87-4E49-8E03-0BE8F0F05897}.Debug|x64.ActiveCfg = Debug|x64
-		{F28B81B8-9A87-4E49-8E03-0BE8F0F05897}.Debug|x64.Build.0 = Debug|x64
-		{F28B81B8-9A87-4E49-8E03-0BE8F0F05897}.Debug|x86.ActiveCfg = Debug|Win32
-		{F28B81B8-9A87-4E49-8E03-0BE8F0F05897}.Debug|x86.Build.0 = Debug|Win32
-		{F28B81B8-9A87-4E49-8E03-0BE8F0F05897}.Release|x64.ActiveCfg = Release|x64
-		{F28B81B8-9A87-4E49-8E03-0BE8F0F05897}.Release|x64.Build.0 = Release|x64
-		{F28B81B8-9A87-4E49-8E03-0BE8F0F05897}.Release|x86.ActiveCfg = Release|Win32
-		{F28B81B8-9A87-4E49-8E03-0BE8F0F05897}.Release|x86.Build.0 = Release|Win32
-		{89167C99-A240-4F9D-A2BB-4CA8A04BBE1D}.Debug|x64.ActiveCfg = Debug|x64
-		{89167C99-A240-4F9D-A2BB-4CA8A04BBE1D}.Debug|x64.Build.0 = Debug|x64
-		{89167C99-A240-4F9D-A2BB-4CA8A04BBE1D}.Debug|x86.ActiveCfg = Debug|Win32
-		{89167C99-A240-4F9D-A2BB-4CA8A04BBE1D}.Debug|x86.Build.0 = Debug|Win32
-		{89167C99-A240-4F9D-A2BB-4CA8A04BBE1D}.Release|x64.ActiveCfg = Release|x64
-		{89167C99-A240-4F9D-A2BB-4CA8A04BBE1D}.Release|x64.Build.0 = Release|x64
-		{89167C99-A240-4F9D-A2BB-4CA8A04BBE1D}.Release|x86.ActiveCfg = Release|Win32
-		{89167C99-A240-4F9D-A2BB-4CA8A04BBE1D}.Release|x86.Build.0 = Release|Win32
-		{4A358AE7-E532-4BBC-B755-D27F615F5271}.Debug|x64.ActiveCfg = Debug|x64
-		{4A358AE7-E532-4BBC-B755-D27F615F5271}.Debug|x64.Build.0 = Debug|x64
-		{4A358AE7-E532-4BBC-B755-D27F615F5271}.Debug|x86.ActiveCfg = Debug|Win32
-		{4A358AE7-E532-4BBC-B755-D27F615F5271}.Debug|x86.Build.0 = Debug|Win32
-		{4A358AE7-E532-4BBC-B755-D27F615F5271}.Release|x64.ActiveCfg = Release|x64
-		{4A358AE7-E532-4BBC-B755-D27F615F5271}.Release|x64.Build.0 = Release|x64
-		{4A358AE7-E532-4BBC-B755-D27F615F5271}.Release|x86.ActiveCfg = Release|Win32
-		{4A358AE7-E532-4BBC-B755-D27F615F5271}.Release|x86.Build.0 = Release|Win32
-		{B2E272BD-3A19-44F9-98A0-8E9E676A3666}.Debug|x64.ActiveCfg = Debug|x64
-		{B2E272BD-3A19-44F9-98A0-8E9E676A3666}.Debug|x64.Build.0 = Debug|x64
-		{B2E272BD-3A19-44F9-98A0-8E9E676A3666}.Debug|x86.ActiveCfg = Debug|Win32
-		{B2E272BD-3A19-44F9-98A0-8E9E676A3666}.Debug|x86.Build.0 = Debug|Win32
-		{B2E272BD-3A19-44F9-98A0-8E9E676A3666}.Release|x64.ActiveCfg = Release|x64
-		{B2E272BD-3A19-44F9-98A0-8E9E676A3666}.Release|x64.Build.0 = Release|x64
-		{B2E272BD-3A19-44F9-98A0-8E9E676A3666}.Release|x86.ActiveCfg = Release|Win32
-		{B2E272BD-3A19-44F9-98A0-8E9E676A3666}.Release|x86.Build.0 = Release|Win32
-		{1FA0E377-6E1E-4704-997C-4C18EC90564B}.Debug|x64.ActiveCfg = Debug|x64
-		{1FA0E377-6E1E-4704-997C-4C18EC90564B}.Debug|x64.Build.0 = Debug|x64
-		{1FA0E377-6E1E-4704-997C-4C18EC90564B}.Debug|x86.ActiveCfg = Debug|Win32
-		{1FA0E377-6E1E-4704-997C-4C18EC90564B}.Debug|x86.Build.0 = Debug|Win32
-		{1FA0E377-6E1E-4704-997C-4C18EC90564B}.Release|x64.ActiveCfg = Release|x64
-		{1FA0E377-6E1E-4704-997C-4C18EC90564B}.Release|x64.Build.0 = Release|x64
-		{1FA0E377-6E1E-4704-997C-4C18EC90564B}.Release|x86.ActiveCfg = Release|Win32
-		{1FA0E377-6E1E-4704-997C-4C18EC90564B}.Release|x86.Build.0 = Release|Win32
-		{F8DE634E-9C27-40A9-96B3-CD837F9C45D7}.Debug|x64.ActiveCfg = Debug|x64
-		{F8DE634E-9C27-40A9-96B3-CD837F9C45D7}.Debug|x64.Build.0 = Debug|x64
-		{F8DE634E-9C27-40A9-96B3-CD837F9C45D7}.Debug|x86.ActiveCfg = Debug|Win32
-		{F8DE634E-9C27-40A9-96B3-CD837F9C45D7}.Debug|x86.Build.0 = Debug|Win32
-		{F8DE634E-9C27-40A9-96B3-CD837F9C45D7}.Release|x64.ActiveCfg = Release|x64
-		{F8DE634E-9C27-40A9-96B3-CD837F9C45D7}.Release|x64.Build.0 = Release|x64
-		{F8DE634E-9C27-40A9-96B3-CD837F9C45D7}.Release|x86.ActiveCfg = Release|Win32
-		{F8DE634E-9C27-40A9-96B3-CD837F9C45D7}.Release|x86.Build.0 = Release|Win32
-		{31FC763B-56AE-4F48-A36E-96AB8C147F3D}.Debug|x64.ActiveCfg = Debug|x64
-		{31FC763B-56AE-4F48-A36E-96AB8C147F3D}.Debug|x64.Build.0 = Debug|x64
-		{31FC763B-56AE-4F48-A36E-96AB8C147F3D}.Debug|x86.ActiveCfg = Debug|Win32
-		{31FC763B-56AE-4F48-A36E-96AB8C147F3D}.Debug|x86.Build.0 = Debug|Win32
-		{31FC763B-56AE-4F48-A36E-96AB8C147F3D}.Release|x64.ActiveCfg = Release|x64
-		{31FC763B-56AE-4F48-A36E-96AB8C147F3D}.Release|x64.Build.0 = Release|x64
-		{31FC763B-56AE-4F48-A36E-96AB8C147F3D}.Release|x86.ActiveCfg = Release|Win32
-		{31FC763B-56AE-4F48-A36E-96AB8C147F3D}.Release|x86.Build.0 = Release|Win32
-		{7DDE6C55-9FA8-4056-BF77-E02FBB0B6D5F}.Debug|x64.ActiveCfg = Debug|x64
-		{7DDE6C55-9FA8-4056-BF77-E02FBB0B6D5F}.Debug|x64.Build.0 = Debug|x64
-		{7DDE6C55-9FA8-4056-BF77-E02FBB0B6D5F}.Debug|x86.ActiveCfg = Debug|Win32
-		{7DDE6C55-9FA8-4056-BF77-E02FBB0B6D5F}.Debug|x86.Build.0 = Debug|Win32
-		{7DDE6C55-9FA8-4056-BF77-E02FBB0B6D5F}.Release|x64.ActiveCfg = Release|x64
-		{7DDE6C55-9FA8-4056-BF77-E02FBB0B6D5F}.Release|x64.Build.0 = Release|x64
-		{7DDE6C55-9FA8-4056-BF77-E02FBB0B6D5F}.Release|x86.ActiveCfg = Release|Win32
-		{7DDE6C55-9FA8-4056-BF77-E02FBB0B6D5F}.Release|x86.Build.0 = Release|Win32
-		{13E1F026-0222-42A3-B8FE-59F54D14D5D2}.Debug|x64.ActiveCfg = Debug|x64
-		{13E1F026-0222-42A3-B8FE-59F54D14D5D2}.Debug|x64.Build.0 = Debug|x64
-		{13E1F026-0222-42A3-B8FE-59F54D14D5D2}.Debug|x86.ActiveCfg = Debug|Win32
-		{13E1F026-0222-42A3-B8FE-59F54D14D5D2}.Debug|x86.Build.0 = Debug|Win32
-		{13E1F026-0222-42A3-B8FE-59F54D14D5D2}.Release|x64.ActiveCfg = Release|x64
-		{13E1F026-0222-42A3-B8FE-59F54D14D5D2}.Release|x64.Build.0 = Release|x64
-		{13E1F026-0222-42A3-B8FE-59F54D14D5D2}.Release|x86.ActiveCfg = Release|Win32
-		{13E1F026-0222-42A3-B8FE-59F54D14D5D2}.Release|x86.Build.0 = Release|Win32
-		{8D780622-2166-42C6-AE5C-EE48AF10248C}.Debug|x64.ActiveCfg = Debug|x64
-		{8D780622-2166-42C6-AE5C-EE48AF10248C}.Debug|x64.Build.0 = Debug|x64
-		{8D780622-2166-42C6-AE5C-EE48AF10248C}.Debug|x86.ActiveCfg = Debug|Win32
-		{8D780622-2166-42C6-AE5C-EE48AF10248C}.Debug|x86.Build.0 = Debug|Win32
-		{8D780622-2166-42C6-AE5C-EE48AF10248C}.Release|x64.ActiveCfg = Release|x64
-		{8D780622-2166-42C6-AE5C-EE48AF10248C}.Release|x64.Build.0 = Release|x64
-		{8D780622-2166-42C6-AE5C-EE48AF10248C}.Release|x86.ActiveCfg = Release|Win32
-		{8D780622-2166-42C6-AE5C-EE48AF10248C}.Release|x86.Build.0 = Release|Win32
-		{F1AE3D4F-3BEA-49A4-AD9A-1F0751FF4FEB}.Debug|x64.ActiveCfg = Debug|x64
-		{F1AE3D4F-3BEA-49A4-AD9A-1F0751FF4FEB}.Debug|x64.Build.0 = Debug|x64
-		{F1AE3D4F-3BEA-49A4-AD9A-1F0751FF4FEB}.Debug|x86.ActiveCfg = Debug|Win32
-		{F1AE3D4F-3BEA-49A4-AD9A-1F0751FF4FEB}.Debug|x86.Build.0 = Debug|Win32
-		{F1AE3D4F-3BEA-49A4-AD9A-1F0751FF4FEB}.Release|x64.ActiveCfg = Release|x64
-		{F1AE3D4F-3BEA-49A4-AD9A-1F0751FF4FEB}.Release|x64.Build.0 = Release|x64
-		{F1AE3D4F-3BEA-49A4-AD9A-1F0751FF4FEB}.Release|x86.ActiveCfg = Release|Win32
-		{F1AE3D4F-3BEA-49A4-AD9A-1F0751FF4FEB}.Release|x86.Build.0 = Release|Win32
-		{1129D05D-E047-4233-82F9-CB6EC0D530D4}.Debug|x64.ActiveCfg = Debug|x64
-		{1129D05D-E047-4233-82F9-CB6EC0D530D4}.Debug|x64.Build.0 = Debug|x64
-		{1129D05D-E047-4233-82F9-CB6EC0D530D4}.Debug|x86.ActiveCfg = Debug|Win32
-		{1129D05D-E047-4233-82F9-CB6EC0D530D4}.Debug|x86.Build.0 = Debug|Win32
-		{1129D05D-E047-4233-82F9-CB6EC0D530D4}.Release|x64.ActiveCfg = Release|x64
-		{1129D05D-E047-4233-82F9-CB6EC0D530D4}.Release|x64.Build.0 = Release|x64
-		{1129D05D-E047-4233-82F9-CB6EC0D530D4}.Release|x86.ActiveCfg = Release|Win32
-		{1129D05D-E047-4233-82F9-CB6EC0D530D4}.Release|x86.Build.0 = Release|Win32
-		{8093EC73-E78A-4EB7-8609-93DE2BBCA187}.Debug|x64.ActiveCfg = Debug|x64
-		{8093EC73-E78A-4EB7-8609-93DE2BBCA187}.Debug|x64.Build.0 = Debug|x64
-		{8093EC73-E78A-4EB7-8609-93DE2BBCA187}.Debug|x86.ActiveCfg = Debug|Win32
-		{8093EC73-E78A-4EB7-8609-93DE2BBCA187}.Debug|x86.Build.0 = Debug|Win32
-		{8093EC73-E78A-4EB7-8609-93DE2BBCA187}.Release|x64.ActiveCfg = Release|x64
-		{8093EC73-E78A-4EB7-8609-93DE2BBCA187}.Release|x64.Build.0 = Release|x64
-		{8093EC73-E78A-4EB7-8609-93DE2BBCA187}.Release|x86.ActiveCfg = Release|Win32
-		{8093EC73-E78A-4EB7-8609-93DE2BBCA187}.Release|x86.Build.0 = Release|Win32
-		{BECF0351-7C66-4F5E-AEA5-E21504B69D64}.Debug|x64.ActiveCfg = Debug|x64
-		{BECF0351-7C66-4F5E-AEA5-E21504B69D64}.Debug|x64.Build.0 = Debug|x64
-		{BECF0351-7C66-4F5E-AEA5-E21504B69D64}.Debug|x86.ActiveCfg = Debug|Win32
-		{BECF0351-7C66-4F5E-AEA5-E21504B69D64}.Debug|x86.Build.0 = Debug|Win32
-		{BECF0351-7C66-4F5E-AEA5-E21504B69D64}.Release|x64.ActiveCfg = Release|x64
-		{BECF0351-7C66-4F5E-AEA5-E21504B69D64}.Release|x64.Build.0 = Release|x64
-		{BECF0351-7C66-4F5E-AEA5-E21504B69D64}.Release|x86.ActiveCfg = Release|Win32
-		{BECF0351-7C66-4F5E-AEA5-E21504B69D64}.Release|x86.Build.0 = Release|Win32
-		{3F9E06E0-B70C-45AB-BF70-16E262EADC2D}.Debug|x64.ActiveCfg = Debug|x64
-		{3F9E06E0-B70C-45AB-BF70-16E262EADC2D}.Debug|x64.Build.0 = Debug|x64
-		{3F9E06E0-B70C-45AB-BF70-16E262EADC2D}.Debug|x86.ActiveCfg = Debug|Win32
-		{3F9E06E0-B70C-45AB-BF70-16E262EADC2D}.Debug|x86.Build.0 = Debug|Win32
-		{3F9E06E0-B70C-45AB-BF70-16E262EADC2D}.Release|x64.ActiveCfg = Release|x64
-		{3F9E06E0-B70C-45AB-BF70-16E262EADC2D}.Release|x64.Build.0 = Release|x64
-		{3F9E06E0-B70C-45AB-BF70-16E262EADC2D}.Release|x86.ActiveCfg = Release|Win32
-		{3F9E06E0-B70C-45AB-BF70-16E262EADC2D}.Release|x86.Build.0 = Release|Win32
-		{2FB0133D-4525-4F44-94EC-63843A8A243A}.Debug|x64.ActiveCfg = Debug|x64
-		{2FB0133D-4525-4F44-94EC-63843A8A243A}.Debug|x64.Build.0 = Debug|x64
-		{2FB0133D-4525-4F44-94EC-63843A8A243A}.Debug|x86.ActiveCfg = Debug|Win32
-		{2FB0133D-4525-4F44-94EC-63843A8A243A}.Debug|x86.Build.0 = Debug|Win32
-		{2FB0133D-4525-4F44-94EC-63843A8A243A}.Release|x64.ActiveCfg = Release|x64
-		{2FB0133D-4525-4F44-94EC-63843A8A243A}.Release|x64.Build.0 = Release|x64
-		{2FB0133D-4525-4F44-94EC-63843A8A243A}.Release|x86.ActiveCfg = Release|Win32
-		{2FB0133D-4525-4F44-94EC-63843A8A243A}.Release|x86.Build.0 = Release|Win32
-		{5B90F930-4C7E-460F-9AFF-65443D49A281}.Debug|x64.ActiveCfg = Debug|x64
-		{5B90F930-4C7E-460F-9AFF-65443D49A281}.Debug|x64.Build.0 = Debug|x64
-		{5B90F930-4C7E-460F-9AFF-65443D49A281}.Debug|x86.ActiveCfg = Debug|Win32
-		{5B90F930-4C7E-460F-9AFF-65443D49A281}.Debug|x86.Build.0 = Debug|Win32
-		{5B90F930-4C7E-460F-9AFF-65443D49A281}.Release|x64.ActiveCfg = Release|x64
-		{5B90F930-4C7E-460F-9AFF-65443D49A281}.Release|x64.Build.0 = Release|x64
-		{5B90F930-4C7E-460F-9AFF-65443D49A281}.Release|x86.ActiveCfg = Release|Win32
-		{5B90F930-4C7E-460F-9AFF-65443D49A281}.Release|x86.Build.0 = Release|Win32
-		{362A46B2-2D53-47B5-8945-8384A171DB22}.Debug|x64.ActiveCfg = Debug|x64
-		{362A46B2-2D53-47B5-8945-8384A171DB22}.Debug|x64.Build.0 = Debug|x64
-		{362A46B2-2D53-47B5-8945-8384A171DB22}.Debug|x86.ActiveCfg = Debug|Win32
-		{362A46B2-2D53-47B5-8945-8384A171DB22}.Debug|x86.Build.0 = Debug|Win32
-		{362A46B2-2D53-47B5-8945-8384A171DB22}.Release|x64.ActiveCfg = Release|x64
-		{362A46B2-2D53-47B5-8945-8384A171DB22}.Release|x64.Build.0 = Release|x64
-		{362A46B2-2D53-47B5-8945-8384A171DB22}.Release|x86.ActiveCfg = Release|Win32
-		{362A46B2-2D53-47B5-8945-8384A171DB22}.Release|x86.Build.0 = Release|Win32
-		{BE69E929-BCF9-4A1A-AE1B-794805944ADC}.Debug|x64.ActiveCfg = Debug|x64
-		{BE69E929-BCF9-4A1A-AE1B-794805944ADC}.Debug|x64.Build.0 = Debug|x64
-		{BE69E929-BCF9-4A1A-AE1B-794805944ADC}.Debug|x86.ActiveCfg = Debug|Win32
-		{BE69E929-BCF9-4A1A-AE1B-794805944ADC}.Debug|x86.Build.0 = Debug|Win32
-		{BE69E929-BCF9-4A1A-AE1B-794805944ADC}.Release|x64.ActiveCfg = Release|x64
-		{BE69E929-BCF9-4A1A-AE1B-794805944ADC}.Release|x64.Build.0 = Release|x64
-		{BE69E929-BCF9-4A1A-AE1B-794805944ADC}.Release|x86.ActiveCfg = Release|Win32
-		{BE69E929-BCF9-4A1A-AE1B-794805944ADC}.Release|x86.Build.0 = Release|Win32
-		{C88293BB-A30A-4C8D-A1F1-3D08E7E46125}.Debug|x64.ActiveCfg = Debug|x64
-		{C88293BB-A30A-4C8D-A1F1-3D08E7E46125}.Debug|x64.Build.0 = Debug|x64
-		{C88293BB-A30A-4C8D-A1F1-3D08E7E46125}.Debug|x86.ActiveCfg = Debug|Win32
-		{C88293BB-A30A-4C8D-A1F1-3D08E7E46125}.Debug|x86.Build.0 = Debug|Win32
-		{C88293BB-A30A-4C8D-A1F1-3D08E7E46125}.Release|x64.ActiveCfg = Release|x64
-		{C88293BB-A30A-4C8D-A1F1-3D08E7E46125}.Release|x64.Build.0 = Release|x64
-		{C88293BB-A30A-4C8D-A1F1-3D08E7E46125}.Release|x86.ActiveCfg = Release|Win32
-		{C88293BB-A30A-4C8D-A1F1-3D08E7E46125}.Release|x86.Build.0 = Release|Win32
-		{0DF353FC-A964-4738-932F-A4CD125EEDA5}.Debug|x64.ActiveCfg = Debug|x64
-		{0DF353FC-A964-4738-932F-A4CD125EEDA5}.Debug|x64.Build.0 = Debug|x64
-		{0DF353FC-A964-4738-932F-A4CD125EEDA5}.Debug|x86.ActiveCfg = Debug|Win32
-		{0DF353FC-A964-4738-932F-A4CD125EEDA5}.Debug|x86.Build.0 = Debug|Win32
-		{0DF353FC-A964-4738-932F-A4CD125EEDA5}.Release|x64.ActiveCfg = Release|x64
-		{0DF353FC-A964-4738-932F-A4CD125EEDA5}.Release|x64.Build.0 = Release|x64
-		{0DF353FC-A964-4738-932F-A4CD125EEDA5}.Release|x86.ActiveCfg = Release|Win32
-		{0DF353FC-A964-4738-932F-A4CD125EEDA5}.Release|x86.Build.0 = Release|Win32
-		{B5A62A36-D30C-4ED2-993A-D88DEA524791}.Debug|x64.ActiveCfg = Debug|x64
-		{B5A62A36-D30C-4ED2-993A-D88DEA524791}.Debug|x64.Build.0 = Debug|x64
-		{B5A62A36-D30C-4ED2-993A-D88DEA524791}.Debug|x86.ActiveCfg = Debug|Win32
-		{B5A62A36-D30C-4ED2-993A-D88DEA524791}.Debug|x86.Build.0 = Debug|Win32
-		{B5A62A36-D30C-4ED2-993A-D88DEA524791}.Release|x64.ActiveCfg = Release|x64
-		{B5A62A36-D30C-4ED2-993A-D88DEA524791}.Release|x64.Build.0 = Release|x64
-		{B5A62A36-D30C-4ED2-993A-D88DEA524791}.Release|x86.ActiveCfg = Release|Win32
-		{B5A62A36-D30C-4ED2-993A-D88DEA524791}.Release|x86.Build.0 = Release|Win32
 		{58DD779B-1D3D-4AF2-9D95-9288B9BC7E91}.Debug|x64.ActiveCfg = Debug|x64
 		{58DD779B-1D3D-4AF2-9D95-9288B9BC7E91}.Debug|x64.Build.0 = Debug|x64
 		{58DD779B-1D3D-4AF2-9D95-9288B9BC7E91}.Debug|x86.ActiveCfg = Debug|Win32
@@ -918,46 +590,6 @@ Global
 		{58DD779B-1D3D-4AF2-9D95-9288B9BC7E91}.Release|x64.Build.0 = Release|x64
 		{58DD779B-1D3D-4AF2-9D95-9288B9BC7E91}.Release|x86.ActiveCfg = Release|Win32
 		{58DD779B-1D3D-4AF2-9D95-9288B9BC7E91}.Release|x86.Build.0 = Release|Win32
-		{B7D1CCD3-5043-4F2C-83BD-79AB49C1AE15}.Debug|x64.ActiveCfg = Debug|x64
-		{B7D1CCD3-5043-4F2C-83BD-79AB49C1AE15}.Debug|x64.Build.0 = Debug|x64
-		{B7D1CCD3-5043-4F2C-83BD-79AB49C1AE15}.Debug|x86.ActiveCfg = Debug|Win32
-		{B7D1CCD3-5043-4F2C-83BD-79AB49C1AE15}.Debug|x86.Build.0 = Debug|Win32
-		{B7D1CCD3-5043-4F2C-83BD-79AB49C1AE15}.Release|x64.ActiveCfg = Release|x64
-		{B7D1CCD3-5043-4F2C-83BD-79AB49C1AE15}.Release|x64.Build.0 = Release|x64
-		{B7D1CCD3-5043-4F2C-83BD-79AB49C1AE15}.Release|x86.ActiveCfg = Release|Win32
-		{B7D1CCD3-5043-4F2C-83BD-79AB49C1AE15}.Release|x86.Build.0 = Release|Win32
-		{D376D153-59A1-4972-89EA-516C3BBECB47}.Debug|x64.ActiveCfg = Debug|x64
-		{D376D153-59A1-4972-89EA-516C3BBECB47}.Debug|x64.Build.0 = Debug|x64
-		{D376D153-59A1-4972-89EA-516C3BBECB47}.Debug|x86.ActiveCfg = Debug|Win32
-		{D376D153-59A1-4972-89EA-516C3BBECB47}.Debug|x86.Build.0 = Debug|Win32
-		{D376D153-59A1-4972-89EA-516C3BBECB47}.Release|x64.ActiveCfg = Release|x64
-		{D376D153-59A1-4972-89EA-516C3BBECB47}.Release|x64.Build.0 = Release|x64
-		{D376D153-59A1-4972-89EA-516C3BBECB47}.Release|x86.ActiveCfg = Release|Win32
-		{D376D153-59A1-4972-89EA-516C3BBECB47}.Release|x86.Build.0 = Release|Win32
-		{082EB603-F58D-4A27-9DFA-51CA7B6B2BF8}.Debug|x64.ActiveCfg = Debug|x64
-		{082EB603-F58D-4A27-9DFA-51CA7B6B2BF8}.Debug|x64.Build.0 = Debug|x64
-		{082EB603-F58D-4A27-9DFA-51CA7B6B2BF8}.Debug|x86.ActiveCfg = Debug|Win32
-		{082EB603-F58D-4A27-9DFA-51CA7B6B2BF8}.Debug|x86.Build.0 = Debug|Win32
-		{082EB603-F58D-4A27-9DFA-51CA7B6B2BF8}.Release|x64.ActiveCfg = Release|x64
-		{082EB603-F58D-4A27-9DFA-51CA7B6B2BF8}.Release|x64.Build.0 = Release|x64
-		{082EB603-F58D-4A27-9DFA-51CA7B6B2BF8}.Release|x86.ActiveCfg = Release|Win32
-		{082EB603-F58D-4A27-9DFA-51CA7B6B2BF8}.Release|x86.Build.0 = Release|Win32
-		{BB91748A-5BCB-4034-A668-87B314737798}.Debug|x64.ActiveCfg = Debug|x64
-		{BB91748A-5BCB-4034-A668-87B314737798}.Debug|x64.Build.0 = Debug|x64
-		{BB91748A-5BCB-4034-A668-87B314737798}.Debug|x86.ActiveCfg = Debug|Win32
-		{BB91748A-5BCB-4034-A668-87B314737798}.Debug|x86.Build.0 = Debug|Win32
-		{BB91748A-5BCB-4034-A668-87B314737798}.Release|x64.ActiveCfg = Release|x64
-		{BB91748A-5BCB-4034-A668-87B314737798}.Release|x64.Build.0 = Release|x64
-		{BB91748A-5BCB-4034-A668-87B314737798}.Release|x86.ActiveCfg = Release|Win32
-		{BB91748A-5BCB-4034-A668-87B314737798}.Release|x86.Build.0 = Release|Win32
-		{DBF760E8-110B-4795-8E7E-BB9B8FAA47D3}.Debug|x64.ActiveCfg = Debug|x64
-		{DBF760E8-110B-4795-8E7E-BB9B8FAA47D3}.Debug|x64.Build.0 = Debug|x64
-		{DBF760E8-110B-4795-8E7E-BB9B8FAA47D3}.Debug|x86.ActiveCfg = Debug|Win32
-		{DBF760E8-110B-4795-8E7E-BB9B8FAA47D3}.Debug|x86.Build.0 = Debug|Win32
-		{DBF760E8-110B-4795-8E7E-BB9B8FAA47D3}.Release|x64.ActiveCfg = Release|x64
-		{DBF760E8-110B-4795-8E7E-BB9B8FAA47D3}.Release|x64.Build.0 = Release|x64
-		{DBF760E8-110B-4795-8E7E-BB9B8FAA47D3}.Release|x86.ActiveCfg = Release|Win32
-		{DBF760E8-110B-4795-8E7E-BB9B8FAA47D3}.Release|x86.Build.0 = Release|Win32
 		{144D3EBD-35DD-4062-8E4B-9894D6591EC0}.Debug|x64.ActiveCfg = Debug|x64
 		{144D3EBD-35DD-4062-8E4B-9894D6591EC0}.Debug|x64.Build.0 = Debug|x64
 		{144D3EBD-35DD-4062-8E4B-9894D6591EC0}.Debug|x86.ActiveCfg = Debug|Win32
@@ -982,14 +614,14 @@ Global
 		{BD47E753-CFAD-4B2E-A4A3-CC7C04A43C36}.Release|x64.Build.0 = Release|x64
 		{BD47E753-CFAD-4B2E-A4A3-CC7C04A43C36}.Release|x86.ActiveCfg = Release|Win32
 		{BD47E753-CFAD-4B2E-A4A3-CC7C04A43C36}.Release|x86.Build.0 = Release|Win32
-		{20FD4E7C-54F3-47C5-A418-FDC07E875ADF}.Debug|x64.ActiveCfg = Debug|x64
-		{20FD4E7C-54F3-47C5-A418-FDC07E875ADF}.Debug|x64.Build.0 = Debug|x64
-		{20FD4E7C-54F3-47C5-A418-FDC07E875ADF}.Debug|x86.ActiveCfg = Debug|Win32
-		{20FD4E7C-54F3-47C5-A418-FDC07E875ADF}.Debug|x86.Build.0 = Debug|Win32
-		{20FD4E7C-54F3-47C5-A418-FDC07E875ADF}.Release|x64.ActiveCfg = Release|x64
-		{20FD4E7C-54F3-47C5-A418-FDC07E875ADF}.Release|x64.Build.0 = Release|x64
-		{20FD4E7C-54F3-47C5-A418-FDC07E875ADF}.Release|x86.ActiveCfg = Release|Win32
-		{20FD4E7C-54F3-47C5-A418-FDC07E875ADF}.Release|x86.Build.0 = Release|Win32
+		{3BBA0EA4-7B1F-47D1-B7FA-136E608D45CA}.Debug|x64.ActiveCfg = Debug|x64
+		{3BBA0EA4-7B1F-47D1-B7FA-136E608D45CA}.Debug|x64.Build.0 = Debug|x64
+		{3BBA0EA4-7B1F-47D1-B7FA-136E608D45CA}.Debug|x86.ActiveCfg = Debug|Win32
+		{3BBA0EA4-7B1F-47D1-B7FA-136E608D45CA}.Debug|x86.Build.0 = Debug|Win32
+		{3BBA0EA4-7B1F-47D1-B7FA-136E608D45CA}.Release|x64.ActiveCfg = Release|x64
+		{3BBA0EA4-7B1F-47D1-B7FA-136E608D45CA}.Release|x64.Build.0 = Release|x64
+		{3BBA0EA4-7B1F-47D1-B7FA-136E608D45CA}.Release|x86.ActiveCfg = Release|Win32
+		{3BBA0EA4-7B1F-47D1-B7FA-136E608D45CA}.Release|x86.Build.0 = Release|Win32
 		{411212FA-5EE7-40C8-9C39-13000B3CE63B}.Debug|x64.ActiveCfg = Debug|x64
 		{411212FA-5EE7-40C8-9C39-13000B3CE63B}.Debug|x64.Build.0 = Debug|x64
 		{411212FA-5EE7-40C8-9C39-13000B3CE63B}.Debug|x86.ActiveCfg = Debug|Win32
@@ -1326,14 +958,6 @@ Global
 		{09796E1D-C144-45EC-905E-DDDECFE1CD39}.Release|x64.Build.0 = Release|x64
 		{09796E1D-C144-45EC-905E-DDDECFE1CD39}.Release|x86.ActiveCfg = Release|Win32
 		{09796E1D-C144-45EC-905E-DDDECFE1CD39}.Release|x86.Build.0 = Release|Win32
-		{B2F2F4DB-D6B6-4950-BEC3-D9BB3114DD31}.Debug|x64.ActiveCfg = Debug|x64
-		{B2F2F4DB-D6B6-4950-BEC3-D9BB3114DD31}.Debug|x64.Build.0 = Debug|x64
-		{B2F2F4DB-D6B6-4950-BEC3-D9BB3114DD31}.Debug|x86.ActiveCfg = Debug|Win32
-		{B2F2F4DB-D6B6-4950-BEC3-D9BB3114DD31}.Debug|x86.Build.0 = Debug|Win32
-		{B2F2F4DB-D6B6-4950-BEC3-D9BB3114DD31}.Release|x64.ActiveCfg = Release|x64
-		{B2F2F4DB-D6B6-4950-BEC3-D9BB3114DD31}.Release|x64.Build.0 = Release|x64
-		{B2F2F4DB-D6B6-4950-BEC3-D9BB3114DD31}.Release|x86.ActiveCfg = Release|Win32
-		{B2F2F4DB-D6B6-4950-BEC3-D9BB3114DD31}.Release|x86.Build.0 = Release|Win32
 		{4E82D240-7EB5-4FEE-912B-1A3ED47C296E}.Debug|x64.ActiveCfg = Debug|x64
 		{4E82D240-7EB5-4FEE-912B-1A3ED47C296E}.Debug|x64.Build.0 = Debug|x64
 		{4E82D240-7EB5-4FEE-912B-1A3ED47C296E}.Debug|x86.ActiveCfg = Debug|Win32
@@ -1342,6 +966,14 @@ Global
 		{4E82D240-7EB5-4FEE-912B-1A3ED47C296E}.Release|x64.Build.0 = Release|x64
 		{4E82D240-7EB5-4FEE-912B-1A3ED47C296E}.Release|x86.ActiveCfg = Release|Win32
 		{4E82D240-7EB5-4FEE-912B-1A3ED47C296E}.Release|x86.Build.0 = Release|Win32
+		{B2F2F4DB-D6B6-4950-BEC3-D9BB3114DD31}.Debug|x64.ActiveCfg = Debug|x64
+		{B2F2F4DB-D6B6-4950-BEC3-D9BB3114DD31}.Debug|x64.Build.0 = Debug|x64
+		{B2F2F4DB-D6B6-4950-BEC3-D9BB3114DD31}.Debug|x86.ActiveCfg = Debug|Win32
+		{B2F2F4DB-D6B6-4950-BEC3-D9BB3114DD31}.Debug|x86.Build.0 = Debug|Win32
+		{B2F2F4DB-D6B6-4950-BEC3-D9BB3114DD31}.Release|x64.ActiveCfg = Release|x64
+		{B2F2F4DB-D6B6-4950-BEC3-D9BB3114DD31}.Release|x64.Build.0 = Release|x64
+		{B2F2F4DB-D6B6-4950-BEC3-D9BB3114DD31}.Release|x86.ActiveCfg = Release|Win32
+		{B2F2F4DB-D6B6-4950-BEC3-D9BB3114DD31}.Release|x86.Build.0 = Release|Win32
 		{B885EDB0-81AE-4D37-B298-BAB2EBFEBDC1}.Debug|x64.ActiveCfg = Debug|x64
 		{B885EDB0-81AE-4D37-B298-BAB2EBFEBDC1}.Debug|x64.Build.0 = Debug|x64
 		{B885EDB0-81AE-4D37-B298-BAB2EBFEBDC1}.Debug|x86.ActiveCfg = Debug|Win32
@@ -2510,73 +2142,395 @@ Global
 		{52C9611B-65CD-4C61-B626-3E4B744C47C9}.Release|x64.Build.0 = Release|x64
 		{52C9611B-65CD-4C61-B626-3E4B744C47C9}.Release|x86.ActiveCfg = Release|Win32
 		{52C9611B-65CD-4C61-B626-3E4B744C47C9}.Release|x86.Build.0 = Release|Win32
+		{D67BD873-0BC5-4F2F-896B-E131347709E2}.Debug|x64.ActiveCfg = Debug|x64
+		{D67BD873-0BC5-4F2F-896B-E131347709E2}.Debug|x64.Build.0 = Debug|x64
+		{D67BD873-0BC5-4F2F-896B-E131347709E2}.Debug|x86.ActiveCfg = Debug|Win32
+		{D67BD873-0BC5-4F2F-896B-E131347709E2}.Debug|x86.Build.0 = Debug|Win32
+		{D67BD873-0BC5-4F2F-896B-E131347709E2}.Release|x64.ActiveCfg = Release|x64
+		{D67BD873-0BC5-4F2F-896B-E131347709E2}.Release|x64.Build.0 = Release|x64
+		{D67BD873-0BC5-4F2F-896B-E131347709E2}.Release|x86.ActiveCfg = Release|Win32
+		{D67BD873-0BC5-4F2F-896B-E131347709E2}.Release|x86.Build.0 = Release|Win32
+		{14CE65F7-F714-49D9-8234-795A4D0B9930}.Debug|x64.ActiveCfg = Debug|x64
+		{14CE65F7-F714-49D9-8234-795A4D0B9930}.Debug|x64.Build.0 = Debug|x64
+		{14CE65F7-F714-49D9-8234-795A4D0B9930}.Debug|x86.ActiveCfg = Debug|Win32
+		{14CE65F7-F714-49D9-8234-795A4D0B9930}.Debug|x86.Build.0 = Debug|Win32
+		{14CE65F7-F714-49D9-8234-795A4D0B9930}.Release|x64.ActiveCfg = Release|x64
+		{14CE65F7-F714-49D9-8234-795A4D0B9930}.Release|x64.Build.0 = Release|x64
+		{14CE65F7-F714-49D9-8234-795A4D0B9930}.Release|x86.ActiveCfg = Release|Win32
+		{14CE65F7-F714-49D9-8234-795A4D0B9930}.Release|x86.Build.0 = Release|Win32
+		{CAE44AB1-A55B-4079-865D-22D4DCE8C823}.Debug|x64.ActiveCfg = Debug|x64
+		{CAE44AB1-A55B-4079-865D-22D4DCE8C823}.Debug|x64.Build.0 = Debug|x64
+		{CAE44AB1-A55B-4079-865D-22D4DCE8C823}.Debug|x86.ActiveCfg = Debug|Win32
+		{CAE44AB1-A55B-4079-865D-22D4DCE8C823}.Debug|x86.Build.0 = Debug|Win32
+		{CAE44AB1-A55B-4079-865D-22D4DCE8C823}.Release|x64.ActiveCfg = Release|x64
+		{CAE44AB1-A55B-4079-865D-22D4DCE8C823}.Release|x64.Build.0 = Release|x64
+		{CAE44AB1-A55B-4079-865D-22D4DCE8C823}.Release|x86.ActiveCfg = Release|Win32
+		{CAE44AB1-A55B-4079-865D-22D4DCE8C823}.Release|x86.Build.0 = Release|Win32
+		{398B7A38-9356-4F35-B636-54423EED2B81}.Debug|x64.ActiveCfg = Debug|x64
+		{398B7A38-9356-4F35-B636-54423EED2B81}.Debug|x64.Build.0 = Debug|x64
+		{398B7A38-9356-4F35-B636-54423EED2B81}.Debug|x86.ActiveCfg = Debug|Win32
+		{398B7A38-9356-4F35-B636-54423EED2B81}.Debug|x86.Build.0 = Debug|Win32
+		{398B7A38-9356-4F35-B636-54423EED2B81}.Release|x64.ActiveCfg = Release|x64
+		{398B7A38-9356-4F35-B636-54423EED2B81}.Release|x64.Build.0 = Release|x64
+		{398B7A38-9356-4F35-B636-54423EED2B81}.Release|x86.ActiveCfg = Release|Win32
+		{398B7A38-9356-4F35-B636-54423EED2B81}.Release|x86.Build.0 = Release|Win32
+		{FA50116F-9A85-4CD6-A59B-FABCF74A8FBA}.Debug|x64.ActiveCfg = Debug|x64
+		{FA50116F-9A85-4CD6-A59B-FABCF74A8FBA}.Debug|x64.Build.0 = Debug|x64
+		{FA50116F-9A85-4CD6-A59B-FABCF74A8FBA}.Debug|x86.ActiveCfg = Debug|Win32
+		{FA50116F-9A85-4CD6-A59B-FABCF74A8FBA}.Debug|x86.Build.0 = Debug|Win32
+		{FA50116F-9A85-4CD6-A59B-FABCF74A8FBA}.Release|x64.ActiveCfg = Release|x64
+		{FA50116F-9A85-4CD6-A59B-FABCF74A8FBA}.Release|x64.Build.0 = Release|x64
+		{FA50116F-9A85-4CD6-A59B-FABCF74A8FBA}.Release|x86.ActiveCfg = Release|Win32
+		{FA50116F-9A85-4CD6-A59B-FABCF74A8FBA}.Release|x86.Build.0 = Release|Win32
+		{BF6778A8-F20D-416F-8EFD-C72463D72948}.Debug|x64.ActiveCfg = Debug|x64
+		{BF6778A8-F20D-416F-8EFD-C72463D72948}.Debug|x64.Build.0 = Debug|x64
+		{BF6778A8-F20D-416F-8EFD-C72463D72948}.Debug|x86.ActiveCfg = Debug|Win32
+		{BF6778A8-F20D-416F-8EFD-C72463D72948}.Debug|x86.Build.0 = Debug|Win32
+		{BF6778A8-F20D-416F-8EFD-C72463D72948}.Release|x64.ActiveCfg = Release|x64
+		{BF6778A8-F20D-416F-8EFD-C72463D72948}.Release|x64.Build.0 = Release|x64
+		{BF6778A8-F20D-416F-8EFD-C72463D72948}.Release|x86.ActiveCfg = Release|Win32
+		{BF6778A8-F20D-416F-8EFD-C72463D72948}.Release|x86.Build.0 = Release|Win32
+		{7EC89F21-1B82-4212-9B72-3CF7578EA821}.Debug|x64.ActiveCfg = Debug|x64
+		{7EC89F21-1B82-4212-9B72-3CF7578EA821}.Debug|x64.Build.0 = Debug|x64
+		{7EC89F21-1B82-4212-9B72-3CF7578EA821}.Debug|x86.ActiveCfg = Debug|Win32
+		{7EC89F21-1B82-4212-9B72-3CF7578EA821}.Debug|x86.Build.0 = Debug|Win32
+		{7EC89F21-1B82-4212-9B72-3CF7578EA821}.Release|x64.ActiveCfg = Release|x64
+		{7EC89F21-1B82-4212-9B72-3CF7578EA821}.Release|x64.Build.0 = Release|x64
+		{7EC89F21-1B82-4212-9B72-3CF7578EA821}.Release|x86.ActiveCfg = Release|Win32
+		{7EC89F21-1B82-4212-9B72-3CF7578EA821}.Release|x86.Build.0 = Release|Win32
+		{3B394961-C139-40A1-9674-1CF5A57A592A}.Debug|x64.ActiveCfg = Debug|x64
+		{3B394961-C139-40A1-9674-1CF5A57A592A}.Debug|x64.Build.0 = Debug|x64
+		{3B394961-C139-40A1-9674-1CF5A57A592A}.Debug|x86.ActiveCfg = Debug|Win32
+		{3B394961-C139-40A1-9674-1CF5A57A592A}.Debug|x86.Build.0 = Debug|Win32
+		{3B394961-C139-40A1-9674-1CF5A57A592A}.Release|x64.ActiveCfg = Release|x64
+		{3B394961-C139-40A1-9674-1CF5A57A592A}.Release|x64.Build.0 = Release|x64
+		{3B394961-C139-40A1-9674-1CF5A57A592A}.Release|x86.ActiveCfg = Release|Win32
+		{3B394961-C139-40A1-9674-1CF5A57A592A}.Release|x86.Build.0 = Release|Win32
+		{B58A28B6-3BBB-4479-BE20-EB09FC422552}.Debug|x64.ActiveCfg = Debug|x64
+		{B58A28B6-3BBB-4479-BE20-EB09FC422552}.Debug|x64.Build.0 = Debug|x64
+		{B58A28B6-3BBB-4479-BE20-EB09FC422552}.Debug|x86.ActiveCfg = Debug|Win32
+		{B58A28B6-3BBB-4479-BE20-EB09FC422552}.Debug|x86.Build.0 = Debug|Win32
+		{B58A28B6-3BBB-4479-BE20-EB09FC422552}.Release|x64.ActiveCfg = Release|x64
+		{B58A28B6-3BBB-4479-BE20-EB09FC422552}.Release|x64.Build.0 = Release|x64
+		{B58A28B6-3BBB-4479-BE20-EB09FC422552}.Release|x86.ActiveCfg = Release|Win32
+		{B58A28B6-3BBB-4479-BE20-EB09FC422552}.Release|x86.Build.0 = Release|Win32
+		{9BD0F72D-ED50-420C-820C-987EBC56A93D}.Debug|x64.ActiveCfg = Debug|x64
+		{9BD0F72D-ED50-420C-820C-987EBC56A93D}.Debug|x64.Build.0 = Debug|x64
+		{9BD0F72D-ED50-420C-820C-987EBC56A93D}.Debug|x86.ActiveCfg = Debug|Win32
+		{9BD0F72D-ED50-420C-820C-987EBC56A93D}.Debug|x86.Build.0 = Debug|Win32
+		{9BD0F72D-ED50-420C-820C-987EBC56A93D}.Release|x64.ActiveCfg = Release|x64
+		{9BD0F72D-ED50-420C-820C-987EBC56A93D}.Release|x64.Build.0 = Release|x64
+		{9BD0F72D-ED50-420C-820C-987EBC56A93D}.Release|x86.ActiveCfg = Release|Win32
+		{9BD0F72D-ED50-420C-820C-987EBC56A93D}.Release|x86.Build.0 = Release|Win32
+		{1ED3523C-6741-4C7A-8A27-EABE8D502B65}.Debug|x64.ActiveCfg = Debug|x64
+		{1ED3523C-6741-4C7A-8A27-EABE8D502B65}.Debug|x64.Build.0 = Debug|x64
+		{1ED3523C-6741-4C7A-8A27-EABE8D502B65}.Debug|x86.ActiveCfg = Debug|Win32
+		{1ED3523C-6741-4C7A-8A27-EABE8D502B65}.Debug|x86.Build.0 = Debug|Win32
+		{1ED3523C-6741-4C7A-8A27-EABE8D502B65}.Release|x64.ActiveCfg = Release|x64
+		{1ED3523C-6741-4C7A-8A27-EABE8D502B65}.Release|x64.Build.0 = Release|x64
+		{1ED3523C-6741-4C7A-8A27-EABE8D502B65}.Release|x86.ActiveCfg = Release|Win32
+		{1ED3523C-6741-4C7A-8A27-EABE8D502B65}.Release|x86.Build.0 = Release|Win32
+		{75D131BA-EDBA-4059-BE22-9442F1888481}.Debug|x64.ActiveCfg = Debug|x64
+		{75D131BA-EDBA-4059-BE22-9442F1888481}.Debug|x64.Build.0 = Debug|x64
+		{75D131BA-EDBA-4059-BE22-9442F1888481}.Debug|x86.ActiveCfg = Debug|Win32
+		{75D131BA-EDBA-4059-BE22-9442F1888481}.Debug|x86.Build.0 = Debug|Win32
+		{75D131BA-EDBA-4059-BE22-9442F1888481}.Release|x64.ActiveCfg = Release|x64
+		{75D131BA-EDBA-4059-BE22-9442F1888481}.Release|x64.Build.0 = Release|x64
+		{75D131BA-EDBA-4059-BE22-9442F1888481}.Release|x86.ActiveCfg = Release|Win32
+		{75D131BA-EDBA-4059-BE22-9442F1888481}.Release|x86.Build.0 = Release|Win32
+		{C41A5288-78CC-4822-8E51-27B8140441B0}.Debug|x64.ActiveCfg = Debug|x64
+		{C41A5288-78CC-4822-8E51-27B8140441B0}.Debug|x64.Build.0 = Debug|x64
+		{C41A5288-78CC-4822-8E51-27B8140441B0}.Debug|x86.ActiveCfg = Debug|Win32
+		{C41A5288-78CC-4822-8E51-27B8140441B0}.Debug|x86.Build.0 = Debug|Win32
+		{C41A5288-78CC-4822-8E51-27B8140441B0}.Release|x64.ActiveCfg = Release|x64
+		{C41A5288-78CC-4822-8E51-27B8140441B0}.Release|x64.Build.0 = Release|x64
+		{C41A5288-78CC-4822-8E51-27B8140441B0}.Release|x86.ActiveCfg = Release|Win32
+		{C41A5288-78CC-4822-8E51-27B8140441B0}.Release|x86.Build.0 = Release|Win32
+		{AA5E531F-140C-4AB2-8047-1B395841DB82}.Debug|x64.ActiveCfg = Debug|x64
+		{AA5E531F-140C-4AB2-8047-1B395841DB82}.Debug|x64.Build.0 = Debug|x64
+		{AA5E531F-140C-4AB2-8047-1B395841DB82}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA5E531F-140C-4AB2-8047-1B395841DB82}.Debug|x86.Build.0 = Debug|Win32
+		{AA5E531F-140C-4AB2-8047-1B395841DB82}.Release|x64.ActiveCfg = Release|x64
+		{AA5E531F-140C-4AB2-8047-1B395841DB82}.Release|x64.Build.0 = Release|x64
+		{AA5E531F-140C-4AB2-8047-1B395841DB82}.Release|x86.ActiveCfg = Release|Win32
+		{AA5E531F-140C-4AB2-8047-1B395841DB82}.Release|x86.Build.0 = Release|Win32
+		{486065C8-6DF0-4A35-9CEC-4AAD0CA294D8}.Debug|x64.ActiveCfg = Debug|x64
+		{486065C8-6DF0-4A35-9CEC-4AAD0CA294D8}.Debug|x64.Build.0 = Debug|x64
+		{486065C8-6DF0-4A35-9CEC-4AAD0CA294D8}.Debug|x86.ActiveCfg = Debug|Win32
+		{486065C8-6DF0-4A35-9CEC-4AAD0CA294D8}.Debug|x86.Build.0 = Debug|Win32
+		{486065C8-6DF0-4A35-9CEC-4AAD0CA294D8}.Release|x64.ActiveCfg = Release|x64
+		{486065C8-6DF0-4A35-9CEC-4AAD0CA294D8}.Release|x64.Build.0 = Release|x64
+		{486065C8-6DF0-4A35-9CEC-4AAD0CA294D8}.Release|x86.ActiveCfg = Release|Win32
+		{486065C8-6DF0-4A35-9CEC-4AAD0CA294D8}.Release|x86.Build.0 = Release|Win32
+		{FFCAACE4-8509-4EE3-9E33-09124C1D7D5B}.Debug|x64.ActiveCfg = Debug|x64
+		{FFCAACE4-8509-4EE3-9E33-09124C1D7D5B}.Debug|x64.Build.0 = Debug|x64
+		{FFCAACE4-8509-4EE3-9E33-09124C1D7D5B}.Debug|x86.ActiveCfg = Debug|Win32
+		{FFCAACE4-8509-4EE3-9E33-09124C1D7D5B}.Debug|x86.Build.0 = Debug|Win32
+		{FFCAACE4-8509-4EE3-9E33-09124C1D7D5B}.Release|x64.ActiveCfg = Release|x64
+		{FFCAACE4-8509-4EE3-9E33-09124C1D7D5B}.Release|x64.Build.0 = Release|x64
+		{FFCAACE4-8509-4EE3-9E33-09124C1D7D5B}.Release|x86.ActiveCfg = Release|Win32
+		{FFCAACE4-8509-4EE3-9E33-09124C1D7D5B}.Release|x86.Build.0 = Release|Win32
+		{B532A643-A6C4-42A4-8326-0BCC6C268960}.Debug|x64.ActiveCfg = Debug|x64
+		{B532A643-A6C4-42A4-8326-0BCC6C268960}.Debug|x64.Build.0 = Debug|x64
+		{B532A643-A6C4-42A4-8326-0BCC6C268960}.Debug|x86.ActiveCfg = Debug|Win32
+		{B532A643-A6C4-42A4-8326-0BCC6C268960}.Debug|x86.Build.0 = Debug|Win32
+		{B532A643-A6C4-42A4-8326-0BCC6C268960}.Release|x64.ActiveCfg = Release|x64
+		{B532A643-A6C4-42A4-8326-0BCC6C268960}.Release|x64.Build.0 = Release|x64
+		{B532A643-A6C4-42A4-8326-0BCC6C268960}.Release|x86.ActiveCfg = Release|Win32
+		{B532A643-A6C4-42A4-8326-0BCC6C268960}.Release|x86.Build.0 = Release|Win32
+		{2E3B23C1-A5AD-41B3-A064-64803BCC74F7}.Debug|x64.ActiveCfg = Debug|x64
+		{2E3B23C1-A5AD-41B3-A064-64803BCC74F7}.Debug|x64.Build.0 = Debug|x64
+		{2E3B23C1-A5AD-41B3-A064-64803BCC74F7}.Debug|x86.ActiveCfg = Debug|Win32
+		{2E3B23C1-A5AD-41B3-A064-64803BCC74F7}.Debug|x86.Build.0 = Debug|Win32
+		{2E3B23C1-A5AD-41B3-A064-64803BCC74F7}.Release|x64.ActiveCfg = Release|x64
+		{2E3B23C1-A5AD-41B3-A064-64803BCC74F7}.Release|x64.Build.0 = Release|x64
+		{2E3B23C1-A5AD-41B3-A064-64803BCC74F7}.Release|x86.ActiveCfg = Release|Win32
+		{2E3B23C1-A5AD-41B3-A064-64803BCC74F7}.Release|x86.Build.0 = Release|Win32
+		{24F3E458-C409-4B30-ABC8-7D28DF18090F}.Debug|x64.ActiveCfg = Debug|x64
+		{24F3E458-C409-4B30-ABC8-7D28DF18090F}.Debug|x64.Build.0 = Debug|x64
+		{24F3E458-C409-4B30-ABC8-7D28DF18090F}.Debug|x86.ActiveCfg = Debug|Win32
+		{24F3E458-C409-4B30-ABC8-7D28DF18090F}.Debug|x86.Build.0 = Debug|Win32
+		{24F3E458-C409-4B30-ABC8-7D28DF18090F}.Release|x64.ActiveCfg = Release|x64
+		{24F3E458-C409-4B30-ABC8-7D28DF18090F}.Release|x64.Build.0 = Release|x64
+		{24F3E458-C409-4B30-ABC8-7D28DF18090F}.Release|x86.ActiveCfg = Release|Win32
+		{24F3E458-C409-4B30-ABC8-7D28DF18090F}.Release|x86.Build.0 = Release|Win32
+		{31B44726-8E3C-4310-85DE-A81F53DB1A00}.Debug|x64.ActiveCfg = Debug|x64
+		{31B44726-8E3C-4310-85DE-A81F53DB1A00}.Debug|x64.Build.0 = Debug|x64
+		{31B44726-8E3C-4310-85DE-A81F53DB1A00}.Debug|x86.ActiveCfg = Debug|Win32
+		{31B44726-8E3C-4310-85DE-A81F53DB1A00}.Debug|x86.Build.0 = Debug|Win32
+		{31B44726-8E3C-4310-85DE-A81F53DB1A00}.Release|x64.ActiveCfg = Release|x64
+		{31B44726-8E3C-4310-85DE-A81F53DB1A00}.Release|x64.Build.0 = Release|x64
+		{31B44726-8E3C-4310-85DE-A81F53DB1A00}.Release|x86.ActiveCfg = Release|Win32
+		{31B44726-8E3C-4310-85DE-A81F53DB1A00}.Release|x86.Build.0 = Release|Win32
+		{CD470DDE-4795-4645-8395-DFA8DD24CEC3}.Debug|x64.ActiveCfg = Debug|x64
+		{CD470DDE-4795-4645-8395-DFA8DD24CEC3}.Debug|x64.Build.0 = Debug|x64
+		{CD470DDE-4795-4645-8395-DFA8DD24CEC3}.Debug|x86.ActiveCfg = Debug|Win32
+		{CD470DDE-4795-4645-8395-DFA8DD24CEC3}.Debug|x86.Build.0 = Debug|Win32
+		{CD470DDE-4795-4645-8395-DFA8DD24CEC3}.Release|x64.ActiveCfg = Release|x64
+		{CD470DDE-4795-4645-8395-DFA8DD24CEC3}.Release|x64.Build.0 = Release|x64
+		{CD470DDE-4795-4645-8395-DFA8DD24CEC3}.Release|x86.ActiveCfg = Release|Win32
+		{CD470DDE-4795-4645-8395-DFA8DD24CEC3}.Release|x86.Build.0 = Release|Win32
+		{7D5E929A-5FA9-4A2F-A952-B2F43259AB0F}.Debug|x64.ActiveCfg = Debug|x64
+		{7D5E929A-5FA9-4A2F-A952-B2F43259AB0F}.Debug|x64.Build.0 = Debug|x64
+		{7D5E929A-5FA9-4A2F-A952-B2F43259AB0F}.Debug|x86.ActiveCfg = Debug|Win32
+		{7D5E929A-5FA9-4A2F-A952-B2F43259AB0F}.Debug|x86.Build.0 = Debug|Win32
+		{7D5E929A-5FA9-4A2F-A952-B2F43259AB0F}.Release|x64.ActiveCfg = Release|x64
+		{7D5E929A-5FA9-4A2F-A952-B2F43259AB0F}.Release|x64.Build.0 = Release|x64
+		{7D5E929A-5FA9-4A2F-A952-B2F43259AB0F}.Release|x86.ActiveCfg = Release|Win32
+		{7D5E929A-5FA9-4A2F-A952-B2F43259AB0F}.Release|x86.Build.0 = Release|Win32
+		{CB79F121-ED9F-42D2-9430-5B59880E100B}.Debug|x64.ActiveCfg = Debug|x64
+		{CB79F121-ED9F-42D2-9430-5B59880E100B}.Debug|x64.Build.0 = Debug|x64
+		{CB79F121-ED9F-42D2-9430-5B59880E100B}.Debug|x86.ActiveCfg = Debug|Win32
+		{CB79F121-ED9F-42D2-9430-5B59880E100B}.Debug|x86.Build.0 = Debug|Win32
+		{CB79F121-ED9F-42D2-9430-5B59880E100B}.Release|x64.ActiveCfg = Release|x64
+		{CB79F121-ED9F-42D2-9430-5B59880E100B}.Release|x64.Build.0 = Release|x64
+		{CB79F121-ED9F-42D2-9430-5B59880E100B}.Release|x86.ActiveCfg = Release|Win32
+		{CB79F121-ED9F-42D2-9430-5B59880E100B}.Release|x86.Build.0 = Release|Win32
+		{B72D8413-6A89-4A97-8334-4F79AA3E9B6C}.Debug|x64.ActiveCfg = Debug|x64
+		{B72D8413-6A89-4A97-8334-4F79AA3E9B6C}.Debug|x64.Build.0 = Debug|x64
+		{B72D8413-6A89-4A97-8334-4F79AA3E9B6C}.Debug|x86.ActiveCfg = Debug|Win32
+		{B72D8413-6A89-4A97-8334-4F79AA3E9B6C}.Debug|x86.Build.0 = Debug|Win32
+		{B72D8413-6A89-4A97-8334-4F79AA3E9B6C}.Release|x64.ActiveCfg = Release|x64
+		{B72D8413-6A89-4A97-8334-4F79AA3E9B6C}.Release|x64.Build.0 = Release|x64
+		{B72D8413-6A89-4A97-8334-4F79AA3E9B6C}.Release|x86.ActiveCfg = Release|Win32
+		{B72D8413-6A89-4A97-8334-4F79AA3E9B6C}.Release|x86.Build.0 = Release|Win32
+		{63654A22-9500-4CFA-957D-BF5FEA18C350}.Debug|x64.ActiveCfg = Debug|x64
+		{63654A22-9500-4CFA-957D-BF5FEA18C350}.Debug|x64.Build.0 = Debug|x64
+		{63654A22-9500-4CFA-957D-BF5FEA18C350}.Debug|x86.ActiveCfg = Debug|Win32
+		{63654A22-9500-4CFA-957D-BF5FEA18C350}.Debug|x86.Build.0 = Debug|Win32
+		{63654A22-9500-4CFA-957D-BF5FEA18C350}.Release|x64.ActiveCfg = Release|x64
+		{63654A22-9500-4CFA-957D-BF5FEA18C350}.Release|x64.Build.0 = Release|x64
+		{63654A22-9500-4CFA-957D-BF5FEA18C350}.Release|x86.ActiveCfg = Release|Win32
+		{63654A22-9500-4CFA-957D-BF5FEA18C350}.Release|x86.Build.0 = Release|Win32
+		{E11416EB-0A1C-44E1-937E-F3BA037E2871}.Debug|x64.ActiveCfg = Debug|x64
+		{E11416EB-0A1C-44E1-937E-F3BA037E2871}.Debug|x64.Build.0 = Debug|x64
+		{E11416EB-0A1C-44E1-937E-F3BA037E2871}.Debug|x86.ActiveCfg = Debug|Win32
+		{E11416EB-0A1C-44E1-937E-F3BA037E2871}.Debug|x86.Build.0 = Debug|Win32
+		{E11416EB-0A1C-44E1-937E-F3BA037E2871}.Release|x64.ActiveCfg = Release|x64
+		{E11416EB-0A1C-44E1-937E-F3BA037E2871}.Release|x64.Build.0 = Release|x64
+		{E11416EB-0A1C-44E1-937E-F3BA037E2871}.Release|x86.ActiveCfg = Release|Win32
+		{E11416EB-0A1C-44E1-937E-F3BA037E2871}.Release|x86.Build.0 = Release|Win32
+		{81FBDCFE-8908-45BA-BA6D-BFC01E539F72}.Debug|x64.ActiveCfg = Debug|x64
+		{81FBDCFE-8908-45BA-BA6D-BFC01E539F72}.Debug|x64.Build.0 = Debug|x64
+		{81FBDCFE-8908-45BA-BA6D-BFC01E539F72}.Debug|x86.ActiveCfg = Debug|Win32
+		{81FBDCFE-8908-45BA-BA6D-BFC01E539F72}.Debug|x86.Build.0 = Debug|Win32
+		{81FBDCFE-8908-45BA-BA6D-BFC01E539F72}.Release|x64.ActiveCfg = Release|x64
+		{81FBDCFE-8908-45BA-BA6D-BFC01E539F72}.Release|x64.Build.0 = Release|x64
+		{81FBDCFE-8908-45BA-BA6D-BFC01E539F72}.Release|x86.ActiveCfg = Release|Win32
+		{81FBDCFE-8908-45BA-BA6D-BFC01E539F72}.Release|x86.Build.0 = Release|Win32
+		{8D47E223-C2AE-4795-9E2F-CA27B539F1B6}.Debug|x64.ActiveCfg = Debug|x64
+		{8D47E223-C2AE-4795-9E2F-CA27B539F1B6}.Debug|x64.Build.0 = Debug|x64
+		{8D47E223-C2AE-4795-9E2F-CA27B539F1B6}.Debug|x86.ActiveCfg = Debug|Win32
+		{8D47E223-C2AE-4795-9E2F-CA27B539F1B6}.Debug|x86.Build.0 = Debug|Win32
+		{8D47E223-C2AE-4795-9E2F-CA27B539F1B6}.Release|x64.ActiveCfg = Release|x64
+		{8D47E223-C2AE-4795-9E2F-CA27B539F1B6}.Release|x64.Build.0 = Release|x64
+		{8D47E223-C2AE-4795-9E2F-CA27B539F1B6}.Release|x86.ActiveCfg = Release|Win32
+		{8D47E223-C2AE-4795-9E2F-CA27B539F1B6}.Release|x86.Build.0 = Release|Win32
+		{FE824B79-B03E-4C04-9EE4-8409524821A7}.Debug|x64.ActiveCfg = Debug|x64
+		{FE824B79-B03E-4C04-9EE4-8409524821A7}.Debug|x64.Build.0 = Debug|x64
+		{FE824B79-B03E-4C04-9EE4-8409524821A7}.Debug|x86.ActiveCfg = Debug|Win32
+		{FE824B79-B03E-4C04-9EE4-8409524821A7}.Debug|x86.Build.0 = Debug|Win32
+		{FE824B79-B03E-4C04-9EE4-8409524821A7}.Release|x64.ActiveCfg = Release|x64
+		{FE824B79-B03E-4C04-9EE4-8409524821A7}.Release|x64.Build.0 = Release|x64
+		{FE824B79-B03E-4C04-9EE4-8409524821A7}.Release|x86.ActiveCfg = Release|Win32
+		{FE824B79-B03E-4C04-9EE4-8409524821A7}.Release|x86.Build.0 = Release|Win32
+		{06DBB0D4-4A35-40EB-8C20-15EA3AD03A92}.Debug|x64.ActiveCfg = Debug|x64
+		{06DBB0D4-4A35-40EB-8C20-15EA3AD03A92}.Debug|x64.Build.0 = Debug|x64
+		{06DBB0D4-4A35-40EB-8C20-15EA3AD03A92}.Debug|x86.ActiveCfg = Debug|Win32
+		{06DBB0D4-4A35-40EB-8C20-15EA3AD03A92}.Debug|x86.Build.0 = Debug|Win32
+		{06DBB0D4-4A35-40EB-8C20-15EA3AD03A92}.Release|x64.ActiveCfg = Release|x64
+		{06DBB0D4-4A35-40EB-8C20-15EA3AD03A92}.Release|x64.Build.0 = Release|x64
+		{06DBB0D4-4A35-40EB-8C20-15EA3AD03A92}.Release|x86.ActiveCfg = Release|Win32
+		{06DBB0D4-4A35-40EB-8C20-15EA3AD03A92}.Release|x86.Build.0 = Release|Win32
+		{B62332B7-B918-4DD2-88CA-C528182EC98D}.Debug|x64.ActiveCfg = Debug|x64
+		{B62332B7-B918-4DD2-88CA-C528182EC98D}.Debug|x64.Build.0 = Debug|x64
+		{B62332B7-B918-4DD2-88CA-C528182EC98D}.Debug|x86.ActiveCfg = Debug|Win32
+		{B62332B7-B918-4DD2-88CA-C528182EC98D}.Debug|x86.Build.0 = Debug|Win32
+		{B62332B7-B918-4DD2-88CA-C528182EC98D}.Release|x64.ActiveCfg = Release|x64
+		{B62332B7-B918-4DD2-88CA-C528182EC98D}.Release|x64.Build.0 = Release|x64
+		{B62332B7-B918-4DD2-88CA-C528182EC98D}.Release|x86.ActiveCfg = Release|Win32
+		{B62332B7-B918-4DD2-88CA-C528182EC98D}.Release|x86.Build.0 = Release|Win32
+		{02EDBF7A-4645-4E93-99AA-028C11F4DD2F}.Debug|x64.ActiveCfg = Debug|x64
+		{02EDBF7A-4645-4E93-99AA-028C11F4DD2F}.Debug|x64.Build.0 = Debug|x64
+		{02EDBF7A-4645-4E93-99AA-028C11F4DD2F}.Debug|x86.ActiveCfg = Debug|Win32
+		{02EDBF7A-4645-4E93-99AA-028C11F4DD2F}.Debug|x86.Build.0 = Debug|Win32
+		{02EDBF7A-4645-4E93-99AA-028C11F4DD2F}.Release|x64.ActiveCfg = Release|x64
+		{02EDBF7A-4645-4E93-99AA-028C11F4DD2F}.Release|x64.Build.0 = Release|x64
+		{02EDBF7A-4645-4E93-99AA-028C11F4DD2F}.Release|x86.ActiveCfg = Release|Win32
+		{02EDBF7A-4645-4E93-99AA-028C11F4DD2F}.Release|x86.Build.0 = Release|Win32
+		{BDAF745F-767B-4076-AA57-314443B21D73}.Debug|x64.ActiveCfg = Debug|x64
+		{BDAF745F-767B-4076-AA57-314443B21D73}.Debug|x64.Build.0 = Debug|x64
+		{BDAF745F-767B-4076-AA57-314443B21D73}.Debug|x86.ActiveCfg = Debug|Win32
+		{BDAF745F-767B-4076-AA57-314443B21D73}.Debug|x86.Build.0 = Debug|Win32
+		{BDAF745F-767B-4076-AA57-314443B21D73}.Release|x64.ActiveCfg = Release|x64
+		{BDAF745F-767B-4076-AA57-314443B21D73}.Release|x64.Build.0 = Release|x64
+		{BDAF745F-767B-4076-AA57-314443B21D73}.Release|x86.ActiveCfg = Release|Win32
+		{BDAF745F-767B-4076-AA57-314443B21D73}.Release|x86.Build.0 = Release|Win32
+		{DF6E7BD4-BE33-4E10-A591-7E32C687A002}.Debug|x64.ActiveCfg = Debug|x64
+		{DF6E7BD4-BE33-4E10-A591-7E32C687A002}.Debug|x64.Build.0 = Debug|x64
+		{DF6E7BD4-BE33-4E10-A591-7E32C687A002}.Debug|x86.ActiveCfg = Debug|Win32
+		{DF6E7BD4-BE33-4E10-A591-7E32C687A002}.Debug|x86.Build.0 = Debug|Win32
+		{DF6E7BD4-BE33-4E10-A591-7E32C687A002}.Release|x64.ActiveCfg = Release|x64
+		{DF6E7BD4-BE33-4E10-A591-7E32C687A002}.Release|x64.Build.0 = Release|x64
+		{DF6E7BD4-BE33-4E10-A591-7E32C687A002}.Release|x86.ActiveCfg = Release|Win32
+		{DF6E7BD4-BE33-4E10-A591-7E32C687A002}.Release|x86.Build.0 = Release|Win32
+		{35D5AEDE-AC8C-4330-910B-139CE6239089}.Debug|x64.ActiveCfg = Debug|x64
+		{35D5AEDE-AC8C-4330-910B-139CE6239089}.Debug|x64.Build.0 = Debug|x64
+		{35D5AEDE-AC8C-4330-910B-139CE6239089}.Debug|x86.ActiveCfg = Debug|Win32
+		{35D5AEDE-AC8C-4330-910B-139CE6239089}.Debug|x86.Build.0 = Debug|Win32
+		{35D5AEDE-AC8C-4330-910B-139CE6239089}.Release|x64.ActiveCfg = Release|x64
+		{35D5AEDE-AC8C-4330-910B-139CE6239089}.Release|x64.Build.0 = Release|x64
+		{35D5AEDE-AC8C-4330-910B-139CE6239089}.Release|x86.ActiveCfg = Release|Win32
+		{35D5AEDE-AC8C-4330-910B-139CE6239089}.Release|x86.Build.0 = Release|Win32
+		{75C8E214-3A0F-4E4C-9533-724A7B4C5FF7}.Debug|x64.ActiveCfg = Debug|x64
+		{75C8E214-3A0F-4E4C-9533-724A7B4C5FF7}.Debug|x64.Build.0 = Debug|x64
+		{75C8E214-3A0F-4E4C-9533-724A7B4C5FF7}.Debug|x86.ActiveCfg = Debug|Win32
+		{75C8E214-3A0F-4E4C-9533-724A7B4C5FF7}.Debug|x86.Build.0 = Debug|Win32
+		{75C8E214-3A0F-4E4C-9533-724A7B4C5FF7}.Release|x64.ActiveCfg = Release|x64
+		{75C8E214-3A0F-4E4C-9533-724A7B4C5FF7}.Release|x64.Build.0 = Release|x64
+		{75C8E214-3A0F-4E4C-9533-724A7B4C5FF7}.Release|x86.ActiveCfg = Release|Win32
+		{75C8E214-3A0F-4E4C-9533-724A7B4C5FF7}.Release|x86.Build.0 = Release|Win32
+		{E2AD2417-970E-4B71-9F80-8AF5141F7C05}.Debug|x64.ActiveCfg = Debug|x64
+		{E2AD2417-970E-4B71-9F80-8AF5141F7C05}.Debug|x64.Build.0 = Debug|x64
+		{E2AD2417-970E-4B71-9F80-8AF5141F7C05}.Debug|x86.ActiveCfg = Debug|Win32
+		{E2AD2417-970E-4B71-9F80-8AF5141F7C05}.Debug|x86.Build.0 = Debug|Win32
+		{E2AD2417-970E-4B71-9F80-8AF5141F7C05}.Release|x64.ActiveCfg = Release|x64
+		{E2AD2417-970E-4B71-9F80-8AF5141F7C05}.Release|x64.Build.0 = Release|x64
+		{E2AD2417-970E-4B71-9F80-8AF5141F7C05}.Release|x86.ActiveCfg = Release|Win32
+		{E2AD2417-970E-4B71-9F80-8AF5141F7C05}.Release|x86.Build.0 = Release|Win32
+		{5132F69B-2D75-45A9-948B-CE68D465239A}.Debug|x64.ActiveCfg = Debug|x64
+		{5132F69B-2D75-45A9-948B-CE68D465239A}.Debug|x64.Build.0 = Debug|x64
+		{5132F69B-2D75-45A9-948B-CE68D465239A}.Debug|x86.ActiveCfg = Debug|Win32
+		{5132F69B-2D75-45A9-948B-CE68D465239A}.Debug|x86.Build.0 = Debug|Win32
+		{5132F69B-2D75-45A9-948B-CE68D465239A}.Release|x64.ActiveCfg = Release|x64
+		{5132F69B-2D75-45A9-948B-CE68D465239A}.Release|x64.Build.0 = Release|x64
+		{5132F69B-2D75-45A9-948B-CE68D465239A}.Release|x86.ActiveCfg = Release|Win32
+		{5132F69B-2D75-45A9-948B-CE68D465239A}.Release|x86.Build.0 = Release|Win32
+		{5FDB9769-2C6B-4332-A7B0-2F141BF7847E}.Debug|x64.ActiveCfg = Debug|x64
+		{5FDB9769-2C6B-4332-A7B0-2F141BF7847E}.Debug|x64.Build.0 = Debug|x64
+		{5FDB9769-2C6B-4332-A7B0-2F141BF7847E}.Debug|x86.ActiveCfg = Debug|Win32
+		{5FDB9769-2C6B-4332-A7B0-2F141BF7847E}.Debug|x86.Build.0 = Debug|Win32
+		{5FDB9769-2C6B-4332-A7B0-2F141BF7847E}.Release|x64.ActiveCfg = Release|x64
+		{5FDB9769-2C6B-4332-A7B0-2F141BF7847E}.Release|x64.Build.0 = Release|x64
+		{5FDB9769-2C6B-4332-A7B0-2F141BF7847E}.Release|x86.ActiveCfg = Release|Win32
+		{5FDB9769-2C6B-4332-A7B0-2F141BF7847E}.Release|x86.Build.0 = Release|Win32
+		{B7CD4BDB-F49D-4CED-A9FE-0DA34E6D01D6}.Debug|x64.ActiveCfg = Debug|x64
+		{B7CD4BDB-F49D-4CED-A9FE-0DA34E6D01D6}.Debug|x64.Build.0 = Debug|x64
+		{B7CD4BDB-F49D-4CED-A9FE-0DA34E6D01D6}.Debug|x86.ActiveCfg = Debug|Win32
+		{B7CD4BDB-F49D-4CED-A9FE-0DA34E6D01D6}.Debug|x86.Build.0 = Debug|Win32
+		{B7CD4BDB-F49D-4CED-A9FE-0DA34E6D01D6}.Release|x64.ActiveCfg = Release|x64
+		{B7CD4BDB-F49D-4CED-A9FE-0DA34E6D01D6}.Release|x64.Build.0 = Release|x64
+		{B7CD4BDB-F49D-4CED-A9FE-0DA34E6D01D6}.Release|x86.ActiveCfg = Release|Win32
+		{B7CD4BDB-F49D-4CED-A9FE-0DA34E6D01D6}.Release|x86.Build.0 = Release|Win32
+		{672CF921-7AA0-49E0-946C-0D814A2F0B97}.Debug|x64.ActiveCfg = Debug|x64
+		{672CF921-7AA0-49E0-946C-0D814A2F0B97}.Debug|x64.Build.0 = Debug|x64
+		{672CF921-7AA0-49E0-946C-0D814A2F0B97}.Debug|x86.ActiveCfg = Debug|Win32
+		{672CF921-7AA0-49E0-946C-0D814A2F0B97}.Debug|x86.Build.0 = Debug|Win32
+		{672CF921-7AA0-49E0-946C-0D814A2F0B97}.Release|x64.ActiveCfg = Release|x64
+		{672CF921-7AA0-49E0-946C-0D814A2F0B97}.Release|x64.Build.0 = Release|x64
+		{672CF921-7AA0-49E0-946C-0D814A2F0B97}.Release|x86.ActiveCfg = Release|Win32
+		{672CF921-7AA0-49E0-946C-0D814A2F0B97}.Release|x86.Build.0 = Release|Win32
+		{82BAD80A-D263-4E72-AC29-78837CA4CE8F}.Debug|x64.ActiveCfg = Debug|x64
+		{82BAD80A-D263-4E72-AC29-78837CA4CE8F}.Debug|x64.Build.0 = Debug|x64
+		{82BAD80A-D263-4E72-AC29-78837CA4CE8F}.Debug|x86.ActiveCfg = Debug|Win32
+		{82BAD80A-D263-4E72-AC29-78837CA4CE8F}.Debug|x86.Build.0 = Debug|Win32
+		{82BAD80A-D263-4E72-AC29-78837CA4CE8F}.Release|x64.ActiveCfg = Release|x64
+		{82BAD80A-D263-4E72-AC29-78837CA4CE8F}.Release|x64.Build.0 = Release|x64
+		{82BAD80A-D263-4E72-AC29-78837CA4CE8F}.Release|x86.ActiveCfg = Release|Win32
+		{82BAD80A-D263-4E72-AC29-78837CA4CE8F}.Release|x86.Build.0 = Release|Win32
+		{E15C4141-DEC7-4AE5-9CEF-8104E06559A0}.Debug|x64.ActiveCfg = Debug|x64
+		{E15C4141-DEC7-4AE5-9CEF-8104E06559A0}.Debug|x64.Build.0 = Debug|x64
+		{E15C4141-DEC7-4AE5-9CEF-8104E06559A0}.Debug|x86.ActiveCfg = Debug|Win32
+		{E15C4141-DEC7-4AE5-9CEF-8104E06559A0}.Debug|x86.Build.0 = Debug|Win32
+		{E15C4141-DEC7-4AE5-9CEF-8104E06559A0}.Release|x64.ActiveCfg = Release|x64
+		{E15C4141-DEC7-4AE5-9CEF-8104E06559A0}.Release|x64.Build.0 = Release|x64
+		{E15C4141-DEC7-4AE5-9CEF-8104E06559A0}.Release|x86.ActiveCfg = Release|Win32
+		{E15C4141-DEC7-4AE5-9CEF-8104E06559A0}.Release|x86.Build.0 = Release|Win32
+		{8FDC8F9A-E89E-4E7D-ACA6-538C1840E165}.Debug|x64.ActiveCfg = Debug|x64
+		{8FDC8F9A-E89E-4E7D-ACA6-538C1840E165}.Debug|x64.Build.0 = Debug|x64
+		{8FDC8F9A-E89E-4E7D-ACA6-538C1840E165}.Debug|x86.ActiveCfg = Debug|Win32
+		{8FDC8F9A-E89E-4E7D-ACA6-538C1840E165}.Debug|x86.Build.0 = Debug|Win32
+		{8FDC8F9A-E89E-4E7D-ACA6-538C1840E165}.Release|x64.ActiveCfg = Release|x64
+		{8FDC8F9A-E89E-4E7D-ACA6-538C1840E165}.Release|x64.Build.0 = Release|x64
+		{8FDC8F9A-E89E-4E7D-ACA6-538C1840E165}.Release|x86.ActiveCfg = Release|Win32
+		{8FDC8F9A-E89E-4E7D-ACA6-538C1840E165}.Release|x86.Build.0 = Release|Win32
+		{72BC58D2-B813-472E-9377-94EF09F7CC87}.Debug|x64.ActiveCfg = Debug|x64
+		{72BC58D2-B813-472E-9377-94EF09F7CC87}.Debug|x64.Build.0 = Debug|x64
+		{72BC58D2-B813-472E-9377-94EF09F7CC87}.Debug|x86.ActiveCfg = Debug|Win32
+		{72BC58D2-B813-472E-9377-94EF09F7CC87}.Debug|x86.Build.0 = Debug|Win32
+		{72BC58D2-B813-472E-9377-94EF09F7CC87}.Release|x64.ActiveCfg = Release|x64
+		{72BC58D2-B813-472E-9377-94EF09F7CC87}.Release|x64.Build.0 = Release|x64
+		{72BC58D2-B813-472E-9377-94EF09F7CC87}.Release|x86.ActiveCfg = Release|Win32
+		{72BC58D2-B813-472E-9377-94EF09F7CC87}.Release|x86.Build.0 = Release|Win32
+		{F3553435-6E2C-4FD4-B8F6-3336158572C7}.Debug|x64.ActiveCfg = Debug|x64
+		{F3553435-6E2C-4FD4-B8F6-3336158572C7}.Debug|x64.Build.0 = Debug|x64
+		{F3553435-6E2C-4FD4-B8F6-3336158572C7}.Debug|x86.ActiveCfg = Debug|Win32
+		{F3553435-6E2C-4FD4-B8F6-3336158572C7}.Debug|x86.Build.0 = Debug|Win32
+		{F3553435-6E2C-4FD4-B8F6-3336158572C7}.Release|x64.ActiveCfg = Release|x64
+		{F3553435-6E2C-4FD4-B8F6-3336158572C7}.Release|x64.Build.0 = Release|x64
+		{F3553435-6E2C-4FD4-B8F6-3336158572C7}.Release|x86.ActiveCfg = Release|Win32
+		{F3553435-6E2C-4FD4-B8F6-3336158572C7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1549E218-4D14-4A0D-AA06-2DDB69EFBA5F} = {B224F4CA-6271-430D-850A-BB98D1D438FB}
-		{07BAEE20-FBAA-4B3F-B72F-D42D0C4FCD15} = {86DFE8FD-9B7B-4FDD-AB44-5CF0743D95EB}
-		{92157883-1DC3-4C43-924F-6F44D8936AE5} = {86DFE8FD-9B7B-4FDD-AB44-5CF0743D95EB}
-		{199B1A32-3760-4A4F-8ED3-B4DD5C188595} = {86DFE8FD-9B7B-4FDD-AB44-5CF0743D95EB}
-		{D2E9993F-6063-4B05-AF54-FFD9CEE3A223} = {86DFE8FD-9B7B-4FDD-AB44-5CF0743D95EB}
-		{D0972058-BE60-4C17-B524-78FD2DD305E7} = {86DFE8FD-9B7B-4FDD-AB44-5CF0743D95EB}
-		{20ACAF7C-B0F7-4284-931B-0DE0718BF25B} = {86DFE8FD-9B7B-4FDD-AB44-5CF0743D95EB}
-		{6298E432-0A98-46C9-811F-E960851A5FE4} = {86DFE8FD-9B7B-4FDD-AB44-5CF0743D95EB}
-		{F3EF97EC-9D5E-45A5-89A6-73BA6F29EB92} = {86DFE8FD-9B7B-4FDD-AB44-5CF0743D95EB}
-		{A376F875-B3CA-42F3-9168-FBF128F5283E} = {0CA7C9DB-89AE-485E-8FD7-F11EE36EDDFB}
-		{9A7716D7-484B-497C-A9F7-F052341C2776} = {0CA7C9DB-89AE-485E-8FD7-F11EE36EDDFB}
-		{EBF1827C-12B8-41C1-BC68-428568909677} = {0CA7C9DB-89AE-485E-8FD7-F11EE36EDDFB}
-		{0A8D6BBF-A9CB-4918-AB27-D4DFE6C298DA} = {0CA7C9DB-89AE-485E-8FD7-F11EE36EDDFB}
-		{472563EE-3ACD-45B3-9CA0-F0B218F42C9B} = {0CA7C9DB-89AE-485E-8FD7-F11EE36EDDFB}
 		{1E29C463-FF19-4970-AE0B-91C46FDDDF4F} = {2B108539-4922-4C96-9D9C-1A84523D01C0}
 		{858D1532-49BB-498C-BF67-07D79EB1A4DF} = {1E29C463-FF19-4970-AE0B-91C46FDDDF4F}
 		{86DFE8FD-9B7B-4FDD-AB44-5CF0743D95EB} = {1549E218-4D14-4A0D-AA06-2DDB69EFBA5F}
 		{0CA7C9DB-89AE-485E-8FD7-F11EE36EDDFB} = {1549E218-4D14-4A0D-AA06-2DDB69EFBA5F}
-		{986C2BED-7F98-4B95-9541-1B2C45C44B03} = {15868C8F-B8F2-4919-B42F-133443846977}
 		{15868C8F-B8F2-4919-B42F-133443846977} = {1549E218-4D14-4A0D-AA06-2DDB69EFBA5F}
-		{8762EB53-2EF4-49FB-B4BA-F053E40288A5} = {15868C8F-B8F2-4919-B42F-133443846977}
-		{0C4C1279-7E97-4DE4-A0E3-6030AA16E34F} = {15868C8F-B8F2-4919-B42F-133443846977}
-		{92A14540-3CFC-45DD-8A88-EEFA281C7F6E} = {15868C8F-B8F2-4919-B42F-133443846977}
-		{F43E3B93-CBDE-48DA-B040-4A028F563A80} = {15868C8F-B8F2-4919-B42F-133443846977}
-		{B5645FFB-5817-4F74-9890-B108D218314E} = {15868C8F-B8F2-4919-B42F-133443846977}
 		{F586DE55-BEDA-4DDC-97B4-8CDFCDF13B41} = {1549E218-4D14-4A0D-AA06-2DDB69EFBA5F}
 		{54FB8D5A-DBF5-4108-BFC2-CB3BEFCD0944} = {1549E218-4D14-4A0D-AA06-2DDB69EFBA5F}
 		{092F67E9-F3EF-4B59-8148-D56FD8732103} = {1549E218-4D14-4A0D-AA06-2DDB69EFBA5F}
 		{FDB800F5-4724-469D-A217-A21E7DA7B8F6} = {1549E218-4D14-4A0D-AA06-2DDB69EFBA5F}
 		{58D832FF-8521-436E-8917-94DFEF791857} = {1549E218-4D14-4A0D-AA06-2DDB69EFBA5F}
 		{8FE028AA-2529-4141-8BD3-84047D5FAF42} = {1549E218-4D14-4A0D-AA06-2DDB69EFBA5F}
-		{F28B81B8-9A87-4E49-8E03-0BE8F0F05897} = {F586DE55-BEDA-4DDC-97B4-8CDFCDF13B41}
-		{89167C99-A240-4F9D-A2BB-4CA8A04BBE1D} = {F586DE55-BEDA-4DDC-97B4-8CDFCDF13B41}
-		{4A358AE7-E532-4BBC-B755-D27F615F5271} = {F586DE55-BEDA-4DDC-97B4-8CDFCDF13B41}
-		{B2E272BD-3A19-44F9-98A0-8E9E676A3666} = {54FB8D5A-DBF5-4108-BFC2-CB3BEFCD0944}
-		{1FA0E377-6E1E-4704-997C-4C18EC90564B} = {54FB8D5A-DBF5-4108-BFC2-CB3BEFCD0944}
-		{F8DE634E-9C27-40A9-96B3-CD837F9C45D7} = {54FB8D5A-DBF5-4108-BFC2-CB3BEFCD0944}
-		{31FC763B-56AE-4F48-A36E-96AB8C147F3D} = {54FB8D5A-DBF5-4108-BFC2-CB3BEFCD0944}
-		{7DDE6C55-9FA8-4056-BF77-E02FBB0B6D5F} = {092F67E9-F3EF-4B59-8148-D56FD8732103}
-		{13E1F026-0222-42A3-B8FE-59F54D14D5D2} = {FDB800F5-4724-469D-A217-A21E7DA7B8F6}
-		{8D780622-2166-42C6-AE5C-EE48AF10248C} = {092F67E9-F3EF-4B59-8148-D56FD8732103}
-		{F1AE3D4F-3BEA-49A4-AD9A-1F0751FF4FEB} = {092F67E9-F3EF-4B59-8148-D56FD8732103}
-		{1129D05D-E047-4233-82F9-CB6EC0D530D4} = {092F67E9-F3EF-4B59-8148-D56FD8732103}
-		{8093EC73-E78A-4EB7-8609-93DE2BBCA187} = {FDB800F5-4724-469D-A217-A21E7DA7B8F6}
-		{BECF0351-7C66-4F5E-AEA5-E21504B69D64} = {FDB800F5-4724-469D-A217-A21E7DA7B8F6}
-		{3F9E06E0-B70C-45AB-BF70-16E262EADC2D} = {58D832FF-8521-436E-8917-94DFEF791857}
-		{2FB0133D-4525-4F44-94EC-63843A8A243A} = {58D832FF-8521-436E-8917-94DFEF791857}
-		{5B90F930-4C7E-460F-9AFF-65443D49A281} = {8FE028AA-2529-4141-8BD3-84047D5FAF42}
-		{362A46B2-2D53-47B5-8945-8384A171DB22} = {8FE028AA-2529-4141-8BD3-84047D5FAF42}
 		{834A76B7-A1F6-4D38-9307-C79253D62B0A} = {1549E218-4D14-4A0D-AA06-2DDB69EFBA5F}
-		{BE69E929-BCF9-4A1A-AE1B-794805944ADC} = {834A76B7-A1F6-4D38-9307-C79253D62B0A}
-		{C88293BB-A30A-4C8D-A1F1-3D08E7E46125} = {834A76B7-A1F6-4D38-9307-C79253D62B0A}
-		{0DF353FC-A964-4738-932F-A4CD125EEDA5} = {834A76B7-A1F6-4D38-9307-C79253D62B0A}
-		{B5A62A36-D30C-4ED2-993A-D88DEA524791} = {834A76B7-A1F6-4D38-9307-C79253D62B0A}
 		{58DD779B-1D3D-4AF2-9D95-9288B9BC7E91} = {1E29C463-FF19-4970-AE0B-91C46FDDDF4F}
 		{9E73D474-12E9-4B55-BBBD-1135385DAEE6} = {1549E218-4D14-4A0D-AA06-2DDB69EFBA5F}
 		{04954A37-5EAE-4755-A4DD-180E98E43672} = {1549E218-4D14-4A0D-AA06-2DDB69EFBA5F}
-		{B7D1CCD3-5043-4F2C-83BD-79AB49C1AE15} = {04954A37-5EAE-4755-A4DD-180E98E43672}
-		{D376D153-59A1-4972-89EA-516C3BBECB47} = {04954A37-5EAE-4755-A4DD-180E98E43672}
-		{082EB603-F58D-4A27-9DFA-51CA7B6B2BF8} = {9E73D474-12E9-4B55-BBBD-1135385DAEE6}
-		{BB91748A-5BCB-4034-A668-87B314737798} = {9E73D474-12E9-4B55-BBBD-1135385DAEE6}
-		{DBF760E8-110B-4795-8E7E-BB9B8FAA47D3} = {9E73D474-12E9-4B55-BBBD-1135385DAEE6}
 		{EC38D619-99F6-4B6F-83E9-068391EE5E80} = {B224F4CA-6271-430D-850A-BB98D1D438FB}
 		{D5700CCC-2830-41CB-B478-BCADC651340C} = {EC38D619-99F6-4B6F-83E9-068391EE5E80}
 		{DB061C48-13D7-4B38-B3FB-F572BAD20F47} = {EC38D619-99F6-4B6F-83E9-068391EE5E80}
@@ -2599,8 +2553,9 @@ Global
 		{903B4374-0518-4D78-83DB-7FCED5D0120F} = {EC38D619-99F6-4B6F-83E9-068391EE5E80}
 		{BD5A2893-9674-4CBF-BAE2-C1024E709D3A} = {EC38D619-99F6-4B6F-83E9-068391EE5E80}
 		{395B9D30-5DCF-4178-AD8E-30A031F9130F} = {D5700CCC-2830-41CB-B478-BCADC651340C}
+		{B3E07C27-576F-49F3-8713-F17E81724699} = {1549E218-4D14-4A0D-AA06-2DDB69EFBA5F}
 		{BD47E753-CFAD-4B2E-A4A3-CC7C04A43C36} = {D5700CCC-2830-41CB-B478-BCADC651340C}
-		{20FD4E7C-54F3-47C5-A418-FDC07E875ADF} = {D5700CCC-2830-41CB-B478-BCADC651340C}
+		{3BBA0EA4-7B1F-47D1-B7FA-136E608D45CA} = {D5700CCC-2830-41CB-B478-BCADC651340C}
 		{411212FA-5EE7-40C8-9C39-13000B3CE63B} = {D5700CCC-2830-41CB-B478-BCADC651340C}
 		{8A31B7C5-6106-4289-8966-D9C5633CE2C4} = {D5700CCC-2830-41CB-B478-BCADC651340C}
 		{0478F99E-4BC1-40AC-B11F-AD651A5CC2FD} = {D5700CCC-2830-41CB-B478-BCADC651340C}
@@ -2643,8 +2598,8 @@ Global
 		{23055CB5-0801-4B62-9E17-B41C17113A9D} = {FA119F0E-451A-47E0-98AF-68EC010867ED}
 		{77A4FEA5-9B8C-4C00-8CBD-8857E3864102} = {FA119F0E-451A-47E0-98AF-68EC010867ED}
 		{09796E1D-C144-45EC-905E-DDDECFE1CD39} = {FA119F0E-451A-47E0-98AF-68EC010867ED}
-		{B2F2F4DB-D6B6-4950-BEC3-D9BB3114DD31} = {FA119F0E-451A-47E0-98AF-68EC010867ED}
 		{4E82D240-7EB5-4FEE-912B-1A3ED47C296E} = {FA119F0E-451A-47E0-98AF-68EC010867ED}
+		{B2F2F4DB-D6B6-4950-BEC3-D9BB3114DD31} = {FA119F0E-451A-47E0-98AF-68EC010867ED}
 		{B885EDB0-81AE-4D37-B298-BAB2EBFEBDC1} = {FA119F0E-451A-47E0-98AF-68EC010867ED}
 		{02ADCAF6-DB9D-4919-B65A-982AE14D4F22} = {FA119F0E-451A-47E0-98AF-68EC010867ED}
 		{CBBF0F64-ABCA-40A0-9E28-0FC0BA385EBC} = {FA119F0E-451A-47E0-98AF-68EC010867ED}
@@ -2791,7 +2746,52 @@ Global
 		{BB64E53C-07B9-4786-B036-2DA4A9030EAC} = {BD5A2893-9674-4CBF-BAE2-C1024E709D3A}
 		{DF6EC15C-C884-419F-95CF-BAE13B17357E} = {BD5A2893-9674-4CBF-BAE2-C1024E709D3A}
 		{52C9611B-65CD-4C61-B626-3E4B744C47C9} = {BD5A2893-9674-4CBF-BAE2-C1024E709D3A}
-		{B3E07C27-576F-49F3-8713-F17E81724699} = {1549E218-4D14-4A0D-AA06-2DDB69EFBA5F}
+		{D67BD873-0BC5-4F2F-896B-E131347709E2} = {86DFE8FD-9B7B-4FDD-AB44-5CF0743D95EB}
+		{14CE65F7-F714-49D9-8234-795A4D0B9930} = {86DFE8FD-9B7B-4FDD-AB44-5CF0743D95EB}
+		{CAE44AB1-A55B-4079-865D-22D4DCE8C823} = {86DFE8FD-9B7B-4FDD-AB44-5CF0743D95EB}
+		{398B7A38-9356-4F35-B636-54423EED2B81} = {86DFE8FD-9B7B-4FDD-AB44-5CF0743D95EB}
+		{FA50116F-9A85-4CD6-A59B-FABCF74A8FBA} = {86DFE8FD-9B7B-4FDD-AB44-5CF0743D95EB}
+		{BF6778A8-F20D-416F-8EFD-C72463D72948} = {86DFE8FD-9B7B-4FDD-AB44-5CF0743D95EB}
+		{7EC89F21-1B82-4212-9B72-3CF7578EA821} = {86DFE8FD-9B7B-4FDD-AB44-5CF0743D95EB}
+		{3B394961-C139-40A1-9674-1CF5A57A592A} = {86DFE8FD-9B7B-4FDD-AB44-5CF0743D95EB}
+		{B58A28B6-3BBB-4479-BE20-EB09FC422552} = {0CA7C9DB-89AE-485E-8FD7-F11EE36EDDFB}
+		{9BD0F72D-ED50-420C-820C-987EBC56A93D} = {0CA7C9DB-89AE-485E-8FD7-F11EE36EDDFB}
+		{1ED3523C-6741-4C7A-8A27-EABE8D502B65} = {0CA7C9DB-89AE-485E-8FD7-F11EE36EDDFB}
+		{75D131BA-EDBA-4059-BE22-9442F1888481} = {0CA7C9DB-89AE-485E-8FD7-F11EE36EDDFB}
+		{C41A5288-78CC-4822-8E51-27B8140441B0} = {0CA7C9DB-89AE-485E-8FD7-F11EE36EDDFB}
+		{AA5E531F-140C-4AB2-8047-1B395841DB82} = {15868C8F-B8F2-4919-B42F-133443846977}
+		{486065C8-6DF0-4A35-9CEC-4AAD0CA294D8} = {15868C8F-B8F2-4919-B42F-133443846977}
+		{FFCAACE4-8509-4EE3-9E33-09124C1D7D5B} = {15868C8F-B8F2-4919-B42F-133443846977}
+		{B532A643-A6C4-42A4-8326-0BCC6C268960} = {15868C8F-B8F2-4919-B42F-133443846977}
+		{2E3B23C1-A5AD-41B3-A064-64803BCC74F7} = {15868C8F-B8F2-4919-B42F-133443846977}
+		{24F3E458-C409-4B30-ABC8-7D28DF18090F} = {15868C8F-B8F2-4919-B42F-133443846977}
+		{31B44726-8E3C-4310-85DE-A81F53DB1A00} = {F586DE55-BEDA-4DDC-97B4-8CDFCDF13B41}
+		{CD470DDE-4795-4645-8395-DFA8DD24CEC3} = {F586DE55-BEDA-4DDC-97B4-8CDFCDF13B41}
+		{7D5E929A-5FA9-4A2F-A952-B2F43259AB0F} = {F586DE55-BEDA-4DDC-97B4-8CDFCDF13B41}
+		{CB79F121-ED9F-42D2-9430-5B59880E100B} = {54FB8D5A-DBF5-4108-BFC2-CB3BEFCD0944}
+		{B72D8413-6A89-4A97-8334-4F79AA3E9B6C} = {54FB8D5A-DBF5-4108-BFC2-CB3BEFCD0944}
+		{63654A22-9500-4CFA-957D-BF5FEA18C350} = {54FB8D5A-DBF5-4108-BFC2-CB3BEFCD0944}
+		{E11416EB-0A1C-44E1-937E-F3BA037E2871} = {54FB8D5A-DBF5-4108-BFC2-CB3BEFCD0944}
+		{81FBDCFE-8908-45BA-BA6D-BFC01E539F72} = {092F67E9-F3EF-4B59-8148-D56FD8732103}
+		{8D47E223-C2AE-4795-9E2F-CA27B539F1B6} = {092F67E9-F3EF-4B59-8148-D56FD8732103}
+		{FE824B79-B03E-4C04-9EE4-8409524821A7} = {092F67E9-F3EF-4B59-8148-D56FD8732103}
+		{06DBB0D4-4A35-40EB-8C20-15EA3AD03A92} = {092F67E9-F3EF-4B59-8148-D56FD8732103}
+		{B62332B7-B918-4DD2-88CA-C528182EC98D} = {FDB800F5-4724-469D-A217-A21E7DA7B8F6}
+		{02EDBF7A-4645-4E93-99AA-028C11F4DD2F} = {FDB800F5-4724-469D-A217-A21E7DA7B8F6}
+		{BDAF745F-767B-4076-AA57-314443B21D73} = {FDB800F5-4724-469D-A217-A21E7DA7B8F6}
+		{DF6E7BD4-BE33-4E10-A591-7E32C687A002} = {58D832FF-8521-436E-8917-94DFEF791857}
+		{35D5AEDE-AC8C-4330-910B-139CE6239089} = {58D832FF-8521-436E-8917-94DFEF791857}
+		{75C8E214-3A0F-4E4C-9533-724A7B4C5FF7} = {8FE028AA-2529-4141-8BD3-84047D5FAF42}
+		{E2AD2417-970E-4B71-9F80-8AF5141F7C05} = {8FE028AA-2529-4141-8BD3-84047D5FAF42}
+		{5132F69B-2D75-45A9-948B-CE68D465239A} = {834A76B7-A1F6-4D38-9307-C79253D62B0A}
+		{5FDB9769-2C6B-4332-A7B0-2F141BF7847E} = {834A76B7-A1F6-4D38-9307-C79253D62B0A}
+		{B7CD4BDB-F49D-4CED-A9FE-0DA34E6D01D6} = {834A76B7-A1F6-4D38-9307-C79253D62B0A}
+		{672CF921-7AA0-49E0-946C-0D814A2F0B97} = {834A76B7-A1F6-4D38-9307-C79253D62B0A}
+		{82BAD80A-D263-4E72-AC29-78837CA4CE8F} = {9E73D474-12E9-4B55-BBBD-1135385DAEE6}
+		{E15C4141-DEC7-4AE5-9CEF-8104E06559A0} = {9E73D474-12E9-4B55-BBBD-1135385DAEE6}
+		{8FDC8F9A-E89E-4E7D-ACA6-538C1840E165} = {9E73D474-12E9-4B55-BBBD-1135385DAEE6}
+		{72BC58D2-B813-472E-9377-94EF09F7CC87} = {04954A37-5EAE-4755-A4DD-180E98E43672}
+		{F3553435-6E2C-4FD4-B8F6-3336158572C7} = {04954A37-5EAE-4755-A4DD-180E98E43672}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C538F23A-1B76-4BA7-BE24-D132BCDC7087}
