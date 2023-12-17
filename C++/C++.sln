@@ -85,19 +85,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "챕터 20. 중급 프로그
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.01 프로그램의 구조", "홍정모\따라배우는C++\챕터 01. C++의 기초적인 사용법\01.01 프로그램의 구조\01.01 프로그램의 구조.vcxproj", "{395B9D30-5DCF-4178-AD8E-30A031F9130F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{B3E07C27-576F-49F3-8713-F17E81724699}"
-	ProjectSection(SolutionItems) = preProject
-		홍정모\자료구조\shared\AVL.h = 홍정모\자료구조\shared\AVL.h
-		홍정모\자료구조\shared\BinarySearchTree.h = 홍정모\자료구조\shared\BinarySearchTree.h
-		홍정모\자료구조\shared\BinaryTree.h = 홍정모\자료구조\shared\BinaryTree.h
-		홍정모\자료구조\shared\Deque.h = 홍정모\자료구조\shared\Deque.h
-		홍정모\자료구조\shared\DoublyLinkedList.h = 홍정모\자료구조\shared\DoublyLinkedList.h
-		홍정모\자료구조\shared\MaxHeap.h = 홍정모\자료구조\shared\MaxHeap.h
-		홍정모\자료구조\shared\Queue.h = 홍정모\자료구조\shared\Queue.h
-		홍정모\자료구조\shared\SinglyLinkedList.h = 홍정모\자료구조\shared\SinglyLinkedList.h
-		홍정모\자료구조\shared\Stack.h = 홍정모\자료구조\shared\Stack.h
-	EndProjectSection
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.02 주석 comments", "홍정모\따라배우는C++\챕터 01. C++의 기초적인 사용법\01.02 주석 comments\01.02 주석 comments.vcxproj", "{BD47E753-CFAD-4B2E-A4A3-CC7C04A43C36}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.03 변수와의 첫 만남", "홍정모\따라배우는C++\챕터 01. C++의 기초적인 사용법\01.03 변수와의 첫 만남\01.03 변수와의 첫 만남.vcxproj", "{3BBA0EA4-7B1F-47D1-B7FA-136E608D45CA}"
@@ -2553,7 +2540,6 @@ Global
 		{903B4374-0518-4D78-83DB-7FCED5D0120F} = {EC38D619-99F6-4B6F-83E9-068391EE5E80}
 		{BD5A2893-9674-4CBF-BAE2-C1024E709D3A} = {EC38D619-99F6-4B6F-83E9-068391EE5E80}
 		{395B9D30-5DCF-4178-AD8E-30A031F9130F} = {D5700CCC-2830-41CB-B478-BCADC651340C}
-		{B3E07C27-576F-49F3-8713-F17E81724699} = {1549E218-4D14-4A0D-AA06-2DDB69EFBA5F}
 		{BD47E753-CFAD-4B2E-A4A3-CC7C04A43C36} = {D5700CCC-2830-41CB-B478-BCADC651340C}
 		{3BBA0EA4-7B1F-47D1-B7FA-136E608D45CA} = {D5700CCC-2830-41CB-B478-BCADC651340C}
 		{411212FA-5EE7-40C8-9C39-13000B3CE63B} = {D5700CCC-2830-41CB-B478-BCADC651340C}

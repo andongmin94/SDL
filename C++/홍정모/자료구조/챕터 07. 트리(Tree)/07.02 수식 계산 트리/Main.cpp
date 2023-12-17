@@ -1,8 +1,8 @@
 ﻿#include <iostream>
 
-#include "../../shared/Stack.h"
-#include "../../shared/Queue.h"
-#include "../../shared/BinaryTree.h"
+#include "Stack.h"
+#include "Queue.h"
+#include "BinaryTree.h"
 
 using namespace std;
 
