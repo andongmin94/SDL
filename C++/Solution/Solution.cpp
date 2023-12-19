@@ -4,35 +4,24 @@ using namespace std;
 
 int main()
 {
-	ios::sync_with_stdio(0);
-	cin.tie(0);
+	ios::sync_with_stdio(false);
+	cin.tie(nullptr);
 
-	for (int i = 0; i < 3; i++)
+	vector<int> a;
+	for (int i = 0; i < 7; i++)
 	{
-		int a = 0;
-		for (int j = 0; j < 4; j++)
-		{
-			int b;
-			cin >> b;
-			a += b;
-		}
-		switch (a)
-		{
-			case 0 :
-				cout << "D" << '\n';
-				break;
-			case 1 :
-				cout << "C" << '\n';
-				break;
-			case 2 :
-				cout << "B" << '\n';
-				break;
-			case 3 :
-				cout << "A" << '\n';
-				break;
-			case 4:
-				cout << "E" << '\n';
-				break;
-		}
+		int b; cin >> b;
+		if (b % 2 != 0)
+			a.push_back(b);
 	}
+	sort(a.begin(), a.end());
+	int sum = 0;
+	for (int i = 0; i < a.size(); i++)
+		sum += a[i];
+	if (sum != 0)
+	{
+		cout << sum << '\n';
+		cout << a[0] << '\n';
+	}
+	else cout << -1;
 }
