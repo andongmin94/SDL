@@ -8,20 +8,14 @@ int main()
 	cin.tie(nullptr);
 
 	vector<int> a;
-	for (int i = 0; i < 7; i++)
+	int b, sum = 0;
+	for (int i = 0; i < 5; i++)
 	{
-		int b; cin >> b;
-		if (b % 2 != 0)
-			a.push_back(b);
+		cin >> b;
+		a.push_back(b);
+		sum += a[i];
 	}
 	sort(a.begin(), a.end());
-	int sum = 0;
-	for (int i = 0; i < a.size(); i++)
-		sum += a[i];
-	if (sum != 0)
-	{
-		cout << sum << '\n';
-		cout << a[0] << '\n';
-	}
-	else cout << -1;
+	cout << sum / a.size() << '\n';
+	cout << a[2] << '\n';
 }
