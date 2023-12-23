@@ -22,6 +22,12 @@ void RecurPermutations(char* arr, int left, int right)
 		// - right는 고정
 
 		// TODO:
+		for (int i = left; i <= right; i++)
+		{
+			swap(arr[left], arr[i]);
+			RecurPermutations(arr, left + 1, right);
+			swap(arr[left], arr[i]);
+		}
 	}
 }
 

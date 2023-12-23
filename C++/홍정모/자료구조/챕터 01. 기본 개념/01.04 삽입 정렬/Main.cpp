@@ -31,17 +31,11 @@ int main()
 
 		// i = 4인 경우에 대해서 구현
 		int i = 4;
-		// TODO:
-
-		int temp = arr[i];
-		int j = i;
-		for (; j > 0 && arr[j - 1] > temp; j--)
+		// for (...)
 		{
-			arr[j] = arr[j - 1];
+			// TODO:
 			Print(arr, n);
 		}
-		// 삽입
-		arr[j] = temp;
 
 		Print(arr, n);
 		cout << endl;
@@ -54,18 +48,7 @@ int main()
 
 	// Insertion Sort
 	{
-		int i, j, key;
-		for (i = 1; i < n; i++)
-		{
-			key = arr[i];
-			for (j = i; j > 0 && arr[j - 1] > key; j--)
-			{
-				arr[j] = arr[j - 1];
-				Print(arr, n);
-			}
-			arr[j] = key;
-			Print(arr, n);
-		}
+
 	}
 
 	// Stability
