@@ -11,10 +11,10 @@ void InsertionSort(char* arr, int n)
 		j = i - 1;
 
 		while (j >= 0 && arr[j] > key) // <- while 사용
-			{
+		{
 			arr[j + 1] = arr[j];
 			j = j - 1;
-			}
+		}
 
 		arr[j + 1] = key;
 	}
@@ -24,10 +24,10 @@ int Count(char* arr, int n, char x)
 {
 	int count = 0;
 	for (int i = 0; i < n; i++) // start index 사용
-		{
+	{
 		if (arr[i] == x)
 			count++;
-		}
+	}
 
 	return count;
 }
@@ -65,18 +65,9 @@ int main()
 
 		// 표를 만들고 나중에 몰아서 출력하는 방법
 		// table[i] = ...
-		
-		// * mine
-		table[arr[i] - 97]++;
-		// * teached
-		table[i] = Count(arr, n, char(i + 97));
 
 		// 표를 만들지 않고 직접 출력하는 방법
 		// ...
-		// * teached
-		int count = Count(arr, n, char(i + 97));
-		if (count > 0)
-			cout << char(i + 97) << table[i] << flush;
 	}
 
 	cout << endl;
@@ -85,9 +76,6 @@ int main()
 	for (int i = 0; i < 26; i++)
 	{
 		// ...
-		if (table[i] == 0)
-			break;
-		cout << char(i + 97) << table[i];
 	}
 	cout << endl << endl;
 
@@ -109,15 +97,10 @@ int main()
 		if (arr[i] == c)
 		{
 			// TODO: ...
-			count++;
 		}
 		else
 		{
 			// TODO: ...
-			cout << count;
-			c = arr[i];
-			count = 1;
-			cout << c;
 		}
 	}
 

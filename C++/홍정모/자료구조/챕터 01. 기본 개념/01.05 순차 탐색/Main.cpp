@@ -53,46 +53,30 @@ int main()
 	cout << "Sorted Count 1 = " << SortedCount(arr, n, 1) << endl;
 	cout << endl;
 
-	return 0; 
+	return 0;
 }
 
 // 배열 arr에 x가 몇 번 나오는지 반환
 int Count(int* arr, int n, int x)
 {
 	// TODO:
-	int cnt = 0;
-	for (int i = 0; i < n; i++)
-		if (arr[i] == x)
-			cnt++;
 
-	return cnt;
+	return 0;
 }
 
 // 배열 arr에 x가 있으면 index 반환, 없으면 -1 반환
 int SequentialSearch(int* arr, int n, int x)
 {
 	// TODO:
-	int idx = -1;
-	for (int i = 0; i < n; i++)
-		if (arr[i] == x)
-		{			
-			idx = i;
-			break;
-		}
 
-	return idx;
+	return -1;
 }
 
 int SortedCountHelper(int* arr, int n, int x, int start) // start 사용
 {
 	// TODO: 
-	int count = 0;
-	for (int i = start; i < n; i++)
-		if (arr[i] == x)
-			count++;
-		else break;
 
-	return count;
+	return 0;
 }
 
 int SortedCount(int* arr, int n, int x)
