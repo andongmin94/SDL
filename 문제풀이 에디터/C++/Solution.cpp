@@ -7,21 +7,28 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    string a, b;
+    int a, b;
     cin >> a >> b;
-    int cnt = 0;
-    vector<int> v1(26);
-    vector<int> v2(26);
-    for (const char e : a)
-        v1[static_cast<int>(e - 'a')]++;
-    for (const char e : b)
-        v2[static_cast<int>(e - 'a')]++;
-    for (int i = 0; i < 26; i++)
+    list<int> v;
+    for (int i = 0; i < a; i++)
+        v.push_back(i + 1);
+
+    list<int>::iterator v2 = v.begin();
+    cout << "<";
+    while(v.size() != 0)
     {
-        if (v1[i] >= v2[i])
-            cnt += v1[i] - v2[i];
-        else
-            cnt += v2[i] - v1[i];
+        for(int i = 0; i < b - 1; i++)
+        {
+            if (v2 == v.end())
+                v2 = v.begin();
+            v2++;
+            if (v2 == v.end())
+                v2 = v.begin();
+        }
+        cout << *v2;
+        v2 = v.erase(v2);
+        if(v.size() != 0)
+            cout << ", ";
     }
-    cout << cnt << '\n';
+    cout << ">";
 }
