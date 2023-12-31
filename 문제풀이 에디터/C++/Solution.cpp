@@ -7,15 +7,17 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int N;
-    cin >> N;
-    for (int i = 0; i < N; i++)
-    {
-        int a;
-        char b;
-        cin >> a >> b;
-        for (int j = 0; j < a; j++)
-            cout << b;
-        cout << '\n';
-    }
+    int X, L, R;
+    cin >> X >> L >> R;
+    int var = X - L;
+    int var_key= L;
+    for (int i = L; i <= R; i++)
+        if (abs(var) > abs(X - i))
+        {
+            var = X - i;
+            var_key = i;
+        }
+
+    cout << var_key << '\n';
+        
 }
