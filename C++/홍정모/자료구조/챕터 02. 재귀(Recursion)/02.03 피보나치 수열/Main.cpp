@@ -35,7 +35,7 @@ int RecurFibonacci(int n)
 	else if (n == 1)
 		return 1; // F1 = 1
 	else
-	return Fibonacci(n - 2) + Fibonacci(n - 1);;
+	return Fibonacci(n - 2) + Fibonacci(n - 1);
 }
 
 int main()

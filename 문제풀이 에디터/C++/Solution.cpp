@@ -7,17 +7,44 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int X, L, R;
-    cin >> X >> L >> R;
-    int var = X - L;
-    int var_key= L;
-    for (int i = L; i <= R; i++)
-        if (abs(var) > abs(X - i))
+    stack<int> a;
+    int n;
+    cin >> n;
+    for (int i = 0; i < n; i++)
+    {
+        string x;
+        int y;
+        cin >> x;
+        if (x == "push")
         {
-            var = X - i;
-            var_key = i;
+            cin >> y;
+            a.push(y);
         }
-
-    cout << var_key << '\n';
-        
+        else if (x == "top")
+        {
+            if(a.empty())
+                cout << -1 << '\n';
+            else
+                cout << a.top() << '\n';
+        }
+        else if (x == "size")
+            cout << a.size() << '\n';
+        else if (x == "pop")
+        {
+            if(a.empty())
+                cout << -1 << '\n';
+            else
+            {
+                cout << a.top() << '\n';
+                a.pop();
+            }
+        }
+        else if (x == "empty")
+        {
+            if(a.empty())
+                cout << 1 << '\n';
+            else
+                cout << 0 << '\n';
+        }
+    }
 }
