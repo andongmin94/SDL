@@ -13,6 +13,9 @@ struct Element
 bool CheckSorted(int* arr, int size)
 {
 	// TODO: 정렬 확인 함수 구현
+	for (int i = 0; i < size - 1; i++)
+		if (arr[i] > arr[i + 1])
+			return false;
 
 	return true;
 }
@@ -53,6 +56,11 @@ int main()
 					cout << " -> " << flush;
 
 					//TODO: 정렬 해보기
+					for (int e = size; e > 1; e--)
+						for (int e2 = 1; e2 < e; e2++)
+							if (arr[e2 - 1] > arr[e2])
+								swap(arr[e2 - 1], arr[e2]);
+					
 
 					for (int e = 0; e < size; e++) {
 						cout << arr[e] << " " << flush;
@@ -62,9 +70,11 @@ int main()
 					cout << CheckSorted(arr, size); // 정렬 되었나 확인
 					cout << endl;
 				}
+		cout << "3개 정렬 끝" << endl;
+		cout << endl;
 	}
 
-	return 0; // <- 실습용 임시
+	//return 0; // <- 실습용 임시
 
 	// 5개라면? 더 많다면?
 	{
@@ -85,8 +95,14 @@ int main()
 		assert(size > 0); // size가 1이상이라고 가정
 
 		// TODO:
+		int min_number = 10;
+		for (int i = 0; i < size; i++)
+			if (arr[i] < min_number)
+				min_number = arr[i];
 
-		// cout << "Minimum number is " << min_number << endl;
+		cout << "Minimum number is " << min_number << endl;
+		cout << "가장 작은 수 찾기 끝" << endl;
+		cout << endl;
 	}
 
 	// 가장 작은 수의 인덱스 찾기
@@ -97,9 +113,17 @@ int main()
 		assert(size > 0); // size가 1이상이라고 가정
 
 		// TODO:
+		int min_index = 0;
+		for (int i = 1; i < size; i++)
+		{
+			if (arr[min_index] > arr[i])
+				min_index = i;
+		}
 
-		//cout << "The index of min is " << min_index << endl;
-		//cout << "Minimum number is " << arr[min_index] << endl;
+		cout << "The index of min is " << min_index << endl;
+		cout << "Minimum number is " << arr[min_index] << endl;
+		cout << "가장 작은 수의 인덱스 찾기 끝" << endl;
+		cout << endl;
 	}
 
 	// Selection Sort
@@ -111,15 +135,25 @@ int main()
 		int min_index;
 		for (int i = 0; i < size - 1; i++)
 		{
-
 			// TODO:
+			min_index = i;
+			for (int j = i + 1; j < size; j++)
+			{
+				if (arr[j] < arr[min_index])
+					min_index = j;
+			}
+			swap(arr[i], arr[min_index]);
 
 			Print(arr, size);
 
 			cout << boolalpha;
 			cout << CheckSorted(arr, size);
 			cout << endl;
+			if (CheckSorted(arr, size) == true)
+				break;
 		}
+		cout << "Selection Sort 끝" << endl;
+		cout << endl;
 	}
 
 	// 비교 횟수 세보기, 더 효율적인 방법은 없을까?
@@ -135,6 +169,19 @@ int main()
 			}
 
 			//TODO: count ++;
+			int min_index;
+			for (int i = 0; i < size - 1; i++)
+			{
+				min_index = i;
+				for (int j = i + 1; j < size; j++)
+				{
+					count++;
+
+					if (arr[j] < arr[min_index])
+						min_index = j;
+				}
+				swap(arr[i], arr[min_index]);
+			}
 
 			//cout << size << ", " << count << endl;
 			ofile << size << ", " << count << endl;
@@ -142,6 +189,8 @@ int main()
 
 			delete[] arr;
 		}
+		cout << "비교 횟수 세보기 끝" << endl;
+		cout << endl;
 
 		ofile.close();
 	}
@@ -157,7 +206,21 @@ int main()
 		Print(arr, size); // arr이 Element의 배열
 
 		// TODO:
+		int min_index;
+		for (int i = 0; i < size - 1; i++)
+		{
+			min_index = i;
+			for (int j = i + 1; j < size; j++)
+			{
+
+				if (arr[j].key < arr[min_index].key)
+					min_index = j;
+			}
+			swap(arr[i], arr[min_index]);
+		}
 
 		Print(arr, size); // arr이 Element의 배열
 	}
+	cout << "안정성 확인 끝" << endl;
+	cout << endl;
 }
