@@ -7,44 +7,19 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    stack<int> a;
     int n;
     cin >> n;
-    for (int i = 0; i < n; i++)
+    int height[500001] = {0,};
+    stack<int> s;
+
+    for (int i = 1; i <= n; i++)
     {
-        string x;
-        int y;
-        cin >> x;
-        if (x == "push")
-        {
-            cin >> y;
-            a.push(y);
-        }
-        else if (x == "top")
-        {
-            if(a.empty())
-                cout << -1 << '\n';
-            else
-                cout << a.top() << '\n';
-        }
-        else if (x == "size")
-            cout << a.size() << '\n';
-        else if (x == "pop")
-        {
-            if(a.empty())
-                cout << -1 << '\n';
-            else
-            {
-                cout << a.top() << '\n';
-                a.pop();
-            }
-        }
-        else if (x == "empty")
-        {
-            if(a.empty())
-                cout << 1 << '\n';
-            else
-                cout << 0 << '\n';
-        }
+        cin >> height[i];
+        while (!s.empty() && height[s.top()] < height[i])
+            s.pop();
+
+        if (!s.empty()) cout << s.top() + 1 << ' ';
+        else cout << 0 << ' ';
+        s.push(i);
     }
 }
