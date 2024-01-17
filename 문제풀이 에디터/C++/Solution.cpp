@@ -7,22 +7,16 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     
-    int k;
-    cin >> k;
-    for (int i = 0; i < k; i++)
-    {
-        int n, s, d;
-        cin >> n >> s >> d;
-        int sum = 0;
-        for (int j = 0; j < n; j++)
-        {
-            int d2, v;
-            cin >> d2 >> v;
+    int a, b, c, d, e, f, g, h;
 
-            if (s * d >= d2)
-                sum += v;
-        }
-        cout << "Data Set " << i + 1 << ":" << '\n';
-        cout << sum << '\n' << '\n';
-    }
+    cin >> a >> b;
+
+    c = 100 - a;
+    d = 100 - b;
+    e = 100 - (c + d);
+    f = c * d;
+    g = f / 100;
+    h = f % 100;
+    cout << c << ' ' << d << ' ' << e << ' ' << f << ' ' << g << ' ' << h << '\n';
+    cout << e + g << ' ' << h << '\n';
 }
