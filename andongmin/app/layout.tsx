@@ -2,7 +2,6 @@ import "./globals.css"
 import { Metadata } from "next"
 
 import { siteConfig } from "@/config/site"
-import { inter } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
 import { SiteHeader } from "@/components/site-header"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
@@ -15,9 +14,9 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
   },
 }
 
@@ -32,8 +31,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <head />
         <body
           className={cn(
-            "min-h-screen bg-background font-sans antialiased",
-            inter.variable
+            "min-h-screen bg-background antialiased",
           )}
         >
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
