@@ -76,11 +76,11 @@
 }
 
 body {
-  font-family: SUITE;
+  font-family: Pretendard;
 }
 
 @font-face {
-  font-family: "SUITE";
+  font-family: "Pretendard";
   font-weight: 400;
-  src: url("/SUITE.ttf") format("truetype");
+  src: url("/Pretendard.ttf") format("truetype");
 }
