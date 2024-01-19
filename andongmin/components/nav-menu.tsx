@@ -70,7 +70,6 @@ export function HeadNavigationMenu() {
                 </div>
               </Link>
             </NavigationMenuLink>
-
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
               {items.map((item) => (
                 <ListItem key={item.title} title={item.title} href={item.href}>
@@ -103,6 +102,13 @@ export function HeadNavigationMenu() {
           <Link href="/about" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               소개
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <Link href="/posts" legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              자유롭게 쓰는 글
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>

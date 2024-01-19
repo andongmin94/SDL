@@ -6,6 +6,7 @@ import {
   LucideIcon,
 } from "lucide-react";
 import Image from "next/image";
+import Logo from "@/public/logo.png";
 
 export type Icon = LucideIcon;
 
@@ -14,7 +15,7 @@ export const Icons = {
   moon: Moon,
   twitter: Twitter,
   logo: () => (
-    <Image src="/logo.png" alt="logo" width={200} height={0} priority />
+    <Image src={Logo} alt="logo" width={200} height={0} priority />
   ),
   gitHub: (props: LucideProps) => (
     <svg viewBox="0 0 438.549 438.549" {...props}>
