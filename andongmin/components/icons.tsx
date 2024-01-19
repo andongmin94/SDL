@@ -14,7 +14,7 @@ export const Icons = {
   moon: Moon,
   twitter: Twitter,
   logo: () => (
-    <Image src="/icon.png" alt="logo" width={30} height={30} priority/>
+    <Image src="/logo.png" alt="logo" width={200} height={0} priority />
   ),
   gitHub: (props: LucideProps) => (
     <svg viewBox="0 0 438.549 438.549" {...props}>

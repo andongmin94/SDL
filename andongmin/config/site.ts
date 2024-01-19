@@ -4,17 +4,7 @@ export const siteConfig = {
   name: "안동민 개발노트",
   description: "안동민의 개발노트입니다.",
   infoNav: [
-    { title: "Home", href: "/" },
-    { title: "Blog", href: "/blog" },
-    { title: "About", href: "/about" },
-  ],
-  devNav: [
-    { title: "BOJ", href: "/boj" },
-    { title: "C++", href: "/cpp" },
-    { title: "Unreal", href: "/unreal" },
-    { title: "React", href: "/react" },
-    { title: "Next.js", href: "/next" },
-    { title: "Verse", href: "/verse" },
+    { title: "자유롭게 쓰는 글", href: "/posts" },
   ],
   links: {
     twitter: "https://twitter.com/andongmin94",
