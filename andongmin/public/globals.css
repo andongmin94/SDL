@@ -1,0 +1,11 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Pretendard-Variable;
+}
+
+@font-face {
+  font-family: "Pretendard-Variable";
+  font-weight: 400;
+  src: url("Pretendard-Variable.ttf") format("truetype");
+}
