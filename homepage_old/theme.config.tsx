@@ -1,5 +1,6 @@
 import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
+import Components from "./components/counters";
 
 const config: DocsThemeConfig = {
   useNextSeoProps() {
@@ -7,6 +8,7 @@ const config: DocsThemeConfig = {
       titleTemplate: "%s",
     };
   },
+  navbar: { component: <Components />  },
   head: <link rel="icon" href="profile.png" />,
   logo: (
     <>
