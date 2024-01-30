@@ -1,6 +1,4 @@
-﻿#define _USE_MATH_DEFINES
-
-#include <bits/stdc++.h>
+﻿#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -32,7 +30,11 @@ int main()
         {
             for (int b = 0; b < n; b++)
             {
-                if (board[a][b] == 1 && vis[a][b] == 0) Q.push({ a, b }); cnt++;
+                if (board[a][b] == 1 && vis[a][b] == 0)
+                {
+                    Q.push({ a, b });
+                    cnt++;
+                }
 
                 while (!(Q.empty()))
                 {
@@ -44,11 +46,15 @@ int main()
                         int nx = p.first + dx[c];
                         int ny = p.second + dy[c];
 
-                        if (nx >= 0 && )
+                        if (nx >= 0 && nx < m && ny >= 0 && ny < n && board[nx][ny] == 1 && vis[nx][ny] == 0)
+                        {
+                            Q.push({nx, ny});
+                            vis[nx][ny] = 1;
+                        }
                     }
                 }
             }
         }
-        cout << cnt;
+        cout << cnt << '\n';
     }
 }
