@@ -7,10 +7,12 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    long long p1, q1, p2, q2;
-    cin >> p1 >> q1 >> p2 >> q2;
-    
-    const bool res = (p1 * p2 % (q1 * q2 * 2) == 0);
+    int p, q;
+    cin >> p >> q;
 
-    cout << res;
+    if (p <= 50 && q <= 10)
+        cout << "White";
+    else if (q > 30)
+        cout << "Red";
+    else cout << "Yellow";
 }
