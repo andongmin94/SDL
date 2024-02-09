@@ -2,6 +2,20 @@
 
 using namespace std;
 
+void Func2()
+{
+	cout << "This is Func2()" << endl;
+}
+
+void Func1()
+{
+	Func2();
+
+	cout << "This is Func1()" << endl;
+
+	// Func2(); // 실행 순서에 따른 결과 확인
+}
+
 void RecurFunc(int count)
 {
 	if (count == 0) // <- 종료 조건
