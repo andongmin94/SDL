@@ -60,15 +60,21 @@ int main()
 int Count(int* arr, int n, int x)
 {
 	// TODO:
+	int cnt = 0;
+	for (int i = 0; i < n; i++)
+		if (arr[i] == x)
+			cnt++;
 
-	return 0;
+	return cnt;
 }
 
 // 배열 arr에 x가 있으면 index 반환, 없으면 -1 반환
 int SequentialSearch(int* arr, int n, int x)
 {
 	// TODO:
-
+	for (int i = 0; i < n; i++)
+		if (arr[i] == x)
+			return i;
 	return -1;
 }
 
