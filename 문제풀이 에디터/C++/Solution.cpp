@@ -2,10 +2,6 @@
 
 using namespace std;
 
-int a[1000000];
-
-int ans[1000000];
-
 int main()
 {
     ios::sync_with_stdio(false);

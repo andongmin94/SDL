@@ -43,20 +43,18 @@ int RecurBinarySearch(int* arr, int left, int right, int x) // n 대신에 left,
 
 		if (x < arr[middle])
 		{
-			return RecurBinarySearch(arr, left, middle - 1, x); // TODO:
+			return -1; // TODO:
 		}
 		else if (x > arr[middle])
 		{
-			return RecurBinarySearch(arr, left, middle + 1, x); // TODO:
+			return -1; // TODO:
 		}
 		else
 		{
-			cout << "Found" << endl;
-			return middle; // TODO:
+			return -1; // TODO:
 		}
 	}
 
-	cout << "Not Found" << endl;
 	return -1;
 }
 
@@ -65,8 +63,8 @@ int main()
 	int arr[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 	int n = sizeof(arr) / sizeof(arr[0]);
 
-	//cout << BinarySearch(arr, n, -2) << endl;
-	cout << RecurBinarySearch(arr, 0, n - 1, 2) << endl;
+	cout << BinarySearch(arr, n, -2) << endl;
+	cout << RecurBinarySearch(arr, 0, n - 1, -2) << endl;
 
 	return 0;
 }
