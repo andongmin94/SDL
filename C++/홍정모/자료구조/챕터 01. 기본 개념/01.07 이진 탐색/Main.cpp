@@ -1,6 +1,5 @@
 ﻿#include <iostream>
 #include <iomanip>      // std::setw
-
 #include <cassert>
 
 using namespace std;
