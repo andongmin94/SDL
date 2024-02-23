@@ -2,72 +2,75 @@
 
 using namespace std;
 
-int board[100][100][100] = { 0, };
-int vis[100][100][100] = { 0, };
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
 
-int main()
-{
-     ios::sync_with_stdio(false);
-     cin.tie(nullptr);
+    int t;
+    cin >> t;
 
-     queue<tuple<int, int, int>> Q;
-     int max_v = 0;
-     bool minus_one = false;
-     bool zero = true;
+    while (t--)
+    {
+        string s, arr;
+        int a;
+        cin >> s >> a >> arr;
 
-     int x, y, z;
-     cin >> x >> y >> z;
+        arr.erase(remove(arr.begin(), arr.end(), '['), arr.end());
+        arr.erase(remove(arr.begin(), arr.end(), ']'), arr.end());
 
-     for (int i = 0; i < z; i++)
-     {
-          for (int j = 0; j < y; j++)
-               for (int k = 0; k < x; k++)
-               {
-                    cin >> board[i][j][k];
-                    if (board[i][j][k] == 0)
-                         zero = false;
-                    if (board[i][j][k] == 1)
-                    {
-                         Q.push({i, j, k});
-                         vis[i][j][k] = 1;
-                    }
-                    if (board[i][j][k] == -1)
-                         vis[i][j][k] = -1;
-               }
-     }
-     int dx[6] = { 0,1,0,-1,0,0 };
-     int dy[6] = { 1,0,-1,0,0,0 };
-     int dz[6] = { 0,0,0,0,1,-1 };
+        stringstream ss(arr);
+        string temp;
+        deque<int> dq;
 
-     while (!(Q.empty()))
-     {
-          tuple<int, int, int> cur = Q.front();
-          Q.pop();
-          for (int i = 0; i < 6; i++)
-          {
-               int nz = get<0>(cur) + dx[i];
-               int ny = get<1>(cur) + dy[i];
-               int nx = get<2>(cur) + dz[i];
-               if (nx >= 0 && nx < x && ny >= 0 && ny < y && nz >= 0 && nz < z && board[nz][ny][nx] == 0 && vis[nz][ny][nx] == 0)
-               {
-                    Q.push({ nz, ny, nx  });
-                    vis[nz][ny][nx] = vis[get<0>(cur)][get<1>(cur)][get<2>(cur)] + 1;
-               }
-          }
-     }
+        while (getline(ss, temp, ','))
+            if (!temp.empty())
+                dq.push_back(stoi(temp));
 
-     for (int i = 0; i < z; i++)
-          for (int j = 0; j < y; j++)
-               for (int k = 0; k < x; k++)
-               {
-                    max_v = max(max_v, vis[i][j][k]);
-                    if (vis[i][j][k] == 0)
-                         minus_one = true;
-               }
+        bool reversed = false, error = false;
 
-     if (zero == true)
-          cout << 0;
-     else if (minus_one)
-          cout << -1;
-     else cout << max_v - 1;
+        for (auto e : s)
+        {
+            if (e == 'R')
+                reversed = !reversed;
+            
+            if (e == 'D')
+            {
+                if (dq.empty())
+                {
+                    error = true;
+                    cout << "error\n";
+                    break;
+                }
+                
+                if (reversed)
+                    dq.pop_back();
+                else 
+                    dq.pop_front();
+            }
+        }
+
+        if (!error)
+        {
+            cout << '[';
+            
+            while (!dq.empty())
+            {
+                if (reversed)
+                {
+                    cout << dq.back();
+                    dq.pop_back();
+                }
+                
+                if (!reversed)
+                {
+                    cout << dq.front();
+                    dq.pop_front();
+                }
+                
+                if (!dq.empty())
+                    cout << ',';
+            }
+            cout << ']' << '\n';
+        }
+    }
 }
