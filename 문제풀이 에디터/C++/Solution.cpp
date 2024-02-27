@@ -2,75 +2,24 @@
 
 using namespace std;
 
+int recur(int n, int r, int c)
+{
+    if (n == 0) return 0;
+
+    int divide = 1 << (n - 1);
+
+    if (r < divide && c < divide) return recur(n-1, r, c);
+    if (r < divide && c >= divide) return divide * divide + recur(n-1, r, c-divide);
+    if (r >= divide && c < divide) return 2 * divide * divide + recur(n-1, r-divide, c);
+
+    return 3 * divide * divide + recur(n-1, r-divide, c-divide);
+}
+
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int t;
-    cin >> t;
-
-    while (t--)
-    {
-        string s, arr;
-        int a;
-        cin >> s >> a >> arr;
-
-        arr.erase(remove(arr.begin(), arr.end(), '['), arr.end());
-        arr.erase(remove(arr.begin(), arr.end(), ']'), arr.end());
-
-        stringstream ss(arr);
-        string temp;
-        deque<int> dq;
-
-        while (getline(ss, temp, ','))
-            if (!temp.empty())
-                dq.push_back(stoi(temp));
-
-        bool reversed = false, error = false;
-
-        for (auto e : s)
-        {
-            if (e == 'R')
-                reversed = !reversed;
-            
-            if (e == 'D')
-            {
-                if (dq.empty())
-                {
-                    error = true;
-                    cout << "error\n";
-                    break;
-                }
-                
-                if (reversed)
-                    dq.pop_back();
-                else 
-                    dq.pop_front();
-            }
-        }
-
-        if (!error)
-        {
-            cout << '[';
-            
-            while (!dq.empty())
-            {
-                if (reversed)
-                {
-                    cout << dq.back();
-                    dq.pop_back();
-                }
-                
-                if (!reversed)
-                {
-                    cout << dq.front();
-                    dq.pop_front();
-                }
-                
-                if (!dq.empty())
-                    cout << ',';
-            }
-            cout << ']' << '\n';
-        }
-    }
+    int n, r, c;
+    cin >> n >> r >> c;
+    cout << recur(n,r,c);
 }
