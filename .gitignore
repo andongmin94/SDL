@@ -1,6 +1,13 @@
 # Created by https://www.toptal.com/developers/gitignore/api/intellij,rider,visualstudio,visualstudiocode,c++,node,java,react,nextjs
 # Edit at https://www.toptal.com/developers/gitignore?templates=intellij,rider,visualstudio,visualstudiocode,c++,node,java,react,nextjs
 
+node_modules
+dist
+dist-ssr
+dev-dist
+dist_electron
+*.local
+
 ### C++ ###
 # Prerequisites
 *.d
