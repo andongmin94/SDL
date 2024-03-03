@@ -7,13 +7,19 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    double c4, a3, a4;
-    cin >> c4 >> a3 >> a4;
-    c4 = c4 * 2 * 229 * 324;
-    a3 = a3 * 2 * 297 * 420;
-    a4 = a4 * 210 * 297;
+    queue<int> q;
 
-    cout << fixed;
-    cout << setprecision(6);
-    cout << (c4 + a3 + a4) * 0.000001; 
+    int n;
+    cin >> n;
+    for (int i = 0; i < n; i++)
+        q.push(i + 1);
+
+    while(q.size() != 1)
+    {
+        q.pop();
+        if (q.size() == 1) break;
+        q.push(q.front());
+        q.pop();
+    }
+    cout << q.front();
 }
