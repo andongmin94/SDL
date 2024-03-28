@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6888dad-cdfa-43ef-a90f-f104804ffddc" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../문제풀이 에디터/Java/Java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class1/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../문제풀이 에디터/Java/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../문제풀이 에디터/Java/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,10 +14,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2eJVphuWUfgI0wEZw2uTerF6NEE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,14 +30,19 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Andongmin/Desktop/repository/SDL/문제풀이 에디터/Java/Solution.java",
     "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.Solution.executor": "Run",
+    "애플리케이션.Student.executor": "Run"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
         <option value="jdk-17.0.10-azul-17.0.10-4caba194b151-cd1dbda1" />
+        <option value="jdk-21.0.1-azul-21.0.1-3183f394aec4-7aa6f726" />
+        <option value="jdk-21.0.2-azul-21.0.2-f644763e9732-456dad32" />
       </set>
     </attachedChunks>
   </component>
@@ -50,6 +55,13 @@
       <option name="presentableId" value="Default" />
       <updated>1711622852804</updated>
       <workItem from="1711622855028" duration="18000" />
+      <workItem from="1711624835283" duration="13000" />
+      <workItem from="1711624875912" duration="16000" />
+      <workItem from="1711625086480" duration="29000" />
+      <workItem from="1711625148022" duration="5000" />
+      <workItem from="1711625205480" duration="63000" />
+      <workItem from="1711625395461" duration="9000" />
+      <workItem from="1711625516977" duration="55000" />
     </task>
     <servers />
   </component>
