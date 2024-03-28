@@ -7,15 +7,20 @@ using namespace std;
 
 int Fibonacci(int n)
 {
-	if (n == 0)
-		return 0; // F0 = 0 
-	else if (n == 1)
-		return 1; // F1 = 1
+	if (n == 0) return 0; // F0 = 0 
+	else if (n == 1) return 1; // F1 = 1
 	else
 	{
 		int fn = 0;
 
+		int temp = 1;
 		// TODO:
+		for (int i = 0; i < n; i++)
+		{
+			int temper = fn;
+			fn = fn + temp;
+			temp = temper;
+		}
 
 		return fn;
 	}
